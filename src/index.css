@@ -18,3 +18,13 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 } */
+
+.menu-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    line-height: 2;
+}
