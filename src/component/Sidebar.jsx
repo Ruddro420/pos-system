@@ -6,8 +6,10 @@ const Sidebar = () => {
   const [purchaseOpen, setPurchaseOpen] = useState(false);
   const [productOpen, setProductOpen] = useState(false);
   const [reportOpen, setReportOpen] = useState(false);
-  const [analytics, setAnalytics] = useState(false);
-  const [details, setDetails] = useState(false);
+  const [accountOpen, setAccountOpen] = useState(false);
+  const [customerOpen, setCustomerOpen] = useState(false);
+  const [stockOpen, setStockOpen] = useState(false);
+  const [userOpen, setUserOpen] = useState(false);
 
   const hangleToggleSales = () => {
     setSalesOpen((open) => !open);
@@ -25,12 +27,21 @@ const Sidebar = () => {
     setReportOpen((open) => !open);
   };
 
-  const handleToggleAnalytics = () => {
-    setAnalytics((open) => !open);
-  }
-  const handleToggleDetails = () => {
-    setDetails((open) => !open);
-  }
+  const hangleToggleAccount = () => {
+    setAccountOpen((open) => !open);
+  };
+
+  const hangleToggleCustomer = () => {
+    setCustomerOpen((open) => !open);
+  };
+
+  const handleToggleStock = () => {
+    setStockOpen((open) => !open);
+  };
+  const handleToggleUser = () => {
+    setUserOpen((open) => !open);
+  };
+  
   return (
     <div>
       <aside id="layout-menu"
@@ -62,7 +73,7 @@ const Sidebar = () => {
           </li>
           <li className={`menu-item ${salesOpen ? "open" : ""}`}>
             <NavLink to='#' onClick={hangleToggleSales} className="menu-link menu-toggle">
-              <i className="menu-icon tf-icons bx bx-layout"></i>
+              <i className="menu-icon tf-icons bx bx-bar-chart-alt-2"></i>
               <div data-i18n="Layouts">Sales</div>
             </NavLink>
 
@@ -95,12 +106,19 @@ const Sidebar = () => {
                   <div data-i18n="Without menu">Installment Due List</div>
                 </NavLink>
               </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Deliveries</div>
+                </NavLink>
+              </li>
             </ul>
           </li>
 
           <li className={`menu-item ${purchaseOpen ? "open" : ""}`}>
             <NavLink to='#' onClick={hangleTogglePurchase} className="menu-link menu-toggle">
-              <i className="menu-icon tf-icons bx bx-layout"></i>
+              <i className="menu-icon tf-icons bx bx-purchase-tag"></i>
               <div data-i18n="Layouts">Purchase</div>
             </NavLink>
 
@@ -145,7 +163,7 @@ const Sidebar = () => {
 
           <li className={`menu-item ${productOpen ? "open" : ""}`}>
             <NavLink to='#' onClick={hangleToggleProduct} className="menu-link menu-toggle">
-              <i className="menu-icon tf-icons bx bx-layout"></i>
+              <i className="menu-icon tf-icons bx bxs-offer"></i>
               <div data-i18n="Layouts">Product</div>
             </NavLink>
 
@@ -155,6 +173,13 @@ const Sidebar = () => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">Add Product</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Print Barcode/Label</div>
                 </NavLink>
               </li>
               <li className="menu-item">
@@ -197,7 +222,7 @@ const Sidebar = () => {
 
           <li className={`menu-item ${reportOpen ? "open" : ""}`}>
             <NavLink to='#' onClick={hangleToggleReport} className="menu-link menu-toggle">
-              <i className="menu-icon tf-icons bx bx-layout"></i>
+              <i className="menu-icon tf-icons bx bxs-report"></i>
               <div data-i18n="Layouts">Report</div>
             </NavLink>
 
@@ -251,80 +276,167 @@ const Sidebar = () => {
                   <div data-i18n="Without menu">Salary Report</div>
                 </NavLink>
               </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Ledger Report</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Financial Report</div>
+                </NavLink>
+              </li>
             </ul>
           </li>
 
-          <li className="menu-item">
-            <NavLink to='/pre-booking' className={({ isActive }) => {
-              return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-            }}>
-              <i className="menu-icon tf-icons bx bx-cart"></i>
-              <div data-i18n="Analytics">Pre-Booking</div>
-            </NavLink>
-          </li>
-          <li className="menu-item">
-            <NavLink to='/customer-register' className={({ isActive }) => {
-              return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-            }}>
-              <i className="menu-icon tf-icons bx bx-lock"></i>
-              <div data-i18n="Analytics">Customer Booking</div>
-            </NavLink>
-          </li>
-          <li className={`menu-item ${details ? "open" : ""}`}>
-            <NavLink to='#' onClick={handleToggleDetails} className="menu-link menu-toggle">
-              <i className="menu-icon tf-icons bx bx-layout"></i>
-              <div data-i18n="Layouts">Booking Details</div>
+          <li className={`menu-item ${accountOpen ? "open" : ""}`}>
+            <NavLink to='#' onClick={hangleToggleAccount} className="menu-link menu-toggle">
+              <i className="menu-icon tf-icons bx bxs-user-account"></i>
+              <div data-i18n="Layouts">Accounts</div>
             </NavLink>
 
             <ul className="menu-sub">
               <li className="menu-item">
-                <NavLink to="/pre-booking-details" className={({ isActive }) => {
-                  return isActive ? "menu-link active-link bg-body text-primary " : "menu-link";
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Pre Booking Details</div>
+                  <div data-i18n="Without menu">Financial Years</div>
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/main-booking-details' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link bg-body text-primary " : "menu-link";
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Booking Details</div>
+                  <div data-i18n="Without menu">Opening Balance</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Chart of Accounts</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Predefine Account</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Sub Accounts</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Vouchers</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Pending Vouchers</div>
                 </NavLink>
               </li>
             </ul>
           </li>
 
-
-
-          <li className={`menu-item ${analytics ? "open" : ""}`}>
-            <NavLink to='#' onClick={handleToggleAnalytics} className="menu-link menu-toggle">
-              <i className="menu-icon tf-icons bx bx-abacus"></i>
-              <div data-i18n="Layouts">Analytics</div>
+          <li className={`menu-item ${customerOpen ? "open" : ""}`}>
+            <NavLink to='#' onClick={hangleToggleCustomer} className="menu-link menu-toggle">
+              <i className="menu-icon tf-icons bx bx-group"></i>
+              <div data-i18n="Layouts">Customer</div>
             </NavLink>
 
             <ul className="menu-sub">
               <li className="menu-item">
-                <NavLink to="/overviews" className={({ isActive }) => {
-                  return isActive ? "menu-link active-link bg-body text-primary " : "menu-link";
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Overviews</div>
+                  <div data-i18n="Without menu">Add Customer</div>
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/report' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link bg-body text-primary " : "menu-link";
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Report</div>
+                  <div data-i18n="Without menu">Customer List</div>
                 </NavLink>
               </li>
             </ul>
           </li>
-          <li className="menu-item">
-            <NavLink to='/user-register' className={({ isActive }) => {
-              return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-            }}>
+
+          <li className={`menu-item ${stockOpen ? "open" : ""}`}>
+            <NavLink to='#' onClick={handleToggleStock} className="menu-link menu-toggle">
+              <i className="menu-icon tf-icons bx bx-store-alt"></i>
+              <div data-i18n="Layouts">Stock Management</div>
+            </NavLink>
+
+            <ul className="menu-sub">
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Opening Stock</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Stock Adjustment</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Wastage</div>
+                </NavLink>
+              </li>
+            </ul>
+          </li>
+
+          <li className={`menu-item ${userOpen ? "open" : ""}`}>
+            <NavLink to='#' onClick={handleToggleUser} className="menu-link menu-toggle">
               <i className="menu-icon tf-icons bx bx-user-circle"></i>
-              <div data-i18n="Analytics">User Register</div>
+              <div data-i18n="Layouts">User Management</div>
+            </NavLink>
+
+            <ul className="menu-sub">
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Add New User</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Set/Edit Users Role</div>
+                </NavLink>
+              </li>
+            </ul>
+          </li>
+
+          <li className="menu-item">
+            <NavLink to='/account-settings' className={({ isActive }) => {
+              return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+            }}>
+              <i className="menu-icon tf-icons bx bx-sort-up"></i>
+              <div data-i18n="Analytics">Subcriptions</div>
             </NavLink>
           </li>
           <li className="menu-item">
@@ -342,8 +454,8 @@ const Sidebar = () => {
             <NavLink to='/account-settings' className={({ isActive }) => {
               return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
             }}>
-              <i className="menu-icon tf-icons bx bx-sort-up"></i>
-              <div data-i18n="Analytics">Account Settings</div>
+              <i className='menu-icon tf-icons bx bx-cog'></i>
+              <div data-i18n="Analytics">Settings</div>
             </NavLink>
           </li>
         </ul>
