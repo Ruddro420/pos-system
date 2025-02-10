@@ -322,7 +322,7 @@ const Sidebar = () => {
 
           <li className={`menu-item ${accountOpen ? "open" : ""}`}>
             <NavLink to='#' onClick={hangleToggleAccount} className="menu-link menu-toggle">
-              <i className="menu-icon tf-icons bx bxs-user-account"></i>
+              <i className="menu-icon tf-icons bx bx-bar-chart"></i>
               <div data-i18n="Layouts">Accounts</div>
             </NavLink>
 
