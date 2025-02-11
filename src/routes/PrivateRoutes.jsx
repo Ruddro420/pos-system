@@ -1,4 +1,4 @@
-
+/* 
 import { Navigate, } from "react-router-dom";
 
 const PrivateRoutes = ({ children }) => {
@@ -7,4 +7,4 @@ const PrivateRoutes = ({ children }) => {
     return isLogged ? children : <Navigate to="/login" />;
 };
 
-export default PrivateRoutes;
+export default PrivateRoutes; */

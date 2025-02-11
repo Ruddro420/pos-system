@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 
-
 const UserRegister = () => {
     const { register, handleSubmit, reset } = useForm();
     const [loading, setLoading] = useState(true);

@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
+/* import { useEffect, useState } from "react"; */
 import { NavLink } from "react-router-dom";
 
 const TopNav = () => {
 
-  const [userData, setUserData] = useState(null);
+ /*  const [userData, setUserData] = useState(null);
   const handleLogout = () => {
     localStorage.removeItem("isLoggedIn");
   };
@@ -15,11 +15,9 @@ const TopNav = () => {
     } else {
       console.error("No user data found in localStorage.");
     }
-  }, []);
+  }, []); */
 
-  if (!userData) {
-    return <p>Loading...</p>;
-  }
+ 
   return (
     <div>
       <nav
@@ -57,7 +55,7 @@ const TopNav = () => {
                 data-size="large"
                 data-show-count="true"
                 //aria-label="Star themeselection/sneat-html-admin-template-free on GitHub"
-              >{userData?.name}</a
+              >{/* {userData?.name} */}</a
               >
             </li>
 
@@ -78,8 +76,8 @@ const TopNav = () => {
                         </div>
                       </div>
                       <div className="flex-grow-1">
-                        <span className="fw-semibold d-block">{userData?.name}</span>
-                        <small className="text-muted">{userData?.email}</small>
+                        {/* <span className="fw-semibold d-block">{userData?.name}</span>
+                        <small className="text-muted">{userData?.email}</small> */}
                       </div>
                     </div>
                   </a>
@@ -114,7 +112,7 @@ const TopNav = () => {
                 <li>
                   <NavLink to="/login" className="dropdown-item">
                     <i className="bx bx-power-off me-2"></i>
-                    <span onClick={handleLogout} className="align-middle">Log Out</span>
+                    {/* <span onClick={handleLogout} className="align-middle">Log Out</span> */}
                   </NavLink>
                 </li>
               </ul>
