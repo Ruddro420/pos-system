@@ -14,16 +14,32 @@
     --main-light: #37A000;
     --light-orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    /* --light-green: #e9f6ec; */
     --red: #FF0000;
     --light-red: #fbeaec;
 }
 
 /* ---------- */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
 ::selection {
     color: var(--white);
     background-color: var(--main-light);
+}
+
+/* -- main container style -- */
+
+.main-container {
+    padding-top: 0;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-left: 35px;
 }
 
 /* -- category container style -- */
@@ -42,6 +58,7 @@
     align-items: center;
     height: 60px;
     margin-bottom: 15px;
+    padding-top: 18px;
 }
 
 .top-menus ul {
@@ -85,14 +102,16 @@
 .heading-add-new-btn {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid var(--gray-black) ;
+    align-items: center!important;
+    border-bottom: 1px solid var(--gray-black);
+    padding: 0px 0px;
 }
 
 .heading h2 {
     color: var(--light-black);
     font-size: 25px;
     font-weight: 500;
+    margin-top: 20px;
 }
 
 /* -- add-new-btn style -- */
@@ -134,13 +153,14 @@
 .list-short-dpdwn {
     display: flex;
     gap: 7.5px;
-    align-items: center;
+    align-items: center!important;
 }
 
 .list-short-dpdwn h3 {
     color: var(--light-black);
     font-size: 15px;
     font-weight: 500;
+    margin-top: 16px;
 }
 
 .list-short-dpdwn select {
@@ -162,13 +182,16 @@
 
 .search-box legend {
     color: var(--light-black);
+    font-size: 16px;
 }
 
 .search-box input {
     outline: none;
-    height: 25px;
+    height: 30px;
     width: 193px;
     border: 1px solid var(--gray-black);
+    border-radius: 5px;
+    margin-left: 5px;
 }
 
 /* -- table-list style --*/
@@ -193,10 +216,12 @@ thead tr th {
     font-size: 17.5px;
     font-weight: 600;
     text-align: left;
+    color: var(--black);
 }
 
 tbody tr td {
     font-size: 14px;
+    color: var(--black);
 }
 
 tbody tr:hover {
@@ -233,6 +258,7 @@ tbody tr:hover {
     padding: 7px 7px;
     margin-right: 2.5px;
     border: 1px solid var(--green);
+    border-radius: 5px;
     font-size: 20px;
 }
 
@@ -246,6 +272,7 @@ tbody tr:hover {
     padding: 7px 7px;
     margin-left: 2.5px;
     border: 1px solid var(--red);
+    border-radius: 5px;
     font-size: 20px;
 }
 
@@ -283,10 +310,14 @@ tbody tr:hover {
 }
 
 .list-page-btn h4 {
+    margin-top: 10px;
+}
+
+.list-page-btn h4 span {
     color: var(--white);
     background-color: var(--main-light);
     font-size: 15px;
     font-weight: 400;
-    padding: 3px 12px;
+    padding: 9px 13px!important;
     border-radius: 5px;
 }
