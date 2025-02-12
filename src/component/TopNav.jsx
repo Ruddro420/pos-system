@@ -32,7 +32,7 @@ const TopNav = () => {
 
         <div className="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
 
-          <div className="navbar-nav align-items-center">
+      {/*     <div className="navbar-nav align-items-center">
             <div className="nav-item d-flex align-items-center">
               <i className="bx bx-search fs-4 lh-0"></i>
               <input
@@ -42,7 +42,7 @@ const TopNav = () => {
                 aria-label="Search..."
               />
             </div>
-          </div>
+          </div> */}
 
 
           <ul className="navbar-nav flex-row align-items-center ms-auto">

@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from "../component/Sidebar";
-import TopNav from "../component/TopNav";
+/* import TopNav from "../component/TopNav"; */
 import FooterContent from "../component/FooterContent";
 
 const MainLayout = () => {
@@ -14,7 +14,7 @@ const MainLayout = () => {
                     <Sidebar></Sidebar>
                 </div>
                 <div className="layout-page">
-                    <TopNav />
+                {/*     <TopNav /> */}
                     <Outlet />
                     {/*   <MainContent /> */}
                     <FooterContent />

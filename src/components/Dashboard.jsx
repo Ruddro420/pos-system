@@ -1,4 +1,3 @@
-
 import './css/Dashboard.css'
 const Dashboard = () => {
     return (
@@ -41,8 +40,7 @@ const Dashboard = () => {
                 <div className="total-reviews-section">
                     {/*  <!-- === REVIEW CONTAINER === --> */}
                     <div className="review-container">
-                        <img src="./today-sale.svg" alt="" />
-
+                        <img src="/public/dashboard/today-sale.svg" alt="" />
                         <div className="review-text">
                             <p>Today Product Sale</p>
                             <h3>0:00</h3>
@@ -63,7 +61,7 @@ const Dashboard = () => {
                     </div>
                     {/*  <!-- === REVIEW CONTAINER === --> */}
                     <div className="review-container">
-                        <img src="img/tota-productl-sale.svg" alt="" />
+                        <img src="/public/dashboard/tota-productl-sale.svg" alt="" />
                         <div className="review-text">
                             <p>Total Product Sale</p>
                             <h3>0:00</h3>
@@ -71,7 +69,7 @@ const Dashboard = () => {
                     </div>
                     {/*    <!-- === REVIEW CONTAINER === --> */}
                     <div className="review-container">
-                        <img src="./today-purchase.svg" alt="" />
+                        <img src="/public/dashboard/today-purchase.svg" alt="" />
                         <div className="review-text">
                             <p>Total Purchase</p>
                             <h3>0:00</h3>
@@ -82,7 +80,7 @@ const Dashboard = () => {
                 <div className="total-reviews-section">
                     {/* <!-- === REVIEW CONTAINER === --> */}
                     <div className="review-container">
-                        <img src="./today-sale-return.png" alt="" />
+                        <img src="/public/dashboard/today-sale-return.png" alt="" />
                         <div className="review-text">
                             <p>Today Sale Return</p>
                             <h3>0:00</h3>
@@ -90,7 +88,7 @@ const Dashboard = () => {
                     </div>
                     {/*     <!-- === REVIEW CONTAINER === --> */}
                     <div className="review-container">
-                        <img src="./total purchase.svg" alt="" />
+                        <img src="/public/dashboard/total purchase.svg" alt="" />
                         <div className="review-text">
                             <p>Total Purchase Return</p>
                             <h3>0:00</h3>
@@ -98,7 +96,7 @@ const Dashboard = () => {
                     </div>
                     {/*     <!-- === REVIEW CONTAINER === --> */}
                     <div className="review-container">
-                        <img src="./total-expense.svg" alt="" />
+                        <img src="/public/dashboard/total-expense.svg" alt="" />
                         <div className="review-text">
                             <p>Total Expenses</p>
                             <h3>0:00</h3>
@@ -106,7 +104,7 @@ const Dashboard = () => {
                     </div>
                     {/*    <!-- === REVIEW CONTAINER === --> */}
                     <div className="review-container">
-                        <img src="./total income.svg" alt="" />
+                        <img src="/public/dashboard/total income.svg" alt="" />
                         <div className="review-text">
                             <p>Total Income</p>
                             <h3>0:00</h3>
@@ -121,20 +119,20 @@ const Dashboard = () => {
                             <h1>Sales Graph(Last 30 Days)</h1>
                             {/*    <!-- === CALENDAR === --> */}
                             <div className="sales-calendar">
-                                <img src="./calendar icon.svg" alt="" />
-                                <input type="date" />
-                                <input type="date" />
+                                <img src="/public/dashboard/calendar icon.svg" alt="" />
+                               <input type="date" />
+                               <input type="date" />
                             </div>
                         </div>
                         {/*<!-- === LINE === --> */}
 
                         {/*   <!-- === SALES MENU ICON === --> */}
                         <div className="sales-menu-icon">
-                            <img src="./menu icon.svg" alt="" />
+                            <img src="/public/dashboard/menu icon.svg" alt="" />
                         </div>
                         {/*    <!-- === SALES GRAPH IMAGE === --> */}
                         <div className="sales-graph-image">
-                            <img src="./sales graph.svg" alt="" />
+                            <img src="/public/dashboard/sales graph.svg" alt="" />
                         </div>
                     </div>
                     {/*    <!-- === INVENTORY SECTION === --> */}
@@ -193,11 +191,11 @@ const Dashboard = () => {
                         {/* </hr> */}
                         {/*   <!-- === SALES MENU ICON === --> */}
                         <div className="sales-menu-icon">
-                            <img src="img/menu icon.svg" alt="" />
+                            <img src="/public/dashboard/menu icon.svg" alt="" />
                         </div>
                         {/*  <!-- === SALES GRAPH IMAGE === --> */}
                         <div className="sales-graph-image">
-                            <img src="./15 days graph.svg" alt="" />
+                            <img src="/public/dashboard/15 days graph.svg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -228,7 +226,7 @@ const Dashboard = () => {
                         <h1>Financial Graph</h1>
                         {/*     <!-- === FINANCIAL CAlENDER SECTION === --> */}
                         <div className="financial-calendar-container">
-                            <img src="./calendar icon.svg" alt="" />
+                            <img src="/public/dashboard/calendar icon.svg" alt="" />
                             <input type="date" />
                             <input type="date" />
                         </div>
@@ -236,15 +234,15 @@ const Dashboard = () => {
                     {/*  <hr> */}
                     {/*   <!-- === FINANCIAL ICONS === --> */}
                     <div className="financial-icons">
-                        <img src="./plus icon.svg" alt="" />
-                        <img src="./minus icon.svg" alt="" />
-                        <img src="./plus search icon.svg" alt="" />
-                        <img src="./hand icon.svg" alt="" />
-                        <img src="./home icon.svg" alt="" />
-                        <img src="./menu icon.svg" alt="" />
+                        <img src="/public/dashboard/plus icon.svg" alt="" />
+                        <img src="/public/dashboard/minus icon.svg" alt="" />
+                        <img src="/public/dashboard/plus search icon.svg" alt="" />
+                        <img src="/public/dashboard/hand icon.svg" alt="" />
+                        <img src="/public/dashboard/home icon.svg" alt="" />
+                        <img src="/public/dashboard/menu icon.svg" alt="" />
                     </div>
                     <div className="financial-graph-image">
-                        <img src="./financial graph-png.png" alt="" />
+                        <img src="/public/dashboard/financial graph-png.png" alt="" />
                     </div>
                 </div>
             </nav>
