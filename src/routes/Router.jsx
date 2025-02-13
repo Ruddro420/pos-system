@@ -3,6 +3,8 @@ import MainLayout from "../Layout/MainLayout";
 import Dashboard from "../components/Dashboard"
 import Login from "../components/LogIn";
 import BrandPage from "../Pages-ad/BrandPage";
+import CategoryPage from "../Pages-ad/CategoryPage"
+import SubcriptionPage from "../Pages-ad/SubcriptionPage";
 
 
 const Router = createBrowserRouter([
@@ -18,6 +20,14 @@ const Router = createBrowserRouter([
             {
                 path: '/brand-page',
                 element: <BrandPage/>,
+            },
+            {
+                path: '/category-page',
+                element: <CategoryPage/>,
+            },
+            {
+                path: '/subcription-page',
+                element: <SubcriptionPage/>,
             },
         ]
     },

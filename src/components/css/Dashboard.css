@@ -116,7 +116,7 @@ nav {
 }
 
 .review-text {
-    line-height: 2em;
+    line-height: 1.2em;
 }
 
 .review-text p {
@@ -126,7 +126,7 @@ nav {
 }
 
 .review-text h3 {
-    font-size: 1.25rem;
+    font-size: 1.20rem;
 }
 
 /* === SALES AND INVENTORY GRAPH SECTION === */

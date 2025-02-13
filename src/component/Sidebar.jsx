@@ -59,7 +59,7 @@ const Sidebar = () => {
               <img width="180px" src="https://skylawnhotel.com/wp-content/uploads/2024/06/logo-sky-1.jpg" alt="" srcSet="" />
             </span>
           </NavLink>
-
+  
           <a className="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
             <i className="bx bx-chevron-left bx-sm align-middle"></i>
           </a>
@@ -217,7 +217,7 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
+                <NavLink to='/category-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">Category Add/List</div>
@@ -231,10 +231,10 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
+                <NavLink to='/subcription-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Unit Add/List</div>
+                  <div data-i18n="Without menu">Subcription add/List</div>
                 </NavLink>
               </li>
               <li className="menu-item">

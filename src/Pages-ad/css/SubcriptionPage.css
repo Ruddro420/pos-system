@@ -54,13 +54,15 @@
   display: flex;
   gap: 10px;
   justify-content: center;
+  text-align: center;
   align-items: center;
-  margin-top: -20px;
+  margin-top: 10px;
 }
 
 .pricing-toggle-btn h4 {
   font-size: 12px;
   font-weight: 600;
+ 
 }
 
 /* -- toggle switch style start -- */
@@ -70,6 +72,7 @@
   display: inline-block;
   width: 40px;
   height: 20px;
+  margin-top: -13px;
 }
 
 .switch input { 
@@ -183,8 +186,8 @@ input:checked + .slider:before {
 }
 
 .pricing-cart-header img {
-  height: 55px;
-  width: 55px;
+  height: 50px;
+  width: 50px;
   margin-top: 10px;
 }
 
@@ -192,14 +195,14 @@ input:checked + .slider:before {
   color: var(--light-black);
   font-size: 25px;
   font-weight: 600;
-  margin: 0;
+  margin: 10px;
 }
 
 .pricing {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -30px;
+  margin-top: 10px;
 }
 
 .money-sign {
@@ -232,12 +235,13 @@ input:checked + .slider:before {
   display: flex;
   flex-direction: column;
   margin-left: -40px;
+  margin-top: 30px;
 }
 
 /* -- features list one style -- */
 
 .features-list-one {
-  margin-top: -40px;
+  margin-top: -30px;
 }
 
 .features-list-one ul li {
@@ -267,8 +271,11 @@ input:checked + .slider:before {
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 7.5px;
+  margin-top: 5px;
 }
-
+.features-list-two {
+  margin-top: -20px;
+}
 /* -- flt icon style -- */
 
 .flt-icon-a {
