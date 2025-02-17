@@ -12,27 +12,27 @@ const Sidebar = () => {
   const [userOpen, setUserOpen] = useState(false);
   const [subscriptionsOpen, setSubscriptionsOpen] = useState(false);
 
-  const hangleToggleSales = () => {
+  const handleToggleSales = () => {
     setSalesOpen((open) => !open);
   };
 
-  const hangleTogglePurchase = () => {
+  const handleTogglePurchase = () => {
     setPurchaseOpen((open) => !open);
   };
 
-  const hangleToggleProduct = () => {
+  const handleToggleProduct = () => {
     setProductOpen((open) => !open);
   };
 
-  const hangleToggleReport = () => {
+  const handleToggleReport = () => {
     setReportOpen((open) => !open);
   };
 
-  const hangleToggleAccount = () => {
+  const handleToggleAccount = () => {
     setAccountOpen((open) => !open);
   };
 
-  const hangleToggleCustomer = () => {
+  const handleToggleCustomer = () => {
     setCustomerOpen((open) => !open);
   };
 
@@ -78,7 +78,7 @@ const Sidebar = () => {
             </NavLink>
           </li>
           <li className={`menu-item ${salesOpen ? "open" : ""}`}>
-            <NavLink to='#' onClick={hangleToggleSales} className="menu-link menu-toggle">
+            <NavLink to='#' onClick={handleToggleSales} className="menu-link menu-toggle">
               <i className="menu-icon tf-icons bx bx-bar-chart-alt-2"></i>
               <div data-i18n="Layouts">Sales</div>
             </NavLink>
@@ -137,7 +137,7 @@ const Sidebar = () => {
           </li>
 
           <li className={`menu-item ${purchaseOpen ? "open" : ""}`}>
-            <NavLink to='#' onClick={hangleTogglePurchase} className="menu-link menu-toggle">
+            <NavLink to='#' onClick={handleTogglePurchase} className="menu-link menu-toggle">
               <i className="menu-icon tf-icons bx bx-purchase-tag"></i>
               <div data-i18n="Layouts">Purchase</div>
             </NavLink>
@@ -161,7 +161,7 @@ const Sidebar = () => {
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Purchae Due List</div>
+                  <div data-i18n="Without menu">Purchase Due List</div>
                 </NavLink>
               </li>
               <li className="menu-item">
@@ -189,7 +189,7 @@ const Sidebar = () => {
           </li>
 
           <li className={`menu-item ${productOpen ? "open" : ""}`}>
-            <NavLink to='#' onClick={hangleToggleProduct} className="menu-link menu-toggle">
+            <NavLink to='#' onClick={handleToggleProduct} className="menu-link menu-toggle">
               <i className="menu-icon tf-icons bx bxs-offer"></i>
               <div data-i18n="Layouts">Product</div>
             </NavLink>
@@ -231,13 +231,6 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/subcription-page' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Subcription add/List</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
@@ -255,7 +248,7 @@ const Sidebar = () => {
           </li>
 
           <li className={`menu-item ${reportOpen ? "open" : ""}`}>
-            <NavLink to='#' onClick={hangleToggleReport} className="menu-link menu-toggle">
+            <NavLink to='#' onClick={handleToggleReport} className="menu-link menu-toggle">
               <i className="menu-icon tf-icons bx bxs-report"></i>
               <div data-i18n="Layouts">Report</div>
             </NavLink>
@@ -328,7 +321,7 @@ const Sidebar = () => {
           </li>
 
           <li className={`menu-item ${accountOpen ? "open" : ""}`}>
-            <NavLink to='#' onClick={hangleToggleAccount} className="menu-link menu-toggle">
+            <NavLink to='#' onClick={handleToggleAccount} className="menu-link menu-toggle">
               <i className="menu-icon tf-icons bx bx-bar-chart"></i>
               <div data-i18n="Layouts">Accounts</div>
             </NavLink>
@@ -387,7 +380,7 @@ const Sidebar = () => {
           </li>
 
           <li className={`menu-item ${customerOpen ? "open" : ""}`}>
-            <NavLink to='#' onClick={hangleToggleCustomer} className="menu-link menu-toggle">
+            <NavLink to='#' onClick={handleToggleCustomer} className="menu-link menu-toggle">
               <i className="menu-icon tf-icons bx bx-group"></i>
               <div data-i18n="Layouts">Customer</div>
             </NavLink>
@@ -484,13 +477,6 @@ const Sidebar = () => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">My Subscription</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">My Invoice</div>
                 </NavLink>
               </li>
             </ul>
