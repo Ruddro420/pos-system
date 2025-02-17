@@ -203,7 +203,7 @@ const Dashboard = () => {
                 <div className="most-selling-section">
                     {/*  <!-- === MOST SELLING TEXT === --> */}
                     <div className="most-selling-text">
-                        <h1>Monst Selling Product</h1>
+                        <h1>Monthly Selling Product</h1>
                         <a href="#">View More</a>
                     </div>
                     <div className="most-selling-item-container">

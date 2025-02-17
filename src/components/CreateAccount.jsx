@@ -31,7 +31,6 @@ const CreateAccount = () => {
                                 <input type="password" id="password" placeholder="Password" required />
                             </div>
                             <div className="options">
-                               
                                 <label className="remember-me">
                                     <input type="checkbox" />By signing up, you agree to the terms of service
                                 </label>
