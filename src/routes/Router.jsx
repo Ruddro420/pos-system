@@ -6,7 +6,6 @@ import BrandPage from "../Pages-ad/BrandPage";
 import CategoryPage from "../Pages-ad/CategoryPage"
 import SubcriptionPage from "../Pages-ad/SubcriptionPage";
 
-
 const Router = createBrowserRouter([
     {
         path: '/',

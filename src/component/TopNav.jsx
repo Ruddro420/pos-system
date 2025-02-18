@@ -1,127 +1,110 @@
-/* import { useEffect, useState } from "react"; */
-import { NavLink } from "react-router-dom";
-
+import './css/TopNav.css'
+import './JavaScript/TopNav'
 const TopNav = () => {
-
- /*  const [userData, setUserData] = useState(null);
-  const handleLogout = () => {
-    localStorage.removeItem("isLoggedIn");
-  };
-
-  useEffect(() => {
-    const getUserData = localStorage.getItem("userData");
-    if (getUserData) {
-      setUserData(JSON.parse(getUserData));
-    } else {
-      console.error("No user data found in localStorage.");
-    }
-  }, []); */
-
- 
   return (
-    <div>
-      <nav
-        className="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
-        id="layout-navbar"
-      >
-        <div className="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
-          <a className="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
-            <i className="bx bx-menu bx-sm"></i>
-          </a>
+    <>
+      <nav className="cba-nav-container">
+        <div className="cba-nav-side-menu-toggle-icon-loading-pagename">
+          <div
+            className="cba-nav-side-menu-toggle-icon"
+            onClick="togglesideMenuIcon()"
+          >
+            {/*  <!-- menu toggle first icon --> */}
+            <i
+              className="t-icon-open bx bx-menu-alt-right"
+              id="sideMenuIcon"
+            ></i>
+            {/*  <!-- menu toggle second icon --> */}
+            {/*     <!-- <i className='t-icon-close bx bx-menu-alt-left' id="sideMenuIcon"></i> --> */}
+            {/*   <!--todo: one of the toggle icon should be commented--> */}
+          </div>
+          <div className="cba-nav-loading-pagename">
+            <h3>Loading Page Name</h3>
+          </div>
         </div>
-
-        <div className="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
-
-      {/*     <div className="navbar-nav align-items-center">
-            <div className="nav-item d-flex align-items-center">
-              <i className="bx bx-search fs-4 lh-0"></i>
-              <input
-                type="text"
-                className="form-control border-0 shadow-none"
-                placeholder="Search..."
-                aria-label="Search..."
+        <div className="cba-nav-features-user-logo-name">
+          <div className="cba-nav-features">
+            <div className="cba-nav-close-counter" title="Close Counter">
+              <img
+                src="/public/TopNavImg/img/cash-register.png"
+                alt="cash-register-img"
+              />
+              <h3>Close register</h3>
+            </div>
+            <div
+              className="cba-nav-keyboard-shortcut"
+              title="Keyboard Shortcut"
+            >
+              <img
+                src="/public/TopNavImg/img/computer-keyboard.png"
+                alt="keyboard-img"
               />
             </div>
-          </div> */}
-
-
-          <ul className="navbar-nav flex-row align-items-center ms-auto">
-
-            <li className="nav-item lh-1 me-3">
-              <a
-                className="github-button"
-                //href="https://github.com/themeselection/sneat-html-admin-template-free"
-                data-icon="octicon-star"
-                data-size="large"
-                data-show-count="true"
-                //aria-label="Star themeselection/sneat-html-admin-template-free on GitHub"
-              >{/* {userData?.name} */}</a
-              >
-            </li>
-
-
-            <li className="nav-item navbar-dropdown dropdown-user dropdown">
-              <a className="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
-                <div className="avatar avatar-online">
-                  <img src="../assets/img/avatars/1.png" alt className="w-px-40 h-auto rounded-circle" />
-                </div>
-              </a>
-              <ul className="dropdown-menu dropdown-menu-end">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    <div className="d-flex">
-                      <div className="flex-shrink-0 me-3">
-                        <div className="avatar avatar-online">
-                          <img src="../assets/img/avatars/1.png" alt className="w-px-40 h-auto rounded-circle" />
-                        </div>
-                      </div>
-                      <div className="flex-grow-1">
-                        {/* <span className="fw-semibold d-block">{userData?.name}</span>
-                        <small className="text-muted">{userData?.email}</small> */}
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                {/* <li>
-                        <div className="dropdown-divider"></div>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          <i className="bx bx-user me-2"></i>
-                          <span className="align-middle">My Profile</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          <i className="bx bx-cog me-2"></i>
-                          <span className="align-middle">Settings</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          <span className="d-flex align-items-center align-middle">
-                            <i className="flex-shrink-0 bx bx-credit-card me-2"></i>
-                            <span className="flex-grow-1 align-middle">Billing</span>
-                            <span className="flex-shrink-0 badge badge-center rounded-pill bg-danger w-px-20 h-px-20">4</span>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <div className="dropdown-divider"></div>
-                      </li> */}
-                <li>
-                  <NavLink to="/login" className="dropdown-item">
-                    <i className="bx bx-power-off me-2"></i>
-                    {/* <span onClick={handleLogout} className="align-middle">Log Out</span> */}
-                  </NavLink>
-                </li>
-              </ul>
-            </li>
-
-          </ul>
+            <div
+              className="cba-nav-ltr-rtl-switch"
+              title="Change side bar position"
+              onClick="toggleText()"
+            >
+              <h3 id="text">LTR</h3>
+            </div>
+            <div className="cba-nav-lang-switch" onClick="toggleImage()">
+              <img
+                src="/public/TopNavImg/img/united-states.png"
+                title="English"
+                alt="united-state-flag"
+                id="image"
+              />
+            </div>
+            <div
+              className="cba-nav-fullscreen-switch"
+              title="Fullscreen"
+              onClick="toggleFullscreen()"
+            >
+              {/*   <!-- fullscreen first icon --> */}
+              <i
+                className="fullscreen-icon bx bx-fullscreen"
+                id="fullScreenIcon"
+              ></i>
+              {/*   <!-- fullscreen second icon --> */}
+              {/*  <!-- <i className='exit-fullscreen-icon bx bx-exit-fullscreen' id="fullScreenIcon"></i> --> */}
+              {/*  <!--todo: one of the toggle icon should be commented--> */}
+            </div>
+          </div>
+          <div className="cba-nav-user-logo-name" onClick="openModal()">
+            <div className="cba-nav-user-logo">
+              <img src="/public/TopNavImg/img/User.png" alt="user-img" />
+            </div>
+            <div className="cba-nav-user-name">
+              <div className="cba-nav-user-name">
+                <h3>MD Adnan Addro</h3>
+              </div>
+              <div className="cba-nav-user-role">
+                <h4>Admin</h4>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
-    </div>
+{/*       <div className="cba-nav-user-modal-container" id="user-modal">
+      <div className="cba-nav-user-modal">
+          <div className="cnum-top-part">
+            <img src="/public/TopNavImg/img/User.png" alt="user-img" />
+            <h3>MD Adnan Addro</h3>
+            <h5>mdadnanaddro@gmail.com</h5>
+          </div>
+          <div className="cnum-middle-part">
+            <h3>Manage Your Account</h3>
+            <h3>Cache Clear</h3>
+          </div>
+          <div className="cnum-bottom-part">
+            <button className="cba-nav-modal-sign-out-btn">Sign Out</button>
+            <button className="cba-nav-modal-close-btn" onClick="closeModal()">
+              Close
+            </button>
+          </div>
+        </div>
+      </div> */}
+    </>
   );
 };
 
