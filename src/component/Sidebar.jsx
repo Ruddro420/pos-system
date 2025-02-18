@@ -9,7 +9,6 @@ const Sidebar = () => {
   const [accountOpen, setAccountOpen] = useState(false);
   const [customerOpen, setCustomerOpen] = useState(false);
   const [stockOpen, setStockOpen] = useState(false);
-  const [userOpen, setUserOpen] = useState(false);
   const [subscriptionsOpen, setSubscriptionsOpen] = useState(false);
 
   const handleToggleSales = () => {
@@ -38,10 +37,6 @@ const Sidebar = () => {
 
   const handleToggleStock = () => {
     setStockOpen((open) => !open);
-  };
-
-  const handleToggleUser = () => {
-    setUserOpen((open) => !open);
   };
 
   const handleToggleSubscriptions = () => {
@@ -390,14 +385,7 @@ const Sidebar = () => {
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Add Customer</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Customer List</div>
+                  <div data-i18n="Without menu">Customer Add/List</div>
                 </NavLink>
               </li>
             </ul>
@@ -434,30 +422,6 @@ const Sidebar = () => {
             </ul>
           </li>
 
-          <li className={`menu-item ${userOpen ? "open" : ""}`}>
-            <NavLink to='#' onClick={handleToggleUser} className="menu-link menu-toggle">
-              <i className="menu-icon tf-icons bx bx-user-circle"></i>
-              <div data-i18n="Layouts">User Management</div>
-            </NavLink>
-
-            <ul className="menu-sub">
-              <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Add New User</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Set/Edit Users Role</div>
-                </NavLink>
-              </li>
-            </ul>
-          </li>
-
           <li className={`menu-item ${subscriptionsOpen ? "open" : ""}`}>
             <NavLink to='#' onClick={handleToggleSubscriptions} className="menu-link menu-toggle">
               <i className="menu-icon tf-icons bx bx-user-circle"></i>
@@ -482,17 +446,6 @@ const Sidebar = () => {
             </ul>
           </li>
 
-          <li className="menu-item">
-            <NavLink to='/support'
-
-              className={({ isActive }) => {
-                return isActive ? "menu-link bg-body active-link text-primary " : "menu-link";
-              }}
-            >
-              <i className="menu-icon tf-icons bx bx-support"></i>
-              <div data-i18n="Support">Support</div>
-            </NavLink>
-          </li>
           <li className="menu-item">
             <NavLink to='/account-settings' className={({ isActive }) => {
               return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
