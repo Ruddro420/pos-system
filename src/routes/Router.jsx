@@ -5,6 +5,8 @@ import Login from "../components/LogIn";
 import BrandPage from "../Pages-ad/BrandPage";
 import CategoryPage from "../Pages-ad/CategoryPage"
 import SubcriptionPage from "../Pages-ad/SubcriptionPage";
+import Customer from "../components/Customer";
+import Ancus from "../components/Ancus";
 
 const Router = createBrowserRouter([
     {
@@ -27,6 +29,14 @@ const Router = createBrowserRouter([
             {
                 path: '/subcription-page',
                 element: <SubcriptionPage/>,
+            },
+            {
+                path: '/customer-page',
+                element: <Customer/>,
+            },
+            {
+                path: '/ancus-page',
+                element: <Ancus/>,
             },
         ]
     },
