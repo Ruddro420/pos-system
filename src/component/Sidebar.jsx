@@ -66,7 +66,7 @@ const Sidebar = () => {
 
           <li className="menu-item">
             <NavLink to='/' className={({ isActive }) => {
-              return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+              return isActive ? "menu-link active-link bg-body " : "menu-link";
             }}>
               <i className="menu-icon tf-icons bx bx-home-circle"></i>
               <div data-i18n="Analytics">Dashboard</div>
