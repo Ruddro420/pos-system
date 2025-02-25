@@ -43,9 +43,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 15px;
+  padding: 0px 15px;
   background-color: var(--white);
   width: 100%;
+  border-radius: 0%!important;
+  position: sticky;
+  top: 0;
 }
 
 /* -- nav side menu toggle icon and loading pagename style -- */
@@ -147,6 +150,8 @@
   border: 1px solid var(--gray-black);
   border-radius: 5px;
   cursor: pointer;
+  height: 42px;
+  width: 42px;
 }
 
 .cba-nav-ltr-rtl-switch:hover {
@@ -155,9 +160,10 @@
 
 .cba-nav-ltr-rtl-switch h3 {
   color: var(--lt-black);
-  font-size: 1.0rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  margin-top: 13px;
+  margin-top: 11px;
+  margin-left: -7px;
 }
 
 /* -- nav language switch style -- */
@@ -168,8 +174,8 @@
   border: 1px solid var(--gray-black);
   border-radius: 5px;
   cursor: pointer;
-  height: 44px;
-  width: 44px;
+  height: 42px;
+  width: 42px;
 }
 
 .cba-nav-lang-switch:hover {
@@ -180,6 +186,8 @@
   height: 32.5px;
   width: 32px;
   border-radius: 50%;
+  margin-top: -1px;
+  margin-left: -1px;
 }
 
 /* -- nav fullscreen switch style -- */
@@ -189,8 +197,8 @@
   padding: 5px 5px;
   border-radius: 50%;
   cursor: pointer;
-  height: 44px;
-  width: 44px;
+  height: 43px;
+  width: 43px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,7 +210,7 @@
   color: var(--lt-black);
   font-size: 1.3rem;
   margin-top: 2px;
-  margin-left: -1.5px;
+  margin-left: -0.5px;
 }
 
 .exit-fullscreen-icon {
@@ -216,7 +224,7 @@
 
 .cba-nav-user-logo-name {
   display: flex;
-  gap: 7.5px;
+  gap: 10px;
   align-items: center;
   margin-top: 6.5px;
   cursor: pointer;
@@ -228,12 +236,15 @@
 .cba-nav-user-logo img {
   height: 44px;
   width: 44px;
+  margin-top: -5px;
 }
 
 /* -- nav user name and role style -- */
-/* .cba-nav-user-name {
-  display: grid;
-} */
+
+.cba-nav-user-name {
+  margin-top: 8px;
+}
+
 .cba-nav-user-name h3 {
   color: var(--black);
   font-size: 0.9375rem;
@@ -244,6 +255,7 @@
   color: var(--black);
   font-size: 0.75rem;
   font-weight: 400;
+  margin-top: -10px;
 }
 
 /* -- nav user modal style -- */

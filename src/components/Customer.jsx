@@ -12,7 +12,7 @@ const Customer = () => {
               </Link>
             </li>
             <li>
-              <Link to="/ancus-page" className="cba-cusc-light-up">
+              <Link tou="/ancus-page" className="cba-cusc-light-up">
                 Add New Customer
               </Link>
             </li>

@@ -43,6 +43,7 @@
 
 .cba-customer-container {
     width: 100%;
+    padding:20px;
     /* margin-top: 25px; */
 }
 
@@ -51,16 +52,19 @@
 .cba-cusc-top-menus {
     background-color: var(--white);
     display: flex;
-    justify-content: left;
+    justify-content: left;      
     align-items: center;
     height: 60px;
     padding: 10px 40px;
     margin-bottom: 15px;
+    border-radius: 5px;
 }
 
 .cba-cusc-top-menus ul {
     list-style-type: none;
     display: flex;
+    margin-top: 18px;
+    align-items: center;
     gap: 30px;
     margin-left: -20px;
 }
@@ -150,24 +154,32 @@
     display: flex;
     gap: 7.5px;
     align-items: center;
+    
 }
 
 .cba-cusc-list-short-dpdwn h3 {
     color: var(--lt-black);
     font-size: 15px;
     font-weight: 500;
+    margin-top:20px;
+    
 }
 
 .cba-cusc-list-short-dpdwn select {
     color: var(--lt-black);
     appearance: none;
-    height: 25px;
-    width: 30px;
-    padding-left: 8px;
+    height: 35px;
+    width:  36px;
+    /* padding-top: -10px; */
+    padding-left: 7.5px;
     outline: none;
     border-radius: 2.5px;
-}
+   
 
+}
+.cba-cusc-list-short-dpdwn option{
+    
+}
 /* -- search-box style -- */
 
 .cba-cusc-search-box {
@@ -292,6 +304,7 @@ tbody tr:hover {
 /* -- no data style */
 
 .cba-cusc-no-data-available th {
+    text-align: center;
     font-size: 14px;
     font-weight:500;
     color: var(--black);
@@ -332,6 +345,7 @@ tbody tr:hover {
     background-color: var(--main-lt);
     font-size: 19px;
     font-weight: 400;
-    padding: 3px 12.5px;
+    padding: 8px 14px;
     border-radius: 5px;
+    margin-top: 15px;
 }
