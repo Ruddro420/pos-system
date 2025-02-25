@@ -7,8 +7,8 @@ function App() {
 
   return (
     <>
-      <MainLayout />
-      <Toaster />
+ <MainLayout /> 
+ <Toaster /> 
     </>
   )
 }
