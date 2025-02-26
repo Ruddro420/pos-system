@@ -23,11 +23,11 @@ const CreateAccount = () => {
 
                         <form>
                             <div className="input-group">
-                                <label for="email">Email Address</label>
+                                <label htmlFor="email">Email Address</label>
                                 <input type="email" id="email" placeholder="Enter Email" required />
                             </div>
                             <div className="input-group">
-                                <label for="password">Password</label>
+                                <label htmlFor="password">Password</label>
                                 <input type="password" id="password" placeholder="Password" required />
                             </div>
                             <div className="options">

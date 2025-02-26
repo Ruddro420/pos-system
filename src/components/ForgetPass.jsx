@@ -14,12 +14,12 @@ const ForgetPass = () => {
                         <p>To reset your password, please add your <br /> registered email.</p>
                         <form>
                             <div className="input-group">
-                                <label for="email">Email Address</label>
+                                <label htmlFor="email">Email Address</label>
                                 <input type="email" id="email" placeholder="Enter Email" required />
                             </div>
                             <button type="submit" className="login-btn">Send Password Reset Link</button>
                         </form>
-                        <p className="create-account">Don't have an account? <Link to="/signup">Sign In.</Link></p>
+                        <p className="create-account">Don&apos;t have an account? <Link to="/signup">Sign In.</Link></p>
                     </div>
                 </div>
             </div>

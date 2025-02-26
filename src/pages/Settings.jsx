@@ -1,4 +1,3 @@
-
 const Settings = () => {
     return (
         <div className="content-wrapper">

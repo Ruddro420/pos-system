@@ -7,6 +7,11 @@ import CategoryPage from "../Pages-ad/CategoryPage"
 import SubcriptionPage from "../Pages-ad/SubcriptionPage";
 import Customer from "../components/Customer";
 import Ancus from "../components/Ancus";
+import OpeningStock from "../components/OpeningStock";
+import AddOpeningStock from "../components/AddOpeningStock";
+import OpeningStockList from "../components/OpeningStockList";
+import StockAdjustment from "../components/StockAdjustment";
+import StockReport from "../components/StockReport";
 
 const Router = createBrowserRouter([
     {
@@ -37,6 +42,26 @@ const Router = createBrowserRouter([
             {
                 path: '/ancus-page',
                 element: <Ancus/>,
+            },
+            {
+                path: '/openingStock-page',
+                element: <OpeningStock/>,
+            },
+            {
+                path: '/addOpeningStock-page',
+                element: <AddOpeningStock/>,
+            },
+            {
+                path: '/openingStockList-page',
+                element: <OpeningStockList/>,
+            },
+            {
+                path: '/stockAdjustment-page',
+                element: <StockAdjustment/>,
+            },
+            {
+                path: '/stockReport-page',
+                element: <StockReport/>,
             },
         ]
     },
