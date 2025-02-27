@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+/* body {
+    background-color: var(--gray-white);
+} */
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+    background-color: var(--gray-white);
+}
+:root {
+    --gray-white: #F0F1F2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --light-black: #212523;
+    --light-black-op: #21252350;
+    --main-green: #157343;
+    --main-light: #37A000;
+    --light-orange: #FD7E14;
+    --green: #008000;
+    --light-green: #e9f6ec;
+    --red: #FF0000;
+    --light-red: #fbeaec;
+    /* === FONTS SIZE FOR HEADING === */
+    --primary-head: 22px;
+    --secondary-head: 1.125rem;
+    --secondary: 1rem;
+    --primary-para: 0.825rem;
+}
+
+
+.sh-parent{
+    width: 100%;
+    padding: 20px;
+}
+.sh-child-container{
+    background-color: var(--white);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+/* === DRAFT SALE SECITON === */
+.sh-draft-sale-section{
+    width: 100%;
+
+}
+/* === DRAFT SALE TOP ITEMV === */
+.sh-draft-sale-top-item{
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sh-draft-sale-top-item p{
+    font-size: var(--secondary);
+}
+/* === DRAFT SALE TOP RIGHT ITMES === */
+.sh-draft-sale-top-right-items{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+/* === FILTR === */
+.sh-filter{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--white);
+    background-color: var(--main-green);
+}
+.sh-filter a{
+    color: white;
+    font-size: var(--primary-para);
+}
+
+/* === FILTER DROPDOWN SECTION === */
+.sh-filter-drop-down-section{
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+}
+/* === SH DRAFT CONTAINER === */
+.sh-draft-container{
+    line-height: 2em;
+}
+.sh-draft-container p{
+    font-size: var(--secondary);
+}
+.sh-draft-container input{
+    padding: 5px 8px;
+    border: 1px solid var(--light-black);
+}
+.sh-draft-container input:focus{
+    outline: none;
+}
+/* === FILTER SEARCH === */
+.sh-filter-search-box{
+    background-color: var(--main-green);
+    padding: 4px 10px;
+    color: var(--white);
+    gap: 5px;
+    border-radius: 5px;
+    font-size: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* === FILTER RESET === */
+.sh-filter-reset-box{
+    background-color: var(--red);
+    padding: 4px 10px;
+    color: var(--white);
+    gap: 5px;
+    border-radius: 5px;
+    font-size: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sh-line{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+/* === SHOW AND SEARCH CONTAINER === */
+.sh-show-and-search-container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sh-show-container{
+    gap: 5px;
+    font-size: var(--secondary);
+    display: flex;
+    align-items: center;
+}
+.sh-show-container select{
+    padding: 5px 2px;
+}
+.sh-show-container select:focus{
+    outline: none;
+}
+/* === SEARCH === */
+.sh-search-container{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+.sh-search-container input{
+    width: 400px;
+    padding: 5px 10px;
+    border: 1px solid var(--light-black-op);
+}
+.sh-search-container input:focus{
+    outline: none;
+}
+/* === MANAGE SALE DETAILS SECTION === */
+.manage-sale-details-section{
+    width: 100%;
+    padding: 0px 25px;
+}
+/* === TABLE === */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+    border: 1px solid var(--light-black);
+}
+table th{
+    font-size: var(--secondary);
+    font-weight: 500;
+}
+/* === EMPTY SECTION === */
+.empty-section p{
+    text-align: center;
+}
+/* === SLIDE PAGES === */
+.sh-slider-pages {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sh-slide-right-item {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sh-slide-right-item a {
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: var(--black);
+    background-color: var(--light-black-op);
+}
+
+.sh-slide-right-item p {
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: var(--white);
+    background-color: var(--main-green);
+}

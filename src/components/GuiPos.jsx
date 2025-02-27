@@ -2,7 +2,7 @@ import "./css/GuiPos.css";
 const GuiPos = () => {
   return (
     <>
-      <nav>
+      <nav className="nav-item">
         <div className="top-navbar-items">
           <div className="sh-top-nav-left-section">
             <div className="sh-top-nav-left-conatiner">
@@ -79,7 +79,7 @@ const GuiPos = () => {
               </div>
               {/*   === PERSON ICON === */}
               <div className="sh-person-icon">
-               {/*  <svg
+             {/*  <svg
                   width="19px"
                   height="19px"
                   viewBox="0 0 19 19"
@@ -155,7 +155,7 @@ const GuiPos = () => {
                       </g>
                     </g>
                   </g>
-                </svg> */}
+                </svg>  */}
               </div>
               {/*   === PLUS ICON === */}
               <div className="sh-plus-icon">+</div>

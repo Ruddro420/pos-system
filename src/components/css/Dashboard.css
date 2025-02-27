@@ -49,8 +49,8 @@ nav {
 .dashboard-top-title {
     margin-bottom: 30px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 .dashboard-top-title h2 {

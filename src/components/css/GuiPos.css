@@ -6,9 +6,9 @@
     font-family: "Poppins", serif;
 }
 
-body {
+/* body {
     background: #F0F2F4;
-}
+} */
 
 ul {
     list-style-type: none;
@@ -20,7 +20,7 @@ a {
 }
 
 /* === TOP NAVBAR ITEMS === */
-nav {
+.nav-item{
     width: 100%;
     display: flex;
     justify-content: center;

@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-undef */
-/* import './css/ManageSale.css' */
+import './css/ManageSale.css'
 const ManageSale = () => {
     return (
         <>
@@ -13,7 +13,6 @@ const ManageSale = () => {
             {/* <!-- === SALE TEXT === --> */}
             <div className="sale-text">
                 <p>TOTAL PRODUCT SALE</p>
-              
                 <H1>0 BDT</H1>
             </div>
         </div>

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body {
+    background-color: var(--gray-black);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+    background-color: var(--gray-white);
+}
+:root {
+    --gray-white: #F0F1F2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --light-black: #212523;
+    --light-black-op: #21252350;
+    --main-green: #157343;
+    --main-light: #37A000;
+    --light-orange: #FD7E14;
+    --green: #008000;
+    --light-green: #e9f6ec;
+    --red: #FF0000;
+    --light-red: #fbeaec;
+    /* === FONTS SIZE FOR HEADING === */
+    --primary-head: 22px;
+    --secondary-head: 1.125rem;
+    --secondary: 1rem;
+    --primary-para: 0.825rem;
+}
+/* === PARENT SECTION === */
+.parent-section{
+    width: 100%;
+    padding: 20px;
+}
+/* === CHILD SECTION === */
+.sh-child-section{
+    border-radius: 5px;
+    width: 100%;
+    background-color: var(--white);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+}
+/* === SALE COUNTER TOP ITEMS === */
+.sh-sale-counter-top-items{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sh-sale-counter-top-items p{
+    font-size: var(--secondary-head);
+}
+.sh-sale-counter-top-items a{
+    color: var(--white);
+    font-size: var(--secondary);
+    background-color: var(--main-green);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.sh-sale-counter-top-items a i{
+    color: var(--white);
+}
+/* === SHOW AND SEARCH CONTAINER === */
+.sh-show-and-search-container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sh-show-container{
+    gap: 5px;
+    font-size: var(--secondary);
+    display: flex;
+    align-items: center;
+}
+.sh-show-container select{
+    padding: 5px 2px;
+}
+.sh-show-container select:focus{
+    outline: none;
+}
+/* === SEARCH === */
+.sh-search-container{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+.sh-search-container input{
+    width: 400px;
+    padding: 5px 10px;
+    border: 1px solid var(--light-black-op);
+}
+.sh-search-container input:focus{
+    outline: none;
+}
+.sh-line{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+/* === TABLE SECTION === */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0px 30px;
+}
+th, td{
+    border: 1px solid var(--light-black-op);
+    padding: 10px 15px;
+}
+.table-section {
+    margin: 20px;
+}
+table thead tr th{
+    font-size: var(--secondary);
+}
+table tbody tr td{
+    font-size: var(--primary-para);
+}
+table tbody tr td p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table tbody tr td {
+    text-align: center;
+}
+table tr:hover{
+    background-color: #ddd;
+}
+/* ==== EDIT CONTAINER === */
+.editabe-container {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* === DELETE ICON === */
+.delete-icon i {
+    padding: 5px;
+    border-radius: 2px;
+    color: var(--red);
+    border: 1px solid var(--red);
+    background-color: var(--light-red);
+}
+
+.delete-icon i:hover {
+    color: var(--white);
+    background-color: var(--red);
+}
+.sh-sl{
+    width: 60px;
+}
+.sh-action{
+    width: 100px;
+}
+/* === SLIDE PAGES === */
+.sh-slider-pages {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sh-slide-right-item {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sh-slide-right-item a {
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: var(--black);
+    background-color: var(--light-black-op);
+}
+
+.sh-slide-right-item p {
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: var(--white);
+    background-color: var(--main-green);
+}
+
+/* === FOOTER === */
+.footer-container{
+    bottom: 0;
+    position: fixed;
+    background-color: var(--white);
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
