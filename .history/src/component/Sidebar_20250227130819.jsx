@@ -95,7 +95,7 @@ const Sidebar = () => {
               </li>
               <li className="menu-item">
                 <NavLink to='/room-category' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";gi
                 }}>
                   <div data-i18n="Without menu">Transaction List</div>
                 </NavLink>
