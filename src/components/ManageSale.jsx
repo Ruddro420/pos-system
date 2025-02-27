@@ -174,4 +174,4 @@ const ManageSale = () => {
     );
 };
 
-export default ManageSale;
+export default ManageSale; 

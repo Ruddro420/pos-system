@@ -15,7 +15,7 @@ import StockReport from "../components/StockReport";
 import Quotationt from "../components/Quotationt";
 import PosSale from "../components/PosSale";
 import GuiPos from "../components/GuiPos";
-import ManageSale from "../components/ManageSale";
+/* import ManageSale from "../components/ManageSale"; */
 
 
 const Router = createBrowserRouter([
@@ -85,11 +85,11 @@ const Router = createBrowserRouter([
                 path: '/guiPos-page',
                 element: <GuiPos/>,
             },
-            {
+          /*   {
                 path: '/manageSale-page',
                 element: <ManageSale/>,
             },
-
+ */
 
         ]
     },
