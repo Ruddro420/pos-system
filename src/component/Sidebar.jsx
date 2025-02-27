@@ -88,14 +88,14 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
+                <NavLink to='/guiPos-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">GUI POS</div>
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
+                <NavLink to='/possale-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu"> POS Sale
@@ -103,7 +103,7 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
+                <NavLink to='/manageSale-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">Manage Sale
@@ -136,6 +136,13 @@ const Sidebar = () => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">Manage Payment</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Delivaris</div>
                 </NavLink>
               </li>
             </ul>

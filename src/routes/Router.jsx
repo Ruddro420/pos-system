@@ -13,6 +13,9 @@ import OpeningStockList from "../components/OpeningStockList";
 import StockAdjustment from "../components/StockAdjustment";
 import StockReport from "../components/StockReport";
 import Quotationt from "../components/Quotationt";
+import PosSale from "../components/PosSale";
+import GuiPos from "../components/GuiPos";
+import ManageSale from "../components/ManageSale";
 
 
 const Router = createBrowserRouter([
@@ -27,7 +30,7 @@ const Router = createBrowserRouter([
             },
             {
                 path: '/brand-page',
-                element: < BrandPage/>,
+                element: <BrandPage/>,
             },
             {
                 path: '/category-page',
@@ -73,6 +76,18 @@ const Router = createBrowserRouter([
             {
                 path: '/quotationt-page',
                 element: <Quotationt/>,
+            },
+            {
+                path: '/possale-page',
+                element: <PosSale/>,
+            },
+            {
+                path: '/guiPos-page',
+                element: <GuiPos/>,
+            },
+            {
+                path: '/manageSale-page',
+                element: <ManageSale/>,
             },
 
 
