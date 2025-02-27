@@ -83,35 +83,59 @@ const Sidebar = () => {
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Sales List</div>
+                  <div data-i18n="Without menu">Quotationt 
+                  </div>
                 </NavLink>
               </li>
               <li className="menu-item">
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Installment List</div>
+                  <div data-i18n="Without menu">GUI POS</div>
                 </NavLink>
               </li>
               <li className="menu-item">
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Transaction List</div>
+                  <div data-i18n="Without menu"> POS Sale
+                  </div>
                 </NavLink>
               </li>
               <li className="menu-item">
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Commission List</div>
+                  <div data-i18n="Without menu">Manage Sale
+                  </div>
                 </NavLink>
               </li>
               <li className="menu-item">
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Deliveries</div>
+                  <div data-i18n="Without menu">Manage Draft Sale</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Sale Counter</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Sales Return</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Manage Payment</div>
                 </NavLink>
               </li>
             </ul>
