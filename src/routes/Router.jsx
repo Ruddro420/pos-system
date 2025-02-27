@@ -2,8 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../Layout/MainLayout";
 import Dashboard from "../components/Dashboard"
 import Login from "../components/LogIn";
-import BrandPage from "../Pages-ad/BrandPage";
-import CategoryPage from "../Pages-ad/CategoryPage"
+import BrandPage from "../components/BrandPage";
+import CategoryPage from "../components/CategoryPage"
 import SubcriptionPage from "../Pages-ad/SubcriptionPage";
 import Customer from "../components/Customer";
 import Ancus from "../components/Ancus";
@@ -12,6 +12,7 @@ import AddOpeningStock from "../components/AddOpeningStock";
 import OpeningStockList from "../components/OpeningStockList";
 import StockAdjustment from "../components/StockAdjustment";
 import StockReport from "../components/StockReport";
+
 
 const Router = createBrowserRouter([
     {
@@ -25,7 +26,7 @@ const Router = createBrowserRouter([
             },
             {
                 path: '/brand-page',
-                element: <BrandPage/>,
+                element: < BrandPage/>,
             },
             {
                 path: '/category-page',
