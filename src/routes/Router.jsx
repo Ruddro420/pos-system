@@ -12,6 +12,7 @@ import AddOpeningStock from "../components/AddOpeningStock";
 import OpeningStockList from "../components/OpeningStockList";
 import StockAdjustment from "../components/StockAdjustment";
 import StockReport from "../components/StockReport";
+import Quotationt from "../components/Quotationt";
 
 
 const Router = createBrowserRouter([
@@ -64,6 +65,17 @@ const Router = createBrowserRouter([
                 path: '/stockReport-page',
                 element: <StockReport/>,
             },
+          
+
+
+            //sales
+
+            {
+                path: '/quotationt-page',
+                element: <Quotationt/>,
+            },
+
+
         ]
     },
     {
