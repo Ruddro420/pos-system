@@ -123,6 +123,9 @@ const Sidebar = () => {
               <div data-i18n="Layouts">Purchase</div>
             </NavLink>
 
+Draft Purchase
+Manage Received
+Purchase Return
 Manage Payment
 
             <ul className="menu-sub">
@@ -144,28 +147,14 @@ Manage Payment
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Draft Purchase</div>
+                  <div data-i18n="Without menu">Return</div>
                 </NavLink>
               </li>
               <li className="menu-item">
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Manage Received</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Purchase Return</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Manage Payment</div>
+                  <div data-i18n="Without menu">Exchange</div>
                 </NavLink>
               </li>
             </ul>

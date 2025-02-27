@@ -122,7 +122,7 @@ const Sidebar = () => {
               <i className="menu-icon tf-icons bx bx-purchase-tag"></i>
               <div data-i18n="Layouts">Purchase</div>
             </NavLink>
-
+Purchase Return
 Manage Payment
 
             <ul className="menu-sub">
@@ -152,20 +152,6 @@ Manage Payment
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">Manage Received</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Purchase Return</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Manage Payment</div>
                 </NavLink>
               </li>
             </ul>

@@ -158,14 +158,14 @@ Manage Payment
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Purchase Return</div>
+                  <div data-i18n="Without menu">Manage Received</div>
                 </NavLink>
               </li>
               <li className="menu-item">
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Manage Payment</div>
+                  <div data-i18n="Without menu">Manage Received</div>
                 </NavLink>
               </li>
             </ul>
