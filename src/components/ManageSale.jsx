@@ -1,4 +1,5 @@
-/* eslint-disable react/jsx-no-undef */
+
+
 import './css/ManageSale.css'
 const ManageSale = () => {
     return (
@@ -13,7 +14,7 @@ const ManageSale = () => {
             {/* <!-- === SALE TEXT === --> */}
             <div className="sale-text">
                 <p>TOTAL PRODUCT SALE</p>
-                <H1>0 BDT</H1>
+                <h1>0 BDT</h1>
             </div>
         </div>
         {/* <!-- === TOTAL PAID SECTION === --> */}
@@ -23,7 +24,8 @@ const ManageSale = () => {
             {/* <!-- === SALE TEXT === --> */}
             <div className="sale-text">
                 <p>TOTAL PAID</p>
-                <H1>0 BDT</H1>
+              
+                <h1>0 BDT</h1>
             </div>
         </div>
         {/* <!-- === TOTAL DUE SECTION === --> */}
@@ -33,7 +35,7 @@ const ManageSale = () => {
            {/*  <!-- === SALE TEXT === --> */}
             <div className="sale-text">
                 <p>TOTAL DUE</p>
-                <H1>0 BDT</H1>
+                <h1>0 BDT</h1>
             </div>
         </div>
     </div>

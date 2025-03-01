@@ -18,7 +18,11 @@ import GuiPos from "../components/GuiPos";
 import ManageSale from "../components/ManageSale";
 import ManageDraftSale from "../components/ManageDraftSale";
 import SaleCounter from "../components/SaleCounter";
+import SalesReturn from "../components/salesReturn"
+import ManagePayment from "../components/ManagePayment"
 
+
+import ManageRequisition from "../components/Purchase/ManageRequisition"
 
 const Router = createBrowserRouter([
     {
@@ -99,8 +103,19 @@ const Router = createBrowserRouter([
                 path:'/saleCounter-page',
                 element: <SaleCounter/>,
             },
-
-
+            {
+                path:'/salesReturn-page',
+                element: <SalesReturn/>,
+            },
+            {
+                path:'/managePayment-page',
+                element: <ManagePayment/>,
+            },
+         ///purchs router
+         {
+            path:'/manageRequisition-page',
+            element: <ManageRequisition/>,
+         },
         ]
     },
     {
