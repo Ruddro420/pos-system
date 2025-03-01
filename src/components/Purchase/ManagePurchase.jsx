@@ -1,17 +1,25 @@
-
-
-import './css/ManageSale.css'
-const ManageSale = () => {
+import '../purchesCSS/ManagePurchase.css'
+const ManagePurchase = () => {
     return (
         <>
-         {/* <!-- === COUNTER SECTION === --> */}
+            {/*  <!-- === TOP MENU ITEMS === --> */}
+    <div className="sh-top-menu-items">
+        <ul>
+            <li className="sh-menu-items"><a href="/addRequisition-page">Add Requisition</a></li>
+            <li className="sh-menu-items"><a href="/manageRequisition-page">Manage Requisition</a></li>
+            <li className="sh-menu-items"><a href="/addPurchase-page">Add Purchase</a></li>
+            <li className="sh-active-item"><a href="/managePurchase-page">Manage Purchase</a></li>
+            <li className="sh-menu-items"><a href="/manageReceived-page">Manage Received</a></li>
+            <li className="sh-menu-items"><a href="/managePayment-page">Manage Payment</a></li>
+        </ul>
+    </div>
+   {/*  <!-- === COUNTER SECTION === --> */}
     <div className="counter-section">
-
-        {/* <!-- === TOTAL SALE SECTION === --> */}
+       {/*  <!-- === TOTAL SALE SECTION === --> */}
         <div className="total-sale-section">
             {/* <!-- === HOME ICON === --> */}
             <i className="fa-solid fa-house"></i>
-            {/* <!-- === SALE TEXT === --> */}
+        {/*     <!-- === SALE TEXT === --> */}
             <div className="sale-text">
                 <p>TOTAL PRODUCT SALE</p>
                 <h1>0 BDT</h1>
@@ -19,19 +27,18 @@ const ManageSale = () => {
         </div>
         {/* <!-- === TOTAL PAID SECTION === --> */}
         <div className="total-paid-section">
-            {/* <!-- === HOME ICON === --> */}
+           {/*  <!-- === HOME ICON === --> */}
             <i className="fa-solid fa-check"></i>
-            {/* <!-- === SALE TEXT === --> */}
+         {/*    <!-- === SALE TEXT === --> */}
             <div className="sale-text">
                 <p>TOTAL PAID</p>
-              
                 <h1>0 BDT</h1>
             </div>
         </div>
-        {/* <!-- === TOTAL DUE SECTION === --> */}
+      {/*   <!-- === TOTAL DUE SECTION === --> */}
         <div className="total-due-section">
-           {/*  <!-- === HOME ICON === -->{/*  */}
-             <i className="fa-solid fa-triangle-exclamation"></i>
+           {/*  <!-- === HOME ICON === --> */}
+            <i className="fa-solid fa-triangle-exclamation"></i>
            {/*  <!-- === SALE TEXT === --> */}
             <div className="sale-text">
                 <p>TOTAL DUE</p>
@@ -39,14 +46,14 @@ const ManageSale = () => {
             </div>
         </div>
     </div>
-   {/*  <!-- === COUNTER SECTION END === --> */}
+    {/* <!-- === COUNTER SECTION END === --> */}
 
     {/* <!-- === MANAGE SECTION === --> */}
     <div className="manage-section">
-        {/* <!-- === MANAGE CONTAINER === --> */}
+      {/*   <!-- === MANAGE CONTAINER === --> */}
         <div className="manage-container">
-            <p>Manage Sale</p>
-           {/*  <!-- === FILTER AND ADD SECTION === --> */}
+            <p>Manage Purchase</p>
+          {/*   <!-- === FILTER AND ADD SECTION === --> */}
             <div className="filter-add-new">
                 <div className="filter-container">
                     <i className="fa-solid fa-filter"></i>
@@ -54,47 +61,25 @@ const ManageSale = () => {
                 </div>
                 <div className="add-new-sale-container">
                     <i className="fa-solid fa-circle-plus"></i>
-                    <a href="/possale-page">New Sale</a>
+                    <a href="pos-sale.html">New Sale</a>
                 </div>
             </div>
         </div>
-       {/*  <!-- === LINE === --> */}
-   
+        {/* <!-- === LINE === --> */}
+        
        {/*  <!-- === FILTER CONTAINER ITEMS === --> */}
         <div className="filter-container-items">
-            <div className="invoice-box">
-                <input type="number" placeholder="Invoice"/>
-            </div>
-            <div className="select-input-container">
-                <select name="" id="">
-                    <option value="Outlet">Outlet</option>
-                    <option value="Outlet"></option>
-                    <option value="Outlet"></option>
-                </select>
-            </div>
-            <div className="select-input-container">
-                <select name="" id="">
-                    <option value="Outlet">Sale By</option>
-                    <option value="Outlet">All</option>
-                    <option value="Outlet"></option>
-                </select>
-            </div>
-            <div className="select-input-container">
-                <select name="" id="">
-                    <option value="Outlet">Customer Name</option>
-                    <option value="Outlet">All</option>
-                    <option value="Outlet">Walk-In-Customer</option>
-                </select>
+          {/*   <!-- === SALE DATE INPUT BOX === --> */}
+            <div className="sale-date-input-box">
+                <input type="text" placeholder="Search Purchase No" name="" id=""/>
             </div>
            {/*  <!-- === SALE DATE INPUT BOX === --> */}
             <div className="sale-date-input-box">
-                <input type="text" placeholder="Sale Date" name="" id=""/>
+                <input type="text" placeholder="Search Supplier" name="" id=""/>
             </div>
-            {/* <!-- === SALE TYPE SELECT BOX === --> */}
-            <div className="sale-type-select-box">
-                <select name="" id="">
-                    <option value="Sale Type">Sale Type</option>
-                </select>
+            {/* <!-- === SALE DATE INPUT BOX === --> */}
+            <div className="sale-date-input-box">
+                <input type="text" placeholder="2/16/2025-02/16/2025" name="" id=""/>
             </div>
            {/*  <!-- === FIND BUTTON === --> */}
             <div className="sh-button-container">
@@ -106,8 +91,8 @@ const ManageSale = () => {
                 </div>
             </div>
         </div>
-       
-       {/*  <!-- === SHOW AND SEARCH SECTION === --> */}
+      
+    {/*     <!-- === SHOW AND SEARCH SECTION === --> */}
         <div className="show-and-search-section">
          {/*    <!-- === SHOW CONTAINER === --> */}
             <div className="show-container">
@@ -119,29 +104,27 @@ const ManageSale = () => {
                 </select>
                 <p>Entries</p>
             </div>
-            {/* <!-- === SEARCH CONTAINER === --> */}
+           {/*  <!-- === SEARCH CONTAINER === --> */}
             <div className="search-container">
                 <label htmlFor="text">Search:</label>
                 <input type="search"/>
             </div>
         </div>
-       {/*  <!-- === MANAGE SALE DETAILS SECTION === --> */}
+      {/*   <!-- === MANAGE SALE DETAILS SECTION === --> */}
         <div className="manage-sale-details-section">
             <table>
                 <thead>
                     <tr>
                         <th>SL</th>
-                        <th>Invoice No</th>
-                        <th>Input Invoice No</th>
-                        <th>Outlet</th>
-                        <th>Sales By</th>
-                        <th>Customer Name</th>
-                        <th>Date</th>
+                        <th>Chanal No</th>
+                        <th>Purchase No</th>
+                        <th>Supplier Name</th>
+                        <th>Purchase Date</th>
+                        <th>Requisition Date</th>
                         <th>Total Amount (BDT)</th>
                         <th>Paid Amount (BDT)</th>
                         <th>Due Amount (BDT)</th>
                         <th>Payment Status</th>
-                        <th>Sale Type</th>
                         <th>Status</th>
                         <th>Action</th>
                     </tr>
@@ -162,17 +145,16 @@ const ManageSale = () => {
         </div>
        {/*  <!-- === SLIDE PAGES === --> */}
         <div className="sh-slider-pages">
-            <p>Showing 4 to 4 of 4 entries</p>
+            <p>Showing 0 to 0 of 0 entries</p>
             <div className="sh-slide-right-item">
                 <a href="#">Previous</a>
-                <p>1</p>
+                <p>0</p>
                 <a href="#">Next</a>
             </div>
         </div>
-    </div>
-   
+    </div>  
         </>
     );
 };
 
-export default ManageSale; 
+export default ManagePurchase;

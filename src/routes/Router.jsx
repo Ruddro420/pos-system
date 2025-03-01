@@ -23,6 +23,15 @@ import ManagePayment from "../components/ManagePayment"
 
 
 import ManageRequisition from "../components/Purchase/ManageRequisition"
+import AddQuotation from "../components/AddQuotation";
+
+import SelsReturnList from "../components/SelsReturnList";
+import AddRequisition from "../components/Purchase/AddRequisition";
+import AddPurchase from "../components/Purchase/AddPurchase";
+import ManagePurchase from "../components/Purchase/ManagePurchase";
+import ManageReceived from "../components/Purchase/ManageReceived";
+import DraftPurchase from "../components/Purchase/DraftPurchase";
+import Wastage from "../components/StockManagement/Wastage";
 
 const Router = createBrowserRouter([
     {
@@ -74,6 +83,10 @@ const Router = createBrowserRouter([
                 path: '/stockReport-page',
                 element: <StockReport/>,
             },
+            {
+                path: '/stockReport-page',
+                element: <SelsReturnList/>,
+            },
           
 
 
@@ -111,10 +124,50 @@ const Router = createBrowserRouter([
                 path:'/managePayment-page',
                 element: <ManagePayment/>,
             },
+            {
+                path:'/SaleReturn-page',
+                element: <salesReturn/>,
+            },
+            {
+                path:'/SelsReturnList-page',
+                element: <SelsReturnList/>,
+            },
          ///purchs router
          {
             path:'/manageRequisition-page',
             element: <ManageRequisition/>,
+         },
+         {
+            path:'/addQuotation-page',
+            element: <AddQuotation/>,
+         },
+         {
+            path:'/addRequisition-page',
+            element: <AddRequisition/>,
+         },
+         {
+            path:'/addPurchase-page',
+            element: <AddPurchase/>,
+         },
+         {
+            path:'/managePurchase-page',
+            element: <ManagePurchase/>,
+         },
+         {
+            path:'/manageReceived-page',
+            element: <ManageReceived/>,
+         },
+         {
+            path:'/managePayment-page',
+            element: < ManagePayment/>,
+         },
+         {
+            path:'/draftPurchase-page',
+            element: <DraftPurchase/>,
+         },
+         {
+            path:'/wastage-page',
+            element: <Wastage/>,
          },
         ]
     },

@@ -12,7 +12,7 @@ const salesReturn = () => {
                     <a href="#">Sale Return</a>
                 </div>
                 <div className="sh-list">
-                    <a href="sale-return-list.html">Return List</a>
+                    <a href="/stockReport-page">Return List</a>
                 </div>
              </div>
             
