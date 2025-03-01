@@ -57,15 +57,13 @@ td {
     gap: 30px;
     height: 60px;
     padding-left: 30px;
-    margin: 20px 8px 30px 18px;
+    margin: 20px 10px 10px 19px;
     font-size: 1rem;
+    border-radius: 5px;
     border: 1px solid #F0F1F2;
     background-color: var(--white);
     display: flex;
     align-items: center;
-    position: sticky;
-    top: 94px;
-    z-index: 21;
 }
 
 .top-section a {
@@ -149,7 +147,7 @@ td {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 12;
+    z-index: -1111;
 }
 
 .show-container {

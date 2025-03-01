@@ -149,7 +149,7 @@ td {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 12;
+    z-index: ;
 }
 
 .show-container {
