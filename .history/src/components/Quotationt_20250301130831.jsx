@@ -24,7 +24,7 @@ const Quotationt = () => {
             <div className="quotation-right-container">
                 <ul>
                     <li>
-                    <i className='bx bxs-filter-alt'></i>
+                        <RiDeleteBin6Line />
                         <a href="#">Filter </a>
                     </li>
                     <li>

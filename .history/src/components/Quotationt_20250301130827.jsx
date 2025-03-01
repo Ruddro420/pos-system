@@ -24,11 +24,11 @@ const Quotationt = () => {
             <div className="quotation-right-container">
                 <ul>
                     <li>
-                    <i className='bx bxs-filter-alt'></i>
+                        <RiDeleteBin6Line />
                         <a href="#">Filter </a>
                     </li>
                     <li>
-                    <i className='bx bx-plus-circle'></i> 
+                    <i className="bx bx-plus-circle></i> 
                         <a href="add-quotation.html">Add Quotation</a>
                     </li>
                 </ul>

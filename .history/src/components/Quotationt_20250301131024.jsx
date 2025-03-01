@@ -24,7 +24,7 @@ const Quotationt = () => {
             <div className="quotation-right-container">
                 <ul>
                     <li>
-                    <i className='bx bxs-filter-alt'></i>
+                    <i classN='bx bxs-filter-alt' ></i>
                         <a href="#">Filter </a>
                     </li>
                     <li>
