@@ -181,7 +181,7 @@ const Quotationt = () => {
                                 </div>
                                 {/*  === DELETE ICON === */}
                                 <div className="delete-icon">
-                                    <a href="#"></a>
+                                    <a href="#"><RiDeleteBin6Line /></a>
                                 </div>
                             </div>
                         </td>

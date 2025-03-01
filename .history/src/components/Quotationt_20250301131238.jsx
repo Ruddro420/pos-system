@@ -1,3 +1,6 @@
+
+import { FaEdit } from "react-icons/fa";
+import { RiDeleteBin6Line } from "react-icons/ri";
 import './../components/css/Quotationt.css'
 
 const Quotationt = () => {
@@ -88,12 +91,12 @@ const Quotationt = () => {
                             <div className="editabe-container">
                                  {/* === EDIT ICON === */}
                                 <div className="edit-icon">
-                                    <a href="#">
+                                    <a href="#"><FaEdit />
                                     </a>
                                 </div>
                                 {/*  === DELETE ICON === */}
                                 <div className="delete-icon">
-                                    <a href="#"></a>
+                                    <a href="#"><RiDeleteBin6Line /></a>
                                 </div>
                             </div>
                         </td>
@@ -111,11 +114,11 @@ const Quotationt = () => {
                             <div className="editabe-container">
                                 {/*  === EDIT ICON === */}
                                 <div className="edit-icon">
-                                    <a href="#"></a>
+                                    <a href="#"><FaEdit /></a>
                                 </div>
                                 {/*  === DELETE ICON === */}
                                 <div className="delete-icon">
-                                    <a href="#"></a>
+                                    <a href="#"><RiDeleteBin6Line /></a>
                                 </div>
                             </div>
                         </td>
@@ -133,11 +136,11 @@ const Quotationt = () => {
                             <div className="editabe-container">
                                  {/* === EDIT ICON === */}
                                 <div className="edit-icon">
-                                    <a href="#"></a>
+                                    <a href="#"><FaEdit /></a>
                                 </div>
                                 {/*  === DELETE ICON === */}
                                 <div className="delete-icon">
-                                    <a href="#"></a>
+                                    <a href="#"><RiDeleteBin6Line /></a>
                                 </div>
                             </div>
                         </td>
@@ -155,11 +158,11 @@ const Quotationt = () => {
                             <div className="editabe-container">
                                {/*   === EDIT ICON === */}
                                 <div className="edit-icon">
-                                    <a href="#"></a>
+                                    <a href="#"><FaEdit /></a>
                                 </div>
                                 {/*  === DELETE ICON === */}
                                 <div className="delete-icon">
-                                    <a href="#"></a>
+                                    <a href="#"><RiDeleteBin6Line /></a>
                                 </div>
                             </div>
                         </td>
@@ -177,11 +180,11 @@ const Quotationt = () => {
                             <div className="editabe-container">
                                  {/* === EDIT ICON === */}
                                 <div className="edit-icon">
-                                    <a href="#"></a>
+                                    <a href="#"><FaEdit /></a>
                                 </div>
                                 {/*  === DELETE ICON === */}
                                 <div className="delete-icon">
-                                    <a href="#"></a>
+                                    <a href="#"><RiDeleteBin6Line /></a>
                                 </div>
                             </div>
                         </td>
