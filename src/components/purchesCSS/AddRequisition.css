@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body {
+    background-color: var(--gray-black);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+    background-color: var(--gray-white);
+}
+:root {
+    --gray-white: #F0F1F2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --light-black: #212523;
+    --light-black-op: #21252350;
+    --main-green: #157343;
+    --main-light: #37A000;
+    --light-orange: #FD7E14;
+    --green: #008000;
+    --light-green: #e9f6ec;
+    --red: #FF0000;
+    --light-red: #fbeaec;
+    /* === FONTS SIZE FOR HEADING === */
+    --primary-head: 22px;
+    --secondary-head: 1.125rem;
+    --secondary: 1rem;
+    --primary-para: 0.825rem;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* === PARENT SECTION === */
+.sh-parent-section{
+    width: 100%;
+    padding: 20px;
+}
+/* === CHILD SECTION === */
+.sh-child-section{
+    width: 100%;
+}
+/* === TOP MENU ITEMS === */
+.sh-top-menu-items{
+    border-radius: 5px;
+    background-color: var(--white);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
+    padding: 10px 0px 10px 10px;
+}
+.sh-top-menu-items ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sh-top-menu-items li{
+    height: 50px;
+}
+.sh-top-menu-items a{
+    height: 100%;
+    padding: 0px 20px;
+    color: var(--black);
+    font-size: var(--secondary);
+    display: flex;
+    align-items: center;
+}
+.sh-menu-items a:hover{
+    color: var(--red);
+}
+/* === ACTIVE MENU === */
+.sh-active-item a{
+    background-color: var(--main-green);
+    color: var(--white);
+    border-radius: 5px;
+}
+/* === ADD REQUISITION CONTAINER === */
+.sh-add-requisition-container{
+    height: 50px;
+    font-size: var(--secondary);
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sh-requisition-list a{
+    font-size: var(--secondary);
+    color: var(--white);
+    background-color: var(--main-green);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+/* === POSE SALE CUSTOMER DETAILS === */
+.sh-pose-sale-customer-section{
+    border-radius: 5px;
+    background-color: var(--white);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
+    margin-top: 20px;
+    padding-top: 10px;
+}
+/* === CUSTOMER DETAILS === */
+.sh-pose-sale-customer-details-input {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.sh-customer-name {
+    font-size: 1rem;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.sh-customer-name-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sh-plus-icon {
+    display: flex;
+    position: absolute;
+    margin-left: 669px;
+}
+
+.sh-customer-name-container select {
+    width: 700px;
+    padding: 5px 2px;
+    font-size: var(--secondary);
+    border: 1px solid var(--light-black);
+}
+
+.sh-customer-name-container select:focus {
+    outline: none;
+}
+
+.sh-plus-input {
+    display: flex;
+}
+
+.sh-plus-icon p {
+    padding: 1.5px 10px;
+    background-color: var(--main-green);
+    color: var(--white);
+}
+
+.sh-address {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+/* === ADDRESS === */
+.sh-address label {
+    font-size: 1rem;
+}
+
+.sh-address input {
+    width: 700px;
+    padding: 5px 5px;
+    font-size: var(--secondary);
+    border: 1px solid var(--light-black);
+}
+
+.sh-address input:focus {
+    outline: none;
+}
+textarea{
+    height: 100px;
+    width: 650px;
+    border: 1px solid var(--light-black-op);
+}
+textarea:focus{
+    outline: none;
+}
+
+/* === EVERY THING SEARCH BOX === */
+.everyThing-search-box {
+    margin-top: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.everyThing-search-box input {
+    border: 1px solid var(--light-black);
+    width: 100%;
+    padding: 8px 10px;
+}
+
+.everyThing-search-box input:focus {
+    outline: none;
+}
+
+/* === PRODUCT ALL DETAILS === */
+.sh-produt-all-details-container{
+    margin-top: 10px;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0px 30px;
+}
+
+th,
+td {
+    border: 1px solid var(--light-black-op);
+    padding: 10px 5px;
+}
+
+table th {
+    font-size: var(--secondary);
+    font-weight: 500;
+}
+table td{
+    text-align: center;
+    align-items: center;
+}
+.sh-product-search-box{
+    display: flex;  
+}
+.sh-product-search-box input {
+    width: 500px;
+    padding: 8px 5px;
+    border: 1px solid var(--light-black);
+    font-size: var(--primary-para);
+}
+
+.sh-product-search-box input:focus {
+    outline: none;
+}
+
+.sh-av-box input{
+    width: 50px;
+    padding: 5px 5px;
+    border: 1px solid black;
+    font-size: var(--primary-para);
+}
+.sh-av-box input:focus{
+    outline: none;
+}   
+.sh-qty-number-input input{
+    width: 70px;
+    padding: 5px 5px;
+    border: 1px solid var(--light-black);
+    font-size: var(--primary-para);
+}
+.sh-qty-number-input input:focus{
+    outline: none;
+}
+.sh-rate-input-container input{
+    width: 60px;
+    padding: 5px 5px;
+    border: 1px solid var(--light-black);
+    font-size: var(--primary-para);
+}
+.sh-rate-input-container input:focus{
+    outline: none;
+}
+.sh-discount-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sh-discount-left-container input{
+    width: 50px;
+    padding: 5px 5px;
+    border: 1px solid var(--light-black);
+    font-size: var(--primary-para);
+}
+.sh-discount-left-container input:focus{
+    outline: none;
+}
+.sh-discount-right-container input{
+    width: 50px;
+    padding: 5px 5px;
+    border: 1px solid var(--light-black);
+    background-color: var(--light-black-op);
+    font-size: var(--primary-para);
+}
+.sh-discount-right-container input:focus{
+    outline: none;
+}
+.sh-vatbox-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sh-vat-left-container input{
+    width: 50px;
+    padding: 5px 5px;
+    border: 1px solid var(--light-black);
+    font-size: var(--primary-para);
+}
+.sh-vat-left-container input:focus{
+    outline: none;
+}
+.sh-vat-right-container input{
+    width: 50px;
+    padding: 5px 5px;
+    background-color: var(--light-black-op);
+    border: 1px solid var(--light-black);
+    font-size: var(--primary-para);
+}
+.sh-vat-right-container input:focus{
+    outline: none;
+}
+.sh-total-contaier input{
+    width: 100px;
+    padding: 5px 5px;
+    background-color: var(--light-black-op);
+    border: 1px solid var(--light-black);
+    font-size: var(--primary-para);
+}
+.sh-total-contaier input:focus{
+    outline:none
+}
+/* === DELETE ICON === */
+.sh-delet-icon i{
+    padding: 5px 5px;
+    color: var(--red);
+    font-size: var(--primary-head);
+    border: 1px solid var(--red);
+    background-color: var(--light-red);
+}
+.sh-delet-icon i:hover{
+    padding: 5px 5px;
+    color: var(--white);
+    font-size: var(--primary-head);
+    border: 1px solid var(--red);
+    background-color: var(--red);
+}
+.sh-plus-icon-two a i{
+    padding: 5px 5px;
+    color: var(--main-green);
+    font-size: var(--primary-head);
+    background-color: var(--light-green);
+    border: 1px solid var(--main-green);
+}
+.sh-plus-icon-two a i:hover{
+    padding: 5px 5px;
+    color: var(--white);
+    font-size: var(--primary-head);
+    background-color: var(--main-green);
+    border: 1px solid var(--main-green);
+}
+tbody tr th p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+/* === BOTTOM ITEMS === */
+.sh-bottom-items{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    line-height: 2em;
+    font-size: var(--secondary);
+    align-items: center;
+    justify-content: flex-end;
+}
+.sh-total-discount input{
+    padding: 5px 10px;
+    border: 1px solid var(--light-black-op);
+}
+.sh-total-discount input:focus{
+    outline: none;
+}
+.sh-submit-button a{
+    background-color: var(--main-green);
+    color: var(--white);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.sh-submit-button{
+    display: flex;
+    justify-content: flex-end; 
+    padding: 20px;
+}

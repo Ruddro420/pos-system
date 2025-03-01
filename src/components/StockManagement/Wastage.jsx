@@ -1,14 +1,21 @@
-
-const ManageDraftSale = () => {
+import '.././css/StockManagementCSS/Wastage.css'
+const Wastage = () => {
     return (
         <>
-          <div className="sh-parent">
+           <div className="sh-parent">
+        {/* <!-- === TOP MENU ITEMS === --> */}
+        <div className="sh-top-menu-items">
+            <ul>
+                <li className="sh-menu-items"><a href="new-wastage.html">New Wastage</a></li>
+                <li className="sh-active-item"><a href="wastage-list.html">Wastage List</a></li>
+            </ul>
+        </div>
         <div className="sh-child-container">
             <div className="sh-draft-sale-section">
                {/*  <!-- === DRAFT SALE TOP ITEMV === --> */}
                 <div className="sh-draft-sale-top-item">
-                    <p>Draft Sale List</p>
-                   {/*  <!-- === DRAFT SALE TOP RIGHT ITMES === --> */}
+                    <p>Manage Wastage</p>
+                    {/* <!-- === DRAFT SALE TOP RIGHT ITMES === --> */}
                     <div className="sh-draft-sale-top-right-items">
                         <div className="sh-filter">
                             <i className="fa-solid fa-filter"></i>
@@ -16,42 +23,42 @@ const ManageDraftSale = () => {
                         </div>
                         <div className="sh-filter">
                             <i className="fa-solid fa-circle-plus"></i>
-                            <a href="/possale-page">New Sale</a>
+                            <a href="new-wastage.html">New Wastage</a>
                         </div>
                     </div>
                 </div>
             </div>
-          
+           
           {/*   <!-- === FILTER DROPDOWN SECTION === --> */}
             <div className="sh-filter-drop-down-section">
                 <div className="sh-draft-container">
-                    <p>Draft No</p>
-                    <input type="number" placeholder="Sale No." value="" name="" id="" autoComplete="off"/>
+                    <p>Wastage No</p>
+                    <input type="number" placeholder="Wastage No." value="" name="" id="" autoComplete="off"/>
                 </div>
                 <div className="sh-draft-container">
-                    <p>Sale By</p>
-                    <input type="text" placeholder="Sale By" value="" name="" id="" autoComplete="off"/>
+                    <p>Outlet No</p>
+                    <input type="text" placeholder="All Outlet" value="" name="" id="" autoComplete="off"/>
                 </div>
                 <div className="sh-draft-container">
-                    <p>Customer Name</p>
-                    <input type="text" placeholder="Customer Name" value="" name="" id="" autoComplete="off"/>
+                    <p>Added By</p>
+                    <input type="text" placeholder="All" value="" name="" id="" autoComplete="off"/>
                 </div>
                 <div className="sh-draft-container">
-                    <p>Sale Date</p>
+                    <p>Date</p>
                     <input type="text" placeholder="Date" value="" name="" id="" autoComplete="off"/>
                 </div>
-             {/*    <!-- === FILTER SEARCH === --> */}
+                {/* <!-- === FILTER SEARCH === --> */}
                 <div className="sh-filter-search-box">
                     <i className="fa-solid fa-search"></i>Search
                 </div>
-               {/*  <!-- === FILTER RESET === --> */}
+                {/* <!-- === FILTER RESET === --> */}
                 <div className="sh-filter-reset-box">
                     <i className="fa-solid fa-arrows-rotate"></i>Reset
                 </div>
             </div>
             {/* <!-- === LINE === --> */}
             <div className="sh-line">
-               
+              
             </div>
 
             {/* <!-- === SHOW AND SEARCH CONTAINER === --> */}
@@ -74,22 +81,22 @@ const ManageDraftSale = () => {
                     <input type="search" placeholder="" name="" id=""/>
                 </div>
             </div>
-            {/* <!-- === MANAGE SALE DETAILS SECTION === --> */}
+        {/*     <!-- === MANAGE SALE DETAILS SECTION === --> */}
             <div className="manage-sale-details-section">
                 <table>
                     <thead>
                         <tr>
                             <th>SL</th>
-                            <th>Draft No</th>
-                            <th>Sales By</th>
-                            <th>Customer Name</th>
+                            <th>Wastage No</th>
                             <th>Date</th>
+                            <th>Outlet Name</th>
+                            <th>Added By</th>
                             <th>Total Ammount (BDT)</th>
                             <th>Action</th>
                         </tr>
                     </thead>
                 </table>
-               {/*  <!-- === EMPTY SECTION === --> */}
+                {/* <!-- === EMPTY SECTION === --> */}
                 <div className="empty-section">
                     <table>
                         <tbody>
@@ -113,9 +120,9 @@ const ManageDraftSale = () => {
             </div>
         </div>
 
-    </div>  
+    </div>
         </>
     );
 };
 
-export default ManageDraftSale;
+export default Wastage;

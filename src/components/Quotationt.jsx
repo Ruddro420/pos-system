@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './../components/css/Quotationt.css'
 
 const Quotationt = () => {
@@ -6,7 +7,7 @@ const Quotationt = () => {
               {/*  === TOP SECTION === */}
     <div className="top-section">
    
-        <a href="add-quotation.html">Add Quotation</a>
+        <Link to="/addQuotation-page">Add Quotation</Link>
         <div className="quotation-list">
             <a href="#">Quotation List</a>
         </div>
@@ -23,9 +24,9 @@ const Quotationt = () => {
                     <i className='bx bxs-filter-alt'></i>
                         <a href="#">Filter </a>
                     </li>
-                    <li>
+                    <li to='/addQuotation-page'>
                     <i className='bx bx-plus-circle'></i> 
-                        <a href="add-quotation.html">Add Quotation</a>
+                        <a href="/addQuotation-page">Add Quotation</a>
                     </li>
                 </ul>
             </div>
