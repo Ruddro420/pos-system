@@ -4,7 +4,7 @@ import Dashboard from "../components/Dashboard"
 import Login from "../components/LogIn";
 import BrandPage from "../components/BrandPage";
 import CategoryPage from "../components/CategoryPage"
-import SubcriptionPage from "../components/SubcriptionPage";
+import PricePlan from "../components/PricePlan";
 import Customer from "../components/Customer";
 import Ancus from "../components/Ancus";
 import OpeningStock from "../components/OpeningStock";
@@ -52,8 +52,8 @@ const Router = createBrowserRouter([
                 element: <CategoryPage/>,
             },
             {
-                path: '/subcription-page',
-                element: <SubcriptionPage/>,
+                path: '/PricePlan-page',
+                element: <PricePlan/>,
             },
             {
                 path: '/customer-page',

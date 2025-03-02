@@ -1,44 +1,43 @@
 
-
 import './css/ManageSale.css'
 const ManageSale = () => {
     return (
         <>
          {/* <!-- === COUNTER SECTION === --> */}
-    <div className="counter-section">
+         <div className="counter-section">
 
-        {/* <!-- === TOTAL SALE SECTION === --> */}
-        <div className="total-sale-section">
-            {/* <!-- === HOME ICON === --> */}
-            <i className="fa-solid fa-house"></i>
-            {/* <!-- === SALE TEXT === --> */}
-            <div className="sale-text">
-                <p>TOTAL PRODUCT SALE</p>
-                <h1>0 BDT</h1>
-            </div>
-        </div>
-        {/* <!-- === TOTAL PAID SECTION === --> */}
-        <div className="total-paid-section">
-            {/* <!-- === HOME ICON === --> */}
-            <i className="fa-solid fa-check"></i>
-            {/* <!-- === SALE TEXT === --> */}
-            <div className="sale-text">
-                <p>TOTAL PAID</p>
-              
-                <h1>0 BDT</h1>
-            </div>
-        </div>
-        {/* <!-- === TOTAL DUE SECTION === --> */}
-        <div className="total-due-section">
-           {/*  <!-- === HOME ICON === -->{/*  */}
-             <i className="fa-solid fa-triangle-exclamation"></i>
-           {/*  <!-- === SALE TEXT === --> */}
-            <div className="sale-text">
-                <p>TOTAL DUE</p>
-                <h1>0 BDT</h1>
-            </div>
-        </div>
+{/* <!-- === TOTAL SALE SECTION === --> */}
+<div className="total-sale-section">
+    {/* <!-- === HOME ICON === --> */}
+    <i className="fa-solid fa-house"></i>
+    {/* <!-- === SALE TEXT === --> */}
+    <div className="sale-text">
+        <p>TOTAL PRODUCT SALE</p>
+        <h1>0 BDT</h1>
     </div>
+</div>
+{/* <!-- === TOTAL PAID SECTION === --> */}
+<div className="total-paid-section">
+    {/* <!-- === HOME ICON === --> */}
+    <i className="fa-solid fa-check"></i>
+    {/* <!-- === SALE TEXT === --> */}
+    <div className="sale-text">
+        <p>TOTAL PAID</p>
+      
+        <h1>0 BDT</h1>
+    </div>
+</div>
+{/* <!-- === TOTAL DUE SECTION === --> */}
+<div className="total-due-section">
+   {/*  <!-- === HOME ICON === -->{/*  */}
+     <i className="fa-solid fa-triangle-exclamation"></i>
+   {/*  <!-- === SALE TEXT === --> */}
+    <div className="sale-text">
+        <p>TOTAL DUE</p>
+        <h1>0 BDT</h1>
+    </div>
+</div>
+</div>
    {/*  <!-- === COUNTER SECTION END === --> */}
 
     {/* <!-- === MANAGE SECTION === --> */}
