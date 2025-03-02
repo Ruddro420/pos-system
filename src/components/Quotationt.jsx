@@ -6,11 +6,10 @@ const Quotationt = () => {
         <>
               {/*  === TOP SECTION === */}
     <div className="top-section">
-   
-        <Link to="/addQuotation-page">Add Quotation</Link>
         <div className="quotation-list">
             <a href="#">Quotation List</a>
         </div>
+        <Link to="/addQuotation-page">Add Quotation</Link>
     </div>
 
     {/*  === QUOTATION LIST SECTION === */}
