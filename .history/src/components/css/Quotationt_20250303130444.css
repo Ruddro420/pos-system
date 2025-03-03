@@ -239,17 +239,17 @@ table tbody tr td {
 .edit-icon > i {
     padding: 5px;
     border-radius: 2px;
-    color: var(--m-green);
-    border: 1px solid var(--m-green);
-    background-color: var(--lt-green);
+    color: var(--main-green);
+    border: 1px solid var(--main-green);
+    background-color: var(--ligt-green);
 }
 
 .edit-icon > i:hover {
     padding: 5px;
     border-radius: 2px;
     color: var(--white);
-    border: 1px solid var(--m-green);
-    background-color: var(--m-green);
+    border: 1px solid var(--main-green);
+    background-color: var(--main-green);
 }
 
 /* === DELETE ICON === */
@@ -258,7 +258,7 @@ table tbody tr td {
     border-radius: 2px;
     color: var(--red);
     border: 1px solid var(--red);
-    background-color: var(--lt-red);
+    background-color: var(--light-red);
 }
 
 .delete-icon > i:hover {
@@ -268,8 +268,8 @@ table tbody tr td {
 
 /* === ACTIVE WORK === */
 table > tbody > tr > td > .active {
-    background-color: var(--lt-green);
-    color: var(--m-green);
+    background-color: var(--light-green);
+    color: var(--main-green);
     font-size: 0.7rem;
     padding: 2px 5px;
     border-radius: 5px;
@@ -277,7 +277,7 @@ table > tbody > tr > td > .active {
 
 /* === DEACTIVE WORK === */
 table > tbody > tr > td > .deactive {
-    background-color: var(--lt-red);
+    background-color: var(--light-red);
     color: var(--red);
     font-size: 0.7rem;
     padding: 2px 5px;
@@ -307,7 +307,7 @@ table > tfoot > tr > .tfoot {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
-    background-color: var(--lt-black-op);
+    background-color: var(--light-black-op);
 }
 
 .sh-slide-right-item .page-numberr {
@@ -315,7 +315,7 @@ table > tfoot > tr > .tfoot {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--m-green);
+    background-color: var(--main-green);
 }
 
 p {

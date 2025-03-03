@@ -307,7 +307,7 @@ table > tfoot > tr > .tfoot {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
-    background-color: var(--lt-black-op);
+    background-color: var(--lit-black-op);
 }
 
 .sh-slide-right-item .page-numberr {
@@ -315,7 +315,7 @@ table > tfoot > tr > .tfoot {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--m-green);
+    background-color: var(--main-green);
 }
 
 p {

@@ -268,8 +268,8 @@ table tbody tr td {
 
 /* === ACTIVE WORK === */
 table > tbody > tr > td > .active {
-    background-color: var(--lt-green);
-    color: var(--m-green);
+    background-color: var(--light-green);
+    color: var(--main-green);
     font-size: 0.7rem;
     padding: 2px 5px;
     border-radius: 5px;
@@ -277,7 +277,7 @@ table > tbody > tr > td > .active {
 
 /* === DEACTIVE WORK === */
 table > tbody > tr > td > .deactive {
-    background-color: var(--lt-red);
+    background-color: var(--light-red);
     color: var(--red);
     font-size: 0.7rem;
     padding: 2px 5px;
@@ -307,7 +307,7 @@ table > tfoot > tr > .tfoot {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
-    background-color: var(--lt-black-op);
+    background-color: var(--light-black-op);
 }
 
 .sh-slide-right-item .page-numberr {
@@ -315,7 +315,7 @@ table > tfoot > tr > .tfoot {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--m-green);
+    background-color: var(--main-green);
 }
 
 p {
