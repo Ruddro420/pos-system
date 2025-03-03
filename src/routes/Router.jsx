@@ -39,6 +39,8 @@ import SalesReport from "../components/report/SalesReport"
 import StockReports from "../components/report/StockReports"
 import PurchaseReport from "../components/report/PurchaseReport";
 import LedgerReport from "../components/report/LedgerReport";
+import Vouchers from "../components/accounts/Vouchers"
+import PendingVouchers from "../components/accounts/PendingVouchers";
 
 const Router = createBrowserRouter([
     {
@@ -194,6 +196,14 @@ const Router = createBrowserRouter([
         {
             path:'/LedgerReport-page',
             element: <LedgerReport/>,
+         },
+        {
+            path:'/Vouchers-page',
+            element: <Vouchers/>,
+         },
+        {
+            path:'/PendingVouchers-page',
+            element: <PendingVouchers/>,
          },
 
 
