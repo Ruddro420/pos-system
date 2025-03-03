@@ -33,6 +33,13 @@ import ManageReceived from "../components/Purchase/ManageReceived";
 import DraftPurchase from "../components/Purchase/DraftPurchase";
 import Wastage from "../components/StockManagement/Wastage";
 
+
+
+import SalesReport from "../components/report/SalesReport"
+import StockReports from "../components/report/StockReports"
+import PurchaseReport from "../components/report/PurchaseReport";
+import LedgerReport from "../components/report/LedgerReport";
+
 const Router = createBrowserRouter([
     {
         path: '/',
@@ -169,6 +176,27 @@ const Router = createBrowserRouter([
             path:'/wastage-page',
             element: <Wastage/>,
          },
+
+
+        // report page route
+        {
+            path:'/SalesReport-page',
+            element: <SalesReport/>,
+         },
+        {
+            path:'/StockReport-page',
+            element: <StockReports/>,
+         },
+        {
+            path:'/PurchaseReport-page',
+            element: <PurchaseReport/>,
+         },
+        {
+            path:'/LedgerReport-page',
+            element: <LedgerReport/>,
+         },
+
+
         ]
     },
     {
