@@ -26,7 +26,7 @@ table {
 
 th,
 td {
-    border: 1px solid var(--lt-black-op);
+    border: 1px solid var(--light-black-op);
     padding: 10px 15px;
 }
 
@@ -39,11 +39,11 @@ td {
     --lt-black-op: #21252350;
     --m-green: #157343;
     --m-light: #37A000;
-    --lt-orange: #FD7E14;
+    --light-orange: #FD7E14;
     --green: #008000;
-    --lt-green: #e9f6ec;
+    --light-green: #e9f6ec;
     --red: #FF0000;
-    --lt-red: #fbeaec;
+    --light-red: #fbeaec;
     /* === FONTS SIZE FOR HEADING === */
     --primary-head: 22px;
     --secondary-head: 1.125rem;
@@ -86,7 +86,7 @@ nav{
 }
 .add-from{
     padding: 0 10px;
-    background-color: var(--m-green);
+    background-color: var(--main-green);
 }
 .add-from a{
     font-size: var(--primary-head);
@@ -118,7 +118,7 @@ tbody tr td{
 tbody tr td input{
     width: 350px;
     padding: 2px 4px;
-    border: 1px solid var(--lt-black);
+    border: 1px solid var(--light-black);
 }
 tbody tr td input:focus{
     outline: 1px solid #2B51B0;
@@ -145,7 +145,7 @@ tbody tr td .qty-input input{
     width: 80px;
     border: none;
     padding: 3px;
-    border: 1px solid var(--lt-black);
+    border: 1px solid var(--light-black);
     background: none;
 }
 tbody tr td .rate-input input{
@@ -154,7 +154,7 @@ tbody tr td .rate-input input{
     width: 60px;
     border: none;
     padding: 3px;
-    border: 1px solid var(--lt-black);
+    border: 1px solid var(--light-black);
     background: none;
 }
 /* === DISCOUNT SECTION === */
@@ -163,7 +163,7 @@ tbody tr td .rate-input input{
 }
 .dis-lft-input input{
     width: 50px;
-    border: 1px solid var(--lt-black);
+    border: 1px solid var(--light-black);
     border-right: none;
     text-align: right;
 }
@@ -185,7 +185,7 @@ tbody tr td .total-input input{
     font-size: 1.25rem;
     padding: 5px 7px;
     color: var(--red);
-    background-color: var(--lt-red);
+    background-color: var(--light-red);
     border: 1px solid var(--red);
 }
 .delete-icon a i:hover{
@@ -198,7 +198,7 @@ tbody tr td .total-input input{
 }
 .total-lft-input input{
     width: 50px;
-    border: 1px solid var(--lt-black);
+    border: 1px solid var(--light-black);
     border-right: none;
     text-align: right;
 }
@@ -213,13 +213,13 @@ tbody tr td .total-input input{
 .plus-icon a i{
     font-size: 1.25rem;
     padding: 5px 7px;
-    color: var(--m-green);
-    background-color: var(--lt-green);
-    border: 1px solid var(--m-green);
+    color: var(--main-green);
+    background-color: var(--light-green);
+    border: 1px solid var(--main-green);
 }
 .plus-icon a i:hover{
     color: var(--white);
-     background-color: var(--m-green);
+     background-color: var(--main-green);
 }
 /* === FOOTER SECTION === */
 .footer-section{
@@ -250,7 +250,7 @@ tbody tr td .total-input input{
     padding: 0px 8px;
 }
 .submit-button{
-    background-color: var(--m-green);
+    background-color: var(--main-green);
     padding: 3px 8px;
     border-radius: 3px;
 }
