@@ -2,7 +2,7 @@ import './css/AddQuotation.css'
 const AddQuotation = () => {
     return (
         <>
-            <div className='sh-addquo-container'>
+            <div className='sh-addquo-cont'>
         {/* <!-- === FORM SECTION === --> */}
         <div className="form-section">
             <div className="form-container">

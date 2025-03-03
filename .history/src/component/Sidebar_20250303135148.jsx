@@ -281,6 +281,20 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
+                <NavLink to='/room-category' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Installment Report</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/StockReport-page' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Stock Report</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
                 <NavLink to='/PurchaseReport-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
@@ -291,28 +305,14 @@ const Sidebar = () => {
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Outlet Report</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/StockReport-page' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Stock Alert Report</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Upcoming Expiry Product</div>
+                  <div data-i18n="Without menu">Expense Report</div>
                 </NavLink>
               </li>
               <li className="menu-item">
                 <NavLink to='/LedgerReport-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Expired Product</div>
+                  <div data-i18n="Without menu">Expired Produ</div>
                 </NavLink>
               </li>
             </ul>

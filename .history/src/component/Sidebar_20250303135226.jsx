@@ -281,24 +281,24 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/PurchaseReport-page' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Purchase Report</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
                 <NavLink to='/room-category' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Outlet Report</div>
+                  <div data-i18n="Without menu">Installment Report</div>
                 </NavLink>
               </li>
               <li className="menu-item">
                 <NavLink to='/StockReport-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Stock Alert Report</div>
+                  <div data-i18n="Without menu">Stock Aler Report</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/PurchaseReport-page' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Purchase Report</div>
                 </NavLink>
               </li>
               <li className="menu-item">

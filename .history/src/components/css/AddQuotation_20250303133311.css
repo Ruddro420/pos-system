@@ -82,7 +82,7 @@ nav{
 }
 .add-from{
     padding: 0 10px;
-    background-color: var(--m-green);
+    /* background-color: var(--m-green); */
 }
 .add-from a{
     font-size: var(--primary-head);

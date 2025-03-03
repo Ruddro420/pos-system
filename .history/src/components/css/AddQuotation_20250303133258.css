@@ -84,10 +84,10 @@ nav{
     padding: 0 10px;
     background-color: var(--m-green);
 }
-.add-from a{
+/* .add-from a{
     font-size: var(--primary-head);
     color: var(--white);
-}
+} */
 /* === SEARCH BAR === */
 .search-bar{
     margin-top: 20px;

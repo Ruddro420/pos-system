@@ -2,7 +2,7 @@ import './css/AddQuotation.css'
 const AddQuotation = () => {
     return (
         <>
-            <div className='sh-addquo-container'>
+             <nav>
         {/* <!-- === FORM SECTION === --> */}
         <div className="form-section">
             <div className="form-container">
@@ -441,7 +441,7 @@ const AddQuotation = () => {
                 </div>
             </table>
         </div>
-            </div>
+    </nav>
           {/*   <!-- === FOOTER SECTION === --> */}
             <div className="footer-section">
                 <div className="total-vat">
