@@ -1,15 +1,15 @@
-import './css/OpeningBalance.css'
-const OpeningBalance = () => {
+import './css/BalanceSheet.css'
+const BalanceSheet = () => {
     return (
         <>
-            {/*   <!-- === DRAFT SALE SECITON === --> */}
+          {/* <!-- === DRAFT SALE SECITON === --> */}
     <div className="sh-parent">
         <div className="sh-child-container">
             <div className="sh-draft-sale-section">
-              {/*   <!-- === DRAFT SALE TOP ITEMV === --> */}
+               {/*  <!-- === DRAFT SALE TOP ITEMV === --> */}
                 <div className="sh-draft-sale-top-item">
                     <p>Opening Balance List</p>
-                  {/*   <!-- === DRAFT SALE TOP RIGHT ITMES === --> */}
+                    {/* <!-- === DRAFT SALE TOP RIGHT ITMES === --> */}
                     <div className="sh-draft-sale-top-right-items">
                         <div onClick="showNew()" className="sh-filter">
                             <i className="fa-solid fa-circle-plus"></i>
@@ -23,7 +23,7 @@ const OpeningBalance = () => {
                 </div>
             </div>
             <hr/>
-         {/*    <!-- === FILTER DROPDOWN SECTION === --> */}
+           {/*  <!-- === FILTER DROPDOWN SECTION === --> */}
             <div className="sh-filter-drop-down-section">
                 <div className="sh-draft-container">
                     <select value="" name="" id="">
@@ -34,17 +34,17 @@ const OpeningBalance = () => {
                 <div className="sh-filter-search-box">
                     <i className="fa-solid fa-search"></i>Search
                 </div>
-               {/*  <!-- === FILTER RESET === --> */}
+              {/*   <!-- === FILTER RESET === --> */}
                 <div className="sh-filter-reset-box">
                     <i className="fa-solid fa-arrows-rotate"></i>Reset
                 </div>
             </div>
-           {/*  <!-- === LINE === --> */}
+            {/* <!-- === LINE === --> */}
             <div className="sh-line">
                 <hr/>
             </div>
 
-          {/*   <!-- === SHOW AND SEARCH CONTAINER === --> */}
+           {/*  <!-- === SHOW AND SEARCH CONTAINER === --> */}
             <div className="sh-show-and-search-container">
                 <div className="sh-show-container">
                     <p>Show</p>
@@ -58,7 +58,7 @@ const OpeningBalance = () => {
                     </select>
                     <p>Entries</p>
                 </div>
-                {/* <!-- === SEARCH === --> */}
+            {/*     <!-- === SEARCH === --> */}
                 <div className="sh-search-container">
                     <p>Search:</p>
                     <input type="search" placeholder="" name="" id=""/>
@@ -97,7 +97,7 @@ const OpeningBalance = () => {
                     </tbody>
                 </table>
             </div>
-           {/*  <!-- === SLIDE PAGES === --> */}
+         {/*    <!-- === SLIDE PAGES === --> */}
             <div className="sh-slider-pages">
                 <p>Showing 0 to 0 of 0 entries</p>
                 <div className="sh-slide-right-item">
@@ -108,7 +108,7 @@ const OpeningBalance = () => {
             </div>
         </div>
     </div>
-    {/* <!-- === ADD NEW OPENIGN BALANCE === -->
+  {/*   <!-- === ADD NEW OPENIGN BALANCE === -->
     <!-- ============================= --> */}
     <div className="sh-add-new-oneping-balance-section">
         <div className="sh-opening-balance-section">
@@ -155,9 +155,10 @@ const OpeningBalance = () => {
                 </tfoot>
             </table>
         </div>
-    </div>  
+    </div>
+   
         </>
     );
 };
 
-export default OpeningBalance;
+export default BalanceSheet;

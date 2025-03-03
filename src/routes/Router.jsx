@@ -41,6 +41,14 @@ import PurchaseReport from "../components/report/PurchaseReport";
 import LedgerReport from "../components/report/LedgerReport";
 import Vouchers from "../components/accounts/Vouchers"
 import PendingVouchers from "../components/accounts/PendingVouchers";
+import FinancialYear from "../components/accounts/FinancialYear";
+import OpeningBalance from "../components/accounts/OpeningBalance";
+import PredefineAccounts from "../components/accounts/PredefineAccounts";
+import SubAccounts from "../components/accounts/SubAccounts";
+import LedgerReports from "../components/accounts/LedgerReports";
+import FinanCialReports from "../components/accounts/FinanCialReports";
+import ChartofAccounts from "../components/accounts/ChartofAccounts";
+import BalanceSheet from "../components/accounts/BalanceSheet";
 
 const Router = createBrowserRouter([
     {
@@ -197,6 +205,11 @@ const Router = createBrowserRouter([
             path:'/LedgerReport-page',
             element: <LedgerReport/>,
          },
+
+
+
+         ///Accounts routing
+  
         {
             path:'/Vouchers-page',
             element: <Vouchers/>,
@@ -205,6 +218,44 @@ const Router = createBrowserRouter([
             path:'/PendingVouchers-page',
             element: <PendingVouchers/>,
          },
+        {
+            path:'/FinancialYear-page',
+            element: <FinancialYear/>,
+         },
+        {
+            path:'/OpeningBalance-page',
+            element: <OpeningBalance/>,
+         },
+        {
+            path:'/PredefineAccounts-page',
+            element: <PredefineAccounts/>,
+         },
+        {
+            path:'/PredefineAccounts-page',
+            element: <PredefineAccounts/>,
+         },
+        {
+            path:'/SubAccounts-page',
+            element: <SubAccounts/>,
+         },
+        {
+            path:'/LedgerReports-page',
+            element: <LedgerReports/>,
+         },
+        {
+            path:'/ChartofAccounts-page',
+            element: <ChartofAccounts/>,
+         },
+        {
+            path:'/FinanCialReports-page',
+            element: <FinanCialReports/>,
+         },
+        {
+            path:'/balanceSheet-page',
+            element: <BalanceSheet/>,
+         },
+         
+        
 
 
         ]

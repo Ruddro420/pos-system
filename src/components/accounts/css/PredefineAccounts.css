@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body {
+    background-color: var(--gray-white);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--gray-white);
+}
+
+:root {
+    --gray-white: #F0F1F2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --light-black: #212523;
+    --light-black-op: #21252350;
+    --main-green: #157343;
+    --main-light: #37A000;
+    --light-orange: #FD7E14;
+    --green: #008000;
+    --light-green: #e9f6ec;
+    --red: #FF0000;
+    --light-red: #fbeaec;
+    /* === FONTS SIZE FOR HEADING === */
+    --primary-head: 22px;
+    --secondary-head: 1.125rem;
+    --secondary: 1rem;
+    --primary-para: 0.825rem;
+}
+/* === PREDIFINE ACCOUNT SECTIONS === */
+.sh-predefine-account-section{
+    width: auto;
+    margin: 20px;
+    background-color: var(--white);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+/* === PREDEFINE TEXT === */
+.sh-predefine-text{
+    font-size: var(--secondary-head);
+    line-height: initial;
+    padding: 20px;
+}
+/* === PREDEFINE FROM SECTION === */
+.sh-predefine-form-section{
+    padding: 20px;
+}
+/* === PREDEFINE FOMR CONTAINER === */
+.sh-form-container{
+    gap: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sh-predefine-form{
+    width: 100%;
+    line-height: 2em;
+    margin-top: 10px;
+}
+.sh-predefine-form select{
+    width: 100%;
+    padding: 4px 8px;
+    font-size: var(--secondaryra);
+    border: 1px solid var(--light-black-op);
+    border-radius: 3px;
+}
+.sh-predefine-form select:focus{
+    outline: none;
+}
