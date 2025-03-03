@@ -1,5 +1,5 @@
-import "./css/SubcriptionPage.css";
-const SubcriptionPage = () => {
+import "./css/PricePlan.css";
+const PricePlan = () => {
   return (
     <>
       <div className="pricing-container">
@@ -205,4 +205,4 @@ const SubcriptionPage = () => {
   );
 };
 
-export default SubcriptionPage;
+export default PricePlan;

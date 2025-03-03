@@ -4,7 +4,7 @@ import Dashboard from "../components/Dashboard"
 import Login from "../components/LogIn";
 import BrandPage from "../components/BrandPage";
 import CategoryPage from "../components/CategoryPage"
-import SubcriptionPage from "../components/SubcriptionPage";
+import PricePlan from "../components/PricePlan";
 import Customer from "../components/Customer";
 import Ancus from "../components/Ancus";
 import OpeningStock from "../components/OpeningStock";
@@ -33,6 +33,13 @@ import ManageReceived from "../components/Purchase/ManageReceived";
 import DraftPurchase from "../components/Purchase/DraftPurchase";
 import Wastage from "../components/StockManagement/Wastage";
 
+
+
+import SalesReport from "../components/report/SalesReport"
+import StockReports from "../components/report/StockReports"
+import PurchaseReport from "../components/report/PurchaseReport";
+import LedgerReport from "../components/report/LedgerReport";
+
 const Router = createBrowserRouter([
     {
         path: '/',
@@ -52,8 +59,8 @@ const Router = createBrowserRouter([
                 element: <CategoryPage/>,
             },
             {
-                path: '/subcription-page',
-                element: <SubcriptionPage/>,
+                path: '/PricePlan-page',
+                element: <PricePlan/>,
             },
             {
                 path: '/customer-page',
@@ -169,6 +176,27 @@ const Router = createBrowserRouter([
             path:'/wastage-page',
             element: <Wastage/>,
          },
+
+
+        // report page route
+        {
+            path:'/SalesReport-page',
+            element: <SalesReport/>,
+         },
+        {
+            path:'/StockReport-page',
+            element: <StockReports/>,
+         },
+        {
+            path:'/PurchaseReport-page',
+            element: <PurchaseReport/>,
+         },
+        {
+            path:'/LedgerReport-page',
+            element: <LedgerReport/>,
+         },
+
+
         ]
     },
     {

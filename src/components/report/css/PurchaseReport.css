@@ -7,10 +7,10 @@
     font-family: "Poppins", serif;
 }
 
-/* body {
+body {
     background-color: var(--gray-white);
 }
- */
+
 ul {
     list-style-type: none;
 }
@@ -58,7 +58,6 @@ a {
     align-items: center;
     padding: 20px;
     border-radius: 5px;
-   
 }
 
 /* === HOME ICON === */
@@ -236,14 +235,6 @@ a {
     outline: none;
 }
 
-/* === SALE TYPE SELECT BOX === */
-.sale-type-select-box select {
-    padding: 5px 10px;
-    width: 150px;
-    font-size: 1rem;
-    color: gray;
-}
-
 /* === FIND BUTTON === */
 .sh-button-container {
     display: flex;
@@ -310,7 +301,7 @@ table {
 th,
 td {
     padding: 10px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--light-black-op);
 }
 
 table th {
