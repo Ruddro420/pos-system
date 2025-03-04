@@ -10,7 +10,7 @@ const MainLayout = () => {
             <div className="layout-container">
                 <div
                     className="layout-menu bg-menu-theme h-100 overflow-auto"
-                    style={{width: "250px", minWidth: "250px", maxWidth: "250px", zIndex: "15"}}
+                    style={{width: "250px", minWidth: "250px", maxWidth: "250px", zIndex}}
                 >
                     <Sidebar></Sidebar>
                 </div>
