@@ -137,6 +137,7 @@ const Dashboard = () => {
                 {/* <!-- === INVENTORY TEXT === --> */}
                 <div className="inventory-text">
                     <h1>Inventory Graph</h1>
+                    <hr/>
                 </div>
               {/*   <!-- === INVENTORY BOTTOM ITEMS === --> */}
                 <div className="inventory-bottom-item-container">

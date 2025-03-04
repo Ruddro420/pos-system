@@ -56,7 +56,6 @@ a {
 .dashboard-top-title h2 {
     font-size: 1.25rem;
     justify-content: flex-start;
-    margin-bottom: 0;
 }
 
 /* === DASHBOARD TOP TITLE RIGHT ITMES === */
@@ -140,14 +139,14 @@ a {
     box-shadow: 2px 3px 15px rgba(128, 128, 128, 0.338);
 }
 
-.seles-section + hr {
+.seles-section > hr {
     width: 100%;
-    color: var(--bs-gray)!important;
+    color: var(--bs-gray);
 }
 
 .seles-text {
-    height: 42px;
-    padding: 30px 20px 15px;
+    height: 70px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -156,7 +155,6 @@ a {
 .seles-text h1 {
     font-size: 0.90rem;
     color: var(--bs-gray-dark);
-    margin-bottom: 0;
 }
 
 /* === CALENDAR === */
@@ -209,15 +207,12 @@ a {
     justify-content: space-between;
 }
 
-.inventory-text > h1 {
-    width: 100%;
-    display: block;
+.inventory-text h1 {
     font-size: .95rem;
     padding: 20px;
-    margin-bottom: 0;
     color: var(--bs-gray-dark);
-    border-bottom: 2px solid var(--bs-gray)!important;
 }
+
 
 /* === INVENTORY BOTTOM ITEMS === */
 .inventory-bottom-item-container {

@@ -117,6 +117,7 @@ const Dashboard = () => {
                     <div className="sales-calendar">
                         <img src="/public/dashboard/calendar icon.svg" alt=""/>
                         <input type="date"/>
+                        <input type="date"/>
                     </div>
                 </div>
                 {/* <!-- === LINE === --> */}
@@ -137,6 +138,7 @@ const Dashboard = () => {
                 {/* <!-- === INVENTORY TEXT === --> */}
                 <div className="inventory-text">
                     <h1>Inventory Graph</h1>
+                    <hr/>
                 </div>
               {/*   <!-- === INVENTORY BOTTOM ITEMS === --> */}
                 <div className="inventory-bottom-item-container">
@@ -183,6 +185,7 @@ const Dashboard = () => {
                     <div className="sales-calendar">
                         <img src="/public/dashboard/calendar icon.svg" alt=""/>
                         <input type="date"/>
+                        <input type="date"/>
                     </div>
                 </div>
                 {/* <!-- === LINE === --> */}
@@ -224,8 +227,9 @@ const Dashboard = () => {
             <div className="financial-text">
                 <h1>Financial Graph</h1>
                {/*  <!-- === FINANCIAL CAlENDER SECTION === --> */}
-                <div className="financial-calendar-container">
+                <div className="afinncial-calendar-container">
                     <img src="/public/dashboard/calendar icon.svg" alt=""/>
+                    <input type="date"/>
                     <input type="date"/>
                 </div>
             </div>

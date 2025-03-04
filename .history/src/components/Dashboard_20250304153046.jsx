@@ -137,6 +137,7 @@ const Dashboard = () => {
                 {/* <!-- === INVENTORY TEXT === --> */}
                 <div className="inventory-text">
                     <h1>Inventory Graph</h1>
+                    <hr/>
                 </div>
               {/*   <!-- === INVENTORY BOTTOM ITEMS === --> */}
                 <div className="inventory-bottom-item-container">
@@ -224,7 +225,7 @@ const Dashboard = () => {
             <div className="financial-text">
                 <h1>Financial Graph</h1>
                {/*  <!-- === FINANCIAL CAlENDER SECTION === --> */}
-                <div className="financial-calendar-container">
+                <div className="finncial-calendar-container">
                     <img src="/public/dashboard/calendar icon.svg" alt=""/>
                     <input type="date"/>
                 </div>
