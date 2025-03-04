@@ -52,7 +52,7 @@ td {
     gap: 25px;
     height: 60px;
     padding-left: 15px;
-    margin: 20px 9.5px 30px 18px;
+    margin: 20px 20px 30px 26px;
     font-size: 1rem;
     border: 1px solid #F0F1F2;
     background-color: var(--white);
@@ -102,7 +102,7 @@ td {
 /* === QUOTATION LIST SECTION === */
 .sh-quo-quotation-list-section {
     position: sticky;
-    margin: -7.5px 10px 10px 19px;
+    margin: -7.5px 22px 10px 27.5px;
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
     background-color: var(--white);
 }

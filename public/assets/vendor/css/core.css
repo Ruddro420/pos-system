@@ -9996,7 +9996,7 @@ button.list-group-item-gray.active {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgb(55, 160, 0,) !important;
 }
 
 .text-secondary {
@@ -15108,7 +15108,7 @@ html:not(.layout-menu-fixed) .menu-inner-shadow {
 }
 .menu-vertical .menu-item .menu-link,
 .menu-vertical .menu-block {
-  padding: 0.625rem 1rem;
+  padding: 0.5rem 1rem;
 }
 .menu-vertical .menu-header {
   margin: 1rem 0 0.5rem 0;
@@ -15135,9 +15135,10 @@ html:not(.layout-menu-fixed) .menu-inner-shadow {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
 }
+/* TODO: SIDEBAR SUB MENU PADDING */
 .menu-vertical .menu-sub .menu-link {
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
+  /* padding-top: 0.625rem;
+  padding-bottom: 0.625rem; */
 }
 .menu-vertical .menu-icon {
   width: 1.5rem;

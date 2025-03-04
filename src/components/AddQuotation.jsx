@@ -39,10 +39,10 @@ const AddQuotation = () => {
                         <th>Product Name</th>
                         <th>Av. Qty.</th>
                         <th>Unit</th>
-                        <th>Warrenty (Month)</th>
+                        <th>Warranty (Month)</th>
                         <th>Qty.</th>
                         <th>Rate</th>
-                        <th>Discoount %</th>
+                        <th>Discount %</th>
                         <th>Vat %</th>
                         <th>Total</th>
                         <th>Action</th>
