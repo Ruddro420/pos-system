@@ -51,7 +51,7 @@ const Sidebar = () => {
         <div className="app-brand demo">
           <NavLink to='/' className="app-brand-link">
             <span className="app-brand-logo demo py-3">
-            <img width="180px" src="https://skylawnhotel.com/wp-content/uploads/2024/06/logo-sky-1.jpg" alt="" srcSet="" />
+            <img width="180px" src="https://retailer-pos-bucket.s3.ap-south-1.amazonaws.com/application/uid_308_bi7CQqlVf_22/1722743017612.svg" alt="" srcSet="" />
             </span>
           </NavLink>
   
@@ -63,7 +63,7 @@ const Sidebar = () => {
         <div className="menu-inner-shadow"></div>
 
         <ul className="menu-inner py-1">
-
+          
           <li className="menu-item">
             <NavLink to='/' className={({ isActive }) => {
               return isActive ? "menu-link active-link bg-body " : "menu-link";
