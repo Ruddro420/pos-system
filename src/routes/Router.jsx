@@ -49,6 +49,11 @@ import LedgerReports from "../components/accounts/LedgerReports";
 import FinanCialReports from "../components/accounts/FinanCialReports";
 import ChartofAccounts from "../components/accounts/ChartofAccounts";
 import BalanceSheet from "../components/accounts/BalanceSheet";
+import ProfilLoss from "../components/accounts/ProfilLoss";
+import TrialBalance from "../components/accounts/TrialBalance";
+import GeneralLedger from "../components/accounts/GeneralLedger";
+import BankBook from "../components/accounts/BankBook";
+import AddProduct from "../components/product/AddProduct";
 
 const Router = createBrowserRouter([
     {
@@ -186,6 +191,12 @@ const Router = createBrowserRouter([
             path:'/wastage-page',
             element: <Wastage/>,
          },
+         //product 
+         {
+            path:'/AddProduct-page',
+            element: <AddProduct/>,
+         },
+
 
 
         // report page route
@@ -254,8 +265,26 @@ const Router = createBrowserRouter([
             path:'/balanceSheet-page',
             element: <BalanceSheet/>,
          },
+        {
+            path:'/ProfilLoss-page',
+            element: <ProfilLoss/>,
+         },
+        {
+            path:'/TrialBalance-page',
+            element: <TrialBalance/>,
+         },
+        {
+            path:'/GeneralLedger-page',
+            element: <GeneralLedger/>,
+         },
+        {
+            path:'/BankBook-page',
+            element: <BankBook/>,
+         },
          
         
+
+
 
 
         ]

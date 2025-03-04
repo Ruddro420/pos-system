@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+/* body {
+    background-color: var(--gray-white);
+} */
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --gray-white: #F0F1F2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --light-black: #212523;
+    --light-black-op: #21252350;
+    --main-green: #157343;
+    --main-light: #37A000;
+    --light-orange: #FD7E14;
+    --green: #008000;
+    --light-green: #e9f6ec;
+    --red: #FF0000;
+    --light-red: #fbeaec;
+    /* === FONTS SIZE FOR HEADING === */
+    --primary-head: 22px;
+    --secondary-head: 1.125rem;
+    --secondary: 1rem;
+    --primary-para: 0.825rem;
+}
+
+
+.sh-parent{
+    width: 100%;
+    padding: 20px;
+}
+/* === TOP MENU ITEMS === */
+.sh-top-menu-items {
+    border-radius: 5px;
+    background-color: var(--white);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
+    padding: 10px 0px 10px 10px;
+    position: sticky;
+}
+
+.sh-top-menu-items ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sh-top-menu-items li {
+    height: 50px;
+}
+
+.sh-top-menu-items a {
+    height: 100%;
+    padding: 0px 20px;
+    color: var(--black);
+    font-size: var(--secondary);
+    display: flex;
+    align-items: center;
+}
+
+.sh-menu-items a:hover {
+    color: var(--red);
+}
+
+/* === ACTIVE MENU === */
+.sh-active-item a {
+    background-color: var(--main-green);
+    color: var(--white);
+    border-radius: 5px;
+}
+.sh-ledger-box{
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.sh-ledger-box input{
+    margin-right: 5px;
+}
+.sh-ledger-box label{
+    margin-right: 10px;
+}
+/* === FIND SECTION === */
+.sh-find-section{
+    height: 100px;
+    padding: 20px;
+    gap: 30px;
+    background-color: var(--white);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+.sh-voucher-input{
+    width: 20%;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.sh-voucher-input select{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid var(--light-black-op);
+    border-radius: 3px;
+}
+.sh-voucher-input select:focus{
+    outline: none;
+}
+.sh-voucher-input input{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid var(--light-black-op);
+    border-radius: 3px;
+}
+.sh-voucher-input input:focus{
+    outline: none;
+}
+/* === FIND AND RESET === */
+.sh-find-reset-container{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.sh-find-btn button{
+    padding: 7px 15px;
+    color: var(--white);
+    background-color: var(--green);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+.sh-find-btn button:hover{
+    background-color: var(--main-green);
+}
+.sh-reset-btn button{
+    padding: 7px 15px;
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+.sh-reset-btn button:hover{
+    background-color: darkred;
+}
+.sh-excel-btn button{
+    padding: 7px 15px;
+    color: var(--white);
+    background-color: blue;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+.sh-excel-btn button:hover{
+    background-color: darkblue;
+}
+
+/* === MANAGE SALE DETAILS SECTION === */
+.manage-sale-details-section{
+    width: 100%;
+    padding: 20px;
+}
