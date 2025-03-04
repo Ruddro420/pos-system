@@ -22,10 +22,10 @@
     --lt-sky: #ACD6DD;
     
 }
-body {
+/* body {
     background-color: var(--gray-white);
     margin: 20px;
-}
+} */
         /* ==navbar== */
         /* header */
         .table-header{
