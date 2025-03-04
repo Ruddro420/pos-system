@@ -8,15 +8,15 @@
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
-    --light-orange: #FD7E14;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-light: #37A000;
+    --lt-orange: #FD7E14;
     --green: #008000;
-    /* --light-green: #e9f6ec; */
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
 }
 
 /* ---------- */
@@ -80,7 +80,7 @@
 
 .active-menu {
     color: var(--white)!important;
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 8px 12px;
     border-radius: 5px;
 }
@@ -88,7 +88,7 @@
 /* -- menu hover style -- */
 
 .light-up:hover {
-    color: var(--light-orange);
+    color: var(--lt-orange);
 }
 
 /* -- list container style -- */
@@ -109,7 +109,7 @@
 }
 
 .heading h2 {
-    color: var(--light-black);
+    color: var(--lt-black);
     font-size: 25px;
     font-weight: 500;
     margin-top: 20px;
@@ -125,7 +125,7 @@
 }
 
 .add-new-btn {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -159,14 +159,14 @@
 }
 
 .list-short-dpdwn h3 {
-    color: var(--light-black);
+    color: var(--lt-black);
     font-size: 15px;
     font-weight: 500;
     margin-top: 16px;
 }
 
 .list-short-dpdwn select {
-    color: var(--light-black);
+    color: var(--lt-black);
     appearance: none;
     height: 35px;
     width: 36px;
@@ -184,7 +184,7 @@
 }
 
 .search-box legend {
-    color: var(--light-black);
+    color: var(--lt-black);
     font-size: 16px;
 }
 
@@ -235,18 +235,18 @@ tbody tr:hover {
 
 /* status style */
 
-.active {
+.s-active {
     color: var(--green);
-    background-color: var(--light-green);
+    background-color: var(--lt-green);
     font-size: 12px;
     font-weight: 500;
     padding: 2.5px 7.5px;
     border-radius: 5px;
 }
 
-.inactive {
+.s-inactive {
     color: var(--red);
-    background-color: var(--light-red);
+    background-color: var(--lt-red);
     font-size: 12px;
     font-weight: 500;
     padding: 2.5px 7.5px;
@@ -257,7 +257,7 @@ tbody tr:hover {
 
 .edit-icon {
     color: var(--green);
-    background-color: var(--light-green);
+    background-color: var(--lt-green);
     padding: 7px 7px;
     margin-right: 2.5px;
     border: 1px solid var(--green);
@@ -266,12 +266,12 @@ tbody tr:hover {
 }
 
 .edit-icon:hover {
-    background-color: var(--light-black-op);
+    background-color: var(--lt-black-op);
 }
 
 .delete-icon {
     color: var(--red);
-    background-color: var(--light-red);
+    background-color: var(--lt-red);
     padding: 7px 7px;
     margin-left: 2.5px;
     border: 1px solid var(--red);
@@ -280,7 +280,7 @@ tbody tr:hover {
 }
 
 .delete-icon:hover {
-    background-color: var(--light-black-op);
+    background-color: var(--lt-black-op);
 }
 
 /* -- entries-details-list-page-btn style -- */
@@ -304,7 +304,7 @@ tbody tr:hover {
 }
 
 .list-page-btn button {
-    color: var(--light-black);
+    color: var(--lt-black);
     background-color: var(--gray-white);
     padding: 8px 14px;
     border: none;
@@ -318,7 +318,7 @@ tbody tr:hover {
 
 .list-page-btn h4 span {
     color: var(--white);
-    background-color: var(--main-light);
+    background-color: var(--m-light);
     font-size: 15px;
     font-weight: 400;
     padding: 9px 13px!important;

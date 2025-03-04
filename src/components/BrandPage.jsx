@@ -62,7 +62,7 @@ const BrandPage = () => {
                     <td>101</td>
                     <td>Apex</td>
                     <td>
-                      <span className="active">Active</span>
+                      <span className="s-active">Active</span>
                     </td>
                     <td>
                       <a title="Edit" href="#">
@@ -78,7 +78,7 @@ const BrandPage = () => {
                     <td>102</td>
                     <td>Bata</td>
                     <td>
-                      <span className="inactive">Inactive</span>
+                      <span className="s-inactive">Inactive</span>
                     </td>
                     <td>
                       <a title="Edit" href="#">

@@ -51,7 +51,7 @@ const Sidebar = () => {
         <div className="app-brand demo">
           <NavLink to='/' className="app-brand-link">
             <span className="app-brand-logo demo py-3">
-            <img width="180px" src="https://retailer-pos-bucket.s3.ap-south-1.amazonaws.com/application/uid_308_bi7CQqlVf_22/1722743017612.svg" alt="" srcSet="" />
+            <img width="230px" src="https://retailer-pos-bucket.s3.ap-south-1.amazonaws.com/application/uid_308_bi7CQqlVf_22/1722743017612.svg" alt="" srcSet="" />
             </span>
           </NavLink>
   

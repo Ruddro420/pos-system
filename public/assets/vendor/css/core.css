@@ -15104,7 +15104,7 @@ html:not(.layout-menu-fixed) .menu-inner-shadow {
   margin: 0.2rem 0;
 }
 .menu-vertical .menu-inner > .menu-item .menu-link {
-  margin: 0rem 1rem;
+  margin: 0rem 1rem 0rem 0.8rem;
 }
 .menu-vertical .menu-item .menu-link,
 .menu-vertical .menu-block {
@@ -15697,8 +15697,9 @@ html:not(.layout-footer-fixed) .content-wrapper {
 }
 
 .menu-vertical .app-brand {
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 0.625rem;
+  padding-left: 0.875rem;
+  background-color: #e9f6ec;
 }
 
 .menu-horizontal .app-brand,
