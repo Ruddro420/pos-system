@@ -53,7 +53,12 @@ import ProfilLoss from "../components/accounts/ProfilLoss";
 import TrialBalance from "../components/accounts/TrialBalance";
 import GeneralLedger from "../components/accounts/GeneralLedger";
 import BankBook from "../components/accounts/BankBook";
-import AddProduct from "../components/product/AddProduct";
+import ManageOutlet from "../components/product/ManageOutlet";
+import PrintBarcodeLabels from "../components/product/PrintBarcodeLabels";
+import AddNewOutlet from "../components/product/AddNewOutlet";
+import NewTransfer from "../components/product/NewTransfer";
+import TransferList from "../components/product/TransferList";
+import TransferRequestList from "../components/product/TransferRequestList";
 
 const Router = createBrowserRouter([
     {
@@ -65,14 +70,8 @@ const Router = createBrowserRouter([
                 path: '/',
                 element: <Dashboard />,
             },
-            {
-                path: '/brand-page',
-                element: <BrandPage/>,
-            },
-            {
-                path: '/category-page',
-                element: <CategoryPage/>,
-            },
+           
+            
             {
                 path: '/PricePlan-page',
                 element: <PricePlan/>,
@@ -193,11 +192,38 @@ const Router = createBrowserRouter([
          },
          //product 
          {
-            path:'/AddProduct-page',
-            element: <AddProduct/>,
+            path:'/ManageOutlet-page',
+            element: <ManageOutlet/>,
          },
+         {
+            path: '/brand-page',
+            element: <BrandPage/>,
+        },
+        {
+            path: '/category-page',
+            element: <CategoryPage/>,
+        },
+        {
+            path: '/PrintBarcodeLabels-page',
+            element: <PrintBarcodeLabels/>,
+        },
+        {
+            path: '/AddNewOutlet-page',
+            element: <AddNewOutlet/>,
+        },
 
-
+        {
+            path:'/NewTransfer-page',
+            element: <NewTransfer/>,
+         },
+        {
+            path:'/TransferList-page',
+            element: <TransferList/>,
+         },
+        {
+            path:'/TransferRequestList-page',
+            element: <TransferRequestList/>,
+         },
 
         // report page route
         {
@@ -216,6 +242,7 @@ const Router = createBrowserRouter([
             path:'/LedgerReport-page',
             element: <LedgerReport/>,
          },
+       
 
 
 

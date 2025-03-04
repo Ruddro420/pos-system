@@ -200,6 +200,11 @@ const Sidebar = () => {
             </ul>
           </li>
 
+
+
+
+
+       {/*    product  */}
           <li className={`menu-item ${productOpen ? "open" : ""}`}>
             <NavLink to='#' onClick={handleToggleProduct} className="menu-link menu-toggle">
               <i className="menu-icon tf-icons bx bxs-offer"></i>
@@ -208,64 +213,59 @@ const Sidebar = () => {
 
             <ul className="menu-sub">
               <li className="menu-item">
-                <NavLink to='/AddProduct-page' className={({ isActive }) => {
+                <NavLink to='/ManageOutlet-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Add Product</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Product List</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Print Barcode/Label</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/category-page' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Upcoming Expiry Product</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/category-page' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Expired Product</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='/category-page' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Category Add/List</div>
+                  <div data-i18n="Without menu">Manage Outlet</div>
                 </NavLink>
               </li>
               <li className="menu-item">
                 <NavLink to='/brand-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Brand Add/List</div>
+                  <div data-i18n="Without menu">Brand List</div>
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
+                <NavLink to='/category-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Supplier Add/List</div>
+                  <div data-i18n="Without menu">Category List</div>
                 </NavLink>
               </li>
+              <li className="menu-item">
+                <NavLink to='/category-page' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Unit of Measurement</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/category-page' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Manage Product</div>
+                </NavLink>
+              </li>
+              <li className="menu-item">
+                <NavLink to='/PrintBarcodeLabels-page' className={({ isActive }) => {
+                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
+                }}>
+                  <div data-i18n="Without menu">Print Barcode Labels</div>
+                </NavLink>
+              </li>
+           
             </ul>
           </li>
-         
+
+          {/* product end */}
+
+
+
+
+
+
+
           <li className={`menu-item ${reportOpen ? "open" : ""}`}>
             <NavLink to='#' onClick={handleToggleReport} className="menu-link menu-toggle">
               <i className="menu-icon tf-icons bx bxs-report"></i>
