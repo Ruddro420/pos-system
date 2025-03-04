@@ -73,24 +73,7 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(67, 89, 113, 0);
-}
-
-aside {
-  overflow-x: hidden;
-  overflow-y: scroll;
-  /* z-index: 15!important; */
-}
-
-aside::-webkit-scrollbar-track {
-  border-radius: 10px;
-  background-color: #d9dee3;
-}
-
-aside::-webkit-scrollbar {
-  width: 5px;
-  background-color: #d9dee3;
+  -webkit-text-size-adju5
 }
 
 aside::-webkit-scrollbar-thumb {

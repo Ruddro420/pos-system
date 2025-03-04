@@ -35,7 +35,7 @@ td {
     --lt-black-op: #21252350;
     --m-green: #157343;
     --m-light: #37A000;
-    --lit-orange: #FD7E14;
+    --lt-orange: #FD7E14;
     --green: #008000;
     --lt-green: #e9f6ec;
     --red: #FF0000;
@@ -69,7 +69,7 @@ td {
 }
 
 .sh-quo-top-section a:hover {
-    color: var(--lit-orange)!important;
+    color: var(--lt-orange)!impo;
 }
 
 .sh-quo-quotation-list a {

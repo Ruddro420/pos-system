@@ -80,7 +80,7 @@ body {
 aside {
   overflow-x: hidden;
   overflow-y: scroll;
-  /* z-index: 15!important; */
+  z-index: 15;
 }
 
 aside::-webkit-scrollbar-track {
