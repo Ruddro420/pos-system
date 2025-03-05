@@ -89,7 +89,7 @@ const PricePlan = () => {
                         <div className="pricing-cart-header">
                             <img src="/public/SubcriptionImg/briefcase.png" alt="starter plan"/>
                                 <h3>Starter</h3>
-                                <div className="pricing">
+                              <div className="pricing">
                                     <span className="money-sign">৳</span>
                                     <h2>2499</h2>
                                     <span className="package-v">/mo</span>

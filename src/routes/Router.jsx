@@ -32,6 +32,7 @@ import ManagePurchase from "../components/Purchase/ManagePurchase";
 import ManageReceived from "../components/Purchase/ManageReceived";
 import DraftPurchase from "../components/Purchase/DraftPurchase";
 import Wastage from "../components/StockManagement/Wastage";
+import MySubscription from "../components/MySubscription";
 
 
 
@@ -189,6 +190,10 @@ const Router = createBrowserRouter([
          {
             path:'/wastage-page',
             element: <Wastage/>,
+         },
+         {
+            path:'/MySubscription-page',
+            element: <MySubscription/>,
          },
          //product 
          {

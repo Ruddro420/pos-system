@@ -468,7 +468,7 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/subcription-page' className={({ isActive }) => {
+                <NavLink to='/MySubscription-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">My Subscription</div>
