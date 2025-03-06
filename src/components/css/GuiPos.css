@@ -73,6 +73,24 @@ a {
     border: 1px solid #dcdfe3;
 }
 
+@media (max-width: 1536px) {
+    .sh-search-box input {
+        width: 300px;
+    }
+    .top-navbar-items {
+        gap: 80px;
+    }
+    .sh-search-customer-box input {
+        width: 400px!important;
+    }
+    .sh-more-vert-icon {
+        margin-right: -10px!important;
+    }
+    .sh-all-category {
+        width: 115px!important;
+    }
+}
+
 /* === SCANER ICON === */
 .sh-scaner-icon {
     margin-left: 10px;
@@ -209,10 +227,9 @@ a {
     }
 
     .sh-search-customer-box input {
-        width: 349px;
+        width: 349px!important;
     }
 }
-
 
 /* === PRODUCT SECTIONS === */
 section {
@@ -228,6 +245,18 @@ section {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 1536px) {
+    .product-container {
+        gap: 85px;
+    }
+    .image-section {
+        grid-template-columns: 125px 125px 125px 125px 125px!important;
+        column-gap: 20px!important;
+        row-gap: 20px!important;
+        margin-left: 12.5px;
+    }
 }
 
 .image-section {
@@ -249,13 +278,22 @@ section {
     align-items: center;
     justify-content: center;
     background-color: white;
+    text-align: center;
 }
 
 /* === PRODUCT DETAILS SECTIONS === */
-/* .product-details-section{
-
-} */
 /* === NAME BOX SECTION === */
+
+@media (max-width: 1536px) {
+    .sh-product-text p {
+        width: 223px!important;
+        margin-left: 5px!important;
+    }
+    .sh-qty p {
+        width: 95px;
+    }
+}
+
 .sh-name-box-section {
     display: flex;
     align-items: center;
@@ -424,6 +462,80 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 1536px) {
+    .button-container {
+        gap: 7.5px!important;
+        margin-right: -10px!important;
+    }
+    .button-container {
+        gap: 10px;
+    }
+    .button-one {
+        width: 160px!important;
+        height: 45px!important;
+        gap: 5px!important;
+    }
+    .button-one a {
+        font-size: 0.8rem!important;
+    }
+    .button-two {
+        width: 160px!important;
+        height: 45px!important;
+        gap: 5px!important;
+    }
+    .button-two a {
+        font-size: 0.8rem!important;
+    }
+    .button-three {
+        width: 160px!important;
+        height: 45px!important;
+        gap: 5px!important;
+    }
+    .button-three a {
+        font-size: 0.8rem!important;
+    }
+    .button-four {
+        width: 160px!important;
+        height: 45px!important;
+        gap: 5px!important;
+    }
+    .button-four a {
+        font-size: 0.8rem!important;
+    }
+    .button-five {
+        width: 160px!important;
+        height: 45px!important;
+        gap: 5px!important;
+    }
+    .button-five a {
+        font-size: 0.8rem!important;
+    }
+    .button-six {
+        width: 160px!important;
+        height: 45px!important;
+        gap: 5px!important;
+    }
+    .button-six a {
+        font-size: 0.8rem!important;
+    }
+    .button-seven {
+        width: 160px!important;
+        height: 45px!important;
+        gap: 5px!important;
+    }
+    .button-seven a {
+        font-size: 0.8rem!important;
+    }
+    .button-eight {
+        width: 160px!important;
+        height: 45px!important;
+        gap: 5px!important;
+    }
+    .button-eight a {
+        font-size: 0.8rem!important;
+    }
 }
 
 /* === BUTTON ONE === */

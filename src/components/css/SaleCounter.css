@@ -7,19 +7,12 @@
     font-family: "Poppins", serif;
 }
 
-body {
-    background-color: var(--gray-black);
-}
-
 ul {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
-}
-body{
-    background-color: var(--gray-white);
 }
 :root {
     --gray-white: #F0F1F2;
@@ -59,6 +52,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid var(--gray-black);
 }
 .sh-sale-counter-top-items p{
     font-size: var(--secondary-head);
@@ -142,22 +136,22 @@ table tr:hover{
     background-color: #ddd;
 }
 /* ==== EDIT CONTAINER === */
-.editabe-container {
+.editable-container {
     gap: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 /* === DELETE ICON === */
-.delete-icon i {
-    padding: 5px;
-    border-radius: 2px;
+.editable-container > div > a > .delete-icon {
+    padding: 8px!important;
+    border-radius: 3px;
     color: var(--red);
     border: 1px solid var(--red);
     background-color: var(--light-red);
 }
 
-.delete-icon i:hover {
+.editable-container > div > a > .delete-icon:hover {
     color: var(--white);
     background-color: var(--red);
 }

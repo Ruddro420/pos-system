@@ -8,7 +8,7 @@ const SaleCounter = () => {
            {/*  <!-- === SALE COUNTER TOP ITEMS === --> */}
             <div className="sh-sale-counter-top-items">
                 <p>Sale Counter</p>
-                <a href="#"><i className="fa-solid fa-plus"></i>Add Counter</a>
+                <a href="#"><i className="fa-solid fa-plus"></i> Add Counter</a>
             </div>
           
             {/* <!-- === SHOW AND SEARCH CONTAINER === --> */}
@@ -51,10 +51,10 @@ const SaleCounter = () => {
                             <td>01</td>
                             <td>01</td>
                             <td>
-                                <div className="editabe-container">
+                                <div className="editable-container">
                                    {/*  <!-- === DELETE ICON === --> */}
-                                    <div className="delete-icon">
-                                        <a href="#"><i className="fa-regular fa-trash-can"></i></a>
+                                    <div>
+                                        <a href="#"><i className="delete-icon fa-regular fa-trash-can"></i></a>
                                     </div>
                                 </div>
                             </td>
@@ -65,10 +65,10 @@ const SaleCounter = () => {
                             <td>02</td>
                             <td>02</td>
                             <td>
-                                <div className="editabe-container">
+                                <div className="editable-container">
                                   {/*   <!-- === DELETE ICON === --> */}
-                                    <div className="delete-icon">
-                                        <a href="#"><i className="fa-regular fa-trash-can"></i></a>
+                                    <div>
+                                        <a href="#"><i className="delete-icon fa-regular fa-trash-can"></i></a>
                                     </div>
                                 </div>
                             </td>
@@ -79,10 +79,10 @@ const SaleCounter = () => {
                             <td>03</td>
                             <td>03</td>
                             <td>
-                                <div className="editabe-container">
+                                <div className="editable-container">
                                    {/*  <!-- === DELETE ICON === --> */}
-                                    <div className="delete-icon">
-                                        <a href="#"><i className="fa-regular fa-trash-can"></i></a>
+                                    <div>
+                                        <a href="#"><i className="delete-icon fa-regular fa-trash-can"></i></a>
                                     </div>
                                 </div>
                             </td>
@@ -93,10 +93,10 @@ const SaleCounter = () => {
                             <td>04</td>
                             <td>04</td>
                             <td>
-                                <div className="editabe-container">
+                                <div className="editable-container">
                                    {/*  <!-- === DELETE ICON === --> */}
-                                    <div className="delete-icon">
-                                        <a href="#"><i className="fa-regular fa-trash-can"></i></a>
+                                    <div>
+                                        <a href="#"><i className="delete-icon fa-regular fa-trash-can"></i></a>
                                     </div>
                                 </div>
                             </td>
@@ -107,10 +107,10 @@ const SaleCounter = () => {
                             <td>05</td>
                             <td>05</td>
                             <td>
-                                <div className="editabe-container">
+                                <div className="editable-container">
                                    {/*  <!-- === DELETE ICON === --> */}
-                                    <div className="delete-icon">
-                                        <a href="#"><i className="fa-regular fa-trash-can"></i></a>
+                                    <div>
+                                        <a href="#"><i className="delete-icon fa-regular fa-trash-can"></i></a>
                                     </div>
                                 </div>
                             </td>

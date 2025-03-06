@@ -1,5 +1,4 @@
-
-
+import './css/ManagePayment.css'
 const ManagePayment = () => {
     return (
         <>

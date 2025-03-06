@@ -55,7 +55,6 @@ body{
 /* === DRAFT SALE SECITON === */
 .sh-draft-sale-section{
     width: 100%;
-
 }
 /* === DRAFT SALE TOP ITEMV === */
 .sh-draft-sale-top-item{
@@ -96,6 +95,7 @@ body{
     display: flex;
     align-items: center;
     align-items: flex-end;
+    border-bottom: 1px solid var(--gray-black)!important;
 }
 /* === SH DRAFT CONTAINER === */
 .sh-draft-container{
@@ -122,6 +122,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 13.5px;
 }
 /* === FILTER RESET === */
 .sh-filter-reset-box{
@@ -134,6 +135,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 13.5px;
 }
 .sh-line{
     padding-right: 20px;

@@ -1,4 +1,4 @@
-
+import '../components/css/ManageDraftSale.css'
 const ManageDraftSale = () => {
     return (
         <>
@@ -24,7 +24,7 @@ const ManageDraftSale = () => {
           
           {/*   <!-- === FILTER DROPDOWN SECTION === --> */}
             <div className="sh-filter-drop-down-section">
-                <div className="sh-draft-container">
+                <div className="sh-draft-container" style={{marginBottom:"10px"}}>
                     <p>Draft No</p>
                     <input type="number" placeholder="Sale No." value="" name="" id="" autoComplete="off"/>
                 </div>

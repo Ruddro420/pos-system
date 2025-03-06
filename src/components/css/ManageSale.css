@@ -155,6 +155,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid var(--gray-black);
 }
 
 .manage-container p {
@@ -168,12 +169,11 @@ a {
     align-items: center;
 }
 
-.filter-container {
-    gap: 10px;
+.filter-container-items {
     color: var(--white);
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: var(--main-green);
+    /* background-color: var(--main-green); */
     display: flex;
     align-items: center;
 }
@@ -200,7 +200,7 @@ a {
 .filter-container-items {
     height: 70px;
     padding: 10px 30px;
-    gap: 40px;
+    gap: 10px!important;
     display: flex;
     align-items: center;
 }
@@ -230,6 +230,8 @@ a {
 .sale-date-input-box input {
     padding: 5px 10px;
     font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 5px!important;
 }
 
 .sale-date-input-box input:focus {
@@ -274,6 +276,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-top: 1px solid var(--gray-black);
+    border-bottom: 1px solid var(--gray-black);
 }
 
 /* === SHOW CONTAINER === */
@@ -283,16 +287,18 @@ a {
 }
 
 /* === SEARCH CONTAINER === */
-.search-container input {
+.search-container > label {
+    margin-right: 10px;
+}
+.search-container > input {
     width: 250px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--gray-black);
     border-radius: 3px;
     padding: 4px 8px;
 }
 
-.search-container input:focus {
-    outline: 1px solid #2B51B0;
-    border: none;
+.search-container > input:focus {
+    outline: none;
 }
 
 /* === MANAGE SALE DETAILS SECTION === */

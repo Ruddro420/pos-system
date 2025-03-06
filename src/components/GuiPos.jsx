@@ -398,7 +398,7 @@ const GuiPos = () => {
           </div>
           {/*   === BUTTON SEVEN === */}
           <div className="button-seven">
-            <img src="img/download (3).svg" alt="" />
+            <img src="/public/guiPos/download (3).svg" alt="" />
             <a href="#">Deu</a>
           </div>
           {/*  === BUTTON EIGHT === */}

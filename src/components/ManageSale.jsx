@@ -120,7 +120,7 @@ const ManageSale = () => {
             </div>
             {/* <!-- === SEARCH CONTAINER === --> */}
             <div className="search-container">
-                <label htmlFor="text">Search:</label>
+                <label htmlFor="text">Search: </label>
                 <input type="search"/>
             </div>
         </div>

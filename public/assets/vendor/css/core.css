@@ -15698,8 +15698,9 @@ html:not(.layout-footer-fixed) .content-wrapper {
 }
 
 .menu-vertical .app-brand {
-  padding-right: 0.625rem;
-  padding-left: 0.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #e9f6ec;
 }
 

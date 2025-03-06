@@ -7,10 +7,6 @@
     font-family: "Poppins", serif;
 }
 
-body {
-    background-color: var(--gray-white);
-}
-
 ul {
     list-style-type: none;
 }
@@ -18,9 +14,7 @@ ul {
 a {
     text-decoration: none;
 }
-body{
-    background-color: var(--gray-white);
-}
+
 :root {
     --gray-white: #F0F1F2;
     --white: #FFFFFF;
@@ -41,62 +35,125 @@ body{
     --secondary: 1rem;
     --primary-para: 0.825rem;
 }
-/* === PARENT SECTION === */
-.sh-parent-section{
+
+
+/* -- container style -- */
+
+.cba-sare-container {
     width: 100%;
-    padding: 20px;
+    padding: 30px;
 }
-/* === CHILD SECTION === */
-.sh-child-section{
-    border-radius: 5px;
-    width: 100%;
+
+/* -- top menus style */
+
+.cba-sare-top-menus {
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
-}
-/* === SALE RETURN TOP ITEMS === */
-.sh-sale-return-top-items{
-    height: 60px;
-    gap: 0px 30px;
-    padding-left: 20px;
+    padding: 20px 20px 5px 0px;
     display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.cba-sare-top-menus > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    margin-left: -15px;
+}
+
+.cba-sare-top-menus > ul > li {
+    margin-top: 5px;
+}
+
+.cba-sare-top-menus > ul > li > a.cba-sare-active-menu {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--main-green);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.cba-sare-top-menus > ul > li > a.cba-sare-light-up {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.cba-sare-top-menus > ul > li > a.cba-sare-light-up:hover {
+    color: var(--light-orange);
+}
+
+/* inner container */
+
+.cba-sare-input-area-con {
+    padding: 30px 20px 20px 20px;
+    background-color: var(--white);
+    border-radius: 5px;
+}
+
+.cba-sare-input-area-con > .cba-sare-iac-heading  {
+    border-bottom: 1px solid var(--gray-black);
+}
+
+.cba-sare-input-area-con > .cba-sare-iac-heading > h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--light-black);
+}
+
+.cba-sare-input-area-con > .cba-sare-iac-input-area {
+    padding-top: 20px;
+    display: flex;
+    gap: 25px;
+    justify-content: left;
     align-items: center;
 }
-.sh-active a{
-    color: var(--white);
+
+.cba-sare-input-area-con > .cba-sare-iac-input-area > .cba-sare-iac-lain {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
-.sh-active{
-    background-color: var(--main-green);
+
+.cba-sare-input-area-con > .cba-sare-iac-input-area > .cba-sare-iac-lain > label {
+    color: var(--light-black);
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-bottom: 5px!important;
+}
+
+.cba-sare-input-area-con > .cba-sare-iac-input-area > .cba-sare-iac-lain > input {
+    width: 100%;
+    padding: 7px 10px 5px 10px;
+    border: 1px solid var(--gray-black);
     border-radius: 5px;
-    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+    color: var(--light-black);
+    text-align: left;
 }
-.sh-list a{
-    color: var(--black);
-}
-.sh-list a:hover{
+
+.cba-sare-input-area-con > .cba-sare-iac-input-area > .cba-sare-iac-lain > label > span.required {
     color: var(--red);
 }
-/* === SALE NUMBER CONTAINER === */
-.sh-sale-number-container{
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    padding: 20px;
-}
-.sh-sale-number-container p{
-    font-size: var(--secondary);
-}
-.sh-sale-number-container input{
-    padding: 5px 10px;
-    font-size: var(--secondary);
-    border: 1px solid var(--light-black-op);
-}
-.sh-sale-number-container input:focus{
-    outline: none;
-}
-.sh-sale-number-container a{
-    background-color: var(--main-green);
+
+.cba-sare-input-area-con > .cba-sare-iac-input-area > .cba-sare-iac-subbtn {
     color: var(--white);
-    font-size: var(--secondary);
-    padding: 5px 10px;
+    background-color: var(--main-green);
+    padding: 1px 5px 1px 5px!important;
     border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
 }

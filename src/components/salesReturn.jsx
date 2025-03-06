@@ -1,29 +1,31 @@
-import './css/salesReturn.css'
+import '../components/css/saleReturn.css'
 const salesReturn = () => {
     return (
         <>
-         {/*  <!-- === PARENT SECTION === --> */}
-    <div className="sh-parent-section">
-       {/*  <!-- === CHILD SECTION === --> */}
-         <div className="sh-child-section">
-           {/*  <!-- === SALE RETURN TOP ITEMS === --> */}
-             <div className="sh-sale-return-top-items">
-                <div className="sh-active">
-                    <a href="#">Sale Return</a>
-                </div>
-                <div className="sh-list">
-                    <a href="/stockReport-page">Return List</a>
-                </div>
-             </div>
-            
-            {/*  <!-- === SALE NUMBER CONTAINER === --> */}
-              <div className="sh-sale-number-container">
-                <p>Sale No.</p>
-                <input type="number" placeholder="Enter Sale No." value="" name="" id=""/>
-                <a href="#">Search</a>
+          <div className="cba-sare-container">
+            {/* <!-- top menus --> */}
+            <div className="cba-sare-top-menus">
+              <ul>
+                <li><a href="/salesReturn-page" className='cba-sare-active-menu'>Sales Return</a></li>
+                <li><a href="/SelsReturnList-page" className='cba-sare-light-up'>Sales Return List</a></li>
+              </ul>
+            </div>
+            {/* <!-- input area --> */}
+            <div className="cba-sare-input-area-con">
+              <div className="cba-sare-iac-heading">
+                <h2>Sales Return</h2>
               </div>
-         </div>
-    </div>  
+              <div className="cba-sare-iac-input-area">
+                <div className="cba-sare-iac-lain">
+                  <label htmlFor="">Sales No.<span className='required'>*</span></label>
+                  <input type="text" placeholder='Enter Sales No.' />
+                </div>
+                <div className="cba-sare-iac-subbtn">
+                  <input type="submit" value={"Search"} />
+                </div>
+              </div>
+            </div>
+          </div>
         </>
     );
 };
