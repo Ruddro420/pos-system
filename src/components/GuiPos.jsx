@@ -79,7 +79,7 @@ const GuiPos = () => {
               </div>
               {/*   === PERSON ICON === */}
               <div className="sh-person-icon">
-             {/*  <svg
+              {/*  <svg
                   width="19px"
                   height="19px"
                   viewBox="0 0 19 19"
@@ -157,8 +157,6 @@ const GuiPos = () => {
                   </g>
                 </svg>  */}
               </div>
-              {/*   === PLUS ICON === */}
-              <div className="sh-plus-icon">+</div>
             </div>
             {/*  === MORE VERT ICON === */}
             <div className="sh-more-vert-icon">

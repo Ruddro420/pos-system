@@ -24,9 +24,9 @@ a {
 
 .top-navbar-items {
     width: 98%;
-    gap: 6px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    gap: 85px;
+    margin-top: 30px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,19 +36,23 @@ a {
 .sh-top-nav-left-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 /* === TOP NAVBAR LEFT CONTAINER === */
 .sh-top-nav-left-conatiner {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 /* === TOP LEFT NAVBAR RIGHT CONATAINER === */
 .sh-top-left-nav-right-container {
     display: flex;
+    gap: 10px;
     align-items: center;
+    margin-left: -20px;
+    /* margin-right: 0px!important; */
 }
 
 /* === WINDOW ICON COANTAINER === */
@@ -63,7 +67,7 @@ a {
 }
 
 .sh-search-box input {
-    width: 500px;
+    width: 495px;
     padding: 11px 35px;
     font-size: 16px;
     border: 1px solid #dcdfe3;
@@ -71,25 +75,28 @@ a {
 
 /* === SCANER ICON === */
 .sh-scaner-icon {
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-top: 6px;
     display: flex;
     position: absolute;
 }
 
 /* === PRODUCT === */
 .sh-product a {
-    padding: 12px;
+    padding: 12px 12px 14px 12px;
     color: gray;
     background-color: white;
+    border-radius: 2.5px!important;
     border: 1px solid #dcdfe3;
 }
 
 /* === SH SCAN === */
 .sh-scan a {
-    padding: 12px;
+    padding: 11px 12px 13px 12px;
     color: white;
     background-color: #2B51B0;
     border: 1px solid #dcdfe3;
+    border-radius: 2.5px!important;
 }
 
 /* === ALL CATEGORY === */
@@ -98,25 +105,33 @@ a {
 }
 
 .sh-all-category {
-    padding: 11px;
+    padding: 13px 12px 10px 12px;
     width: 150px;
     margin-left: 30px;
-    margin-right: 40px;
+    margin-right: 0px;
     color: gray;
     background-color: white;
     border: 1px solid #dcdfe3;
+    text-align: center;
+}
+
+/* -- icon container -- */
+.sh-window-icon-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 /* === SPLIT ICON === */
 .sh-split-icon {
-    padding: 6px;
+    padding: 13px 12px 10px 12px;
     background-color: white;
     border: 1px solid #dcdfe3;
 }
 
 /* === WINDOW ICON === */
 .sh-window-icon {
-    padding: 5px;
+    padding: 13px 12px 10px 12px;
     background-color: white;
     border: 1px solid #dcdfe3;
 }
@@ -131,7 +146,7 @@ a {
 /* === TOP NAVBAR RIGHT SECITON === */
 .sh-top-nav-right-seciton {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 /* === SEARCH CUSTOMER BOX === */
@@ -143,7 +158,7 @@ a {
 .sh-search-customer-box input {
     font-size: 16px;
     padding: 10px 35px;
-    width: 450px;
+    width: 472px;
     border: 1px solid #dcdfe3;
 }
 
@@ -154,23 +169,14 @@ a {
     margin-left: 8px;
 }
 
-/* === PLUS ICON === */
-.sh-plus-icon {
-    font-size: 25px;
-    font-weight: 900;
-    margin-left: -20px;
-    color: gray;
-    display: flex;
-    position: relative;
-}
-
 /* === === MORE VERT ICON === */
 .sh-more-vert-icon {
     width: 40px;
     padding: 5px;
-    margin-left: 24px;
+    /* margin-left: 24px; */
     background-color: white;
     border: 1px solid #dcdfe3;
+    border-left: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -218,7 +224,7 @@ section {
 /* === PRODUCT CONTAINER ===  */
 .product-container {
     width: 98%;
-    gap: 7px;
+    gap: 85px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -282,7 +288,7 @@ section {
 
 /* === EMPTY IMG === */
 .sh-product-collect-box {
-    height: 60vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -301,11 +307,16 @@ section {
 
 /* === SUB TOTAL BOX === */
 .sh-subtotal-box {
-    padding: 20px 60px 20px 08px;
+    padding: 15px 60px 15px 08px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: white;
     border: 1px solid #dcdfe3;
+}
+
+.sh-subtotal-box > div > h4 {
+    margin-bottom: 0;
 }
 
 /* === ADD BOX = */
@@ -332,7 +343,10 @@ section {
     display: flex;
     background-color: #2B51B0;
     justify-content: space-between;
-
+}
+.pay-now-box > div > h3 {
+    margin-bottom: 0;
+    color: white;
 }
 
 /* === RESPONSIVE FOR MOBILE === */
@@ -392,6 +406,8 @@ section {
 /* === BUTTOM BUTTON SECTION === */
 .buttom-button-section {
     bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
