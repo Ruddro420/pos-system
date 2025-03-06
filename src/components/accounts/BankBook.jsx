@@ -1,5 +1,5 @@
 
-import './css/BankBook.css'
+/* import './css/BankBook.css' */
 const BankBook = () => {
     return (
         <>

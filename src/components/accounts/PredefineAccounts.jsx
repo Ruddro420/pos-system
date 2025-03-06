@@ -1,4 +1,4 @@
-import './css/PredefineAccounts.css'
+/* import './css/PredefineAccounts.css' */
 const PredefineAccounts = () => {
     return (
         <>

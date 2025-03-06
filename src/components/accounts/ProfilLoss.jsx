@@ -1,4 +1,4 @@
-import './css/ProfilLoss.css'
+/* import './css/ProfilLoss.css' */
 
 const ProfilLoss = () => {
     return (
