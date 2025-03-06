@@ -1,4 +1,4 @@
-import './css/TrialBalance.css'
+/* import './css/TrialBalance.css' */
 
 const TrialBalance = () => {
     return (

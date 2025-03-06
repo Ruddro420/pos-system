@@ -1,4 +1,4 @@
-import './css/GeneralLedger.css'
+/* import './css/GeneralLedger.css' */
 const GeneralLedger = () => {
     return (
         <>

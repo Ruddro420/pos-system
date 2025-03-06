@@ -1,4 +1,4 @@
-import './css/OpeningBalance.css'
+/* import './css/OpeningBalance.css' */
 const OpeningBalance = () => {
     return (
         <>
