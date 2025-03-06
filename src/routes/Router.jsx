@@ -197,7 +197,7 @@ const Router = createBrowserRouter([
          },
          //product 
          {
-            path:'/ManageOutlet-page',
+            path:'/manageOutlet-page',
             element: <ManageOutlet/>,
          },
          {

@@ -227,21 +227,21 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/category-page' className={({ isActive }) => {
+                <NavLink to='#' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">Category List</div>
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/category-page' className={({ isActive }) => {
+                <NavLink to='#' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">Unit of Measurement</div>
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/category-page' className={({ isActive }) => {
+                <NavLink to='/manageOutlet-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">Manage Product</div>
