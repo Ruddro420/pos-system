@@ -39,14 +39,44 @@ a {
 
 /* main  container styling */
 
-/* .cba-possale-container {
+.cba-possale-inner-con-top-part {
+    padding: 40px 30px 50px;
+    background-color: var(--white);
+    width: 100%;
+}
+
+/* row 1 */
+
+.cba-possale-ictp-row1 {
     display: flex;
-    flex-direction: row;
-} */
+    gap: 50px;
+    width: 100%;
+}
+
+.cba-possale-ictp-row1-col1, .cba-possale-ictp-row1-col2, .cba-possale-ictp-row1-col3, .cba-possale-ictp-row1-col4, .cba-possale-ictp-row1-col5 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 20%;
+}
+
+/* col 1 */
+
+.cba-possale-ictp-row1-col1 > .cba-possale-ictp-row1-col1-inputbox > input {
+    margin-bottom: 0!important;
+}
+
+.cba-possale-ictp-row1-col1-inputbox {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
 
 /* Top Part Style */
 
-
+.cba-possale-inner-con-top-part {
+    width: 100%;
+}
 
 /* ------------------------------------------------------------------------------ */
 
