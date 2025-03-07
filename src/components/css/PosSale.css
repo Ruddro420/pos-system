@@ -37,387 +37,108 @@ a {
     --primary-para: 0.825rem;
 }
 
+/* main  container styling */
 
-/* === POSE SALE CUSTOMER DETAILS === */
-.sh-pose-sale-customer-section {
-    width: 100%;
-    padding: 20px;
-}
-
-/* === CUSTOMER DETAILS === */
-.sh-pose-sale-customer-details-input {
-    width: 100%;
+/* .cba-possale-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    flex-direction: row;
+} */
 
-.sh-customer-name {
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column;
-}
+/* Top Part Style */
 
-.sh-customer-name-container {
-    display: flex;
-    flex-direction: column;
-}
 
-.sh-plus-icon {
-    display: flex;
-    position: absolute;
-    margin-left: 369px;
-}
 
-.sh-customer-name-container select {
-    width: 400px;
-    padding: 5px 2px;
-    font-size: var(--secondary);
-    border: 1px solid var(--light-black-op);
-}
+/* ------------------------------------------------------------------------------ */
 
-.sh-customer-name-container select:focus {
-    outline: none;
-}
+/* Bottom Part Style */
 
-.sh-plus-input {
-    display: flex;
-}
-
-.sh-plus-icon p {
-    padding: 5.5px 10px;
-    background-color: var(--main-green);
-    color: var(--white);
-}
-
-.sh-address {
-    display: flex;
-    flex-direction: column;
-}
-
-.sh-invoice {
-    display: flex;
-    flex-direction: column;
-}
-
-/* === ADDRESS === */
-.sh-address label {
-    font-size: 1rem;
-}
-
-.sh-address input {
-    width: 400px;
-    padding: 5px 5px;
-    font-size: var(--secondary);
-    border: 1px solid var(--light-black-op);
-}
-
-.sh-address input:focus {
-    outline: none;
-}
-
-/* === INVOICE === */
-.sh-invoice label {
-    font-size: 1rem;
-}
-
-.sh-invoice input {
-    width: 400px;
-    padding: 5px 5px;
-    font-size: var(--secondary);
-    border: 1px solid var(--light-black-op);
-}
-
-.sh-invoice input:focus {
-    outline: none;
-}
-
-/* ==================================== */
-.sh-customer-second-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.sh-date-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.sh-date-container label {
-    font-size: 1rem;
-}
-
-.sh-date-container select {
-    width: 400px;
-    padding: 5px 2px;
-    font-size: var(--secondary);
-    border: 1px solid var(--light-black-op);
-}
-
-/* === CUSTOMER THIRD SECTION === */
-.customer-third-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.sh-massege textarea {
-    width: 935px;
-    height: 80px;
-    border-radius: 3px;
-    border: 1px solid var(--light-black-op);
-}
-
-/* === EVERY THING SEARCH BOX === */
-.everyThing-search-box {
-    margin-top: 4px;
-}
-
-.everyThing-search-box input {
-    border: 1px solid var(--light-black-op);
-    width: 100%;
-    padding: 8px 10px;
-    border-radius: 5px;
-}
-
-.everyThing-search-box input:focus {
-    outline: none;
-}
-
-/* === PRODUCT ALL DETAILS === */
-.sh-produt-all-details-container{
-    margin-top: 10px;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-    padding: 0px 30px;
-}
-
-th,
-td {
-    border: 1px solid var(--light-black-op);
-    padding: 10px 5px;
-}
-
-table th {
-    font-size: var(--secondary);
-    font-weight: 500;
-}
-table td{
-    text-align: center;
-    align-items: center;
-}
-.sh-product-search-box{
-    display: flex;  
-}
-.sh-product-search-box input {
-    width: 700px;
-    padding: 8px 5px;
-
-    border: 1px solid var(--light-black);
-    font-size: var(--primary-para);
-}
-
-.sh-product-search-box input:focus {
-    outline: none;
-}
-
-.sh-av-box input{
-    width: 50px;
-    padding: 5px 5px;
-    border: none;
-    background-color: var(--light-black-op);
-    font-size: var(--primary-para);
-}
-.sh-av-box input:focus{
-    outline: none;
-}   
-.sh-qty-number-input input{
-    width: 70px;
-    padding: 5px 5px;
-    border: 1px solid var(--light-black);
-    font-size: var(--primary-para);
-}
-.sh-qty-number-input input:focus{
-    outline: none;
-}
-.sh-rate-input-container input{
-    width: 60px;
-    padding: 5px 5px;
-    border: 1px solid var(--light-black);
-    font-size: var(--primary-para);
-}
-.sh-rate-input-container input:focus{
-    outline: none;
-}
-.sh-discount-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.sh-discount-left-container input{
-    width: 50px;
-    padding: 5px 5px;
-    border: 1px solid var(--light-black);
-    font-size: var(--primary-para);
-}
-.sh-discount-left-container input:focus{
-    outline: none;
-}
-.sh-discount-right-container input{
-    width: 50px;
-    padding: 5px 5px;
-    border: 1px solid var(--light-black);
-    background-color: var(--light-black-op);
-    font-size: var(--primary-para);
-}
-.sh-discount-right-container input:focus{
-    outline: none;
-}
-.sh-vatbox-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.sh-vat-left-container input{
-    width: 50px;
-    padding: 5px 5px;
-    border: 1px solid var(--light-black);
-    font-size: var(--primary-para);
-}
-.sh-vat-left-container input:focus{
-    outline: none;
-}
-.sh-vat-right-container input{
-    width: 50px;
-    padding: 5px 5px;
-    background-color: var(--light-black-op);
-    border: 1px solid var(--light-black);
-    font-size: var(--primary-para);
-}
-.sh-vat-right-container input:focus{
-    outline: none;
-}
-.sh-total-contaier input{
-    width: 100px;
-    padding: 5px 5px;
-    background-color: var(--light-black-op);
-    border: 1px solid var(--light-black);
-    font-size: var(--primary-para);
-}
-/* === DELETE ICON === */
-.sh-delet-icon i{
-    padding: 5px 5px;
-    color: var(--red);
-    font-size: var(--primary-head);
-    border: 1px solid var(--red);
-    background-color: var(--light-red);
-}
-.sh-delet-icon i:hover{
-    padding: 5px 5px;
-    color: var(--white);
-    font-size: var(--primary-head);
-    border: 1px solid var(--red);
-    background-color: var(--red);
-}
-.sh-plus-icon-two a i{
-    padding: 5px 5px;
-    color: var(--main-green);
-    font-size: var(--primary-head);
-    background-color: var(--light-green);
-    border: 1px solid var(--main-green);
-}
-.sh-plus-icon-two a i:hover{
-    padding: 5px 5px;
-    color: var(--white);
-    font-size: var(--primary-head);
-    background-color: var(--main-green);
-    border: 1px solid var(--main-green);
-}
-tbody tr th p{
-    display: flex;
-    justify-content: flex-end;
-    align-items: end;
-}
-.sh-dis-per-value{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.sh-percent input{
-    width: 60px;
-    padding: 5px 5px;
-
-    border: 1px solid var(--light-black);
-    font-size: var(--primary-para);
-}
-.sh-dis-value input{
-    width: 35px;
-    padding: 5px 5px;
-    background-color: var(--light-black-op);
-    border: 1px solid var(--light-black);
-    font-size: var(--primary-para);
-}
-.sh-percent select{
-    width: 60px;
-    padding: 5px 5px;
-    background-color: var(--light-black-op);
-    border: 1px solid var(--light-black);
-    font-size: var(--primary-para);
-}
-/* ==== ADD ADDITIONAL CONTAINER === */
-.sh-additional-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.sh-additional-container{
-    color: var(--white);
-    background-color: var(--main-green);
-}
-.sh-additional-container i{
-    padding: 5px 5px;
-    color: white;
-}
-/* === FOOTER SECTION === */
-.sh-footer-section{
+.cba-possale-inner-con-bottom-part {
+    background-color: var(--white);
     bottom: 0;
-    gap: 20px;
+    left: 0;
+    position: fixed!important;
+    right: 0;
     width: 100%;
-    height: 100px;
-    padding: 20px;
-    background-color: #F8F9FA;
+}
+
+.cba-possale-inner-con-bottom-part > .cba-pic-bp-calculation-overview {
     display: flex;
-    position: fixed;
-    align-items: flex-end;
-    justify-content: flex-end;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    padding: 15px 25px 5px 25px;
 }
-.sh-footer-dis-container input{
-    width: 130px;
-    padding: 5px 5px;
-    border-radius: 3px;
-    border: none;
-    background-color: var(--light-black-op);
+
+.cba-pic-bp-co-total-discount-con ,
+.cba-pic-bp-co-total-vat-con ,
+.cba-pic-bp-co-previous-due-con,
+.cba-pic-bp-co-net-total-con,
+.cba-pic-bp-co-current-due-con {
+    display: flex;
+    flex-direction: column;
+    justify-content:right ;
+    text-align: right;
+    width: 10%;
 }
-.sh-footer-dis-container input:focus{
-    border: none;
-    outline: none;
+
+/* Label and Input Styling */
+
+/* Label Styling */
+
+.cba-pic-bp-co-total-discount-con > label {
+    color: var(--black);
+    font-size: 0.875rem;
+    font-weight: 600;
 }
-.sh-net-container input{
-    width: 200px;
-    padding: 5px 5px;
-    border-radius: 3px;
-    border: none;
-    background-color: var(--light-black-op);
+
+.cba-pic-bp-co-total-vat-con > label {
+    color: var(--black);
+    font-size: 0.875rem;
+    font-weight: 600;
 }
-.sh-submit-button {
-    padding: 3px 10px;
-    border-radius: 3px;
-    background-color: var(--main-green);
+.cba-pic-bp-co-previous-due-con > label {
+    color: var(--black);
+    font-size: 0.875rem;
+    font-weight: 600;
 }
-.sh-submit-button a{
-    color: var(--white);
+.cba-pic-bp-co-net-total-con > label {
+    color: var(--black);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+.cba-pic-bp-co-current-due-con > label {
+    color: var(--black);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+/* Input Style */ /* todo: All the text input are disabled by attribute*/
+
+.cba-pic-bp-calculation-overview > div > input {
+    width: 100%;
+    padding: 5px 10px 5px;
+    background-color: var(--gray-black);
+    border-radius: 2.5px;
+}
+
+/* Placeholder Style */
+
+.cba-pic-bp-calculation-overview > div > input::placeholder {
+    text-align: right!important;
+    color: var(--black);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+/* submit btn styling */
+
+.cba-pic-bp-co-submit-btn-con > input {
+    color: var(--white)!important;
+    background-color: var(--main-green)!important;
+    border-radius: 2.5px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 7px 12px 7px!important;
+    margin-top: 10px;
+    cursor: pointer!important;
 }

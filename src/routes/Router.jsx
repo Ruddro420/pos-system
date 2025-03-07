@@ -20,6 +20,7 @@ import ManageDraftSale from "../components/ManageDraftSale";
 import SaleCounter from "../components/SaleCounter";
 import SalesReturn from "../components/salesReturn"
 import ManagePayment from "../components/ManagePayment"
+import Deliveries from "../components/Deliveries"
 
 
 import ManageRequisition from "../components/Purchase/ManageRequisition"
@@ -68,7 +69,7 @@ const Router = createBrowserRouter([
         <MainLayout />,
         children: [
             {
-                path: '/',
+                path: '/dashboard',
                 element: <Dashboard />,
             },
            
@@ -154,6 +155,15 @@ const Router = createBrowserRouter([
                 path:'/SelsReturnList-page',
                 element: <SelsReturnList/>,
             },
+
+            // devileries menu
+
+            {
+                path:'/Deliveries-page',
+                element: <Deliveries/>,
+            },
+
+
          ///purchs router
          {
             path:'/manageRequisition-page',
