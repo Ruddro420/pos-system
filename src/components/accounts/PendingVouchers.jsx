@@ -1,4 +1,4 @@
-import'./css/PendingVouchers.css'
+/* import'./css/PendingVouchers.css' */
 const PendingVouchers = () => {
     return (
         <>

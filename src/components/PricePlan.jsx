@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-undef */
+import { Link } from "react-router-dom";
 import "./css/PricePlan.css";
 const PricePlan = () => {
   return (
@@ -82,7 +84,7 @@ const PricePlan = () => {
               </ul>
             </div>
             <div className="pricing-cart-btn">
-              <button>Choose Now</button>
+            <Link to="/ChooseNow-page">  <button>Choose Now</button></Link>
             </div>
           </div>
          <div className="pricing-cart">
@@ -120,7 +122,7 @@ const PricePlan = () => {
                             </ul>
                         </div>
                         <div className="pricing-cart-btn">
-                            <button>Choose Now</button>
+                          <Link to="/ChooseNow-page">  <button>Choose Now</button></Link>
                         </div>
                     </div>
                     <div className="pricing-cart pricing-cart-premium">
@@ -158,7 +160,7 @@ const PricePlan = () => {
                             </ul>
                         </div>
                         <div className="pricing-cart-btn">
-                            <button>Choose Now</button>
+                        <Link to="/ChooseNow-page">  <button>Choose Now</button></Link>
                         </div>
                     </div>
                     <div className="pricing-cart">
@@ -196,7 +198,7 @@ const PricePlan = () => {
                             </ul>
                         </div>
                         <div className="pricing-cart-btn">
-                            <button>Choose Now</button>
+                          <Link to="/ChooseNow-page">  <button>Choose Now</button></Link>
                         </div>
                     </div> 
         </div>

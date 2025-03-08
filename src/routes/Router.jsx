@@ -63,6 +63,7 @@ import TransferList from "../components/product/TransferList";
 import TransferRequestList from "../components/product/TransferRequestList";
 import PurchaseReturn from "../components/Purchase/PurchaseReturn";
 import SelsManagePayment from "../components/SelsManagePayment";
+import ChooseNow from "../components/ChooseNow";
 
 const Router = createBrowserRouter([
     {
@@ -270,6 +271,11 @@ const Router = createBrowserRouter([
         {
             path:'/LedgerReport-page',
             element: <LedgerReport/>,
+         },
+       
+        {
+            path:'/ChooseNow-page',
+            element: <ChooseNow/>,
          },
        
 
