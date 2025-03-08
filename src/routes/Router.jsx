@@ -65,6 +65,9 @@ import PurchaseReturn from "../components/Purchase/PurchaseReturn";
 import SelsManagePayment from "../components/SelsManagePayment";
 import ChooseNow from "../components/ChooseNow";
 import OutletWiseSalesReport from "../components/report/OutletWiseSalesReport";
+import OutletReport from "../components/report/OutletReport";
+import OutletWiseProduct from "../components/report/OutletWiseProduct";
+import OutletWiseVariantProduct from "../components/report/OutletWiseVariantProduct";
 
 const Router = createBrowserRouter([
     {
@@ -272,6 +275,18 @@ const Router = createBrowserRouter([
         {
             path:'/LedgerReport-page',
             element: <LedgerReport/>,
+         },
+        {
+            path:'/OutletReport-page',
+            element: <OutletReport/>,
+         },
+        {
+            path:'/OutletWiseProduct-page',
+            element: <OutletWiseProduct/>,
+         },
+        {
+            path:'/OutletWiseVariantProduct-page',
+            element: <OutletWiseVariantProduct/>,
          },
        
         {
