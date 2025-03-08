@@ -62,6 +62,7 @@ import NewTransfer from "../components/product/NewTransfer";
 import TransferList from "../components/product/TransferList";
 import TransferRequestList from "../components/product/TransferRequestList";
 import PurchaseReturn from "../components/Purchase/PurchaseReturn";
+import SelsManagePayment from "../components/SelsManagePayment";
 
 const Router = createBrowserRouter([
     {
@@ -111,6 +112,10 @@ const Router = createBrowserRouter([
                 path: '/stockReport-page',
                 element: <SelsReturnList/>,
             },
+            {
+                path: '/addOpeningStock-page',
+                element: <AddOpeningStock/>,
+            },
           
 
 
@@ -155,6 +160,10 @@ const Router = createBrowserRouter([
             {
                 path:'/SelsReturnList-page',
                 element: <SelsReturnList/>,
+            },
+            {
+                path:'/SelsManagePayment-page',
+                element: <SelsManagePayment/>,
             },
 
             // devileries menu

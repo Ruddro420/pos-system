@@ -11,7 +11,7 @@ const OpeningStock = () => {
             <div className="sh-top-menu-items">
                 <ul>
                     <li className="sh-menu-items"><a href="opening-stock.html">Opening Stock List</a></li>
-                    <li className="sh-menu-items"><a href="add-opening-stock.html">Add Opening Stock</a></li>
+                    <li className="sh-menu-items"><a href="/addOpeningStock-page">Add Opening Stock</a></li>
                     <li className="sh-active-item"><a href="stock-opening.html">Opening Stock CSV</a></li>
                 </ul>
             </div>
