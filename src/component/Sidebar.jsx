@@ -73,7 +73,7 @@ const Sidebar = () => {
             </NavLink>
           </li>
           <li className={`menu-item ${salesOpen ? "open" : ""}`}>
-            <NavLink to='' onClick={handleToggleSales} className="menu-link menu-toggle">
+            <NavLink to='#' onClick={handleToggleSales} className="menu-link menu-toggle">
               <i className="menu-icon tf-icons bx bx-bar-chart-alt-2"></i>
               <div data-i18n="Analytics">Sales</div>
             </NavLink>
@@ -188,7 +188,7 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
+                <NavLink to='/PurchaseReturn-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">Purchase Return</div>

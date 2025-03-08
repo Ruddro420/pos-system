@@ -61,6 +61,7 @@ import AddNewOutlet from "../components/product/AddNewOutlet";
 import NewTransfer from "../components/product/NewTransfer";
 import TransferList from "../components/product/TransferList";
 import TransferRequestList from "../components/product/TransferRequestList";
+import PurchaseReturn from "../components/Purchase/PurchaseReturn";
 
 const Router = createBrowserRouter([
     {
@@ -204,6 +205,10 @@ const Router = createBrowserRouter([
          {
             path:'/MySubscription-page',
             element: <MySubscription/>,
+         },
+         {
+            path:'/PurchaseReturn-page',
+            element: <PurchaseReturn/>,
          },
          //product 
          {
