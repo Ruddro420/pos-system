@@ -69,7 +69,7 @@ const SelsReturnList = () => {
                                     <td>06-03-2025</td>
                                     <td>8000</td>
                                     <td>Paid</td>
-                                    <td><i className='bx bx-edit'></i></td>
+                                    <td><i className='cba-sarl-table-edit-icon bx bx-edit'></i></td>
                                 </tr>
                                 <tr>
                                     <td>02</td>
@@ -79,7 +79,7 @@ const SelsReturnList = () => {
                                     <td>06-03-2025</td>
                                     <td>8000</td>
                                     <td>Paid</td>
-                                    <td><i className='bx bx-edit'></i></td>
+                                    <td><i className='cba-sarl-table-edit-icon bx bx-edit'></i></td>
                                 </tr>
                             </tbody>
                             <tfoot>

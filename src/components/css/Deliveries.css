@@ -292,7 +292,7 @@ a {
 
 .cba-delivery-list-page-btn > h4 {
     color: var(--white)!important;
-    background-color: var(--m-light);
+    background-color: var(--m-lt);
     font-size: 15px;
     font-weight: 400;
     padding: 9px 12px;

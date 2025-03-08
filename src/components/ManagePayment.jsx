@@ -18,9 +18,7 @@ const ManagePayment = () => {
                             <option value="number" name="show">10</option>
                             <option value="number" name="show">20</option>
                             <option value="number" name="show">30</option>
-                            <option value="number" name="show">40</option>
-                            <option value="number" name="show">50</option>
-                            <option value="number" name="show">100</option>
+                            <option value="number" name="show">All</option>
                         </select>
                         <p>Entries</p>
                     </div>
@@ -43,19 +41,14 @@ const ManagePayment = () => {
                                 <th>Action</th>
                             </tr>
                         </thead>
+                        <tbody>
+                            <tr>
+                                <td colSpan={6}>
+                                    <p>No data available in table</p>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
-                   {/*  <!-- === EMPTY SECTION === --> */}
-                    <div className="empty-section">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <p>No data available in table</p>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
                 </div>
              {/*    <!-- === SLIDE PAGES === --> */}
                 <div className="sh-slider-pages">

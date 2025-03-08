@@ -132,7 +132,7 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/SelsManagePayment-page' className={({ isActive }) => {
+                <NavLink to='/managePayment-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">Manage Payment</div>
@@ -195,7 +195,7 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/managePayment-page' className={({ isActive }) => {
+                <NavLink to='/SelsManagePayment-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">Manage Payment</div>

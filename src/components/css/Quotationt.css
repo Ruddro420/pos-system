@@ -34,7 +34,7 @@ td {
     --lt-black: #212523;
     --lt-black-op: #21252350;
     --m-green: #157343;
-    --m-light: #37A000;
+    --m-lt: #37A000;
     --lit-orange: #FD7E14;
     --green: #008000;
     --lt-green: #e9f6ec;
@@ -317,7 +317,7 @@ table > tfoot > tr > .sh-quo-tfoot {
     border-radius: 5px;
     font-size: 0.9rem;
     color: var(--white)!important;
-    background-color: var(--m-light)!important;
+    background-color: var(--m-lt)!important;
 }
 
 p {

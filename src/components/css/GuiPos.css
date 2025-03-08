@@ -16,13 +16,13 @@ a {
 }
 
 /* === TOP NAVBAR ITEMS === */
-.nav-item{
+.gp-nav-item{
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.top-navbar-items {
+.gp-top-navbar-items {
     width: 98%;
     gap: 85px;
     margin-top: 30px;
@@ -33,21 +33,21 @@ a {
 }
 
 /* === TOP NAVBAR LEFT SECTION === */
-.sh-top-nav-left-section {
+.gp-sh-top-nav-left-section {
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
 }
 
 /* === TOP NAVBAR LEFT CONTAINER === */
-.sh-top-nav-left-conatiner {
+.gp-sh-top-nav-left-conatiner {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
 /* === TOP LEFT NAVBAR RIGHT CONATAINER === */
-.sh-top-left-nav-right-container {
+.gp-sh-top-left-nav-right-container {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -56,17 +56,17 @@ a {
 }
 
 /* === WINDOW ICON COANTAINER === */
-.sh-window-icon-container {
+.gp-sh-window-icon-container {
     display: flex;
 }
 
 /* === SEARCH BOX === */
-.sh-search-box {
+.gp-sh-search-box {
     display: flex;
     position: relative;
 }
 
-.sh-search-box input {
+.gp-sh-search-box input {
     width: 495px;
     padding: 11px 35px;
     font-size: 16px;
@@ -74,25 +74,25 @@ a {
 }
 
 @media (max-width: 1536px) {
-    .sh-search-box input {
+    .gp-sh-search-box input {
         width: 300px;
     }
-    .top-navbar-items {
+    .gp-top-navbar-items {
         gap: 80px;
     }
-    .sh-search-customer-box input {
+    .gp-sh-search-customer-box input {
         width: 400px!important;
     }
-    .sh-more-vert-icon {
+    .gp-sh-more-vert-icon {
         margin-right: -10px!important;
     }
-    .sh-all-category {
+    .gp-sh-all-category {
         width: 115px!important;
     }
 }
 
 /* === SCANER ICON === */
-.sh-scaner-icon {
+.gp-sh-scaner-icon {
     margin-left: 10px;
     margin-top: 6px;
     display: flex;
@@ -100,7 +100,7 @@ a {
 }
 
 /* === PRODUCT === */
-.sh-product a {
+.gp-sh-product a {
     padding: 12px 12px 14px 12px;
     color: gray;
     background-color: white;
@@ -109,7 +109,7 @@ a {
 }
 
 /* === SH SCAN === */
-.sh-scan a {
+.gp-sh-scan a {
     padding: 11px 12px 13px 12px;
     color: white;
     background-color: #2B51B0;
@@ -118,11 +118,11 @@ a {
 }
 
 /* === ALL CATEGORY === */
-.sh-all-category a {
+.gp-sh-all-category a {
     color: gray;
 }
 
-.sh-all-category {
+.gp-sh-all-category {
     padding: 13px 12px 10px 12px;
     width: 150px;
     margin-left: 30px;
@@ -134,27 +134,27 @@ a {
 }
 
 /* -- icon container -- */
-.sh-window-icon-container {
+.gp-sh-window-icon-container {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
 /* === SPLIT ICON === */
-.sh-split-icon {
+.gp-sh-split-icon {
     padding: 13px 12px 10px 12px;
     background-color: white;
     border: 1px solid #dcdfe3;
 }
 
 /* === WINDOW ICON === */
-.sh-window-icon {
+.gp-sh-window-icon {
     padding: 13px 12px 10px 12px;
     background-color: white;
     border: 1px solid #dcdfe3;
 }
 
-.sh-top-nabbar-right-container {
+.gp-sh-top-nabbar-right-container {
     display: flex;
     align-items: center;
     align-items: center;
@@ -162,18 +162,18 @@ a {
 }
 
 /* === TOP NAVBAR RIGHT SECITON === */
-.sh-top-nav-right-seciton {
+.gp-sh-top-nav-right-seciton {
     display: flex;
     /* justify-content: space-between; */
 }
 
 /* === SEARCH CUSTOMER BOX === */
-.sh-search-customer-box {
+.gp-sh-search-customer-box {
     display: flex;
     position: relative;
 }
 
-.sh-search-customer-box input {
+.gp-sh-search-customer-box input {
     font-size: 16px;
     padding: 10px 35px;
     width: 472px;
@@ -181,14 +181,14 @@ a {
 }
 
 /* === PERSON ICON === */
-.sh-person-icon {
+.gp-sh-person-icon {
     display: flex;
     position: absolute;
     margin-left: 8px;
 }
 
 /* === === MORE VERT ICON === */
-.sh-more-vert-icon {
+.gp-sh-more-vert-icon {
     width: 40px;
     padding: 5px;
     /* margin-left: 24px; */
@@ -202,31 +202,31 @@ a {
 
 /* === RESPONSIVE FOR MOBILE === */
 @media(max-width: 768px) {
-    .top-navbar-items {
+    .gp-top-navbar-items {
         display: flex;
         flex-direction: column;
     }
 
-    .sh-top-nav-left-section {
+    .gp-sh-top-nav-left-section {
         display: flex;
         flex-direction: column;
     }
 
-    .sh-top-left-nav-right-container {
+    .gp-sh-top-left-nav-right-container {
         margin-top: 10px;
     }
 
-    .sh-search-box input {
+    .gp-sh-search-box input {
         width: 275px;
     }
 
-    .sh-all-category {
+    .gp-sh-all-category {
         width: 334px;
         margin-left: 0;
         margin-right: 0;
     }
 
-    .sh-search-customer-box input {
+    .gp-sh-search-customer-box input {
         width: 349px!important;
     }
 }
@@ -239,7 +239,7 @@ section {
 }
 
 /* === PRODUCT CONTAINER ===  */
-.product-container {
+.gp-product-container {
     width: 98%;
     gap: 85px;
     margin-bottom: 20px;
@@ -248,10 +248,10 @@ section {
 }
 
 @media (max-width: 1536px) {
-    .product-container {
+    .gp-product-container {
         gap: 85px;
     }
-    .image-section {
+    .gp-image-section {
         grid-template-columns: 125px 125px 125px 125px 125px!important;
         column-gap: 20px!important;
         row-gap: 20px!important;
@@ -259,18 +259,18 @@ section {
     }
 }
 
-.image-section {
+.gp-image-section {
     display: grid;
     grid-template-columns: 168px 168px 168px 168px 168px;
     column-gap: 25px;
     row-gap: 25px;
 }
 
-.sh-image img {
+.gp-sh-image img {
     max-width: 100%;
 }
 
-.sh-product-name p {
+.gp-sh-product-name p {
     font-size: 14px;
     height: 40px;
     margin-top: -3px;
@@ -285,16 +285,16 @@ section {
 /* === NAME BOX SECTION === */
 
 @media (max-width: 1536px) {
-    .sh-product-text p {
+    .gp-sh-product-text p {
         width: 223px!important;
         margin-left: 5px!important;
     }
-    .sh-qty p {
+    .gp-sh-qty p {
         width: 95px;
     }
 }
 
-.sh-name-box-section {
+.gp-sh-name-box-section {
     display: flex;
     align-items: center;
     height: 40px;
@@ -304,28 +304,28 @@ section {
 }
 
 /* === PRODUCT TEXT === */
-.sh-product-text p {
+.gp-sh-product-text p {
     font-size: 16px;
     width: 300px;
     color: #2B51B0;
 }
 
 /* === QTY === */
-.sh-qty p {
+.gp-sh-qty p {
     font-size: 16px;
     width: 100px;
     color: #2B51B0;
 }
 
 /* === PRICE === */
-.sh-price p {
+.gp-sh-price p {
     font-size: 16px;
     width: 100px;
     color: #2B51B0;
 }
 
 /* === EMPTY IMG === */
-.sh-product-collect-box {
+.gp-sh-product-collect-box {
     height: 50vh;
     display: flex;
     align-items: center;
@@ -336,7 +336,7 @@ section {
     /* === IMAGE === */
 }
 
-.empty-image img {
+.gp-empty-image img {
     height: 100px;
     display: flex;
     align-content: center;
@@ -344,7 +344,7 @@ section {
 }
 
 /* === SUB TOTAL BOX === */
-.sh-subtotal-box {
+.gp-sh-subtotal-box {
     padding: 15px 60px 15px 08px;
     display: flex;
     align-items: center;
@@ -353,12 +353,12 @@ section {
     border: 1px solid #dcdfe3;
 }
 
-.sh-subtotal-box > div > h4 {
+.gp-sh-subtotal-box > div > h4 {
     margin-bottom: 0;
 }
 
 /* === ADD BOX = */
-.add-section {
+.gp-add-section {
     background-color: white;
     border: 1px solid #dcdfe3;
     display: flex;
@@ -366,7 +366,7 @@ section {
     padding: 20px 60px 20px 08px;
 }
 
-.add-discount a {
+.gp-add-discount a {
     font-size: 16px;
     color: #2B51B0;
     background-color: white;
@@ -375,32 +375,32 @@ section {
 }
 
 /* === PAY NOW BOX === */
-.pay-now-box {
+.gp-pay-now-box {
     padding: 20px 60px 20px 08px;
     color: white;
     display: flex;
     background-color: #2B51B0;
     justify-content: space-between;
 }
-.pay-now-box > div > h3 {
+.gp-pay-now-box > div > h3 {
     margin-bottom: 0;
     color: white;
 }
 
 /* === RESPONSIVE FOR MOBILE === */
 @media(max-width: 768px) {
-    .parent-container-two{
+    .gp-parent-container-two{
         width: 100%;
         display: flex;
         justify-content: center;
         padding: 10px;
     }
-    .product-details-section {
+    .gp-product-details-section {
         flex-direction: column;
         justify-items: center;
     }
 
-    .product-container {
+    .gp-product-container {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -408,7 +408,7 @@ section {
         /* asdfg */
     }
 
-    .image-section {
+    .gp-image-section {
         display: grid;
         justify-content: center;
         grid-template-columns: 191px 191px;
@@ -416,33 +416,33 @@ section {
         row-gap: 25px;
     }
 
-    .sh-product-text p {
+    .gp-sh-product-text p {
         font-size: 16px;
         width: 200px;
         color: #2B51B0;
     }
 
-    .sh-product-collect-box {
+    .gp-sh-product-collect-box {
         width: 407px;
         height: 40vh;
     }
 
-    .sh-name-box-section {
+    .gp-sh-name-box-section {
         width: 407px;
     }
-    .sh-subtotal-box{
+    .gp-sh-subtotal-box{
         width: 407px;
     }
-    .add-section{
+    .gp-add-section{
         width: 407px;
     }
-    .pay-now-box{
+    .gp-pay-now-box{
         width: 407px;
     }
 }
 
 /* === BUTTOM BUTTON SECTION === */
-.buttom-button-section {
+.gp-buttom-button-section {
     bottom: 0;
     left: 0;
     right: 0;
@@ -456,7 +456,7 @@ section {
 }
 
 /* === BUTTON CONTAINER === */
-.button-container {
+.gp-button-container {
     width: 98%;
     gap: 20px;
     display: flex;
@@ -465,81 +465,81 @@ section {
 }
 
 @media (max-width: 1536px) {
-    .button-container {
+    .gp-button-container {
         gap: 7.5px!important;
         margin-right: -10px!important;
     }
-    .button-container {
+    .gp-button-container {
         gap: 10px;
     }
-    .button-one {
+    .gp-button-one {
         width: 160px!important;
         height: 45px!important;
         gap: 5px!important;
     }
-    .button-one a {
+    .gp-button-one a {
         font-size: 0.8rem!important;
     }
-    .button-two {
+    .gp-button-two {
         width: 160px!important;
         height: 45px!important;
         gap: 5px!important;
     }
-    .button-two a {
+    .gp-button-two a {
         font-size: 0.8rem!important;
     }
-    .button-three {
+    .gp-button-three {
         width: 160px!important;
         height: 45px!important;
         gap: 5px!important;
     }
-    .button-three a {
+    .gp-button-three a {
         font-size: 0.8rem!important;
     }
-    .button-four {
+    .gp-button-four {
         width: 160px!important;
         height: 45px!important;
         gap: 5px!important;
     }
-    .button-four a {
+    .gp-button-four a {
         font-size: 0.8rem!important;
     }
-    .button-five {
+    .gp-button-five {
         width: 160px!important;
         height: 45px!important;
         gap: 5px!important;
     }
-    .button-five a {
+    .gp-button-five a {
         font-size: 0.8rem!important;
     }
-    .button-six {
+    .gp-button-six {
         width: 160px!important;
         height: 45px!important;
         gap: 5px!important;
     }
-    .button-six a {
+    .gp-button-six a {
         font-size: 0.8rem!important;
     }
-    .button-seven {
+    .gp-button-seven {
         width: 160px!important;
         height: 45px!important;
         gap: 5px!important;
     }
-    .button-seven a {
+    .gp-button-seven a {
         font-size: 0.8rem!important;
     }
-    .button-eight {
+    .gp-button-eight {
         width: 160px!important;
         height: 45px!important;
         gap: 5px!important;
     }
-    .button-eight a {
+    .gp-button-eight a {
         font-size: 0.8rem!important;
     }
 }
 
 /* === BUTTON ONE === */
-.button-one {
+.gp-button-one {
     width: 173px;
     height: 50px;
     gap: 10px;
@@ -551,13 +551,13 @@ section {
     background-color: #4749E1;
 }
 
-.button-one a {
+.gp-button-one a {
     font-size: 1rem;
     color: white;
 }
 
 /* === BUTTON TWO === */
-.button-two {
+.gp-button-two {
     width: 173px;
     height: 50px;
     gap: 10px;
@@ -569,13 +569,13 @@ section {
     background-color: #5889FB;
 }
 
-.button-two a {
+.gp-button-two a {
     font-size: 1rem;
     color: white;
 }
 
 /* === BUTTON THREE === */
-.button-three {
+.gp-button-three {
     width: 173px;
     height: 50px;
     gap: 10px;
@@ -587,13 +587,13 @@ section {
     background-color: #43AF49;
 }
 
-.button-three a {
+.gp-button-three a {
     font-size: 1rem;
     color: white;
 }
 
 /* === BUTTON FOUR === */
-.button-four {
+.gp-button-four {
     width: 173px;
     height: 50px;
     gap: 10px;
@@ -605,13 +605,13 @@ section {
     background-color: #3CB371;
 }
 
-.button-four a {
+.gp-button-four a {
     font-size: 1rem;
     color: white;
 }
 
 /* === BUTTON FIVE === */
-.button-five {
+.gp-button-five {
     width: 173px;
     height: 50px;
     gap: 10px;
@@ -623,13 +623,13 @@ section {
     background-color: #C26363;
 }
 
-.button-five a {
+.gp-button-five a {
     font-size: 1rem;
     color: white;
 }
 
 /* === BUTTON SIX === */
-.button-six {
+.gp-button-six {
     width: 173px;
     height: 50px;
     gap: 10px;
@@ -641,13 +641,13 @@ section {
     background-color: #26B59F;
 }
 
-.button-six a {
+.gp-button-six a {
     font-size: 1rem;
     color: white;
 }
 
 /* === BUTTON SEVEN === */
-.button-seven {
+.gp-button-seven {
     width: 173px;
     height: 50px;
     gap: 10px;
@@ -659,13 +659,13 @@ section {
     background-color: #CC3E3E;
 }
 
-.button-seven a {
+.gp-button-seven a {
     font-size: 1rem;
     color: white;
 }
 
 /* === BUTTON EIGHT === */
-.button-eight {
+.gp-button-eight {
     width: 173px;
     height: 50px;
     gap: 10px;
@@ -677,18 +677,18 @@ section {
     background-color: #43AF49;
 }
 
-.button-eight a {
+.gp-button-eight a {
     font-size: 1rem;
     color: white;
 }
 /* === MOBILE RESPONSIVE === */
 @media(max-width: 768px){
-    .buttom-button-section{
+    .gp-buttom-button-section{
         width: 100%;
         display: grid;
         justify-items: center;
     }
-    .button-container{
+    .gp-button-container{
         width: 98%;
         display: grid;
         justify-items: center;

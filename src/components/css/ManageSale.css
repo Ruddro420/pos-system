@@ -7,10 +7,6 @@
     font-family: "Poppins", serif;
 }
 
-/* body {
-    background-color: var(--gray-white);
-}
- */
 ul {
     list-style-type: none;
 }
@@ -24,15 +20,15 @@ a {
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
-    --light-orange: #FD7E14;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-lt: #37A000;
+    --lt-orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
     /* === FONTS SIZE FOR HEADING === */
     --primary-head: 22px;
     --secondary-head: 1.125rem;
@@ -41,7 +37,7 @@ a {
 }
 
 /* === COUNTER SECTION === */
-.counter-section {
+.managesale-counter-section {
     display: flex;
     width: 100%;
     gap: 30px;
@@ -49,7 +45,7 @@ a {
 }
 
 /* === TOTAL SALE SECTION === */
-.total-sale-section {
+.managesale-total-sale-section {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
@@ -58,25 +54,24 @@ a {
     align-items: center;
     padding: 20px;
     border-radius: 5px;
-   
 }
 
 /* === HOME ICON === */
-.total-sale-section i {
+.managesale-total-sale-section i {
     width: 60px;
     height: 60px;
     font-size: 2rem;
     padding: 10px 8px;
     border-radius: 5px;
     color: white;
-    background-color: var(--light-orange);
+    background-color: var(--orange);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 /* === TOTAL SALE SECTION === */
-.total-paid-section {
+.managesale-total-paid-section {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
@@ -88,21 +83,21 @@ a {
 }
 
 /* === HOME ICON === */
-.total-paid-section i {
+.managesale-total-paid-section i {
     width: 60px;
     height: 60px;
     font-size: 2rem;
     padding: 10px 8px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 /* === TOTAL DUE SECTION === */
-.total-due-section {
+.managesale-total-due-section {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
@@ -114,7 +109,7 @@ a {
 }
 
 /* === HOME ICON === */
-.total-due-section i {
+.managesale-total-due-section i {
     width: 60px;
     height: 60px;
     font-size: 2rem;
@@ -128,20 +123,20 @@ a {
 }
 
 /* === SALE TEXT === */
-.sale-text {
+.managesale-sale-text {
     line-height: 1.50em;
 }
 
-.sale-text p {
+.managesale-sale-text p {
     font-size: var(--secondary);
 }
 
-.sale-text h1 {
+.managesale-sale-text h1 {
     font-size: var(--primary-head);
 }
 
 /* === MANAGE SECTION === */
-.manage-section {
+.managesale-manage-section {
     margin: 20px;
     border-radius: 5px;
     background-color: var(--white);
@@ -149,7 +144,7 @@ a {
 }
 
 /* === MANAGE CONTAINER === */
-.manage-container {
+.managesale-manage-container {
     margin: 0px 20px;
     height: 60px;
     display: flex;
@@ -158,46 +153,47 @@ a {
     border-bottom: 1px solid var(--gray-black);
 }
 
-.manage-container p {
+.managesale-manage-container p {
     font-size: var(--secondary);
 }
 
 /* === FILTER AND ADD SECTION === */
-.filter-add-new {
+.managesale-filter-add-new {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.filter-container-items {
+.managesale-filter-container {
     color: var(--white);
     padding: 5px 10px;
     border-radius: 5px;
-    /* background-color: var(--main-green); */
+    background-color: var(--m-green);
     display: flex;
+    gap: 10px;
     align-items: center;
 }
 
-.filter-container a {
+.managesale-filter-container a {
     color: var(--white);
 }
 
-.add-new-sale-container {
+.managesale-add-new-sale-container {
     gap: 10px;
     color: var(--white);
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     display: flex;
     align-items: center;
 }
 
-.add-new-sale-container a {
+.managesale-add-new-sale-container a {
     color: var(--white);
 }
 
 /* === FILTER CONTAINER ITEMS === */
-.filter-container-items {
+.managesale-filter-container-items {
     height: 70px;
     padding: 10px 30px;
     gap: 10px!important;
@@ -205,41 +201,41 @@ a {
     align-items: center;
 }
 
-.invoice-box input {
+.managesale-invoice-box input {
     padding: 4px 10px;
     width: 80px;
     font-size: 1rem;
     color: gray;
 }
 
-.invoice-box input:focus {
+.managesale-invoice-box input:focus {
     outline: none;
 }
 
-.select-input-container select {
+.managesale-select-input-container select {
     color: gray;
     padding: 5px 10px;
     font-size: 1rem;
     width: 200px;
 }
 
-.select-input-container select:focus {
+.managesale-select-input-container select:focus {
     outline: none;
 }
 
-.sale-date-input-box input {
+.managesale-sale-date-input-box input {
     padding: 5px 10px;
     font-size: 1rem;
     margin-top: 10px;
     border-radius: 5px!important;
 }
 
-.sale-date-input-box input:focus {
+.managesale-sale-date-input-box input:focus {
     outline: none;
 }
 
 /* === SALE TYPE SELECT BOX === */
-.sale-type-select-box select {
+.managesale-sale-type-select-box select {
     padding: 5px 10px;
     width: 150px;
     font-size: 1rem;
@@ -247,21 +243,21 @@ a {
 }
 
 /* === FIND BUTTON === */
-.sh-button-container {
+.managesale-sh-button-container {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.sh-find-button a {
-    background-color: var(--main-green);
+.managesale-sh-find-button a {
+    background-color: var(--m-green);
     color: var(--white);
     padding: 7px 10px;
     border-radius: 3px;
     font-size: var(--primary-para);
 }
 
-.sh-reset-button a {
+.managesale-sh-reset-button a {
     background-color: var(--red);
     color: var(--white);
     padding: 7px 10px;
@@ -270,7 +266,7 @@ a {
 }
 
 /* === SHOW AND SEARCH SECTION === */
-.show-and-search-section {
+.managesale-show-and-search-section {
     height: 90px;
     margin: 0px 20px;
     display: flex;
@@ -281,28 +277,33 @@ a {
 }
 
 /* === SHOW CONTAINER === */
-.show-container {
+.managesale-show-container {
     display: flex;
+    align-items: center;
     gap: 5px;
 }
 
+.managesale-show-container p {
+    margin-bottom: 0;
+}
+
 /* === SEARCH CONTAINER === */
-.search-container > label {
+.managesale-search-container > label {
     margin-right: 10px;
 }
-.search-container > input {
+.managesale-search-container > input {
     width: 250px;
     border: 1px solid var(--gray-black);
     border-radius: 3px;
     padding: 4px 8px;
 }
 
-.search-container > input:focus {
+.managesale-search-container > input:focus {
     outline: none;
 }
 
 /* === MANAGE SALE DETAILS SECTION === */
-.manage-sale-details-section {
+.managesale-manage-sale-details-section {
     width: 100%;
     padding: 0px 25px;
 }
@@ -316,7 +317,7 @@ table {
 th,
 td {
     padding: 10px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--lt-black);
 }
 
 table th {
@@ -324,35 +325,30 @@ table th {
     font-weight: 500;
 }
 
-/* === EMPTY SECTION === */
-.empty-section p {
-    text-align: center;
-}
-
 /* === SLIDE PAGES === */
-.sh-slider-pages {
+.managesale-sh-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-slide-right-item {
+.managesale-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.managesale-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
-    background-color: var(--light-black-op);
+    background-color: var(--lt-black-op);
 }
 
-.sh-slide-right-item p {
+.managesale-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
 }

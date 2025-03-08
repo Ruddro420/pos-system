@@ -19,15 +19,15 @@ a {
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
-    --light-orange: #FD7E14;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-lt: #37A000;
+    --lt-orange: #FD7E14;
     --green: #008000;
     --light-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
     /* === FONTS SIZE FOR HEADING === */
     --primary-head: 22px;
     --secondary-head: 1.125rem;
@@ -35,72 +35,72 @@ a {
     --primary-para: 0.825rem;
 }
 /* === PARENT SECTION === */
-.parent-section{
+.salecounter-parent-section{
     width: 100%;
     padding: 20px;
 }
 /* === CHILD SECTION === */
-.sh-child-section{
+.salecounter-sh-child-section{
     border-radius: 5px;
     width: 100%;
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
 }
 /* === SALE COUNTER TOP ITEMS === */
-.sh-sale-counter-top-items{
+.salecounter-sh-sale-counter-top-items{
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid var(--gray-black);
 }
-.sh-sale-counter-top-items p{
+.salecounter-sh-sale-counter-top-items p{
     font-size: var(--secondary-head);
 }
-.sh-sale-counter-top-items a{
+.salecounter-sh-sale-counter-top-items a{
     color: var(--white);
     font-size: var(--secondary);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 5px 10px;
     border-radius: 5px;
 }
-.sh-sale-counter-top-items a i{
+.salecounter-sh-sale-counter-top-items a i{
     color: var(--white);
 }
 /* === SHOW AND SEARCH CONTAINER === */
-.sh-show-and-search-container{
+.salecounter-sh-show-and-search-container{
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-show-container{
+.salecounter-sh-show-container{
     gap: 5px;
     font-size: var(--secondary);
     display: flex;
     align-items: center;
 }
-.sh-show-container select{
-    padding: 5px 2px;
+.salecounter-sh-show-container select{
+    padding: 5px 6px 5px 10px;
 }
-.sh-show-container select:focus{
+.salecounter-sh-show-container select:focus{
     outline: none;
 }
 /* === SEARCH === */
-.sh-search-container{
+.salecounter-sh-search-container{
     gap: 5px;
     display: flex;
     align-items: center;
 }
-.sh-search-container input{
+.salecounter-sh-search-container input{
     width: 400px;
     padding: 5px 10px;
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--lt-black-op);
 }
-.sh-search-container input:focus{
+.salecounter-sh-search-container input:focus{
     outline: none;
 }
-.sh-line{
+.salecounter-sh-line{
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -111,10 +111,10 @@ table{
     padding: 0px 30px;
 }
 th, td{
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--lt-black-op);
     padding: 10px 15px;
 }
-.table-section {
+.salecounter-table-section {
     margin: 20px;
 }
 table thead tr th{
@@ -136,61 +136,61 @@ table tr:hover{
     background-color: #ddd;
 }
 /* ==== EDIT CONTAINER === */
-.editable-container {
+.salecounter-editable-container {
     gap: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 /* === DELETE ICON === */
-.editable-container > div > a > .delete-icon {
+.salecounter-editable-container > div > a > .salecounter-delete-icon {
     padding: 8px!important;
     border-radius: 3px;
     color: var(--red);
     border: 1px solid var(--red);
-    background-color: var(--light-red);
+    background-color: var(--lt-red);
 }
 
-.editable-container > div > a > .delete-icon:hover {
+.salecounter-editable-container > div > a > .salecounter-delete-icon:hover {
     color: var(--white);
     background-color: var(--red);
 }
-.sh-sl{
+.salecounter-sh-sl{
     width: 60px;
 }
-.sh-action{
+.salecounter-sh-action{
     width: 100px;
 }
 /* === SLIDE PAGES === */
-.sh-slider-pages {
+.salecounter-sh-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-slide-right-item {
+.salecounter-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.salecounter-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
-    background-color: var(--light-black-op);
+    background-color: var(--lt-black-op);
 }
 
-.sh-slide-right-item p {
+.salecounter-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
 }
 
 /* === FOOTER === */
-.footer-container{
+.salecounter-footer-container{
     bottom: 0;
     position: fixed;
     background-color: var(--white);

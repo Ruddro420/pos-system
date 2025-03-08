@@ -7,10 +7,6 @@
     font-family: "Poppins", serif;
 }
 
-/* body {
-    background-color: var(--gray-white);
-} */
-
 ul {
     list-style-type: none;
 }
@@ -18,23 +14,21 @@ ul {
 a {
     text-decoration: none;
 }
-body{
-    background-color: var(--gray-white);
-}
+
 :root {
     --gray-white: #F0F1F2;
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
-    --light-orange: #FD7E14;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-lt: #37A000;
+    --lt-orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
     /* === FONTS SIZE FOR HEADING === */
     --primary-head: 22px;
     --secondary-head: 1.125rem;
@@ -43,53 +37,54 @@ body{
 }
 
 
-.sh-parent{
+.mdsl-sh-parent{
     width: 100%;
     padding: 20px;
 }
-.sh-child-container{
+.mdsl-sh-child-container{
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
     border-radius: 5px;
 }
 /* === DRAFT SALE SECITON === */
-.sh-draft-sale-section{
+.mdsl-sh-draft-sale-section{
     width: 100%;
 }
 /* === DRAFT SALE TOP ITEMV === */
-.sh-draft-sale-top-item{
+.mdsl-sh-draft-sale-top-item{
     height: 80px;
     padding: 20px;
+    padding-bottom: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-draft-sale-top-item p{
+.mdsl-sh-draft-sale-top-item p{
     font-size: var(--secondary);
 }
 /* === DRAFT SALE TOP RIGHT ITMES === */
-.sh-draft-sale-top-right-items{
+.mdsl-sh-draft-sale-top-right-items{
     gap: 20px;
     display: flex;
     align-items: center;
 }
 /* === FILTR === */
-.sh-filter{
+.mdsl-sh-filter{
     display: flex;
     align-items: center;
     gap: 5px;
     padding: 5px 10px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
 }
-.sh-filter a{
+.mdsl-sh-filter a{
     color: white;
     font-size: var(--primary-para);
 }
 
 /* === FILTER DROPDOWN SECTION === */
-.sh-filter-drop-down-section{
+.mdsl-sh-filter-drop-down-section{
     gap: 20px;
     padding: 20px;
     display: flex;
@@ -98,22 +93,22 @@ body{
     border-bottom: 1px solid var(--gray-black)!important;
 }
 /* === SH DRAFT CONTAINER === */
-.sh-draft-container{
+.mdsl-sh-draft-container{
     line-height: 2em;
 }
-.sh-draft-container p{
+.mdsl-sh-draft-container p{
     font-size: var(--secondary);
 }
-.sh-draft-container input{
+.mdsl-sh-draft-container input{
     padding: 5px 8px;
     border: 1px solid var(--light-black);
 }
-.sh-draft-container input:focus{
+.mdsl-sh-draft-container input:focus{
     outline: none;
 }
 /* === FILTER SEARCH === */
-.sh-filter-search-box{
-    background-color: var(--main-green);
+.mdsl-sh-filter-search-box{
+    background-color: var(--m-green);
     padding: 4px 10px;
     color: var(--white);
     gap: 5px;
@@ -125,7 +120,7 @@ body{
     margin-bottom: 13.5px;
 }
 /* === FILTER RESET === */
-.sh-filter-reset-box{
+.mdsl-sh-filter-reset-box{
     background-color: var(--red);
     padding: 4px 10px;
     color: var(--white);
@@ -137,47 +132,47 @@ body{
     justify-content: center;
     margin-bottom: 13.5px;
 }
-.sh-line{
+.mdsl-sh-line{
     padding-right: 20px;
     padding-left: 20px;
 }
 /* === SHOW AND SEARCH CONTAINER === */
-.sh-show-and-search-container{
-    padding: 20px;
+.mdsl-sh-show-and-search-container{
+    padding: 20px 20px 0px 20px!important;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-show-container{
+.mdsl-sh-show-container{
     gap: 5px;
     font-size: var(--secondary);
     display: flex;
     align-items: center;
 }
-.sh-show-container select{
-    padding: 5px 2px;
+.mdsl-sh-show-container select{
+    padding: 5px 10px 5px 10px;
 }
-.sh-show-container select:focus{
+.mdsl-sh-show-container select:focus{
     outline: none;
 }
 /* === SEARCH === */
-.sh-search-container{
+.mdsl-sh-search-container{
     gap: 5px;
     display: flex;
     align-items: center;
 }
-.sh-search-container input{
+.mdsl-sh-search-container input{
     width: 400px;
     padding: 5px 10px;
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--lt-black-op);
 }
-.sh-search-container input:focus{
+.mdsl-sh-search-container input:focus{
     outline: none;
 }
 /* === MANAGE SALE DETAILS SECTION === */
-.manage-sale-details-section{
+.mdsl-manage-sale-details-section{
     width: 100%;
-    padding: 0px 25px;
+    padding: 0px 20px!important;
 }
 /* === TABLE === */
 table{
@@ -186,40 +181,37 @@ table{
 }
 th, td{
     padding: 10px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--lt-black);
 }
 table th{
     font-size: var(--secondary);
     font-weight: 500;
 }
-/* === EMPTY SECTION === */
-.empty-section p{
-    text-align: center;
-}
+
 /* === SLIDE PAGES === */
-.sh-slider-pages {
+.mdsl-sh-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-slide-right-item {
+.mdsl-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.mdsl-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
-    background-color: var(--light-black-op);
+    background-color: var(--lt-black-op);
 }
 
-.sh-slide-right-item p {
+.mdsl-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
 }

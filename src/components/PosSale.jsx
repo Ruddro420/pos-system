@@ -3,12 +3,12 @@ const PosSale = () => {
     return (
         <>
             <div className="cba-possale-container">
-                {/* Top Part */}
+                {/* Top Part todo: */}
                 <div className="cba-possale-inner-con-top-part">
                     <div className="cba-possale-ictp-row1">
                         {/* col 1 */}
                         <div className="cba-possale-ictp-row1-col1">
-                            <div className="cba-possale-ictp-row1-col1-inputbox">
+                            <div className="cba-possale-ictp-row1-col1-row1-inputbox">
                                 <label htmlFor="">Customer<span>*</span></label>
                                 <div>
                                     <select name="" id="">
@@ -17,11 +17,11 @@ const PosSale = () => {
                                     </select>
                                 </div>
                             </div>
-                            <div className="cba-possale-ictp-row1-col1-inputbox">
+                            <div className="cba-possale-ictp-row1-col1-row2-inputbox">
                                 <label htmlFor="">Address</label>
                                 <input type="text" placeholder='Address' />
                             </div>
-                            <div className="cba-possale-ictp-row1-col1-inputbox">
+                            <div className="cba-possale-ictp-row1-col1-row3-inputbox">
                                 <label htmlFor="">Invoice No</label>
                                 <div>
                                     <input type="text" />
@@ -31,11 +31,11 @@ const PosSale = () => {
                         </div>
                         {/* col 2 */}
                         <div className="cba-possale-ictp-row1-col2">
-                            <div className="cba-possale-ictp-row1-col2-inputbox">
+                            <div className="cba-possale-ictp-row1-col2-row1-inputbox">
                                 <label htmlFor="">Date<span>*</span></label>
                                 <input type="date" />
                             </div>
-                            <div className="cba-possale-ictp-row1-col2-inputbox">
+                            <div className="cba-possale-ictp-row1-col2-row2-inputbox">
                                 <label htmlFor="">Outlet<span>*</span></label>
                                 <select name="" id="">
                                     <option value="">Default Outlet</option>
@@ -56,16 +56,16 @@ const PosSale = () => {
                         {/* col 4 */}
                         <div className="cba-possale-ictp-row1-col4">
                             <div className="cba-possale-ictp-row1-col4-radiobox">
-                                <input type="radio" />
-                                <label htmlFor="">Regular Sale</label>
+                                <input type="radio" id='regular-sale' name='sale-type' />
+                                <label htmlFor="regular-sale">Regular Sale</label>
                             </div>
                             <div className="cba-possale-ictp-row1-col4-radiobox">
-                                <input type="radio" />
-                                <label htmlFor="">Delivery Sale</label>
+                                <input type="radio" id='delivery-sale' name='sale-type' />
+                                <label htmlFor="delivery-sale">Delivery Sale</label>
                             </div>
                             <div className="cba-possale-ictp-row1-col4-radiobox">
-                                <input type="radio" />
-                                <label htmlFor="">Draft Sale</label>
+                                <input type="radio" id='draft-sale' name='sale-type' />
+                                <label htmlFor="draft-sale">Draft Sale</label>
                             </div>
                         </div>
                         {/* col 5 */}
@@ -73,9 +73,11 @@ const PosSale = () => {
                             <textarea name="" id="" placeholder='Remarks'></textarea>
                         </div>
                     </div>
+                    {/* Middle One Part */}
                     <div className="cba-possale-ictp-row2">
                         <input type="text" placeholder='Enter Product Name, Product Model or BarCode for Scan' />
                     </div>
+                    {/* Middle Two Part */}
                     <div className="cba-possale-ictp-row3">
                         <table>
                             <thead>
@@ -92,10 +94,11 @@ const PosSale = () => {
                                 </tr>
                             </thead>
                             <tbody>
-                                {/* todo row 1 */}
+                                {/* row 1 */}
+                                {/* Items Details Rows */}
                                 <tr>
                                     <td>
-                                        <input type="text" placeholder='Product Name' />
+                                        <input type="text" placeholder='Enter Product Name' />
                                     </td>
                                     <td>
                                         <input type="text" placeholder='0' />
@@ -125,24 +128,25 @@ const PosSale = () => {
                                         <input type="text" placeholder='0.00' />
                                     </td>
                                     <td>
-                                        <i className='bx bx-minus'></i>
+                                        <i className='cba-possale-icmt-table-minus-icon bx bx-minus'></i>
                                     </td>
                                 </tr>
                                 {/* row 2 */}
+                                {/* Items Total Price Row */}
                                 <tr>
                                     <td colSpan={7}>Item Total:</td>
                                     <td>
                                         <input type="text" placeholder='0.00' />
                                     </td>
                                     <td>
-                                        <i className='bx bx-plus'></i>
+                                        <i className='cba-possale-icmt-table-plus-icon bx bx-plus'></i>
                                     </td>
                                 </tr>
-                                {/* row 4 */}
+                                {/* row 3 */}
+                                {/* Items Discount Show Row */}
                                 <tr>
                                     <td colSpan={7}>
-                                        <button>Dis. Present</button>
-                                        <button>Dis. Value</button>
+                                        <button>Discount (%/$)</button>
                                     </td>
                                     <td>
                                         <div>
@@ -151,7 +155,8 @@ const PosSale = () => {
                                         </div>
                                     </td>
                                 </tr>
-                                {/* row 5 */}
+                                {/* row 4 */}
+                                {/* Items VAT Show Row */}
                                 <tr>
                                     <td colSpan={7}>Sale VAT%:</td>
                                     <td>
@@ -164,17 +169,7 @@ const PosSale = () => {
                                         </div>
                                     </td>
                                 </tr>
-                                {/* row 6 */}
-                                <tr>
-                                    <td colSpan={7}>
-
-                                    </td>
-                                    <td>
-                                        <i className='bx bx-plus-circle'></i>
-                                        Add Additional Expenses
-                                    </td>
-                                </tr>
-                                {/* row 7 */}
+                                {/* row 5 */}
                                 <tr>
                                     <td colSpan={7}>Net Payable:</td>
                                     <td>

@@ -20,15 +20,15 @@ a {
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
-    --light-orange: #FD7E14;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-lt: #37A000;
+    --lt-orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
     /* === FONTS SIZE FOR HEADING === */
     --primary-head: 22px;
     --secondary-head: 1.125rem;
@@ -39,14 +39,14 @@ a {
 
 /* -- container style -- */
 
-.cba-sare-container {
+.cba-salereturn-container {
     width: 100%;
-    padding: 30px;
+    padding: 30px 20px 30px 28px;
 }
 
 /* -- top menus style */
 
-.cba-sare-top-menus {
+.cba-salereturn-top-menus {
     background-color: var(--white);
     padding: 20px 20px 5px 0px;
     display: flex;
@@ -56,28 +56,28 @@ a {
     margin-bottom: 30px;
 }
 
-.cba-sare-top-menus > ul {
+.cba-salereturn-top-menus > ul {
     list-style-type: none;
     display: flex;
     gap: 25px;
     margin-left: -15px;
 }
 
-.cba-sare-top-menus > ul > li {
+.cba-salereturn-top-menus > ul > li {
     margin-top: 5px;
 }
 
-.cba-sare-top-menus > ul > li > a.cba-sare-active-menu {
+.cba-salereturn-top-menus > ul > li > a.cba-salereturn-active-menu {
     text-decoration: none;
     color: var(--white);
     font-size: 1rem;
     font-weight: 500;
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 10px 15px;
     border-radius: 5px;
 }
 
-.cba-sare-top-menus > ul > li > a.cba-sare-light-up {
+.cba-salereturn-top-menus > ul > li > a.cba-salereturn-light-up {
     text-decoration: none;
     color: var(--black);
     font-size: 1rem;
@@ -85,70 +85,76 @@ a {
     border-radius: 5px;
 }
 
-.cba-sare-top-menus > ul > li > a.cba-sare-light-up:hover {
-    color: var(--light-orange);
+.cba-salereturn-top-menus > ul > li > a.cba-salereturn-light-up:hover {
+    color: var(--orange);
 }
 
 /* inner container */
 
-.cba-sare-input-area-con {
+.cba-salereturn-input-area-con {
     padding: 30px 20px 20px 20px;
     background-color: var(--white);
     border-radius: 5px;
 }
 
-.cba-sare-input-area-con > .cba-sare-iac-heading  {
+.cba-salereturn-input-area-con > .cba-salereturn-iac-heading  {
     border-bottom: 1px solid var(--gray-black);
 }
 
-.cba-sare-input-area-con > .cba-sare-iac-heading > h2 {
+.cba-salereturn-input-area-con > .cba-salereturn-iac-heading > h2 {
     font-size: 1.5rem;
     font-weight: 500;
-    color: var(--light-black);
+    color: var(--lt-black);
 }
 
-.cba-sare-input-area-con > .cba-sare-iac-input-area {
+.cba-salereturn-input-area-con > .cba-salereturn-iac-input-area {
     padding-top: 20px;
     display: flex;
-    gap: 25px;
+    gap: 15px;
     justify-content: left;
     align-items: center;
 }
 
-.cba-sare-input-area-con > .cba-sare-iac-input-area > .cba-sare-iac-lain {
+.cba-salereturn-input-area-con > .cba-salereturn-iac-input-area > .cba-salereturn-iac-lain {
     width: 20%;
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.cba-sare-input-area-con > .cba-sare-iac-input-area > .cba-sare-iac-lain > label {
-    color: var(--light-black);
+.cba-salereturn-input-area-con > .cba-salereturn-iac-input-area > .cba-salereturn-iac-lain > label {
+    color: var(--lt-black);
     font-size: 1rem;
     font-weight: 500;
     white-space: nowrap;
     margin-bottom: 5px!important;
 }
 
-.cba-sare-input-area-con > .cba-sare-iac-input-area > .cba-sare-iac-lain > input {
-    width: 100%;
-    padding: 7px 10px 5px 10px;
+.cba-salereturn-input-area-con > .cba-salereturn-iac-input-area > .cba-salereturn-iac-lain > input {
+    width: 100%!important;
+    padding: 7px 10px 5px 10px!important;
     border: 1px solid var(--gray-black);
     border-radius: 5px;
     font-size: 1rem;
     font-weight: 500;
     outline: none;
-    color: var(--light-black);
+    color: var(--lt-black);
     text-align: left;
 }
 
-.cba-sare-input-area-con > .cba-sare-iac-input-area > .cba-sare-iac-lain > label > span.required {
+@media (max-width: 1536px) {
+    .cba-salereturn-input-area-con > .cba-salereturn-iac-input-area > .cba-salereturn-iac-lain > input {
+    width: 135px!important;
+    }
+}
+
+.cba-salereturn-input-area-con > .cba-salereturn-iac-input-area > .cba-salereturn-iac-lain > label > span.required {
     color: var(--red);
 }
 
-.cba-sare-input-area-con > .cba-sare-iac-input-area > .cba-sare-iac-subbtn {
+.cba-salereturn-input-area-con > .cba-salereturn-iac-input-area > .cba-salereturn-iac-subbtn {
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 1px 5px 1px 5px!important;
     border-radius: 5px;
     cursor: pointer;

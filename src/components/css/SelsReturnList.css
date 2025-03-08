@@ -20,15 +20,15 @@ a {
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
-    --light-orange: #FD7E14;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-lt: #37A000;
+    --lt-orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
     /* === FONTS SIZE FOR HEADING === */
     --primary-head: 22px;
     --secondary-head: 1.125rem;
@@ -40,7 +40,7 @@ a {
 
 .sales-return-list-container {
     width: 100%;
-    padding: 30px;
+    padding: 30px 20px 30px 28px;
 }
 
 /* -- top menus style */
@@ -71,7 +71,7 @@ a {
     color: var(--white);
     font-size: 1rem;
     font-weight: 500;
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -85,7 +85,7 @@ a {
 }
 
 .cba-sarl-top-menus > ul > li > a.cba-sarl-light-up:hover {
-    color: var(--light-orange);
+    color: var(--orange);
 }
 
 /* details container style */
@@ -115,7 +115,7 @@ a {
     align-items: center;
     gap: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 8px 10px 6px 10px;
     border-radius: 5px;
 }
@@ -158,7 +158,7 @@ a {
     font-weight: 400;
     color: var(--white);
     margin-bottom: 0;
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 8px 10px 6px 10px;
     border-radius: 2.5px;
 }
@@ -224,6 +224,15 @@ a {
     background-color: var(--gray-black);
 }
 
+.cba-sarl-table-container > table > tbody > tr > td > i.cba-sarl-table-edit-icon {
+    color: var(--m-green);
+    font-size: 1.5rem;
+    background-color: var(--lt-green);
+    padding: 5px;
+    border: 1px solid var(--m-green);
+    border-radius: 2.5px;
+    cursor: pointer;
+}
 /* -- bottom part -- */
 
 .cba-sarl-dc-bottombar {
@@ -261,7 +270,7 @@ a {
     font-size: 1rem;
     font-weight: 400;
     color: var(--white);
-    background-color: var(--main-light);
+    background-color: var(--m-lt);
     padding: 8px 15px 6px 15px;
     border-radius: 5px;
     margin-bottom: 0;

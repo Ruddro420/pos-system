@@ -2,15 +2,15 @@ import "./css/GuiPos.css";
 const GuiPos = () => {
   return (
     <>
-      <nav className="nav-item">
-        <div className="top-navbar-items">
-          <div className="sh-top-nav-left-section">
-            <div className="sh-top-nav-left-conatiner">
-              <div className="sh-search-box">
+      <nav className="gp-nav-item">
+        <div className="gp-top-navbar-items">
+          <div className="gp-sh-top-nav-left-section">
+            <div className="gp-sh-top-nav-left-conatiner">
+              <div className="gp-sh-search-box">
                 <input type="search" placeholder="Scan your products" />
               </div>
 
-              <div className="sh-scaner-icon">
+              <div className="gp-sh-scaner-icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="24px"
@@ -22,24 +22,24 @@ const GuiPos = () => {
                 </svg>
               </div>
 
-              <div className="sh-product">
+              <div className="gp-sh-product">
                 <a href="#">Product</a>
               </div>
 
-              <div className="sh-scan">
+              <div className="gp-sh-scan">
                 <a href="#">Scan</a>
               </div>
             </div>
 
             {/* === TOP LEFT NAVBAR RIGHT CONATAINER ===  */}
-            <div className="sh-top-left-nav-right-container">
-              <div className="sh-all-category">
+            <div className="gp-sh-top-left-nav-right-container">
+              <div className="gp-sh-all-category">
                 <a href="#">All category</a>
               </div>
               {/*    === WINDOW ICON COANTAINER === */}
-              <div className="sh-window-icon-container">
+              <div className="gp-sh-window-icon-container">
                 {/* === SPLIT ICON == */}
-                <div className="sh-split-icon">
+                <div className="gp-sh-split-icon">
                   <a href="#">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const GuiPos = () => {
                   </a>
                 </div>
                 {/*     === WINDOW ICON === */}
-                <div className="sh-window-icon">
+                <div className="gp-sh-window-icon">
                   <a href="#">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -71,14 +71,14 @@ const GuiPos = () => {
           </div>
 
           {/*    === TOP NAVBAR RIGHT SECITON === */}
-          <div className="sh-top-nav-right-seciton">
-            <div className="sh-top-nabbar-right-container">
+          <div className="gp-sh-top-nav-right-seciton">
+            <div className="gp-sh-top-nabbar-right-container">
               {/*  === SEARCH CUSTOMER BOX === */}
-              <div className="sh-search-customer-box">
+              <div className="gp-sh-search-customer-box">
                 <input type="search" placeholder="Search customer" />
               </div>
               {/*   === PERSON ICON === */}
-              <div className="sh-person-icon">
+              <div className="gp-sh-person-icon">
               {/*  <svg
                   width="19px"
                   height="19px"
@@ -159,7 +159,7 @@ const GuiPos = () => {
               </div>
             </div>
             {/*  === MORE VERT ICON === */}
-            <div className="sh-more-vert-icon">
+            <div className="gp-sh-more-vert-icon">
               <a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -179,182 +179,182 @@ const GuiPos = () => {
       {/*  === PRODUCT SECTIONS === */}
       <section>
         {/* === PRODUCT CONTAINER === */}
-        <div className="product-container">
-          <div className="image-section">
+        <div className="gp-product-container">
+          <div className="gp-image-section">
             {/* === IMAGE === */}
-            <div className="image-container">
-              <div className="sh-image">
+            <div className="gp-image-container">
+              <div className="gp-sh-image">
                 <a href="#">
                   <img src="/public/guiPos/red-chillies-300x300.jpg" alt="" />
                 </a>
               </div>
-              <div className="sh-product-name">
+              <div className="gp-sh-product-name">
                 <p>Handpicked Red Chillies</p>
               </div>
             </div>
-            <div className="image-container">
-              <div className="sh-image">
+            <div className="gp-image-container">
+              <div className="gp-sh-image">
                 <a href="#">
                   <img src="/public/guiPos/pulses-300x300.jpg" alt="" />
                 </a>
               </div>
-              <div className="sh-product-name">
+              <div className="gp-sh-product-name">
                 <p>Pulses From Organic Farm</p>
               </div>
             </div>
-            <div className="image-container">
-              <div className="sh-image">
+            <div className="gp-image-container">
+              <div className="gp-sh-image">
                 <a href="#">
                   <img src="/public/guiPos/orage-juice-kariz-300x300.jpg" alt="" />
                 </a>
               </div>
-              <div className="sh-product-name">
+              <div className="gp-sh-product-name">
                 <p>Fresh Orange Juice</p>
               </div>
             </div>
-            <div className="image-container">
-              <div className="sh-image">
+            <div className="gp-image-container">
+              <div className="gp-sh-image">
                 <a href="#">
                   <img src="/public/guiPos/sanitizer-300x300.jpg" alt="" />
                 </a>
               </div>
-              <div className="sh-product-name">
+              <div className="gp-sh-product-name">
                 <p>Hand Sanitizer</p>
               </div>
             </div>
-            <div className="image-container">
-              <div className="sh-image">
+            <div className="gp-image-container">
+              <div className="gp-sh-image">
                 <a href="#">
                   <img src="/public/guiPos/eggs-300x300.jpg" alt="" />
                 </a>
               </div>
-              <div className="sh-product-name">
+              <div className="gp-sh-product-name">
                 <p>Farm Fresh Eggs</p>
               </div>
             </div>
-            <div className="image-container">
-              <div className="sh-image">
+            <div className="gp-image-container">
+              <div className="gp-sh-image">
                 <a href="#">
                   <img src="/public/guiPos/organic-honey-300x300.jpg" alt="" />
                 </a>
               </div>
-              <div className="sh-product-name">
+              <div className="gp-sh-product-name">
                 <p>Fresh Organic Honey</p>
               </div>
             </div>
-            <div className="image-container">
-              <div className="sh-image">
+            <div className="gp-image-container">
+              <div className="gp-sh-image">
                 <a href="#">
                   <img src="/public/guiPos/edible-oil-300x300.jpg" alt="" />
                 </a>
               </div>
-              <div className="sh-product-name">
+              <div className="gp-sh-product-name">
                 <p>Natural Extracted Edible Oil</p>
               </div>
             </div>
-            <div className="image-container">
-              <div className="sh-image">
+            <div className="gp-image-container">
+              <div className="gp-sh-image">
                 <a href="#">
                   <img src="/public/guiPos/coffee-asorted-300x300.jpg" alt="" />
                 </a>
               </div>
-              <div className="sh-product-name">
+              <div className="gp-sh-product-name">
                 <p>Assorted Coffee</p>
               </div>
             </div>
-            <div className="image-container">
-              <div className="sh-image">
+            <div className="gp-image-container">
+              <div className="gp-sh-image">
                 <a href="#">
                   <img src="/public/guiPos/wheat-300x300.jpg" alt="" />
                 </a>
               </div>
-              <div className="sh-product-name">
+              <div className="gp-sh-product-name">
                 <p>Wheat From Organic Farms</p>
               </div>
             </div>
-            <div className="image-container">
-              <div className="sh-image">
+            <div className="gp-image-container">
+              <div className="gp-sh-image">
                 <a href="#">
                   <img src="/public/guiPos/diabetic-cookies-300x300.jpg" alt="" />
                 </a>
               </div>
-              <div className="sh-product-name">
+              <div className="gp-sh-product-name">
                 <p>Diabetic Cookies</p>
               </div>
             </div>
-            <div className="image-container">
-              <div className="sh-image">
+            <div className="gp-image-container">
+              <div className="gp-sh-image">
                 <a href="#">
                   <img src="/public/guiPos/face-wash-300x300.jpg" alt="" />
                 </a>
               </div>
-              <div className="sh-product-name">
+              <div className="gp-sh-product-name">
                 <p>Organic Face Scrub</p>
               </div>
             </div>
-            <div className="image-container">
-              <div className="sh-image">
+            <div className="gp-image-container">
+              <div className="gp-sh-image">
                 <a href="#">
                   <img src="/public/guiPos/cashew-butter-500-300x300.jpg" alt="" />
                 </a>
               </div>
-              <div className="sh-product-name">
+              <div className="gp-sh-product-name">
                 <p>Cashew Butter</p>
               </div>
             </div>
           </div>
 
-          <div className="parent-container-two">
+          <div className="gp-parent-container-two">
             {/* === PRODUCT DETAILS SECTIONS === */}
-            <div className="product-details-section">
+            <div className="gp-product-details-section">
               {/* === NAME BOX SECTION === */}
-              <div className="sh-name-box-section">
-                <div className="sh-product-text">
+              <div className="gp-sh-name-box-section">
+                <div className="gp-sh-product-text">
                   <p>Product</p>
                 </div>
                 {/*   === QTY === */}
-                <div className="sh-qty">
+                <div className="gp-sh-qty">
                   <p>Qty</p>
                 </div>
                 {/* === PRICE === */}
-                <div className="sh-price">
+                <div className="gp-sh-price">
                   <p>Price</p>
                 </div>
               </div>
               {/*    - === PRODUCT COLLECT BOX === */}
-              <div className="sh-product-collect-box">
+              <div className="gp-sh-product-collect-box">
                 {/*   === IMAGE === */}
-                <div className="empty-image">
+                <div className="gp-empty-image">
                   <img src="/public/guiPos/empty-cart.png" alt="" />
                 </div>
               </div>
               {/*        === SUB TOTAL BOX === */}
-              <div className="sh-subtotal-box">
-                <div className="sh-sub-total">
+              <div className="gp-sh-subtotal-box">
+                <div className="gp-sh-sub-total">
                   <h4>Subtotal</h4>
                 </div>
-                <div className="sh-price-total">
+                <div className="gp-sh-price-total">
                   <h4>$0.00</h4>
                 </div>
               </div>
               {/*  === ADD BOX === */}
-              <div className="add-section">
-                <div className="add-discount">
+              <div className="gp-add-section">
+                <div className="gp-add-discount">
                   <a href="#">Add Discount</a>
                 </div>
-                <div className="add-discount">
+                <div className="gp-add-discount">
                   <a href="#">Add Fee</a>
                 </div>
-                <div className="add-discount">
+                <div className="gp-add-discount">
                   <a href="#">Add Note</a>
                 </div>
               </div>
               {/*  === PAY NOW BOX === */}
-              <div className="pay-now-box">
-                <div className="paynow">
+              <div className="gp-pay-now-box">
+                <div className="gp-paynow">
                   <h3>Pay Now</h3>
                 </div>
-                <div className="pay-dollar">
+                <div className="gp-pay-dollar">
                   <h3>$0.00</h3>
                 </div>
               </div>
@@ -364,45 +364,45 @@ const GuiPos = () => {
       </section>
 
       {/*    === BUTTOM BUTTON SECTION === */}
-      <div className="buttom-button-section">
-        <div className="button-container">
+      <div className="gp-buttom-button-section">
+        <div className="gp-button-container">
           {/* - === BUTTON ONE === */}
-          <div className="button-one">
+          <div className="gp-button-one">
             <img src="/public/guiPos/download (6).svg" alt="" />
             <a href="#">Split Payment</a>
           </div>
           {/*  === BUTTON TWO === */}
-          <div className="button-two">
+          <div className="gp-button-two">
             <img src="/public/guiPos/download (5).svg" alt="" />
             <a href="#">Card</a>
           </div>
           {/*     === BUTTON THREE === */}
-          <div className="button-three">
+          <div className="gp-button-three">
             <img src="/public/guiPos/download (7).svg" alt="" />
             <a href="#">Cash</a>
           </div>
           {/*   === BUTTON FOUR === */}
-          <div className="button-four">
+          <div className="gp-button-four">
             <img src="/public/guiPos/mony.svg" alt="" />
             <a href="#">Draft</a>
           </div>
           {/*  === BUTTON FIVE === */}
-          <div className="button-five">
+          <div className="gp-button-five">
             <img src="/public/guiPos/download (4).svg" alt="" />
             <a href="#">Discount</a>
           </div>
           {/* - === BUTTON SIX === */}
-          <div className="button-six">
+          <div className="gp-button-six">
             <img src="/public/guiPos/download (2).svg" alt="" />
             <a href="#">Expense</a>
           </div>
           {/*   === BUTTON SEVEN === */}
-          <div className="button-seven">
+          <div className="gp-button-seven">
             <img src="/public/guiPos/download (3).svg" alt="" />
             <a href="#">Deu</a>
           </div>
           {/*  === BUTTON EIGHT === */}
-          <div className="button-eight">
+          <div className="gp-button-eight">
             <img src="/public/guiPos/download (1).svg" alt="" />
             <a href="#">Calculator</a>
           </div>

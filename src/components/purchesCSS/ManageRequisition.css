@@ -7,10 +7,6 @@
     font-family: "Poppins", serif;
 }
 
-body {
-    background-color: var(--gray-black);
-}
-
 ul {
     list-style-type: none;
 }
@@ -18,9 +14,7 @@ ul {
 a {
     text-decoration: none;
 }
-body{
-    background-color: var(--gray-white);
-}
+
 :root {
     --gray-white: #F0F1F2;
     --white: #FFFFFF;
@@ -41,106 +35,105 @@ body{
     --secondary: 1rem;
     --primary-para: 0.825rem;
 }
-ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-}
+
 /* === PARENT SECTION === */
-.sh-parent-section{
+.sh-manage-requisition-parent-section{
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px 200px 30px;
 }
 /* === CHILD SECTION === */
-.sh-child-section{
-    width: 100%;
+.sh-manage-requisition-child-section{
+    width: 100%; 
 }
 /* === TOP MENU ITEMS === */
-.sh-top-menu-items{
+.sh-manage-requisition-top-menu-items{
+    width: 100%;
     border-radius: 5px;
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 10px!important;
+    margin-bottom: 50px!important;
+    margin-right: 50px!important;
 }
-.sh-top-menu-items ul{
+.sh-manage-requisition-top-menu-items ul{
     width: 100%;
     display: flex;
     align-items: center;
 }
-.sh-top-menu-items li{
+.sh-manage-requisition-top-menu-items li{
     height: 50px;
 }
-.sh-top-menu-items a{
+.sh-manage-requisition-top-menu-items a{
     height: 100%;
     padding: 0px 20px;
     color: var(--black);
     font-size: var(--secondary);
     display: flex;
     align-items: center;
+    margin: 0px!important;
 }
-.sh-menu-items a:hover{
+.sh-manage-requisition-menu-items a:hover{
     color: var(--red);
 }
 /* === ACTIVE MENU === */
-.sh-active-item a{
+.sh-manage-requisition-active-item a{
     background-color: var(--main-green);
     color: var(--white);
     border-radius: 5px;
 }
 /* === REQUISIION LIST SECTION === */
 /* === DRAFT SALE SECITON === */
-.sh-draft-sale-section{
+.sh-manage-requisition-draft-sale-section{
     width: 100%;
     background-color: var(--white);
     margin-top: 20px;
 }
 /* === DRAFT SALE TOP ITEMV === */
-.sh-draft-sale-top-item{
+.sh-manage-requisition-draft-sale-top-item{
     height: 80px;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-draft-sale-top-item p{
+.sh-manage-requisition-draft-sale-top-item p{
     font-size: var(--secondary);
 }
 /* === SHOW AND SEARCH CONTAINER === */
-.sh-show-and-search-container{
+.sh-manage-requisition-show-and-search-container{
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-show-container{
+.sh-manage-requisition-show-container{
     gap: 5px;
     font-size: var(--secondary);
     display: flex;
     align-items: center;
 }
-.sh-show-container select{
+.sh-manage-requisition-show-container select{
     padding: 5px 2px;
 }
-.sh-show-container select:focus{
+.sh-manage-requisition-show-container select:focus{
     outline: none;
 }
 /* === SEARCH === */
-.sh-search-container{
+.sh-manage-requisition-search-container{
     gap: 5px;
     display: flex;
     align-items: center;
 }
-.sh-search-container input{
+.sh-manage-requisition-search-container input{
     width: 400px;
     padding: 5px 10px;
     border: 1px solid var(--light-black-op);
 }
-.sh-search-container input:focus{
+.sh-manage-requisition-search-container input:focus{
     outline: none;
 }
 /* === MANAGE SALE DETAILS SECTION === */
-.manage-sale-details-section{
+.sh-manage-requisition-manage-sale-details-section{
     width: 100%;
     padding: 0px 25px;
 }
@@ -158,28 +151,28 @@ table th{
     font-weight: 500;
 }
 /* === EMPTY SECTION === */
-.empty-section p{
+.sh-manage-requisition-empty-section p{
     text-align: center;
 }
 /* === DRAFT SALE TOP ITEMV === */
-.sh-requisition-top-item{
+.sh-manage-requisition-requisition-top-item{
     height: 80px;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-requisition-top-item p{
+.sh-manage-requisition-requisition-top-item p{
     font-size: var(--secondary);
 }
 /* === DRAFT SALE TOP RIGHT ITMES === */
-.sh-draft-sale-top-right-items{
+.sh-manage-requisition-draft-sale-top-right-items{
     gap: 20px;
     display: flex;
     align-items: center;
 }
 /* === FILTR === */
-.sh-filter{
+.sh-manage-requisition-filter{
     display: flex;
     align-items: center;
     gap: 5px;
@@ -188,13 +181,13 @@ table th{
     color: var(--white);
     background-color: var(--main-green);
 }
-.sh-filter a{
+.sh-manage-requisition-filter a{
     color: white;
     font-size: var(--primary-para);
 }
 
 /* === FILTER DROPDOWN SECTION === */
-.sh-filter-drop-down-section{
+.sh-manage-requisition-filter-drop-down-section{
     gap: 20px;
     padding: 20px;
     display: flex;
@@ -202,18 +195,18 @@ table th{
     align-items: flex-end;
 }
 /* === SH DRAFT CONTAINER === */
-.sh-draft-container{
+.sh-manage-requisition-draft-container{
     line-height: 2em;
 }
-.sh-draft-container input{
+.sh-manage-requisition-draft-container input{
     padding: 5px 8px;
     border: 1px solid var(--light-black);
 }
-.sh-draft-container input:focus{
+.sh-manage-requisition-draft-container input:focus{
     outline: none;
 }
 /* === FILTER SEARCH === */
-.sh-filter-search-box{
+.sh-manage-requisition-filter-search-box{
     background-color: var(--main-green);
     padding: 4px 10px;
     color: var(--white);
@@ -225,7 +218,7 @@ table th{
     justify-content: center;
 }
 /* === FILTER RESET === */
-.sh-filter-reset-box{
+.sh-manage-requisition-filter-reset-box{
     background-color: var(--red);
     padding: 4px 10px;
     color: var(--white);
@@ -236,65 +229,65 @@ table th{
     align-items: center;
     justify-content: center;
 }
-.sh-line{
+.sh-manage-requisition-line{
     padding-right: 20px;
     padding-left: 20px;
 }
 /* === SHOW AND SEARCH CONTAINER === */
-.sh-show-and-search-container{
+.sh-manage-requisition-show-and-search-container{
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-show-container{
+.sh-manage-requisition-show-container{
     gap: 5px;
     font-size: var(--secondary);
     display: flex;
     align-items: center;
 }
-.sh-show-container select{
+.sh-manage-requisition-show-container select{
     padding: 5px 2px;
 }
-.sh-show-container select:focus{
+.sh-manage-requisition-show-container select:focus{
     outline: none;
 }
 /* === SEARCH === */
-.sh-search-container{
+.sh-manage-requisition-search-container{
     gap: 5px;
     display: flex;
     align-items: center;
 }
-.sh-search-container input{
+.sh-manage-requisition-search-container input{
     width: 400px;
     padding: 5px 10px;
     border: 1px solid var(--light-black-op);
 }
-.sh-search-container input:focus{
+.sh-manage-requisition-search-container input:focus{
     outline: none;
 }
 /* === SLIDE PAGES === */
-.sh-slider-pages {
+.sh-manage-requisition-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-slide-right-item {
+.sh-manage-requisition-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.sh-manage-requisition-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
     background-color: var(--light-black-op);
 }
 
-.sh-slide-right-item p {
+.sh-manage-requisition-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
