@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
 
-/* import './css/Vouchers.css' */
-const Vouchers = () => {
+
+const JournalVoucher = () => {
     return (
         <>
-             <div className="sh-parent">
-       {/*  <!-- === TOP MENU ITEMS === --> */}
+            <div className="sh-parent">
+      {/*   <!-- === TOP MENU ITEMS === --> */}
         <div className="sh-top-menu-items">
             <ul>
-                <li className="sh-active-item"><Link to="/Vouchers-page">Debit Voucher</Link></li>
+                <li className="sh-menu-items"><Link to="/Vouchers-page">Debit Voucher</Link></li>
                 <li className="sh-menu-items"><Link to="/CreditVoucher-page">Credit Voucher</Link></li>
                 <li className="sh-menu-items"><Link to="/ContraVoucher-page">Contra Voucher</Link></li>
-                <li className="sh-menu-items"><Link to="/JournalVoucher-page">Journal Voucher</Link></li>
+                <li className="sh-active-item"><Link to="/JournalVoucher-page">Journal Voucher</Link></li>
             </ul>
         </div>
         <div className="sh-child-container">
@@ -20,12 +20,12 @@ const Vouchers = () => {
                 <div className="sh-draft-sale-top-item">
                     <p>Debit Voucher List</p>
                     <div className="sh-sub-account">
-                        <i className="fa-solid fa-circle-plus"></i> Create Debit Voucher
+                        <i className="fa-solid fa-circle-plus"></i> Create New Journal Voucher
                     </div>
                 </div>
             </div>
             <hr/>
-           {/*  <!-- === SHOW AND SEARCH CONTAINER === --> */}
+          {/*   <!-- === SHOW AND SEARCH CONTAINER === --> */}
             <div className="sh-show-and-search-container">
                 <div className="sh-show-container">
                     <p>Show</p>
@@ -39,13 +39,13 @@ const Vouchers = () => {
                     </select>
                     <p>Entries</p>
                 </div>
-               {/*  <!-- === SEARCH === --> */}
+                {/* <!-- === SEARCH === --> */}
                 <div className="sh-search-container">
                     <p>Search:</p>
                     <input type="search" placeholder="" name="" id=""/>
                 </div>
             </div>
-            {/* <!-- === MANAGE SALE DETAILS SECTION === --> */}
+           {/*  <!-- === MANAGE SALE DETAILS SECTION === --> */}
             <div className="manage-sale-details-section">
                 <table>
                     <thead>
@@ -70,7 +70,7 @@ const Vouchers = () => {
                     </tbody>
                 </table>
             </div>
-           {/*  <!-- === SLIDE PAGES === --> */}
+            {/* <!-- === SLIDE PAGES === --> */}
             <div className="sh-slider-pages">
                 <p>Showing 0 to 0 of 0 entries</p>
                 <div className="sh-slide-right-item">
@@ -86,4 +86,4 @@ const Vouchers = () => {
     );
 };
 
-export default Vouchers;
+export default JournalVoucher;
