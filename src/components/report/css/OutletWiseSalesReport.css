@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body {
+    background-color: var(--gray-black);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--gray-white);
+}
+
+:root {
+    --gray-white: #F0F1F2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --light-black: #212523;
+    --light-black-op: #21252350;
+    --main-green: #157343;
+    --main-light: #37A000;
+    --light-orange: #FD7E14;
+    --green: #008000;
+    --light-green: #e9f6ec;
+    --red: #FF0000;
+    --light-red: #fbeaec;
+    /* === FONTS SIZE FOR HEADING === */
+    --primary-head: 22px;
+    --secondary-head: 1.125rem;
+    --secondary: 1rem;
+    --primary-para: 0.825rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* === TOP MENU ITEMS === */
+.sh-top-menu-items {
+    margin: 20px;
+    border-radius: 5px;
+    background-color: var(--white);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
+    padding: 10px 0px 10px 10px;
+}
+
+.sh-top-menu-items ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sh-top-menu-items li {
+    height: 50px;
+}
+
+.sh-top-menu-items a {
+    height: 100%;
+    padding: 0px 20px;
+    color: var(--black);
+    font-size: var(--secondary);
+    display: flex;
+    align-items: center;
+}
+
+.sh-menu-items a:hover {
+    color: var(--red);
+}
+
+/* === ACTIVE MENU === */
+.sh-active-item a {
+    background-color: var(--main-green);
+    color: var(--white);
+    border-radius: 5px;
+}
+
+/* === COUNTER SECTION === */
+.counter-section {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* === TOTAL SALE SECTION === */
+.total-sale-section {
+    width: 100%;
+    gap: 10px;
+    background-color: var(--white);
+    box-shadow: 3px 3px 5px solid rgb(0, 0, 0, 0.2)!important;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* === HOME ICON === */
+.total-sale-section i {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    padding: 10px 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--light-orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* === TOTAL SALE SECTION === */
+.total-paid-section {
+    width: 100%;
+    gap: 10px;
+    background-color: var(--white);
+    box-shadow: 3px 3px 5px solid rgb(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* === HOME ICON === */
+.total-paid-section i {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    padding: 10px 8px;
+    border-radius: 5px;
+    color: var(--white);
+    background-color: var(--main-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* === SALE TEXT === */
+.sale-text {
+    line-height: 1.50em;
+}
+
+.sale-text p {
+    font-size: var(--secondary);
+}
+
+.sale-text h1 {
+    font-size: var(--primary-head);
+}
+
+/* === PARENT CONTAINER === */
+.sh-parent-container {
+    width: 100%;
+}
+
+/* === CHILD CONTAINER === */
+.sh-child-container {
+    background-color: var(--white);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* === STOCK REPORT CARD SECTION ===  */
+.sh-stock-report-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sh-stock-report-section p {
+    font-size: var(--secondary);
+}
+
+.sh-stock-report-section a {
+    background-color: var(--main-green);
+    color: var(--white);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.sh-stock-report-section i {
+    margin-right: 5px;
+}
+
+/* === FILTER DROPDOWN SECTION === */
+.sh-filter-drop-down-section {
+    width: auto;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+}
+
+/* === SH DRAFT CONTAINER === */
+.sh-draft-container {
+    line-height: 2em;
+}
+
+.sh-draft-container input {
+    width: 100%;
+    padding: 5px 8px;
+    border: 1px solid var(--light-black-op);
+}
+
+.sh-draft-container input:focus {
+    outline: none;
+}
+
+.sh-draft-container select {
+    width: 100%;
+    padding: 5px 8px;
+    border: 1px solid var(--light-black-op);
+}
+
+.sh-draft-container select:focus {
+    outline: none;
+}
+
+/* === FILTER SEARCH === */
+.sh-filter-search-box {
+    background-color: var(--main-green);
+    padding: 4px 10px;
+    color: var(--white);
+    gap: 5px;
+    border-radius: 5px;
+    font-size: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* === FILTER RESET === */
+.sh-filter-reset-box {
+    background-color: var(--red);
+    padding: 4px 10px;
+    color: var(--white);
+    gap: 5px;
+    border-radius: 5px;
+    font-size: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sh-line {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0px 30px;
+}
+
+th,
+td {
+    border: 1px solid var(--light-black-op);
+    padding: 5px;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.text-start {
+    text-align: left;
+}
+
+.text-last {
+    width: 8%;
+}
+
+/* === SHOW & FILE & SEARCH === */
+
+.show-file-search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sh-show-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: var(--secondary);
+}
+
+.sh-show-container select {
+    width: 50px;
+    text-align: center;
+    font-size: var(--secondary);
+}
+
+/* === FILE CONTAINER === */
+.sh-file-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.sh-file-container a {
+    background-color: var(--main-green);
+    color: var(--white);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* === SHOW SEARCH CONTAINER === */
+.sh-show-search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--secondary);
+}
+
+.sh-show-search-container input {
+    padding: 5px 8px;
+    border: 1px solid var(--light-black-op);
+}
+
+.sh-show-search-container input:focus {
+    outline: none;
+}
+
+/* === PRODUCT ALL DETAILS === */
+.sh-produt-all-details-container {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0px 30px;
+}
+
+th,
+td {
+    border: 1px solid var(--light-black-op);
+    padding: 10px 5px;
+}
+
+table th {
+    font-size: var(--secondary);
+    font-weight: 500;
+}
+
+table td {
+    text-align: center;
+    align-items: center;
+}
+
+
+.sh-av-box input {
+    width: 50px;
+    padding: 5px 5px;
+    border: 1px solid black;
+    font-size: var(--primary-para);
+}
+
+.sh-av-box input:focus {
+    outline: none;
+}
+
+.sh-qty-number-input input {
+    width: 70px;
+    padding: 5px 5px;
+    border: 1px solid var(--light-black);
+    font-size: var(--primary-para);
+}
+
+.sh-qty-number-input input:focus {
+    outline: none;
+}
+
+.sh-rate-input-container input {
+    width: 60px;
+    padding: 5px 5px;
+    border: 1px solid var(--light-black);
+    font-size: var(--primary-para);
+}
+
+.sh-rate-input-container input:focus {
+    outline: none;
+}
+
+.sh-discount-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sh-discount-left-container input {
+    width: 50px;
+    padding: 5px 5px;
+    border: 1px solid var(--light-black);
+    font-size: var(--primary-para);
+}
+
+.sh-discount-left-container input:focus {
+    outline: none;
+}
+
+.sh-discount-right-container input {
+    width: 50px;
+    padding: 5px 5px;
+    border: 1px solid var(--light-black);
+    background-color: var(--light-black-op);
+    font-size: var(--primary-para);
+}
+
+.sh-discount-right-container input:focus {
+    outline: none;
+}
+
+.sh-vatbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+tbody tr th p {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+/* ==== TABLE END === */
+/* === SLIDE PAGES === */
+.sh-slider-pages {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sh-slide-right-item {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sh-slide-right-item a {
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: var(--black);
+    background-color: var(--light-black-op);
+}
+
+.sh-slide-right-item p {
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: var(--white);
+    background-color: var(--main-green);
+}
+
+@media(max-width:768px) {
+    table {
+        width: 100%;
+    }
+
+    .sh-product-details-table {
+        width: 100%;
+        overflow: auto;
+    }
+}

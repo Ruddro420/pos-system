@@ -1,19 +1,18 @@
-import '../report/css/SalesReport.css'
 
-const SalesReport = () => {
+import '../report/css/OutletWiseSalesReport.css'
+const OutletWiseSalesReport = () => {
     return (
-        <div>
-               {/*  <!-- === TOP MENU ITEMS === --> */}
-    <div className="sh-top-menu-items">
+        <>
+             <div className="sh-top-menu-items">
         <ul>
-            <li className="sh-active-item"><a href="/SalesReport-page">Counter Wise Sales Report</a></li>
-            <li className="sh-menu-items"><a href="/OutletWiseSalesReport-page">Outlet Wise Sales Report</a></li>
+            <li className="sh-menu-items"><a href="/SalesReport-page">Counter Wise Sales Report</a></li>
+            <li className="sh-active-item"><a href="/OutletWiseSalesReport-page">Outlet Wise Sales Report</a></li>
         </ul>
     </div>
-    {/* <!-- === COUNTER SECTION === --> */}
+   {/*  <!-- === COUNTER SECTION === --> */}
     <div className="counter-section">
 
-        {/* <!-- === TOTAL SALE SECTION === --> */}
+     {/*    <!-- === TOTAL SALE SECTION === --> */}
         <div className="total-sale-section">
           {/*   <!-- === HOME ICON === --> */}
             <i className="fa-solid fa-house"></i>
@@ -23,29 +22,29 @@ const SalesReport = () => {
                 <h1>800 BDT</h1>
             </div>
         </div>
-       {/*  <!-- === TOTAL PAID SECTION === --> */}
+      {/*   <!-- === TOTAL PAID SECTION === --> */}
         <div className="total-paid-section">
-          {/*   <!-- === HOME ICON === --> */}
+        {/*     <!-- === HOME ICON === --> */}
             <i className="fa-solid fa-check"></i>
-           {/*  <!-- === SALE TEXT === --> */}
+          {/*   <!-- === SALE TEXT === --> */}
             <div className="sale-text">
                 <p>COUNTER 01</p>
                 <h1>800 BDT</h1>
             </div>
         </div>
     </div>
-    {/* <!-- === COUNTER SECTION END === -->
+   {/*  <!-- === COUNTER SECTION END === -->
     <!-- === PARENT CONTAINER === --> */}
     <div className="sh-parent-container">
-        {/* <!-- === CHILD CONTAINER === --> */}
+       {/*  <!-- === CHILD CONTAINER === --> */}
         <div className="sh-child-container">
-            {/* <!-- === STOCK REPORT CARD SECTION === --> */}
+           {/*  <!-- === STOCK REPORT CARD SECTION === --> */}
             <div className="sh-stock-report-section">
                 <p>Outlet Wise Report</p>
                 <a href="#"><i className="fa-solid fa-filter"></i>Filter</a>
             </div>
-     
-            {/* <!-- === FILTER DROPDOWN SECTION === --> */}
+            <hr/>
+          {/*   <!-- === FILTER DROPDOWN SECTION === --> */}
             <div className="sh-filter-drop-down-section">
                 <div className="sh-draft-container">
                     <select name="" id="">
@@ -58,20 +57,20 @@ const SalesReport = () => {
                 <div className="sh-draft-container">
                     <input type="text" placeholder="17/02/2025-17/02/2025" value="" name="" id="" autoComplete="off"/>
                 </div>
-                {/* <!-- === FILTER SEARCH === --> */}
+               {/*  <!-- === FILTER SEARCH === --> */}
                 <div className="sh-filter-search-box">
                     <i className="fa-solid fa-search"></i>Find
                 </div>
-               {/*  <!-- === FILTER RESET === --> */}
+              {/*   <!-- === FILTER RESET === --> */}
                 <div className="sh-filter-reset-box">
                     <i className="fa-solid fa-arrows-rotate"></i>Reset
                 </div>
             </div>
            {/*  <!-- === LINE === --> */}
             <div className="sh-line">
-                
+                <hr/>
             </div>
-            {/* <!-- === SHOW & FILE & SEARCH === --> */}
+          {/*   <!-- === SHOW & FILE & SEARCH === --> */}
             <div className="show-file-search-container">
                 <div className="sh-show-container">
                     <p>Show</p>
@@ -83,7 +82,7 @@ const SalesReport = () => {
                     </select>
                     <p>Entreis</p>
                 </div>
-                {/* <!-- === FILE CONTAINER === --> */}
+             {/*    <!-- === FILE CONTAINER === --> */}
                 <div className="sh-file-container">
                     <a href="#">Excel</a>
                 </div>
@@ -93,7 +92,7 @@ const SalesReport = () => {
                     <input type="search"/>
                 </div>
             </div>
-          {/*   <!-- === PRODUCT ALL DETAILS === --> */}
+           {/*  <!-- === PRODUCT ALL DETAILS === --> */}
             <div className="sh-produt-all-details-container">
                 <table>
                     <thead>
@@ -166,9 +165,9 @@ const SalesReport = () => {
                 </div>
             </div>
         </div>
-    </div>
-        </div>
+    </div>   
+        </>
     );
 };
 
-export default SalesReport;
+export default OutletWiseSalesReport;

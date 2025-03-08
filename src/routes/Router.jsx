@@ -64,6 +64,7 @@ import TransferRequestList from "../components/product/TransferRequestList";
 import PurchaseReturn from "../components/Purchase/PurchaseReturn";
 import SelsManagePayment from "../components/SelsManagePayment";
 import ChooseNow from "../components/ChooseNow";
+import OutletWiseSalesReport from "../components/report/OutletWiseSalesReport";
 
 const Router = createBrowserRouter([
     {
@@ -276,6 +277,10 @@ const Router = createBrowserRouter([
         {
             path:'/ChooseNow-page',
             element: <ChooseNow/>,
+         },
+        {
+            path:'/OutletWiseSalesReport-page',
+            element: <OutletWiseSalesReport/>,
          },
        
 
