@@ -1,26 +1,26 @@
 import { Link } from "react-router-dom";
 
-/* import './css/Vouchers.css' */
-const Vouchers = () => {
+
+const CreditVoucher = () => {
     return (
         <>
-             <div className="sh-parent">
-       {/*  <!-- === TOP MENU ITEMS === --> */}
+            <div className="sh-parent">
+        {/* <!-- === TOP MENU ITEMS === --> */}
         <div className="sh-top-menu-items">
             <ul>
-                <li className="sh-active-item"><Link to="/Vouchers-page">Debit Voucher</Link></li>
-                <li className="sh-menu-items"><Link to="/CreditVoucher-page">Credit Voucher</Link></li>
+                <li className="sh-menu-items"><Link to="/Vouchers-page">Debit Voucher</Link></li>
+                <li className="sh-active-item"><Link to="/CreditVoucher-page">Credit Voucher</Link></li>
                 <li className="sh-menu-items"><Link to="/ContraVoucher-page">Contra Voucher</Link></li>
                 <li className="sh-menu-items"><Link to="/JournalVoucher-page">Journal Voucher</Link></li>
             </ul>
         </div>
         <div className="sh-child-container">
             <div className="sh-draft-sale-section">
-               {/*  <!-- === DRAFT SALE TOP ITEMV === --> */}
+              {/*   <!-- === DRAFT SALE TOP ITEMV === --> */}
                 <div className="sh-draft-sale-top-item">
                     <p>Debit Voucher List</p>
                     <div className="sh-sub-account">
-                        <i className="fa-solid fa-circle-plus"></i> Create Debit Voucher
+                        <i className="fa-solid fa-circle-plus"></i> Create New Credit Voucher
                     </div>
                 </div>
             </div>
@@ -39,13 +39,13 @@ const Vouchers = () => {
                     </select>
                     <p>Entries</p>
                 </div>
-               {/*  <!-- === SEARCH === --> */}
+             {/*    <!-- === SEARCH === --> */}
                 <div className="sh-search-container">
                     <p>Search:</p>
                     <input type="search" placeholder="" name="" id=""/>
                 </div>
             </div>
-            {/* <!-- === MANAGE SALE DETAILS SECTION === --> */}
+           {/*  <!-- === MANAGE SALE DETAILS SECTION === --> */}
             <div className="manage-sale-details-section">
                 <table>
                     <thead>
@@ -86,4 +86,4 @@ const Vouchers = () => {
     );
 };
 
-export default Vouchers;
+export default CreditVoucher;

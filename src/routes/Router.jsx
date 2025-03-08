@@ -68,6 +68,9 @@ import OutletWiseSalesReport from "../components/report/OutletWiseSalesReport";
 import OutletReport from "../components/report/OutletReport";
 import OutletWiseProduct from "../components/report/OutletWiseProduct";
 import OutletWiseVariantProduct from "../components/report/OutletWiseVariantProduct";
+import CreditVoucher from "../components/accounts/CreditVoucher";
+import ContraVoucher from "../components/accounts/ContraVoucher";
+import JournalVoucher from "../components/accounts/JournalVoucher";
 
 const Router = createBrowserRouter([
     {
@@ -362,6 +365,19 @@ const Router = createBrowserRouter([
         {
             path:'/BankBook-page',
             element: <BankBook/>,
+         },
+        {
+            path:'/CreditVoucher-page',
+            element: <CreditVoucher/>,
+         },
+         
+        {
+            path:'/ContraVoucher-page',
+            element: <ContraVoucher/>,
+         },
+        {
+            path:'/JournalVoucher-page',
+            element: <JournalVoucher/>,
          },
          
         
