@@ -121,6 +121,7 @@ a{
     width: 100%;
     padding: 20px;
     display: flex;
+    gap: 30px;
     justify-content: space-between;
 }
 
@@ -154,6 +155,21 @@ a{
     border: 1px solid var(--gray-black);
     border-radius: 0px;
     padding-inline-start: 10px;
+}
+
+@media (max-width: 1536px) {
+    .addrequisition-sh-customer-name-container > label {
+        white-space: nowrap;
+    }
+    .addrequisition-sh-customer-name-container select {
+        width: 400px;
+    }
+    .addrequisition-sh-address label {
+        white-space: nowrap;
+    }
+    .addrequisition-sh-address input {
+        width: 400px!important;
+    }
 }
 
 .addrequisition-sh-customer-name-container select:focus {
@@ -271,6 +287,12 @@ table td{
     border: 1px solid var(--gray-black);
     font-size: var(--primary-para);
     margin-top: 10px;
+}
+
+@media (max-width: 1536px) {
+    .addrequisition-sh-product-search-box input {
+        width: 350px;
+    }
 }
 
 .addrequisition-sh-product-search-box input:focus {
