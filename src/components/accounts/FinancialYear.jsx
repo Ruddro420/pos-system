@@ -1,26 +1,26 @@
 
-/* import './css/FinancialYear.css' */
+import './css/FinancialYear.css'
 const FinancialYear = () => {
     return (
         <>
-            <div className="sh-parent">
+            <div className="afy-sh-parent">
        {/*  <!-- === TOP MENU ITEMS === --> */}
-        <div className="sh-top-menu-items">
+        <div className="afy-sh-top-menu-items">
             <ul>
-                <li className="sh-active-item"><a href="wastage-list.html">Financial Year</a></li>
+                <li className="afy-sh-active-item"><a href="wastage-list.html">Financial Year</a></li>
             </ul>
         </div>
-        <div className="sh-child-container">
-            <div className="sh-draft-sale-section">
+        <div className="afy-sh-child-container">
+            <div className="afy-sh-draft-sale-section">
                 {/* <!-- === DRAFT SALE TOP ITEMV === --> */}
-                <div className="sh-draft-sale-top-item">
+                <div className="afy-sh-draft-sale-top-item">
                     <p>Financial Year List</p>
                 </div>
             </div>
             <hr/>
            {/*  <!-- === SHOW AND SEARCH CONTAINER === --> */}
-            <div className="sh-show-and-search-container">
-                <div className="sh-show-container">
+            <div className="afy-sh-show-and-search-container">
+                <div className="afy-sh-show-container">
                     <p>Show</p>
                     <select name="" id="">
                         <option value="number" name="show">10</option>
@@ -33,13 +33,13 @@ const FinancialYear = () => {
                     <p>Entries</p>
                 </div>
               {/*   <!-- === SEARCH === --> */}
-                <div className="sh-search-container">
+                <div className="afy-sh-search-container">
                     <p>Search:</p>
                     <input type="search" placeholder="" name="" id=""/>
                 </div>
             </div>
            {/*  <!-- === MANAGE SALE DETAILS SECTION === --> */}
-            <div className="manage-sale-details-section">
+            <div className="afy-manage-sale-details-section">
                 <table>
                     <thead>
                         <tr>
@@ -53,22 +53,24 @@ const FinancialYear = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td className="text-center">#1</td>
-                            <td className="text-center">2025</td>
-                            <td className="text-center">01-01-2025</td>
-                            <td className="text-center">31-12-2025</td>
-                            <td className="text-center">Active</td>
-                            <td className="text-center"><div className="sh-edit-icon">
-                                <p><i className="fa-solid fa-edit"></i></p>
-                            </div></td>
+                            <td className="afy-text-center">#1</td>
+                            <td className="afy-text-center">2025</td>
+                            <td className="afy-text-center">01-01-2025</td>
+                            <td className="afy-text-center">31-12-2025</td>
+                            <td className="afy-text-center">Active</td>
+                            <td className="afy-text-center">
+                                <div className="sh-edit-icon">
+                                    <p><i className="fa-solid fa-edit"></i></p>
+                                </div>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
            {/*  <!-- === SLIDE PAGES === --> */}
-            <div className="sh-slider-pages">
+            <div className="afy-sh-slider-pages">
                 <p>Showing 1 to 1 of 1 entries</p>
-                <div className="sh-slide-right-item">
+                <div className="afy-sh-slide-right-item">
                     <a href="#">Previous</a>
                     <p>1</p>
                     <a href="#">Next</a>
