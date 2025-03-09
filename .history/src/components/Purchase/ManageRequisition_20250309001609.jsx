@@ -9,14 +9,13 @@ const ManageRequisition = () => {
                 <ul>
                     <li className="sh-manage-requisition-active-item"><a href="manageRequisition-page">Manage Requisition</a></li>
                     <li className="sh-manage-requisition-menu-items"><a href="/addRequisition-page">Add Requisition</a></li>
-                    <li className="sh-manage-requisition-menu-items"><a href="/managePurchase-page">Manage Purchase</a></li>
                     <li className="sh-manage-requisition-menu-items"><a href="/addPurchase-page">Add Purchase</a></li>
+                    <li className="sh-manage-requisition-menu-items"><a href="/managePurchase-page">Manage Purchase</a></li>
                     <li className="sh-manage-requisition-menu-items"><a href="/manageReceived-page">Manage Received</a></li>
                     <li className="sh-manage-requisition-menu-items"><a href="/managePayment-page">Manage Payment</a></li>
                 </ul>
             </div>
        {/*  <!-- === CHILD SECTION === --> */}
-       
         <div className="sh-manage-requisition-child-section">
           {/*   <!-- === TOP MENU ITEMS === --> */}
             

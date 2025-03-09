@@ -16,7 +16,6 @@ const ManageRequisition = () => {
                 </ul>
             </div>
        {/*  <!-- === CHILD SECTION === --> */}
-       
         <div className="sh-manage-requisition-child-section">
           {/*   <!-- === TOP MENU ITEMS === --> */}
             

@@ -68,7 +68,7 @@ td {
     color: var(--black);
 }
 
-.sh-quo-top-section > div:nth-child(2) > .sh-quo-nav-light-up:hover {
+.sh-quo-top-section > div:nth-child(2) .sh-quo:hover {
     color: var(--lit-orange)!important;
 }
 

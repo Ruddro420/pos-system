@@ -10,7 +10,7 @@ const Quotationt = () => {
             <a href="#">Quotation List</a>
         </div>
         <div>
-            <Link className='sh-quo-nav-light-up' to="/addQuotation-page">Add Quotation</Link>
+            <Link className='sh-quo-nav-lig' to="/addQuotation-page">Add Quotation</Link>
         </div>
     </div>
 

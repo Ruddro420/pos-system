@@ -9,9 +9,8 @@ const Quotationt = () => {
         <div className="sh-quo-quotation-list">
             <a href="#">Quotation List</a>
         </div>
-        <div>
-            <Link className='sh-quo-nav-light-up' to="/addQuotation-page">Add Quotation</Link>
-        </div>
+        
+        <Link to="/addQuotation-page">Add Quotation</Link>
     </div>
 
     {/*  === QUOTATION LIST SECTION === */}
