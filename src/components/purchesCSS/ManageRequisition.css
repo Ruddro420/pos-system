@@ -20,15 +20,15 @@ a {
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
-    --light-orange: #FD7E14;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-lt: #37A000;
+    --orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
     /* === FONTS SIZE FOR HEADING === */
     --primary-head: 22px;
     --secondary-head: 1.125rem;
@@ -43,22 +43,25 @@ a {
 }
 /* === CHILD SECTION === */
 .sh-manage-requisition-child-section{
-    width: 100%; 
+    width: 100%;
 }
 /* === TOP MENU ITEMS === */
 .sh-manage-requisition-top-menu-items{
     width: 100%;
     border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
     padding: 10px 0px 10px 10px!important;
-    margin-bottom: 50px!important;
-    margin-right: 50px!important;
+    margin-top: 10px;
+    margin-bottom: 30px!important;
+    /* margin-right: 50px!important; */
 }
 .sh-manage-requisition-top-menu-items ul{
     width: 100%;
     display: flex;
     align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -15px;
 }
 .sh-manage-requisition-top-menu-items li{
     height: 50px;
@@ -68,16 +71,17 @@ a {
     padding: 0px 20px;
     color: var(--black);
     font-size: var(--secondary);
+    font-weight: 500;
     display: flex;
     align-items: center;
     margin: 0px!important;
 }
 .sh-manage-requisition-menu-items a:hover{
-    color: var(--red);
+    color: var(--orange);
 }
 /* === ACTIVE MENU === */
 .sh-manage-requisition-active-item a{
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
     border-radius: 5px;
 }
@@ -86,6 +90,7 @@ a {
 .sh-manage-requisition-draft-sale-section{
     width: 100%;
     background-color: var(--white);
+    border-radius: 5px!important;
     margin-top: 20px;
 }
 /* === DRAFT SALE TOP ITEMV === */
@@ -127,7 +132,7 @@ a {
 .sh-manage-requisition-search-container input{
     width: 400px;
     padding: 5px 10px;
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--lt-black-op);
 }
 .sh-manage-requisition-search-container input:focus{
     outline: none;
@@ -135,7 +140,7 @@ a {
 /* === MANAGE SALE DETAILS SECTION === */
 .sh-manage-requisition-manage-sale-details-section{
     width: 100%;
-    padding: 0px 25px;
+    padding: 0px 20px;
 }
 /* === TABLE === */
 table{
@@ -144,7 +149,7 @@ table{
 }
 th, td{
     padding: 10px;
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--lt-black-op);
 }
 table th{
     font-size: var(--secondary);
@@ -161,6 +166,7 @@ table th{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid var(--gray-black)!important;
 }
 .sh-manage-requisition-requisition-top-item p{
     font-size: var(--secondary);
@@ -179,7 +185,7 @@ table th{
     padding: 5px 10px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
 }
 .sh-manage-requisition-filter a{
     color: white;
@@ -189,10 +195,10 @@ table th{
 /* === FILTER DROPDOWN SECTION === */
 .sh-manage-requisition-filter-drop-down-section{
     gap: 20px;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
     display: flex;
     align-items: center;
-    align-items: flex-end;
+    border-bottom: 1px solid var(--gray-black)!important;
 }
 /* === SH DRAFT CONTAINER === */
 .sh-manage-requisition-draft-container{
@@ -200,15 +206,15 @@ table th{
 }
 .sh-manage-requisition-draft-container input{
     padding: 5px 8px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--gray-black);
 }
 .sh-manage-requisition-draft-container input:focus{
     outline: none;
 }
 /* === FILTER SEARCH === */
 .sh-manage-requisition-filter-search-box{
-    background-color: var(--main-green);
-    padding: 4px 10px;
+    background-color: var(--m-green);
+    padding: 5px 10px;
     color: var(--white);
     gap: 5px;
     border-radius: 5px;
@@ -216,11 +222,12 @@ table th{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -10px;
 }
 /* === FILTER RESET === */
 .sh-manage-requisition-filter-reset-box{
     background-color: var(--red);
-    padding: 4px 10px;
+    padding: 5px 10px;
     color: var(--white);
     gap: 5px;
     border-radius: 5px;
@@ -228,6 +235,7 @@ table th{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -10px;
 }
 .sh-manage-requisition-line{
     padding-right: 20px;
@@ -235,7 +243,7 @@ table th{
 }
 /* === SHOW AND SEARCH CONTAINER === */
 .sh-manage-requisition-show-and-search-container{
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -246,8 +254,12 @@ table th{
     display: flex;
     align-items: center;
 }
+.sh-manage-requisition-show-container > p {
+    font-size: 1rem!important;
+}
 .sh-manage-requisition-show-container select{
-    padding: 5px 2px;
+    padding: 5px 5px 5px 7px;
+    font-size: 0.875rem!important;
 }
 .sh-manage-requisition-show-container select:focus{
     outline: none;
@@ -259,16 +271,16 @@ table th{
     align-items: center;
 }
 .sh-manage-requisition-search-container input{
-    width: 400px;
+    width: 250px;
     padding: 5px 10px;
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--lt-black-op);
 }
 .sh-manage-requisition-search-container input:focus{
     outline: none;
 }
 /* === SLIDE PAGES === */
 .sh-manage-requisition-slider-pages {
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -284,12 +296,12 @@ table th{
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
-    background-color: var(--light-black-op);
+    background-color: var(--lt-black-op);
 }
 
 .sh-manage-requisition-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
 }

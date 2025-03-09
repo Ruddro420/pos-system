@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../purchesCSS/ManagePurchase.css'
 const ManagePurchase = () => {
     return (
@@ -5,12 +6,12 @@ const ManagePurchase = () => {
             {/*  <!-- === TOP MENU ITEMS === --> */}
     <div className="sh-top-menu-items">
         <ul>
-            <li className="sh-menu-items"><a href="/addRequisition-page">Add Requisition</a></li>
-            <li className="sh-menu-items"><a href="/manageRequisition-page">Manage Requisition</a></li>
-            <li className="sh-menu-items"><a href="/addPurchase-page">Add Purchase</a></li>
-            <li className="sh-active-item"><a href="/managePurchase-page">Manage Purchase</a></li>
-            <li className="sh-menu-items"><a href="/manageReceived-page">Manage Received</a></li>
-            <li className="sh-menu-items"><a href="/managePayment-page">Manage Payment</a></li>
+            <li className="sh-menu-items"><Link to="/manageRequisition-page">Manage Requisition</Link></li>
+            <li className="sh-menu-items"><Link to="/addRequisition-page">Add Requisition</Link></li>
+            <li className="sh-active-item"><Link to="/managePurchase-page">Manage Purchase</Link></li>
+            <li className="sh-menu-items"><Link to="/addPurchase-page">Add Purchase</Link></li>
+            <li className="sh-menu-items"><Link to="/manageReceived-page">Manage Received</Link></li>
+            <li className="sh-menu-items"><Link to="/managePayment-page">Manage Payment</Link></li>
         </ul>
     </div>
    {/*  <!-- === COUNTER SECTION === --> */}

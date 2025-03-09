@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../purchesCSS/ManageRequisition.css'
 
 const ManageRequisition = () => {
@@ -7,12 +8,12 @@ const ManageRequisition = () => {
     <div className="sh-manage-requisition-parent-section">
             <div className="sh-manage-requisition-top-menu-items">
                 <ul>
-                    <li className="sh-manage-requisition-active-item"><a href="manageRequisition-page">Manage Requisition</a></li>
-                    <li className="sh-manage-requisition-menu-items"><a href="/addRequisition-page">Add Requisition</a></li>
-                    <li className="sh-manage-requisition-menu-items"><a href="/managePurchase-page">Manage Purchase</a></li>
-                    <li className="sh-manage-requisition-menu-items"><a href="/addPurchase-page">Add Purchase</a></li>
-                    <li className="sh-manage-requisition-menu-items"><a href="/manageReceived-page">Manage Received</a></li>
-                    <li className="sh-manage-requisition-menu-items"><a href="/managePayment-page">Manage Payment</a></li>
+                    <li className="sh-manage-requisition-active-item"><Link to="manageRequisition-page">Manage Requisition</Link></li>
+                    <li className="sh-manage-requisition-menu-items"><Link to="/addRequisition-page">Add Requisition</Link></li>
+                    <li className="sh-manage-requisition-menu-items"><Link to="/managePurchase-page">Manage Purchase</Link></li>
+                    <li className="sh-manage-requisition-menu-items"><Link to="/addPurchase-page">Add Purchase</Link></li>
+                    <li className="sh-manage-requisition-menu-items"><Link to="/manageReceived-page">Manage Received</Link></li>
+                    <li className="sh-manage-requisition-menu-items"><Link to="/managePayment-page">Manage Payment</Link></li>
                 </ul>
             </div>
        {/*  <!-- === CHILD SECTION === --> */}
@@ -74,9 +75,7 @@ const ManageRequisition = () => {
                             <option value="number" name="show">10</option>
                             <option value="number" name="show">20</option>
                             <option value="number" name="show">30</option>
-                            <option value="number" name="show">40</option>
-                            <option value="number" name="show">50</option>
-                            <option value="number" name="show">100</option>
+                            <option value="number" name="show">All</option>
                         </select>
                         <p>Entries</p>
                     </div>
@@ -87,7 +86,7 @@ const ManageRequisition = () => {
                     </div>
                 </div>
                {/*  <!-- === MANAGE SALE DETAILS SECTION === --> */}
-                <div className="sh--manage-requisition-manage-sale-details-section">
+                <div className="sh-manage-requisition-manage-sale-details-section">
                     <table>
                         <thead>
                             <tr>
@@ -101,17 +100,18 @@ const ManageRequisition = () => {
                                 <th>Action</th>
                             </tr>
                         </thead>
+                        <tbody>
+                            <tr>
+                                <td colSpan={8}>
+                                    <p>No data available in table</p>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                     {/* <!-- === EMPTY SECTION === --> */}
                     <div className="sh--manage-requisition-empty-section">
                         <table>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <p>No data available in table</p>
-                                    </td>
-                                </tr>
-                            </tbody>
+                            
                         </table>
                     </div>
                 </div>
