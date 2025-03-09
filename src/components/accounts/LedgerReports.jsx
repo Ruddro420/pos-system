@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 const LedgerReports = () => {
     return (
@@ -7,10 +7,10 @@ const LedgerReports = () => {
        {/*  <!-- === TOP MENU ITEMS === --> */}
         <div className="sh-top-menu-items">
             <ul>
-                <li className="sh-active-item"><a href="ledger-report.html">Day Book</a></li>
-                <li className="sh-menu-items"><a href="sub-ledger.html">Sub Ledger</a></li>
-                <li className="sh-menu-items"><a href="receipt-payment.html">Receipt & Payment</a></li>
-                <li className="sh-menu-items"><a href="cogs-adjustment.html">COGS Adjustment</a></li>
+                <li className="sh-active-item"><Link to ="/LedgerReports-page">Day Book</Link></li>
+                <li className="sh-menu-items"><Link  to ="/SubLedger-page">Sub Ledger</Link></li>
+                <li className="sh-menu-items"><Link  to ="/ReceiptPayment-page">Receipt & Payment</Link></li>
+                <li className="sh-menu-items"><Link to ="/COGSAdjustment-page">COGS Adjustment</Link></li>
             </ul>
         </div>
         {/* <!-- === FIND SECTION === --> */}

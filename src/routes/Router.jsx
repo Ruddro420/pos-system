@@ -36,7 +36,6 @@ import Wastage from "../components/StockManagement/Wastage";
 import MySubscription from "../components/MySubscription";
 
 
-
 import SalesReport from "../components/report/SalesReport"
 import StockReports from "../components/report/StockReports"
 import PurchaseReport from "../components/report/PurchaseReport";
@@ -71,6 +70,11 @@ import OutletWiseVariantProduct from "../components/report/OutletWiseVariantProd
 import CreditVoucher from "../components/accounts/CreditVoucher";
 import ContraVoucher from "../components/accounts/ContraVoucher";
 import JournalVoucher from "../components/accounts/JournalVoucher";
+import SubType from "../components/accounts/SubType";
+import SubLedger from "../components/accounts/SubLedger";
+import ReceiptPayment from "../components/accounts/ReceiptPayment";
+import COGSAdjustment from "../components/accounts/COGSAdjustment";
+import NewWastage from "../components/StockManagement/NewWastage";
 
 const Router = createBrowserRouter([
     {
@@ -218,6 +222,10 @@ const Router = createBrowserRouter([
          {
             path:'/wastage-page',
             element: <Wastage/>,
+         },
+         {
+            path:'/newWastage -page',
+            element: < NewWastage/>,
          },
          {
             path:'/MySubscription-page',
@@ -378,6 +386,24 @@ const Router = createBrowserRouter([
         {
             path:'/JournalVoucher-page',
             element: <JournalVoucher/>,
+         },
+        {
+            path:'/SubType-page',
+            element: <SubType/>,
+         },
+
+
+        {
+            path:'/SubLedger-page',
+            element: <SubLedger/>,
+         },
+        {
+            path:'/ReceiptPayment-page',
+            element: <ReceiptPayment/>,
+         },
+        {
+            path:'/COGSAdjustment-page',
+            element: <COGSAdjustment/>,
          },
          
         

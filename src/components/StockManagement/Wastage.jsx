@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '.././css/StockManagementCSS/Wastage.css'
 const Wastage = () => {
     return (
@@ -6,8 +7,8 @@ const Wastage = () => {
         {/* <!-- === TOP MENU ITEMS === --> */}
         <div className="sh-top-menu-items">
             <ul>
-                <li className="sh-menu-items"><a href="new-wastage.html">New Wastage</a></li>
-                <li className="sh-active-item"><a href="wastage-list.html">Wastage List</a></li>
+                <li className="sh-menu-items"><Link to="/newWastage -page">New Wastage</Link></li>
+                <li className="sh-active-item"><Link to="/wastage-page">Wastage List</Link></li>
             </ul>
         </div>
         <div className="sh-child-container">

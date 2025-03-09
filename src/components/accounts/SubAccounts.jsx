@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 /* import './css/SubAccounts.css' */
 const SubAccounts = () => {
     return (
@@ -6,8 +8,8 @@ const SubAccounts = () => {
         {/* <!-- === TOP MENU ITEMS === --> */}
         <div className="sh-top-menu-items">
             <ul>
-                <li className="sh-active-item"><a href="sub-account.html">Sub Account</a></li>
-                <li className="sh-menu-items"><a href="sub-type.html">Subtype</a></li>
+                <li className="sh-active-item"><Link href="/SubAccounts-page">Sub Account</Link></li>
+                <li className="sh-menu-items"><Link to="/SubType-page">Subtype</Link></li>
             </ul>
         </div>
         <div className="sh-child-container">
