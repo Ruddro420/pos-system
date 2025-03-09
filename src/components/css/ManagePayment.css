@@ -43,22 +43,22 @@ a {
 }
 
 
-.sh-parent{
+.mana-sale-payment-sh-parent{
     width: 100%;
     padding: 20px;
 }
-.sh-child-container{
+.mana-sale-payment-sh-child-container{
     background-color: var(--white);
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
 }
 /* === DRAFT SALE SECITON === */
-.sh-draft-sale-section{
+.mana-sale-payment-sh-draft-sale-section{
     width: 100%;
 
 }
 /* === DRAFT SALE TOP ITEMV === */
-.sh-draft-sale-top-item{
+.mana-sale-payment-sh-draft-sale-top-item{
     height: 80px;
     padding: 20px;
     display: flex;
@@ -66,47 +66,45 @@ a {
     justify-content: space-between;
     border-bottom: 1px solid var(--gray-black)!important;
 }
-.sh-draft-sale-top-item p{
+.mana-sale-payment-sh-draft-sale-top-item p{
     font-size: var(--secondary);
 }
 /* === SHOW AND SEARCH CONTAINER === */
-.sh-show-and-search-container{
-    padding: 20px;
+.mana-sale-payment-sh-show-and-search-container{
+    padding: 20px 24px 0px 24px;
     padding-bottom: 0!important;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-show-container{
+.mana-sale-payment-sh-show-container{
     gap: 5px;
     font-size: var(--secondary);
     display: flex;
     align-items: center;
-   
 }
-.sh-show-container select{
-    padding: 5px 2px;
-    /* margin-bottom: 10px; */
+.mana-sale-payment-sh-show-container select{
+    padding: 5px 5px;
 }
-.sh-show-container select:focus{
+.mana-sale-payment-sh-show-container select:focus{
     outline: none;
 }
 /* === SEARCH === */
-.sh-search-container{
+.mana-sale-payment-sh-search-container{
     gap: 5px;
     display: flex;
     align-items: center;
 }
-.sh-search-container input{
+.mana-sale-payment-sh-search-container input{
     width: 400px;
     padding: 5px 10px;
     border: 1px solid var(--lt-black-op);
 }
-.sh-search-container input:focus{
+.mana-sale-payment-sh-search-container input:focus{
     outline: none;
 }
 /* === MANAGE SALE DETAILS SECTION === */
-.manage-sale-details-section{
+.mana-sale-payment-manage-sale-details-section{
     width: 100%;
     padding: 0px 25px;
 }
@@ -114,7 +112,6 @@ a {
 table{
     width: 100%;
     border-collapse: collapse;
-    margin-top: 0!important;
 }
 th, td{
     padding: 10px;
@@ -124,32 +121,28 @@ table th{
     font-size: var(--secondary);
     font-weight: 500;
 }
-/* === EMPTY SECTION === */
-.empty-section p{
-    text-align: center;
-}
 /* === SLIDE PAGES === */
-.sh-slider-pages {
+.mana-sale-payment-sh-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-slide-right-item {
+.mana-sale-payment-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.mana-sale-payment-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
     background-color: var(--lt-black-op);
 }
 
-.sh-slide-right-item p {
+.mana-sale-payment-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);

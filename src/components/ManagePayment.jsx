@@ -2,17 +2,16 @@ import './css/ManagePayment.css'
 const ManagePayment = () => {
     return (
         <>
-           <div className="sh-parent">
-        <div className="sh-child-container">
-            <div className="sh-draft-sale-section">
+           <div className="mana-sale-payment-sh-parent">
+        <div className="mana-sale-payment-sh-child-container">
+            <div className="mana-sale-payment-sh-draft-sale-section">
                {/*  <!-- === DRAFT SALE TOP ITEMV === --> */}
-                <div className="sh-draft-sale-top-item">
+                <div className="mana-sale-payment-sh-draft-sale-top-item">
                     <p>Manage Payment</p>
                 </div>
-              
                {/*  <!-- === SHOW AND SEARCH CONTAINER === --> */}
-                <div className="sh-show-and-search-container">
-                    <div className="sh-show-container">
+                <div className="mana-sale-payment-sh-show-and-search-container">
+                    <div className="mana-sale-payment-sh-show-container">
                         <p>Show</p>
                         <select name="" id="">
                             <option value="number" name="show">10</option>
@@ -23,13 +22,13 @@ const ManagePayment = () => {
                         <p>Entries</p>
                     </div>
                    {/*  <!-- === SEARCH === --> */}
-                    <div className="sh-search-container">
+                    <div className="mana-sale-payment-sh-search-container">
                         <p>Search:</p>
                         <input type="search" placeholder="" name="" id=""/>
                     </div>
                 </div>
              {/*    <!-- === MANAGE SALE DETAILS SECTION === --> */}
-                <div className="manage-sale-details-section">
+                <div className="mana-sale-payment-manage-sale-details-section">
                     <table>
                         <thead>
                             <tr>
@@ -51,9 +50,9 @@ const ManagePayment = () => {
                     </table>
                 </div>
              {/*    <!-- === SLIDE PAGES === --> */}
-                <div className="sh-slider-pages">
+                <div className="mana-sale-payment-sh-slider-pages">
                     <p>Showing 4 to 4 of 4 entries</p>
-                    <div className="sh-slide-right-item">
+                    <div className="mana-sale-payment-sh-slide-right-item">
                         <a href="#">Previous</a>
                         <p>1</p>
                         <a href="#">Next</a>
