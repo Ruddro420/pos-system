@@ -19,9 +19,9 @@ a {
     text-decoration: none;
 }
 
-body {
+/* body {
     background-color: var(--gray-white);
-}
+} */
 
 :root {
     --gray-white: #F0F1F2;
@@ -53,46 +53,47 @@ a {
 }
 
 /* === TOP MENU ITEMS === */
-.sh-top-menu-items {
+.owsr-sh-top-menu-items {
     margin: 20px;
     border-radius: 5px;
     background-color: var(--white);
-   
     padding: 10px 0px 10px 10px;
 }
 
-.sh-top-menu-items ul {
+.owsr-sh-top-menu-items ul {
     width: 100%;
     display: flex;
     align-items: center;
 }
 
-.sh-top-menu-items li {
+.owsr-sh-top-menu-items li {
     height: 50px;
+ 
 }
 
-.sh-top-menu-items a {
+.owsr-sh-top-menu-items a {
     height: 100%;
     padding: 0px 20px;
     color: var(--black);
     font-size: var(--secondary);
     display: flex;
     align-items: center;
+    margin-top: 8px;
 }
 
-.sh-menu-items a:hover {
+.owsr-sh-menu-items a:hover {
     color: var(--red);
 }
 
 /* === ACTIVE MENU === */
-.sh-active-item a {
+.owsr-sh-active-item a {
     background-color: var(--main-green);
     color: var(--white);
     border-radius: 5px;
 }
 
 /* === COUNTER SECTION === */
-.counter-section {
+.owsr-counter-section {
     display: flex;
     width: 100%;
     gap: 30px;
@@ -100,7 +101,7 @@ a {
 }
 
 /* === TOTAL SALE SECTION === */
-.total-sale-section {
+.owsr-total-sale-section {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
@@ -112,7 +113,7 @@ a {
 }
 
 /* === HOME ICON === */
-.total-sale-section i {
+.owsr-total-sale-section i {
     width: 60px;
     height: 60px;
     font-size: 2rem;
@@ -126,7 +127,7 @@ a {
 }
 
 /* === TOTAL SALE SECTION === */
-.total-paid-section {
+.owsr-total-paid-section {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
@@ -138,7 +139,7 @@ a {
 }
 
 /* === HOME ICON === */
-.total-paid-section i {
+.owsr-total-paid-section i {
     width: 60px;
     height: 60px;
     font-size: 2rem;
@@ -152,25 +153,25 @@ a {
 }
 
 /* === SALE TEXT === */
-.sale-text {
+.owsr-sale-text {
     line-height: 1.50em;
 }
 
-.sale-text p {
+.owsr-sale-text p {
     font-size: var(--secondary);
 }
 
-.sale-text h1 {
+.owsr-sale-text h1 {
     font-size: var(--primary-head);
 }
 
 /* === PARENT CONTAINER === */
-.sh-parent-container {
+.owsr-sh-parent-container {
     width: 100%;
 }
 
 /* === CHILD CONTAINER === */
-.sh-child-container {
+.owsr-sh-child-container {
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
     margin: 20px;
@@ -178,65 +179,68 @@ a {
 }
 
 /* === STOCK REPORT CARD SECTION ===  */
-.sh-stock-report-section {
+.owsr-sh-stock-report-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 }
 
-.sh-stock-report-section p {
+.owsr-sh-stock-report-section p {
     font-size: var(--secondary);
 }
 
-.sh-stock-report-section a {
+.owsr-sh-stock-report-section a {
     background-color: var(--main-green);
     color: var(--white);
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
-.sh-stock-report-section i {
+.owsr-sh-stock-report-section i {
     margin-right: 5px;
 }
 
 /* === FILTER DROPDOWN SECTION === */
-.sh-filter-drop-down-section {
+.owsr-sh-filter-drop-down-section {
     width: auto;
     gap: 20px;
     padding: 20px;
     display: flex;
     align-items: center;
-    align-items: flex-end;
 }
 
 /* === SH DRAFT CONTAINER === */
-.sh-draft-container {
-    line-height: 2em;
+.owsr-sh-draft-container {
+  /*   line-height: 2em; */
+    margin-top: 10px;
+     
 }
 
-.sh-draft-container input {
+.owsr-sh-draft-container input {
     width: 100%;
     padding: 5px 8px;
     border: 1px solid var(--light-black-op);
+    border-radius: 3px;  
 }
 
-.sh-draft-container input:focus {
+.owsr-sh-draft-container input:focus {
     outline: none;
 }
 
-.sh-draft-container select {
+.owsr-sh-draft-container select {
     width: 100%;
     padding: 5px 8px;
+    margin-top: -10px;
     border: 1px solid var(--light-black-op);
 }
 
-.sh-draft-container select:focus {
+.owsr-sh-draft-container select:focus {
     outline: none;
 }
 
 /* === FILTER SEARCH === */
-.sh-filter-search-box {
+.owsr-sh-filter-search-box {
     background-color: var(--main-green);
     padding: 4px 10px;
     color: var(--white);
@@ -249,7 +253,7 @@ a {
 }
 
 /* === FILTER RESET === */
-.sh-filter-reset-box {
+.owsr-sh-filter-reset-box {
     background-color: var(--red);
     padding: 4px 10px;
     color: var(--white);
@@ -261,7 +265,7 @@ a {
     justify-content: center;
 }
 
-.sh-line {
+.owsr-sh-line {
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -278,48 +282,48 @@ td {
     padding: 5px;
 }
 
-.text-end {
+.owsr-text-end {
     text-align: end;
 }
 
-.text-start {
+.owsr-text-start {
     text-align: left;
 }
 
-.text-last {
+.owsr-text-last {
     width: 8%;
 }
 
 /* === SHOW & FILE & SEARCH === */
 
-.show-file-search-container {
+.owsr-show-file-search-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 }
 
-.sh-show-container {
+.owsr-sh-show-container {
     display: flex;
     align-items: center;
     gap: 5px;
     font-size: var(--secondary);
 }
 
-.sh-show-container select {
+.owsr-sh-show-container select {
     width: 50px;
     text-align: center;
     font-size: var(--secondary);
 }
 
 /* === FILE CONTAINER === */
-.sh-file-container {
+.owsr-sh-file-container {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.sh-file-container a {
+.owsr-sh-file-container a {
     background-color: var(--main-green);
     color: var(--white);
     padding: 5px 10px;
@@ -327,24 +331,24 @@ td {
 }
 
 /* === SHOW SEARCH CONTAINER === */
-.sh-show-search-container {
+.owsr-sh-show-search-container {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: var(--secondary);
 }
 
-.sh-show-search-container input {
+.owsr-sh-show-search-container input {
     padding: 5px 8px;
     border: 1px solid var(--light-black-op);
 }
 
-.sh-show-search-container input:focus {
+.owsr-sh-show-search-container input:focus {
     outline: none;
 }
 
 /* === PRODUCT ALL DETAILS === */
-.sh-produt-all-details-container {
+.owsr-sh-produt-all-details-container {
     margin-top: 10px;
     padding: 20px;
 }
@@ -372,57 +376,57 @@ table td {
 }
 
 
-.sh-av-box input {
+.owsr-sh-av-box input {
     width: 50px;
     padding: 5px 5px;
     border: 1px solid black;
     font-size: var(--primary-para);
 }
 
-.sh-av-box input:focus {
+.owsr-sh-av-box input:focus {
     outline: none;
 }
 
-.sh-qty-number-input input {
+.owsr-sh-qty-number-input input {
     width: 70px;
     padding: 5px 5px;
     border: 1px solid var(--light-black);
     font-size: var(--primary-para);
 }
 
-.sh-qty-number-input input:focus {
+.owsr-sh-qty-number-input input:focus {
     outline: none;
 }
 
-.sh-rate-input-container input {
+.owsr-sh-rate-input-container input {
     width: 60px;
     padding: 5px 5px;
     border: 1px solid var(--light-black);
     font-size: var(--primary-para);
 }
 
-.sh-rate-input-container input:focus {
+.owsr-sh-rate-input-container input:focus {
     outline: none;
 }
 
-.sh-discount-container {
+.owsr-sh-discount-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.sh-discount-left-container input {
+.owsr-sh-discount-left-container input {
     width: 50px;
     padding: 5px 5px;
     border: 1px solid var(--light-black);
     font-size: var(--primary-para);
 }
 
-.sh-discount-left-container input:focus {
+.owsr-sh-discount-left-container input:focus {
     outline: none;
 }
 
-.sh-discount-right-container input {
+.owsr-sh-discount-right-container input {
     width: 50px;
     padding: 5px 5px;
     border: 1px solid var(--light-black);
@@ -430,11 +434,11 @@ table td {
     font-size: var(--primary-para);
 }
 
-.sh-discount-right-container input:focus {
+.owsr-sh-discount-right-container input:focus {
     outline: none;
 }
 
-.sh-vatbox-container {
+.owsr-sh-vatbox-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -448,27 +452,27 @@ tbody tr th p {
 
 /* ==== TABLE END === */
 /* === SLIDE PAGES === */
-.sh-slider-pages {
+.owsr-sh-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-slide-right-item {
+.owsr-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.owsr-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
     background-color: var(--light-black-op);
 }
 
-.sh-slide-right-item p {
+.owsr-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
@@ -480,7 +484,7 @@ tbody tr th p {
         width: 100%;
     }
 
-    .sh-product-details-table {
+    .owsr-sh-product-details-table {
         width: 100%;
         overflow: auto;
     }

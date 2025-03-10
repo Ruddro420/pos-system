@@ -3,31 +3,31 @@ import '../report/css/OutletWiseSalesReport.css'
 const OutletWiseSalesReport = () => {
     return (
         <>
-             <div className="sh-top-menu-items">
+    <div className="owsr-sh-top-menu-items">
         <ul>
-            <li className="sh-menu-items"><a href="/SalesReport-page">Counter Wise Sales Report</a></li>
-            <li className="sh-active-item"><a href="/OutletWiseSalesReport-page">Outlet Wise Sales Report</a></li>
+            <li className="owsr-sh-menu-items"><a href="/SalesReport-page">Counter Wise Sales Report</a></li>
+            <li className="owsr-sh-active-item"><a href="/OutletWiseSalesReport-page">Outlet Wise Sales Report</a></li>
         </ul>
     </div>
    {/*  <!-- === COUNTER SECTION === --> */}
-    <div className="counter-section">
+    <div className="owsr-counter-section">
 
      {/*    <!-- === TOTAL SALE SECTION === --> */}
-        <div className="total-sale-section">
+        <div className="owsr-total-sale-section">
           {/*   <!-- === HOME ICON === --> */}
-            <i className="fa-solid fa-house"></i>
+            <i className="owsr-fa-solid fa-house"></i>
          {/*    <!-- === SALE TEXT === --> */}
-            <div className="sale-text">
+            <div className="owsr-sale-text">
                 <p>TOTAL SALE</p>
                 <h1>800 BDT</h1>
             </div>
         </div>
       {/*   <!-- === TOTAL PAID SECTION === --> */}
-        <div className="total-paid-section">
+        <div className="owsr-total-paid-section">
         {/*     <!-- === HOME ICON === --> */}
-            <i className="fa-solid fa-check"></i>
+            <i className="owsr-fa-solid fa-check"></i>
           {/*   <!-- === SALE TEXT === --> */}
-            <div className="sale-text">
+            <div className="owsr-sale-text">
                 <p>COUNTER 01</p>
                 <h1>800 BDT</h1>
             </div>
@@ -35,18 +35,20 @@ const OutletWiseSalesReport = () => {
     </div>
    {/*  <!-- === COUNTER SECTION END === -->
     <!-- === PARENT CONTAINER === --> */}
-    <div className="sh-parent-container">
+    <div className="owsr-sh-parent-container">
        {/*  <!-- === CHILD CONTAINER === --> */}
-        <div className="sh-child-container">
+        <div className="owsr-sh-child-container">
            {/*  <!-- === STOCK REPORT CARD SECTION === --> */}
-            <div className="sh-stock-report-section">
+            <div className="owsr-sh-stock-report-section">
                 <p>Outlet Wise Report</p>
-                <a href="#"><i className="fa-solid fa-filter"></i>Filter</a>
+                <a href="#"><i className="owsr-fa-solid fa-filter"></i>Filter</a>
             </div>
             <hr/>
           {/*   <!-- === FILTER DROPDOWN SECTION === --> */}
-            <div className="sh-filter-drop-down-section">
-                <div className="sh-draft-container">
+            <div className="owsr-sh-filter-drop-down-section">
+               
+
+            <div className="owsr-sh-draft-container">
                     <select name="" id="">
                         <option value="1" name="wiselist" id="">All Counter</option>
                         <option value="1" name="wiselist" id="">Counter 01</option>
@@ -54,25 +56,25 @@ const OutletWiseSalesReport = () => {
                         <option value="1" name="wiselist" id="">Counter 03</option>
                     </select>
                 </div>
-                <div className="sh-draft-container">
+                <div className="owsr-sh-draft-container">
                     <input type="text" placeholder="17/02/2025-17/02/2025" value="" name="" id="" autoComplete="off"/>
                 </div>
                {/*  <!-- === FILTER SEARCH === --> */}
-                <div className="sh-filter-search-box">
-                    <i className="fa-solid fa-search"></i>Find
+                <div className="owsr-sh-filter-search-box">
+                    <i className="owsr-fa-solid fa-search"></i>Find
                 </div>
               {/*   <!-- === FILTER RESET === --> */}
-                <div className="sh-filter-reset-box">
-                    <i className="fa-solid fa-arrows-rotate"></i>Reset
+                <div className="owsr-sh-filter-reset-box">
+                    <i className="owsr-fa-solid fa-arrows-rotate"></i>Reset
                 </div>
             </div>
            {/*  <!-- === LINE === --> */}
-            <div className="sh-line">
+            <div className="owsr-sh-line">
                 <hr/>
             </div>
           {/*   <!-- === SHOW & FILE & SEARCH === --> */}
-            <div className="show-file-search-container">
-                <div className="sh-show-container">
+            <div className="owsr-show-file-search-container">
+                <div className="owsr-sh-show-container">
                     <p>Show</p>
                     <select name="" id="">
                         <option value="10" name="show">10</option>
@@ -83,17 +85,17 @@ const OutletWiseSalesReport = () => {
                     <p>Entreis</p>
                 </div>
              {/*    <!-- === FILE CONTAINER === --> */}
-                <div className="sh-file-container">
+                <div className="owsr-sh-file-container">
                     <a href="#">Excel</a>
                 </div>
               {/*   <!-- === SHOW SEARCH CONTAINER === --> */}
-                <div className="sh-show-search-container">
+                <div className="owsr-sh-show-search-container">
                     <label htmlFor="text">Search:</label>
                     <input type="search"/>
                 </div>
             </div>
            {/*  <!-- === PRODUCT ALL DETAILS === --> */}
-            <div className="sh-produt-all-details-container">
+            <div className="owsr-sh-produt-all-details-container">
                 <table>
                     <thead>
                         <tr>
@@ -118,17 +120,17 @@ const OutletWiseSalesReport = () => {
                                 <p>Counter 01</p>
                             </td>
                             <td>
-                                <div className="sh-product-search-box"><p>Product Name......</p></div>
+                                <div className="owsr-sh-product-search-box"><p>Product Name......</p></div>
                             </td>
-                            <td className="sh-av-box"><p>01</p></td>
-                            <td className="sh-qty-number-input">
+                            <td className="owsr-sh-av-box"><p>01</p></td>
+                            <td className="owsr-sh-qty-number-input">
                                 01/kg/L.
                             </td>
-                            <td className="sh-rate-input-container">
+                            <td className="owsr-sh-rate-input-container">
                                 <p>700 tk</p>
                             </td>
                             <td>
-                                <div className="sh-discount-container">
+                                <div className="owsr-sh-discount-container">
                                     <p>1000 tk</p>
                                 </div>
                             </td>
@@ -156,9 +158,9 @@ const OutletWiseSalesReport = () => {
                 </table>
             </div>
            {/*  <!-- === SLIDE PAGES === --> */}
-            <div className="sh-slider-pages">
+            <div className="owsr-sh-slider-pages">
                 <p>Showing 0 to 0 of 0 entries</p>
-                <div className="sh-slide-right-item">
+                <div className="owsr-sh-slide-right-item">
                     <a href="#">Previous</a>
                     <p>1</p>
                     <a href="#">Next</a>
