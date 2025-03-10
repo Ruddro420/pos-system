@@ -7,10 +7,6 @@
     font-family: "Poppins", serif;
 }
 
-body {
-    background-color: var(--gray-black);
-}
-
 ul {
     list-style-type: none;
 }
@@ -18,9 +14,7 @@ ul {
 a {
     text-decoration: none;
 }
-body{
-    background-color: var(--gray-white);
-}
+
 :root {
     --gray-white: #F0F1F2;
     --white: #FFFFFF;
@@ -30,7 +24,7 @@ body{
     --light-black-op: #21252350;
     --main-green: #157343;
     --main-light: #37A000;
-    --light-orange: #FD7E14;
+    --orange: #FD7E14;
     --green: #008000;
     --light-green: #e9f6ec;
     --red: #FF0000;
@@ -41,110 +35,109 @@ body{
     --secondary: 1rem;
     --primary-para: 0.825rem;
 }
-ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-}
 /* === PARENT SECTION === */
-.sh-parent-section{
+.mana-pur-payment-sh-parent-section{
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px 100px 30px;
 }
 /* === CHILD SECTION === */
-.sh-child-section{
+.mana-pur-payment-sh-child-section{
     width: 100%;
 }
 /* === TOP MENU ITEMS === */
-.sh-top-menu-items{
+.mana-pur-payment-sh-top-menu-items{
+    width: 100%;
     border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 10px!important;
+    margin-top: 10px;
+    margin-bottom: 20px!important;
 }
-.sh-top-menu-items ul{
+.mana-pur-payment-sh-top-menu-items ul{
     width: 100%;
     display: flex;
     align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -25px;
 }
-.sh-top-menu-items li{
+.mana-pur-payment-sh-top-menu-items li{
     height: 50px;
 }
-.sh-top-menu-items a{
+.mana-pur-payment-sh-top-menu-items a{
     height: 100%;
     padding: 0px 20px;
     color: var(--black);
     font-size: var(--secondary);
+    font-weight: 500;
     display: flex;
     align-items: center;
 }
-.sh-menu-items a:hover{
-    color: var(--red);
+.mana-pur-payment-sh-menu-items a:hover{
+    color: var(--orange);
 }
 /* === ACTIVE MENU === */
-.sh-active-item a{
+.mana-pur-payment-sh-active-item a{
     background-color: var(--main-green);
     color: var(--white);
     border-radius: 5px;
 }
 /* === REQUISIION LIST SECTION === */
 /* === DRAFT SALE SECITON === */
-.sh-draft-sale-section{
+.mana-pur-payment-sh-draft-sale-section{
     width: 100%;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
     border-radius: 5px;
     margin-top: 20px;
 }
 /* === DRAFT SALE TOP ITEMV === */
-.sh-draft-sale-top-item{
+.mana-pur-payment-sh-draft-sale-top-item{
     height: 80px;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-draft-sale-top-item p{
+.mana-pur-payment-sh-draft-sale-top-item p{
     font-size: var(--secondary);
 }
 /* === SHOW AND SEARCH CONTAINER === */
-.sh-show-and-search-container{
+.mana-pur-payment-sh-show-and-search-container{
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-show-container{
+.mana-pur-payment-sh-show-container{
     gap: 5px;
     font-size: var(--secondary);
     display: flex;
     align-items: center;
 }
-.sh-show-container select{
+.mana-pur-payment-sh-show-container select{
     padding: 5px 2px;
 }
-.sh-show-container select:focus{
+.mana-pur-payment-sh-show-container select:focus{
     outline: none;
 }
 /* === SEARCH === */
-.sh-search-container{
+.mana-pur-payment-sh-search-container{
     gap: 5px;
     display: flex;
     align-items: center;
 }
-.sh-search-container input{
+.mana-pur-payment-sh-search-container input{
     width: 400px;
     padding: 5px 10px;
     border: 1px solid var(--light-black-op);
 }
-.sh-search-container input:focus{
+.mana-pur-payment-sh-search-container input:focus{
     outline: none;
 }
 /* === MANAGE SALE DETAILS SECTION === */
-.manage-sale-details-section{
+.mana-pur-payment-manage-sale-details-section{
     width: 100%;
-    padding: 0px 25px;
+    padding: 0px 20px;
 }
 /* === TABLE === */
 table{
@@ -159,102 +152,78 @@ table th{
     font-size: var(--secondary);
     font-weight: 500;
 }
-/* === EMPTY SECTION === */
-.empty-section p{
-    text-align: center;
-}
+
 /* === SLIDE PAGES === */
-.sh-slider-pages {
-    padding: 20px;
+.mana-pur-payment-sh-slider-pages {
+    padding: 0px 20px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-slide-right-item {
+.mana-pur-payment-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.mana-pur-payment-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
     background-color: var(--light-black-op);
 }
 
-.sh-slide-right-item p {
+.mana-pur-payment-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
     background-color: var(--main-green);
 }
 /* === DRAFT SALE TOP ITEMV === */
-.sh-requisition-top-item{
+.mana-pur-payment-sh-requisition-top-item{
     height: 80px;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid var(--gray-black);
 }
-.sh-requisition-top-item p{
+.mana-pur-payment-sh-requisition-top-item p{
     font-size: var(--secondary);
-}
-/* === FILTER SEARCH === */
-.sh-filter-search-box{
-    background-color: var(--main-green);
-    padding: 4px 10px;
-    color: var(--white);
-    gap: 5px;
-    border-radius: 5px;
-    font-size: var(--secondary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/* === FILTER RESET === */
-.sh-filter-reset-box{
-    background-color: var(--red);
-    padding: 4px 10px;
-    color: var(--white);
-    gap: 5px;
-    border-radius: 5px;
-    font-size: var(--secondary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 /* === SHOW AND SEARCH CONTAINER === */
-.sh-show-and-search-container{
+.mana-pur-payment-sh-show-and-search-container{
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid var(--gray-black);
 }
-.sh-show-container{
+.mana-pur-payment-sh-show-container{
     gap: 5px;
     font-size: var(--secondary);
     display: flex;
     align-items: center;
 }
-.sh-show-container select{
-    padding: 5px 2px;
+.mana-pur-payment-sh-show-container select{
+    padding: 5px 7.5px;
 }
-.sh-show-container select:focus{
+.mana-pur-payment-sh-show-container select:focus{
     outline: none;
 }
 /* === SEARCH === */
-.sh-search-container{
-    gap: 5px;
+.mana-pur-payment-sh-search-container{
+    gap: 7.5px;
     display: flex;
     align-items: center;
 }
-.sh-search-container input{
-    width: 400px;
+.mana-pur-payment-sh-search-container input{
+    width: 250px;
     padding: 5px 10px;
+    border-radius: 0px;
     border: 1px solid var(--light-black-op);
 }
-.sh-search-container input:focus{
+.mana-pur-payment-sh-search-container input:focus{
     outline: none;
 }

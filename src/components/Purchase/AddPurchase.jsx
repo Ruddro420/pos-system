@@ -4,69 +4,74 @@ import '../purchesCSS/AddPurchase.css'
 const AddPurchase = () => {
     return (
       <>
-         <div className="sh-parent-section">
+         <div className="add-purchase-sh-parent-section">
            {/*  <!-- === TOP MENU ITEMS === --> */}
-            <div className="sh-top-menu-items">
+            <div className="add-purchase-sh-top-menu-items">
                 <ul>
-                    <li className="sh-menu-items"><Link to="/manageRequisition-page">Manage Requisition</Link></li>
-                    <li className="sh-menu-items"><Link to="/addRequisition-page">Add Requisition</Link></li>
-                    <li className="sh-menu-items"><Link to="/managePurchase-page">Manage Purchase</Link></li>
-                    <li className="sh-active-item"><Link to="/addPurchase-page">Add Purchase</Link></li>
-                    <li className="sh-menu-items"><Link to="/manageReceived-page">Manage Received</Link></li>
-                    <li className="sh-menu-items"><Link to="/managePayment-page">Manage Payment</Link></li>
+                    <li className="add-purchase-sh-menu-items"><Link to="/manageRequisition-page">Manage Requisition</Link></li>
+                    <li className="add-purchase-sh-menu-items"><Link to="/addRequisition-page">Add Requisition</Link></li>
+                    <li className="add-purchase-sh-menu-items"><Link to="/managePurchase-page">Manage Purchase</Link></li>
+                    <li className="add-purchase-sh-active-item"><Link to="/addPurchase-page">Add Purchase</Link></li>
+                    <li className="add-purchase-sh-menu-items"><Link to="/manageReceived-page">Manage Received</Link></li>
+                    <li className="add-purchase-sh-menu-items"><Link to="/PurManagePayment-page">Manage Payment</Link></li>
                 </ul>
             </div>
         {/*<!-- === CHILD SECTION === --> */}
-        <div className="sh-child-section">
+        <div className="add-purchase-sh-child-section">
           {/*<!-- === REQUISIION LIST SECTION === --> */}
-            <div className="sh-draft-sale-section">
-                <div className="sh-draft-sale-container">
+            <div className="add-purchase-sh-draft-sale-section">
+                <div className="add-purchase-sh-draft-sale-container">
                     {/* <!-- === DRAFT SALE TOP ITEMV === --> */}
-                    <div className="sh-requisition-top-item">
+                    <div className="add-purchase-sh-requisition-top-item">
                         <p>Add Purchase (Receive)</p>
-                        <div className="sh-filter">
+                        <div className="add-purchase-sh-filter">
                             <a href="#">Manage Purchase</a>
                         </div>
                     </div>
                    {/*  <!-- === CUSTMER SECTION === --> */}
-                    <div className="sh-customer-section">
-                       {/*  <!-- === CUSTOMER DETAILES === --> */}
-                        <div className="sh-suctomer-details">
-                            <div className="sh-supplier-name">
-                                <p>Supplier Name</p>
-                                <input type="text" placeholder="Select Supplier Name" value="" name="" id=""/>
+                        <div className="add-purchase-sh-customer-section">
+                            {/* <!-- === CUSTOMER DETAILES === --> */}
+                        <div className="add-purchase-details-subcon">
+                            <div className="add-purchase-sh-suctomer-details">
+                                <div className="add-purchase-sh-supplier-name">
+                                    <p>Supplier Name</p>
+                                    <input type="text" placeholder="Select Supplier Name" value="" name="" id=""/>
+                                </div>
+                                <div className="add-purchase-sh-supplier-name">
+                                    <p>Chalan No</p>
+                                    <input type="text" placeholder="Chanal No" value="" name="" id=""/>
+                                </div>
                             </div>
-                            <div className="sh-supplier-name">
-                                <p>Chalan No</p>
-                                <input type="text" placeholder="Chanal No" value="" name="" id=""/>
+                            {/*  <!-- === LIST === --> */}
+                            <div className="add-purchase-sh-list-container">
+                                <div className="add-purchase-sh-supplier-name">
+                                    <p>Purchase Date</p>
+                                    <input type="text" placeholder="" value="02/16/2025" name="" id=""/>
+                                </div>
+
+                                <div className="add-purchase-comment-boxx">
+                                    <p>Remarks</p>
+                                    <textarea placeholder="Remarks" name="" id=""></textarea>
+                                </div>
                             </div>
-                            <div className="sh-supplier-name">
-                                <p>Purchase Date</p>
-                                <input type="text" placeholder="" value="02/16/2025" name="" id=""/>
+                            {/*  <!-- === COMMENT BOX === --> */}
+                            <div className="add-purchase-comment-box">
+                                <div className="add-purchase-sh-list">
+                                    <input type="radio" value="list" name="regularpurchase" id='regular-purchase'/>
+                                    <label htmlFor="regular-purchase">Regular Purchase</label>
+                                </div>
+                                <div className="add-purchase-sh-list">
+                                    <input type="radio" value="list" name="regularpurchase" id='draft-sale'/>
+                                    <label htmlFor="draft-sale">Draft Sale</label>
+                                </div>
                             </div>
-                        </div>
-                       {/*  <!-- === LIST === --> */}
-                        <div className="sh-list-container">
-                            <div className="sh-list">
-                                <input type="radio" value="list" name="regularpurchase"/>
-                                <p>Regular Purchase</p>
-                            </div>
-                            <div className="sh-list">
-                                <input type="radio" value="list" name="regularpurchase"/>
-                                <p>Draft Sale</p>
-                            </div>
-                        </div>
-                       {/*  <!-- === COMMENT BOX === --> */}
-                        <div className="comment-box">
-                            <textarea placeholder="Remarks" name="" id=""></textarea>
                         </div>
                        {/*  <!-- === EVERYTHING SEARCH BOX === --> */}
-                        <div className="everyThing-search-box">
-                            <input type="search" placeholder="Enter Product Name, Product Model or Bar Code for Scan"
-                                name="" id=""/>
+                        <div className="add-purchase-everyThing-search-box">
+                            <input type="search" placeholder="Enter Product Name, Product Model or Bar Code for Scan" name="" id=""/>
                         </div>
                       {/*   <!-- === PRODUCT ALL DETAILS === --> */}
-                        <div className="sh-produt-all-details-container">
+                        <div className="add-purchase-sh-produt-all-details-container">
                             <table>
                                 <thead>
                                     <tr>
@@ -86,87 +91,77 @@ const AddPurchase = () => {
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <div className="sh-product-search-box"><input type="text"
+                                            <div className="add-purchase-sh-product-search-box"><input type="text"
                                                     placeholder="Product Name" name="" id=""/></div>
                                         </td>
-                                        <td className="sh-total-contaier">
+                                        <td className="add-purchase-sh-total-contaier">
                                             <input type="number" placeholder="" value="0.00" name="total" id=""/>
                                         </td>
-                                        <td className="sh-av-box"><input type="number" value="" name="barcode" id=""/></td>
-                                        <td className="sh-av-box"><input type="number" value="1" name="qty" id=""/></td>
-                                        <td className="sh-qty-number-input">
+                                        <td className="add-purchase-sh-av-box"><input type="number" value="" name="barcode" id=""/></td>
+                                        <td className="add-purchase-sh-av-box"><input type="number" value="1" name="qty" id=""/></td>
+                                        <td className="add-purchase-sh-qty-number-input">
                                             <input type="number" placeholder="" value="0.00" name="rate" id=""/>
                                         </td>
-                                        <td className="sh-rate-input-container">
+                                        <td className="add-purchase-sh-rate-input-container">
                                             <input type="number" placeholder="" value="0.00" name="salesrate" id=""/>
                                         </td>
                                         <td>
-                                            <div className="sh-discount-container">
-                                                <div className="sh-discount-left-container">
+                                            <div className="add-purchase-sh-discount-container">
+                                                <div className="add-purchase-sh-discount-left-container">
                                                     <input type="number" placeholder="" value="0.00" name="dis" id=""/>
                                                 </div>
-                                                <div className="sh-discount-right-container">
+                                                <div className="add-purchase-sh-discount-right-container">
                                                     <input type="number" placeholder="" value="0.00" name="dis" id=""/>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <div className="sh-vatbox-container">
-                                                <div className="sh-vat-left-container">
+                                            <div className="add-purchase-sh-vatbox-container">
+                                                <div className="add-purchase-sh-vat-left-container">
                                                     <input type="number" placeholder="" value="0.0" name="vat" id=""/>
                                                 </div>
-                                                <div className="sh-vat-right-container">
+                                                <div className="add-purchase-sh-vat-right-container">
                                                     <input type="number" placeholder="" value="0.00" name="vat" id=""/>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <div className="sh-vatbox-container">
-                                                <div className="sh-vat-left-container">
+                                            <div className="add-purchase-sh-vatbox-container">
+                                                <div className="add-purchase-sh-vat-left-container">
                                                     <input type="number" placeholder="" value="0.0" name="vat" id=""/>
                                                 </div>
-                                                <div className="sh-vat-right-container">
+                                                <div className="add-purchase-sh-vat-right-container">
                                                     <input type="number" placeholder="" value="0.00" name="vat" id=""/>
                                                 </div>
                                             </div>
                                         </td>
-                                        <td className="sh-total-contaier">
+                                        <td className="add-purchase-sh-total-contaier">
                                             <input type="number" placeholder="" value="0.00" name="total" id=""/>
                                         </td>
-                                        <td className="sh-delet-icon"><a href="#">
-                                                <a href="#">
-                                                    <i className="fa-solid fa-circle-xmark"></i>
-                                                </a>
-                                            </a></td>
+                                        <td className="add-purchase-sh-delet-icon">
+                                            <a href="#">
+                                                <i className="fa-solid fa-circle-xmark"></i>
+                                            </a>
+                                        </td>
                                     </tr>
-                                </tbody>
-                                <tbody>
                                     <tr>
-                                        <th colSpan="10">
-                                            <div className="sh-additional">
-                                                <a href="#"><i className="fa-solid fa-circle-plus"></i>Add Additional
-                                                    Expenses</a>
-                                            </div>
-                                        </th>
+                                        <td colSpan="9">
+                                            <p>Pay Amount:</p>
+                                        </td>
+                                        <td className="add-purchase-sh-total-contaier">
+                                            <input type="number" placeholder="" value="0.00" name="total" id=""/>
+                                        </td>
                                         <td>
-                                            <div className="sh-plus-icon-two">
+                                            <div className="add-purchase-sh-plus-icon-two">
                                                 <a href="#"><i className="fa-solid fa-plus"></i></a>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th colSpan="9">
-                                            <p>Pay Amount:</p>
-                                        </th>
-                                        <td className="sh-total-contaier">
-                                            <input type="number" placeholder="" value="0.00" name="total" id=""/>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th colSpan="9">
+                                        <td colSpan="9">
                                             <p>Change Amount:</p>
-                                        </th>
-                                        <td className="sh-total-contaier">
+                                        </td>
+                                        <td className="add-purchase-sh-total-contaier">
                                             <input type="number" placeholder="" value="0.00" name="total" id=""/>
                                         </td>
                                     </tr>
@@ -179,38 +174,38 @@ const AddPurchase = () => {
         </div>
     </div>
   {/*   <!-- === FOOTER === --> */}
-    <div className="sh-footer-section">
-        <div className="footer-items">
-            <div className="sh-footer-total-container">
+    <div className="add-purchase-sh-footer-section">
+        <div className="add-purchase-footer-items">
+            <div className="add-purchase-sh-footer-total-container">
                 <p>Total</p>
                 <input type="number" value="0.00" name="" id=""/>
             </div>
-            <div className="sh-footer-total-container">
+            <div className="add-purchase-sh-footer-total-container">
                 <p>Product Discount</p>
                 <input type="number" value="0.00" name="" id=""/>
             </div>
-            <div className="sh-footer-total-container">
+            <div className="add-purchase-sh-footer-total-container">
                 <p>Total VAT</p>
                 <input type="number" value="0.00" name="" id=""/>
             </div>
-            <div className="sh-footer-total-container">
+            <div className="add-purchase-sh-footer-total-container">
                 <p>Previous Due</p>
                 <input type="number" value="0.00" name="" id=""/>
             </div>
-            <div className="sh-footer-total-container">
+            <div className="add-purchase-sh-footer-total-container">
                 <p>Net Total</p>
                 <input type="number" value="0.00" name="" id=""/>
             </div>
-            <div className="sh-footer-total-container">
+            <div className="add-purchase-sh-footer-total-container">
                 <p>Current Due</p>
                 <input type="number" value="0.00" name="" id=""/>
             </div>
+            {/*  <!-- === FOOTER BUTTONS === --> */}
+            <div className="add-purchase-sh-footer-buttona">
+                <a href="#">Payment</a>
+                <a href="#">Submit</a>
+            </div>
         </div>
-       {/*  <!-- === FOOTER BUTTONS === --> */}
-         <div className="sh-footer-buttona">
-            <a href="#">Payment</a>
-            <a href="#">Submit</a>
-         </div>
     </div>
       </>
     );

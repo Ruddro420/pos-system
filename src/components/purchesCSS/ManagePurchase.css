@@ -39,7 +39,7 @@ a {
 /* main container */
 
 .cba-manage-purchase-section-container {
-    padding: 20px 20px 20px 28px;
+    padding: 20px 20px 20px 30px;
 }
 
 /* === TOP MENU ITEMS === */
@@ -48,7 +48,7 @@ a {
     border-radius: 5px;
     background-color: var(--white);
     padding: 15px 0px 0px 5px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 .manage-purchase-sh-top-menu-items ul{
@@ -56,6 +56,7 @@ a {
     gap: 10px;
     align-items: center;
     padding-bottom: 15px;
+    margin-left: -20px;
 }
 .manage-purchase-sh-top-menu-items li{
     height: 50px;

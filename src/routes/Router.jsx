@@ -61,7 +61,7 @@ import NewTransfer from "../components/product/NewTransfer";
 import TransferList from "../components/product/TransferList";
 import TransferRequestList from "../components/product/TransferRequestList";
 import PurchaseReturn from "../components/Purchase/PurchaseReturn";
-import SelsManagePayment from "../components/SelsManagePayment";
+import PurManagePayment from "../components/Purchase/PurManagePayment"; 
 import ChooseNow from "../components/ChooseNow";
 import OutletWiseSalesReport from "../components/report/OutletWiseSalesReport";
 import OutletReport from "../components/report/OutletReport";
@@ -173,10 +173,6 @@ const Router = createBrowserRouter([
                 path:'/SelsReturnList-page',
                 element: <SelsReturnList/>,
             },
-            {
-                path:'/SelsManagePayment-page',
-                element: <SelsManagePayment/>,
-            },
 
             // devileries menu
 
@@ -235,6 +231,10 @@ const Router = createBrowserRouter([
             path:'/PurchaseReturn-page',
             element: <PurchaseReturn/>,
          },
+         {
+            path:'/PurManagePayment-page',
+            element: <PurManagePayment/>,
+        },
          //product 
          {
             path:'/manageOutlet-page',

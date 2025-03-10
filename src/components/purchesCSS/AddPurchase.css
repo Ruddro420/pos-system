@@ -35,144 +35,271 @@ a {
     --secondary: 1rem;
     --primary-para: 0.825rem;
 }
-ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-}
+
 /* === PARENT SECTION === */
-.sh-parent-section{
+.add-purchase-sh-parent-section{
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px 100px 30px;
 }
 /* === CHILD SECTION === */
-.sh-child-section{
+.add-purchase-sh-child-section{
     width: 100%;
 }
 /* === TOP MENU ITEMS === */
-.sh-top-menu-items{
-    top: 20px;
-    position: sticky;
-    z-index: 999;
+.add-purchase-sh-top-menu-items{
     width: 100%;
     border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
     padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
-.sh-top-menu-items ul{
-    width: 100%;
+.add-purchase-sh-top-menu-items ul{
     display: flex;
+    gap: 10px;
     align-items: center;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 0;
+    margin-left: -3px;
 }
-.sh-top-menu-items li{
+.add-purchase-sh-top-menu-items li{
     height: 50px;
 }
-.sh-top-menu-items a{
+.add-purchase-sh-top-menu-items a{
     height: 100%;
     padding: 0px 20px;
     color: var(--black);
     font-size: var(--secondary);
+    font-weight: 500;
     display: flex;
     align-items: center;
 }
-.sh-menu-items a:hover{
+.add-purchase-sh-menu-items a:hover{
     color: var(--light-orange);
 }
 /* === ACTIVE MENU === */
-.sh-active-item a{
+.add-purchase-sh-active-item a{
     background-color: var(--main-green);
     color: var(--white);
     border-radius: 5px;
 }
 /* === REQUISIION LIST SECTION === */
-.sh-draft-sale-section{
+.add-purchase-sh-draft-sale-section{
     margin-top: 20px;
     border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
 }
-.sh-requisition-top-item{
-    padding: 20px;
+.add-purchase-sh-requisition-top-item{
+    padding: 35px 20px 35px 20px;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid var(--gray-black);
 }
-.sh-filter a{
+.add-purchase-sh-filter a{
     background-color: var(--main-green);
-    padding: 5px 10px;
+    padding: 7.5px 10px;
     border-radius: 3px;
     color: var(--white);
 }
 
 /* === CUSTMER SECTION === */
-.sh-customer-section{
-    margin-top: 20px;
+.add-purchase-sh-customer-section{
+    width: 100%;
 }
 /* === CUSTOMER DETAILES === */
-.sh-suctomer-details{
+.add-purchase-details-subcon {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.add-purchase-sh-suctomer-details {
+    width: 33%;
     padding: 20px;
     display: flex;
+    gap: 15px;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
 }
-.sh-supplier-name{
-    line-height: 2em;
-    font-size: var(--secondary);
-}
-.sh-supplier-name input{
-    cursor: pointer;
-    width: 450px;
-    padding: 5px 10px;
-    border: 1px solid var(--light-black-op);
-    font-size: var(--primary-para);
-}
-.sh-supplier-name input:focus{
-    outline: none;
-}
-/* === LIST === */
-.sh-list-container{
-    gap: 30px;
-    margin-left: 20px;
+/*  */
+.add-purchase-sh-suctomer-details > div:nth-child(1) {
+    width: 100%;
     display: flex;
-    align-items: center;
+    gap: 21px;
+    p {
+        font-size: 0.875rem;
+        font-weight: 400;
+        white-space: nowrap;
+        margin-top: 10px;
+    }
+    input {
+        width: 100%;
+        padding: 7.5px 10px 7.5px;
+        border: 1px solid var(--light-black-op);
+        font-size: var(--primary-para);
+        border: 1px solid var(--gray-black);
+        text-align: left;
+        &:focus {
+            outline: none;
+        }
+    }
+
 }
-.sh-list{
+.add-purchase-sh-suctomer-details > div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    p {
+        font-size: 0.875rem;
+        font-weight: 400;
+        white-space: nowrap;
+        margin-top: 10px;
+    }
+    input {
+        width: 100%;
+        padding: 5px 10px;
+        border: 1px solid var(--light-black-op);
+        font-size: var(--primary-para);
+        border: 1px solid var(--gray-black);
+        text-align: left;
+        &:focus {
+            outline: none;
+        }
+    }
+}
+/*  */
+/* === LIST === */
+.add-purchase-sh-list-container{
+    width: 33%;
+    gap: 30px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+
+    .add-purchase-sh-supplier-name {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-top: 18px;
+
+        p {
+            font-size: 0.875rem;
+            font-weight: 400;
+            white-space: nowrap;
+            margin-top: -5px;
+        }
+
+        input {
+            width: 100%;
+            color: var(--light-black);
+            padding: 7.5px 10px 7.5px;
+            font-size: var(--primary-para);
+            border: 1px solid var(--gray-black);
+            text-align: left;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .add-purchase-comment-boxx {
+        width: 100%;
+        display: flex;
+        gap: 57px;
+        align-items: center;
+        margin: 0;
+
+        p {
+            font-size: 0.875rem;
+            font-weight: 400;
+            white-space: nowrap;
+            margin-top: -30px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--gray-black);
+            resize: vertical;
+
+            &:focus {
+                outline: none;
+            }
+
+            &::placeholder {
+                font-size: var(--primary-para);
+            }
+        }
+    }
+}
+
+@media (max-width: 1536px) {
+    .add-purchase-sh-list-container > .add-purchase-comment-boxx {
+        gap: 62px;
+    }
+}
+
+.add-purchase-sh-list{
     gap: 5px;
     display: flex;
     align-items: center;
 }
 /* === COMMENT BOX === */
-.comment-box{
+.add-purchase-comment-box{
+    width: 33%;
     margin: 20px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+
+    .add-purchase-sh-list {
+        width: 100%;
+        display: flex;
+        /* gap: 20px; */
+        align-items: center;
+        margin: 0;
+
+        input {
+            width: 20px;
+            cursor: pointer;
+        }
+
+        label {
+            font-size: 0.875rem;            
+            font-weight: 400;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+    }
 }
-.comment-box textarea{
-    width: 100%;
-    padding: 10px;
-    border:1px solid var(--light-black-op);
-}
-.comment-box textarea:focus{
-    outline: none;
-}
+
 /* === EVERYTHING SEARCH BOX ===  */
-.everyThing-search-box{
+.add-purchase-everyThing-search-box{
     margin: 20px;
+
+    input {
+        width: 100%;
+        padding: 10px 10px;
+        font-size: var(--primary-para);
+        border: 1px solid var(--gray-black);
+        border-radius: 0px;
+        text-align: left;
+
+        &:focus {
+            outline: none;
+        }
+    }
 }
-.everyThing-search-box input{
-    width: 100%;
-    padding: 10px 10px;
-    font-size: var(--primary-para);
-    border: 1px solid var(--light-black-op);
-}
-.everyThing-search-box input:focus{
-    outline: none;
-}
+
 /* === PRODUCT ALL DETAILS === */
-.sh-produt-all-details-container{
-    margin-top: 10px;
-    padding: 20px;
+.add-purchase-sh-produt-all-details-container{
+    padding: 0px 20px 10px 20px;
 }
 table {
     width: 100%;
@@ -182,7 +309,7 @@ table {
 
 th,
 td {
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--gray-black);
     padding: 10px 5px;
 }
 
@@ -194,139 +321,167 @@ table td{
     text-align: center;
     align-items: center;
 }
-.sh-product-search-box{
+
+table > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div > input {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+table > tbody:nth-child(2) > tr:nth-child(2) > td:nth-child(1) > p {
+    margin-right: -1250px;
+}
+table > tbody:nth-child(2) > tr:nth-child(3) > td:nth-child(1) > p {
+    margin-right: -1220px;
+}
+
+@media (max-width: 1536px) {
+    table > tbody:nth-child(2) > tr:nth-child(2) > td:nth-child(1) > p {
+        margin-right: -880px;
+    }
+    table > tbody:nth-child(2) > tr:nth-child(3) > td:nth-child(1) > p {
+        margin-right: -852px;
+    }
+}
+
+.add-purchase-sh-product-search-box{
     display: flex;  
 }
-.sh-product-search-box input {
+.add-purchase-sh-product-search-box input {
     width: 400px;
     padding: 8px 5px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--gray-black);
     font-size: var(--primary-para);
 }
 
-.sh-product-search-box input:focus {
+@media (max-width: 1536px) {
+    .add-purchase-sh-product-search-box input {
+        width: 150px;
+    }
+}
+
+.add-purchase-sh-product-search-box input:focus {
     outline: none;
 }
 
-.sh-av-box input{
+.add-purchase-sh-av-box input{
     width: 50px;
     padding: 5px 5px;
     border: 1px solid black;
     font-size: var(--primary-para);
 }
-.sh-av-box input:focus{
+.add-purchase-sh-av-box input:focus{
     outline: none;
 }   
-.sh-qty-number-input input{
+.add-purchase-sh-qty-number-input input{
     width: 70px;
     padding: 5px 5px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--gray-black);
     font-size: var(--primary-para);
 }
-.sh-qty-number-input input:focus{
+.add-purchase-sh-qty-number-input input:focus{
     outline: none;
 }
-.sh-rate-input-container input{
+.add-purchase-sh-rate-input-container input{
     width: 60px;
     padding: 5px 5px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--gray-black);
     font-size: var(--primary-para);
 }
-.sh-rate-input-container input:focus{
+.add-purchase-sh-rate-input-container input:focus{
     outline: none;
 }
-.sh-discount-container{
+.add-purchase-sh-discount-container{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.sh-discount-left-container input{
+.add-purchase-sh-discount-left-container input{
     width: 50px;
     padding: 5px 5px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--gray-black);
     font-size: var(--primary-para);
 }
-.sh-discount-left-container input:focus{
+.add-purchase-sh-discount-left-container input:focus{
     outline: none;
 }
-.sh-discount-right-container input{
-    width: 50px;
+.add-purchase-sh-discount-right-container input{
+    width: 50px!important;
     padding: 5px 5px;
-    border: 1px solid var(--light-black);
-    background-color: var(--light-black-op);
+    border: 1px solid var(--gray-black);
+    background-color: var(--gray-black);
     font-size: var(--primary-para);
 }
-.sh-discount-right-container input:focus{
+.add-purchase-sh-discount-right-container input:focus{
     outline: none;
 }
-.sh-vatbox-container{
+.add-purchase-sh-vatbox-container{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.sh-vat-left-container input{
+.add-purchase-sh-vat-left-container input{
     width: 50px;
     padding: 5px 5px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--gray-black);
     font-size: var(--primary-para);
 }
-.sh-vat-left-container input:focus{
+.add-purchase-sh-vat-left-container input:focus{
     outline: none;
 }
-.sh-vat-right-container input{
+.add-purchase-sh-vat-right-container input{
     width: 50px;
     padding: 5px 5px;
-    background-color: var(--light-black-op);
-    border: 1px solid var(--light-black);
+    background-color: var(--gray-black);
+    border: 1px solid var(--gray-black);
     font-size: var(--primary-para);
 }
-.sh-vat-right-container input:focus{
+.add-purchase-sh-vat-right-container input:focus{
     outline: none;
 }
-.sh-total-contaier input{
+.add-purchase-sh-total-contaier input{
     width: 100px;
     padding: 5px 5px;
-    background-color: var(--light-black-op);
-    border: 1px solid var(--light-black);
+    background-color: var(--gray-black);
+    border: 1px solid var(--gray-black);
     font-size: var(--primary-para);
 }
-.sh-total-contaier input:focus{
+.add-purchase-sh-total-contaier input:focus{
     outline:none
 }
 /* === DELETE ICON === */
-.sh-delet-icon i{
+.add-purchase-sh-delet-icon i{
     padding: 5px 5px;
     color: var(--red);
     font-size: var(--primary-head);
     border: 1px solid var(--red);
     background-color: var(--light-red);
 }
-.sh-delet-icon i:hover{
+.add-purchase-sh-delet-icon i:hover{
     padding: 5px 5px;
     color: var(--white);
     font-size: var(--primary-head);
     border: 1px solid var(--red);
     background-color: var(--red);
 }
-.sh-plus-icon-two a i{
+.add-purchase-sh-plus-icon-two a i{
     padding: 5px 5px;
     color: var(--main-green);
     font-size: var(--primary-head);
     background-color: var(--light-green);
     border: 1px solid var(--main-green);
 }
-.sh-plus-icon-two a i:hover{
+.add-purchase-sh-plus-icon-two a i:hover{
     padding: 5px 5px;
     color: var(--white);
     font-size: var(--primary-head);
     background-color: var(--main-green);
     border: 1px solid var(--main-green);
 }
-.sh-additional{
+.add-purchase-sh-additional{
     display: flex;
     justify-content: flex-end;
 }
-.sh-additional a{
+.add-purchase-sh-additional a{
     display: flex;
     align-items: center;
     gap: 5px;
@@ -335,48 +490,64 @@ table td{
     color: var(--white);
     border-radius: 3px;
 }
-tbody tr th p{
+/* tbody tr th p{
     display: flex;
     justify-content: flex-end;
     align-items: end;
-}
+} */
 /* ==== TABLE END === */
 
 
 /* === FOOTER === */
-.footer-items{
+.add-purchase-footer-items{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 10px;
 }
-.sh-footer-section{
+.add-purchase-sh-footer-section{
     width: 100%;
     bottom: 0;
-    position: sticky;
-    z-index: 999;
+    right: 0;
+    position: fixed;
     padding: 20px;
     background-color: var(--white);
 }
-.sh-footer-total-container{
-    line-height: 2em;
+.add-purchase-sh-footer-total-container {
+    display: flex;
+    flex-direction: column;
 }
-.sh-footer-total-container input{
-    padding: 5px 10px;
-    border: 1px solid var(--light-black-op);
+
+.add-purchase-sh-footer-total-container p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: right;
 }
-.sh-footer-total-container input:focus{
+
+.add-purchase-sh-footer-total-container input{
+    width: 150px;
+    padding: 7.5px 10px 5px 10px;
+    border: 1px solid var(--gray-black);
+    text-align: right;
+    font-weight: 400;
+}
+@media (max-width: 1536px) {
+    .add-purchase-sh-footer-total-container input {
+        width: 140px;
+    }
+}
+.add-purchase-sh-footer-total-container input:focus{
     outline: none;
 }
 /* === FOOTER BUTTONS === */
-.sh-footer-buttona{
+.add-purchase-sh-footer-buttona{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-top: 10px;
-    gap: 20px;
+    margin-top: 24px;
+    gap: 10px;
 }
-.sh-footer-buttona a{
+.add-purchase-sh-footer-buttona a{
     color: var(--white);
     background-color: var(--main-green);
     padding: 5px 8px;

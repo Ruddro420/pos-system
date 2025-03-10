@@ -7,10 +7,6 @@
     font-family: "Poppins", serif;
 }
 
-body {
-    background-color: var(--gray-white);
-}
-
 ul {
     list-style-type: none;
 }
@@ -28,7 +24,7 @@ a {
     --light-black-op: #21252350;
     --main-green: #157343;
     --main-light: #37A000;
-    --light-orange: #FD7E14;
+    --orange: #FD7E14;
     --green: #008000;
     --light-green: #e9f6ec;
     --red: #FF0000;
@@ -40,59 +36,66 @@ a {
     --primary-para: 0.825rem;
 }
 /* === TOP MENU ITEMS === */
-.sh-top-menu-items{
+.PurDraftPurchase-sh-parent-section {
+    width: 100%;
+    padding: 20px 20px 100px 30px;
+}
+
+.PurDraftPurchase-sh-top-menu-items{
     border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
-    padding: 10px 0px 10px 10px;
-    margin: 20px;
+    padding: 10px 0px 0px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px!important;
 }
-.sh-top-menu-items ul{
-    width: 100%;
+.PurDraftPurchase-sh-top-menu-items ul{
     display: flex;
     align-items: center;
-}
-.sh-top-menu-items li{
+    gap: 10px;
+    width: 100%;
+    padding: 5px 10px 15px 10px;
+    margin-left: -3px;
+}   
+.PurDraftPurchase-sh-top-menu-items li{
     height: 50px;
 }
-.sh-top-menu-items a{
+.PurDraftPurchase-sh-top-menu-items a{
     height: 100%;
     padding: 0px 20px;
     color: var(--black);
     font-size: var(--secondary);
+    font-weight: 500;
     display: flex;
     align-items: center;
 }
-.sh-menu-items a:hover{
-    color: var(--red);
+.PurDraftPurchase-sh-menu-items a:hover{
+    color: var(--orange);
 }
 /* === ACTIVE MENU === */
-.sh-active-item a{
+.PurDraftPurchase-sh-active-item a{
     background-color: var(--main-green);
     color: var(--white);
     border-radius: 5px;
 }
 /* === COUNTER SECTION === */
-.counter-section{
+.PurDraftPurchase-counter-section{
     display: flex;
     width: 100%;
     gap: 30px;
-    padding-right: 20px;
-    padding-left: 20px;
+    margin-top: 20px;
 }
 /* === TOTAL SALE SECTION === */
-.total-sale-section{
+.PurDraftPurchase-total-sale-section{
     width: 100%;
     gap: 10px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px solid rgb(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     padding: 20px;
     border-radius: 5px;
 }
 /* === HOME ICON === */
-.total-sale-section i{
+.PurDraftPurchase-total-sale-section i{
     width: 60px;
     height: 60px;
     font-size: 2rem;
@@ -105,18 +108,17 @@ a {
     justify-content: center;
 }
 /* === TOTAL SALE SECTION === */
-.total-paid-section{
+.PurDraftPurchase-total-paid-section{
     width: 100%;
     gap: 10px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px solid rgb(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     padding: 20px;
     border-radius: 5px;
 }
 /* === HOME ICON === */
-.total-paid-section i{
+.PurDraftPurchase-total-paid-section i{
     width: 60px;
     height: 60px;
     font-size: 2rem;
@@ -129,18 +131,17 @@ a {
     justify-content: center;
 }
 /* === TOTAL DUE SECTION === */
-.total-due-section{
+.PurDraftPurchase-total-due-section{
     width: 100%;
     gap: 10px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px solid rgb(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     padding: 20px;
     border-radius: 5px;
 }
 /* === HOME ICON === */
-.total-due-section i{
+.PurDraftPurchase-total-due-section i{
     width: 60px;
     height: 60px;
     font-size: 2rem;
@@ -153,52 +154,41 @@ a {
     justify-content: center;
 }
 /* === SALE TEXT === */
-.sale-text{
+.PurDraftPurchase-sale-text{
     line-height: 2em;
 }
-.sale-text p{
+.PurDraftPurchase-sale-text p{
     font-size: var(--secondary);
 }
-.sale-text h1{
+.PurDraftPurchase-sale-text h1{
     font-size: var(--primary-head);
 }
 /* === MANAGE SECTION === */
-.manage-section{
-    margin: 20px;
+.PurDraftPurchase-manage-section{
     border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
+    margin-top: 20px;
 }
 /* === MANAGE CONTAINER === */
-.manage-container{
+.PurDraftPurchase-manage-container{
     margin: 0px 20px;
+    padding: 35px 0px!important;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid var(--gray-black);
 }
-.manage-container p{
+.PurDraftPurchase-manage-container p{
     font-size: var(--secondary);
 }
 /* === FILTER AND ADD SECTION === */
-.filter-add-new{
+.PurDraftPurchase-filter-add-new{
     gap: 10px;
     display: flex;
     align-items: center;
 }
-.filter-container{
-    gap: 10px;
-    color: var(--white);
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: var(--main-green);
-    display: flex;
-    align-items: center;
-}
-.filter-container a{
-    color: var(--white);
-}
-.add-new-sale-container{
+.PurDraftPurchase-filter-container{
     gap: 10px;
     color: var(--white);
     padding: 5px 10px;
@@ -207,47 +197,67 @@ a {
     display: flex;
     align-items: center;
 }
-.add-new-sale-container a{
+.PurDraftPurchase-filter-container a{
+    color: var(--white);
+}
+.PurDraftPurchase-add-new-sale-container{
+    gap: 10px;
+    color: var(--white);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--main-green);
+    display: flex;
+    align-items: center;
+}
+.PurDraftPurchase-add-new-sale-container a{
     color: var(--white);
 }
 /* === FILTER CONTAINER ITEMS === */
-.filter-container-items{
+.PurDraftPurchase-filter-container-items{
     height: 70px;
-    padding: 10px 30px;
+    padding: 20px 30px 10px;
     gap: 40px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid var(--gray-black);
 }
-.invoice-box input{
+.PurDraftPurchase-invoice-box input{
     padding: 4px 10px;
     width: 80px;
     font-size: 1rem;
     color: gray;
 }
-.invoice-box input:focus{
+.PurDraftPurchase-invoice-box input:focus{
     outline: none;
 }
-.sale-date-input-box input{
+.PurDraftPurchase-sale-date-input-box input{
     padding: 5px 10px;
     font-size: 1rem;
+    text-align: left;
 }
-.sale-date-input-box input:focus{
+.PurDraftPurchase-sale-date-input-box input:focus{
     outline: none;
 }
 /* === FIND BUTTON === */
-.sh-button-container{
+.PurDraftPurchase-sh-button-container{
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.sh-find-button a{
+.PurDraftPurchase-sh-find-button {
+    margin-top: -9px;
+}
+.PurDraftPurchase-sh-find-button a{
     background-color: var(--main-green);
     color: var(--white);
     padding: 7px 10px;
     border-radius: 3px;
     font-size: var(--primary-para);
 }
-.sh-reset-button a{
+.PurDraftPurchase-sh-reset-button {
+    margin-top: -9px;
+}
+.PurDraftPurchase-sh-reset-button a{
     background-color: var(--red);
     color: var(--white);
     padding: 7px 10px;
@@ -255,33 +265,48 @@ a {
     font-size: var(--primary-para);
 }
 /* === SHOW AND SEARCH SECTION === */
-.show-and-search-section{
+.PurDraftPurchase-show-and-search-section{
     height: 90px;
     margin: 0px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid var(--gray-black)!important;
 }
 /* === SHOW CONTAINER === */
-.show-container{
+.PurDraftPurchase-show-container {
     display: flex;
     gap: 5px;
 }
+.PurDraftPurchase-show-container > p {
+    margin-top: 5px;
+}
+
+.PurDraftPurchase-show-container > select {
+    padding: 4px 8px;
+    border: 1px solid var(--gray-black);
+}
 /* === SEARCH CONTAINER === */
-.search-container input{
+.PurDraftPurchase-search-container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.PurDraftPurchase-search-container input{
     width: 250px;
-    border: 1px solid var(--light-black);
-    border-radius: 3px;
+    border: 1px solid var(--gray-black);
+    border-radius: 0px;
     padding: 4px 8px;
 }
-.search-container input:focus{
+.PurDraftPurchase-search-container input:focus{
     outline: 1px solid #2B51B0;
     border: none;
 }
 /* === MANAGE SALE DETAILS SECTION === */
-.manage-sale-details-section{
+.PurDraftPurchase-manage-sale-details-section{
     width: 100%;
-    padding: 0px 25px;
+    padding: 0px 20px;
 }
 /* === TABLE === */
 table{
@@ -296,32 +321,28 @@ table th{
     font-size: var(--secondary);
     font-weight: 500;
 }
-/* === EMPTY SECTION === */
-.empty-section p{
-    text-align: center;
-}
 /* === SLIDE PAGES === */
-.sh-slider-pages {
-    padding: 20px;
+.PurDraftPurchase-sh-slider-pages {
+    padding: 0px 20px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-slide-right-item {
+.PurDraftPurchase-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.PurDraftPurchase-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
     background-color: var(--light-black-op);
 }
 
-.sh-slide-right-item p {
+.PurDraftPurchase-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);

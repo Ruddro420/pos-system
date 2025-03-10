@@ -35,12 +35,6 @@ a {
     --secondary: 1rem;
     --primary-para: 0.825rem;
 }
-ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-}
 /* === PARENT SECTION === */
 .addrequisition-sh-parent-section{
     width: 100%;
@@ -57,7 +51,7 @@ a{
     background-color: var(--white);
     padding: 10px 0px 10px 10px!important;
     margin-top: 10px;
-    margin-bottom: 30px!important;
+    margin-bottom: 20px!important;
 }
 .addrequisition-sh-top-menu-items ul{
     width: 100%;

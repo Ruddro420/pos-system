@@ -12,7 +12,7 @@ const ManagePurchase = () => {
                     <li className="manage-purchase-sh-active-item"><Link to="/managePurchase-page">Manage Purchase</Link></li>
                     <li className="manage-purchase-sh-menu-items"><Link to="/addPurchase-page">Add Purchase</Link></li>
                     <li className="manage-purchase-sh-menu-items"><Link to="/manageReceived-page">Manage Received</Link></li>
-                    <li className="manage-purchase-sh-menu-items"><Link to="/managePayment-page">Manage Payment</Link></li>
+                    <li className="manage-purchase-sh-menu-items"><Link to="/PurManagePayment-page">Manage Payment</Link></li>
                 </ul>
             </div>
             {/*  <!-- === COUNTER SECTION === --> */}
