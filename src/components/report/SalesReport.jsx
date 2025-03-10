@@ -2,6 +2,8 @@ import "../report/css/SalesReport.css";
 const SalesReport = () => {
   return (
     <div>
+
+
       {/*  <!-- === TOP MENU ITEMS === --> */}
       <div className="rsr-sh-top-menu-items">
         <ul>
@@ -13,6 +15,9 @@ const SalesReport = () => {
           </li>
         </ul>
       </div>
+
+
+
       {/* <!-- === COUNTER SECTION === --> */}
       <div className="rsr-counter-section">
         {/* <!-- === TOTAL SALE SECTION === --> */}
@@ -36,6 +41,9 @@ const SalesReport = () => {
           </div>
         </div>
       </div>
+
+
+
       {/* <!-- === COUNTER SECTION END === -->
     <!-- === PARENT CONTAINER === --> */}
       <div className="rsr-sh-parent-container">
@@ -51,7 +59,7 @@ const SalesReport = () => {
 
           {/* <!-- === FILTER DROPDOWN SECTION === --> */}
           <div className="rsr-sh-filter-drop-down-section">
-            <div className="rsr-sh-draft-container">
+          <div className="rsr-sh-draft-container">
               <select name="" id="">
                 <option value="1" name="wiselist" id="">
                   All Counter
@@ -86,6 +94,9 @@ const SalesReport = () => {
               <i className="rsr-fa-solid fa-arrows-rotate"></i>Reset
             </div>
           </div>
+
+
+
           {/*  <!-- === LINE === --> */}
           <div className="rsr-sh-line"></div>
           {/* <!-- === SHOW & FILE & SEARCH === --> */}

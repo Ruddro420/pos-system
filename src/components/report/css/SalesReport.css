@@ -54,21 +54,20 @@ a {
 
 /* === TOP MENU ITEMS === */
 .rsr-sh-top-menu-items {
-    margin-top: 10px;
-    border-radius: 3px;
+    margin: 20px;
+    border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.3);
-   /*  padding: 10px; */
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.149);
+    padding: 10px 0px 10px 10px;
    
 }  
 
 .rsr-sh-top-menu-items ul {
     width: 100%;
     display: flex;
-    justify-content: start;
-    align-items: center;
+    justify-content: flex-start;
     text-align: center;
-  /*   padding: 3px; */
+    
 } 
 
 .rsr-sh-top-menu-items li {
@@ -78,18 +77,22 @@ a {
 }
 
 .rsr-sh-top-menu-items a {
-  /*   height: 100%; */
-   /*  padding: 0px 20px; */
-    padding: 10px 10px 10px 10px;
+    height: 100%;
+    padding: 7px 15px 7px 15px;
     color: var(--black);
     font-size: var(--secondary);
     display: flex;
     align-items: center;
 }
-
+.rsr-sh-menu-items{
+    margin-top: 12px;
+}
 .rsr-sh-menu-items a:hover {
     color: var(--red);
 }
+
+
+
 
 /* === ACTIVE MENU === */
 .rsr-sh-active-item a {
@@ -126,7 +129,7 @@ a {
     font-size: 2rem;
     padding: 10px 8px;
     border-radius: 5px;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: var(--light-orange);
     display: flex;
     align-items: center;
@@ -215,7 +218,8 @@ a {
     padding: 20px;
     display: flex;
     align-items: center;
-    align-items: flex-end;
+  /*   text-align: center; */
+   /*  align-items: flex-end; */
 }
 
 /* === SH DRAFT CONTAINER === */
@@ -223,28 +227,30 @@ a {
     line-height: 2em;
 }
 
-.sh-draft-container input {
+.rsr-sh-draft-container input {
     width: 100%;
     padding: 5px 8px;
     border: 1px solid var(--light-black-op);
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
-.sh-draft-container input:focus {
+.rsr-sh-draft-container input:focus {
     outline: none;
 }
 
-.sh-draft-container select {
+.rsr-sh-draft-container select {
     width: 100%;
     padding: 5px 8px;
     border: 1px solid var(--light-black-op);
 }
 
-.sh-draft-container select:focus {
+.rsr-sh-draft-container select:focus {
     outline: none;
 }
 
 /* === FILTER SEARCH === */
-.sh-filter-search-box {
+.rsr-sh-filter-search-box {
     background-color: var(--main-green);
     padding: 4px 10px;
     color: var(--white);
@@ -257,7 +263,7 @@ a {
 }
 
 /* === FILTER RESET === */
-.sh-filter-reset-box {
+.rsr-sh-filter-reset-box {
     background-color: var(--red);
     padding: 4px 10px;
     color: var(--white);
@@ -269,7 +275,7 @@ a {
     justify-content: center;
 }
 
-.sh-line {
+.rsr-sh-line {
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -300,36 +306,36 @@ td {
 
 /* === SHOW & FILE & SEARCH === */
 
-.show-file-search-container {
+.rsr-show-file-search-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 }
 
-.sh-show-container {
+.rsr-sh-show-container {
     display: flex;
     align-items: center;
     gap: 5px;
     font-size: var(--secondary);
 }
 
-.sh-show-container select {
+.rsr-sh-show-container select {
     width: 50px;
     text-align: center;
     font-size: var(--secondary);
 }
-.sh-product-search-box{
+.rsr-sh-product-search-box{
     text-align: left;
 }
 /* === FILE CONTAINER === */
-.sh-file-container {
+.rsr-sh-file-container {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.sh-file-container a {
+.rsr-sh-file-container a {
     background-color: var(--main-green);
     color: var(--white);
     padding: 5px 10px;
@@ -337,24 +343,24 @@ td {
 }
 
 /* === SHOW SEARCH CONTAINER === */
-.sh-show-search-container {
+.rsr-sh-show-search-container {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: var(--secondary);
 }
 
-.sh-show-search-container input {
+.rsr-sh-show-search-container input {
     padding: 5px 8px;
     border: 1px solid var(--light-black-op);
 }
 
-.sh-show-search-container input:focus {
+.rsr-sh-show-search-container input:focus {
     outline: none;
 }
 
 /* === PRODUCT ALL DETAILS === */
-.sh-produt-all-details-container {
+.rsr-sh-produt-all-details-container {
     margin-top: 10px;
     padding: 20px;
 }
@@ -382,57 +388,57 @@ table td {
 }
 
 
-.sh-av-box input {
+.rsr-sh-av-box input {
     width: 50px;
     padding: 5px 5px;
     border: 1px solid black;
     font-size: var(--primary-para);
 }
 
-.sh-av-box input:focus {
+.rsr-sh-av-box input:focus {
     outline: none;
 }
 
-.sh-qty-number-input input {
+.rsr-sh-qty-number-input input {
     width: 70px;
     padding: 5px 5px;
     border: 1px solid var(--light-black);
     font-size: var(--primary-para);
 }
 
-.sh-qty-number-input input:focus {
+.rsr-sh-qty-number-input input:focus {
     outline: none;
 }
 
-.sh-rate-input-container input {
+.rsr-sh-rate-input-container input {
     width: 60px;
     padding: 5px 5px;
     border: 1px solid var(--light-black);
     font-size: var(--primary-para);
 }
 
-.sh-rate-input-container input:focus {
+.rsr-sh-rate-input-container input:focus {
     outline: none;
 }
 
-.sh-discount-container {
+.rsr-sh-discount-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.sh-discount-left-container input {
+.rsr-sh-discount-left-container input {
     width: 50px;
     padding: 5px 5px;
     border: 1px solid var(--light-black);
     font-size: var(--primary-para);
 }
 
-.sh-discount-left-container input:focus {
+.rsr-sh-discount-left-container input:focus {
     outline: none;
 }
 
-.sh-discount-right-container input {
+.rsr-sh-discount-right-container input {
     width: 50px;
     padding: 5px 5px;
     border: 1px solid var(--light-black);
@@ -440,11 +446,11 @@ table td {
     font-size: var(--primary-para);
 }
 
-.sh-discount-right-container input:focus {
+.rsr-sh-discount-right-container input:focus {
     outline: none;
 }
 
-.sh-vatbox-container {
+.rsr-sh-vatbox-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -458,14 +464,14 @@ tbody tr th p {
 
 /* ==== TABLE END === */
 /* === SLIDE PAGES === */
-.sh-slider-pages {
+.rsr-sh-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-slide-right-item {
+.rsr-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
@@ -478,7 +484,7 @@ tbody tr th p {
     background-color: var(--light-black-op);
 }
 
-.sh-slide-right-item p {
+.rsr-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
@@ -490,7 +496,7 @@ tbody tr th p {
         width: 100%;
     }
 
-    .sh-product-details-table {
+    .rsr-sh-product-details-table {
         width: 100%;
         overflow: auto;
     }
