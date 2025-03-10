@@ -12,7 +12,7 @@ const FinancialYear = () => {
         </div>
         <div className="afy-sh-child-container">
             <div className="afy-sh-draft-sale-section">
-                {/* <!-- === DRAFT SALE TOP ITEMV === --> */}
+                {/* <!-- === DRAFT SALE TOP ITEM === --> */}
                 <div className="afy-sh-draft-sale-top-item">
                     <p>Financial Year List</p>
                 </div>
@@ -53,12 +53,12 @@ const FinancialYear = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td className="afy-text-center">#1</td>
-                            <td className="afy-text-center">2025</td>
-                            <td className="afy-text-center">01-01-2025</td>
-                            <td className="afy-text-center">31-12-2025</td>
-                            <td className="afy-text-center">Active</td>
-                            <td className="afy-text-center">
+                            <td>#1</td>
+                            <td>2025</td>
+                            <td>01-01-2025</td>
+                            <td>31-12-2025</td>
+                            <td>Active</td>
+                            <td>
                                 <div className="sh-edit-icon">
                                     <p><i className="fa-solid fa-edit"></i></p>
                                 </div>

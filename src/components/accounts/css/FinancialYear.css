@@ -116,7 +116,13 @@ a {
     align-items: center;
 }
 .afy-sh-show-container select{
-    padding: 5px 2px;
+    padding: 7.5px 10px; 
+    color: var(--lt-black);
+    appearance: none;
+    height: 35px;
+    width: 40px;
+    outline: none;
+    border-radius: 2.5px;
 }
 .afy-sh-show-container select:focus{
     outline: none;
@@ -128,7 +134,7 @@ a {
     align-items: center;
 }
 .afy-sh-search-container input{
-    width: 400px;
+    width: 100%;
     padding: 5px 10px;
     border: 1px solid var(--light-black-op);
 }
@@ -141,34 +147,8 @@ a {
     padding: 0px 20px;
 }
 /* === TABLE === */
-table{
-    width: 100%;
-    border-collapse: collapse;
-}
-th, td{
-    padding: 10px;
-    border: 1px solid var(--light-black-op);
-}
-table th{
-    font-size: var(--secondary);
-    font-weight: 500;
-}
-.afy-text-center{
-    text-align: center;
-}
-.afy-text-center i{
+.sh-edit-icon i{
     cursor: pointer;
-    padding: 5px;
-    font-size: var(--secondary-head);
-    color: var(--light-orange);
-    background-color: var(--light-red);
-    border: 1px solid var(--red);
-    transition: 0.5s;
-}
-.afy-text-center i:hover{
-
-    color: white;
-    background-color: var(--light-orange);
 }
 /* === SLIDE PAGES === */
 .afy-sh-slider-pages {
@@ -188,12 +168,12 @@ table th{
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
-    background-color: var(--light-black-op);
+    background-color: var(--gray-white);
 }
 
 .afy-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: #37a000;
 }
