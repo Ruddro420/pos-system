@@ -41,7 +41,7 @@ a {
 }
 
 /* === COUNTER SECTION === */
-.counter-section {
+.pr-counter-section {
     display: flex;
     width: 100%;
     gap: 30px;
@@ -49,11 +49,11 @@ a {
 }
 
 /* === TOTAL SALE SECTION === */
-.total-sale-section {
+.pr-total-sale-section {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px solid rgb(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 15px solid rgb(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     padding: 20px;
@@ -61,7 +61,7 @@ a {
 }
 
 /* === HOME ICON === */
-.total-sale-section i {
+.pr-total-sale-section i {
     width: 60px;
     height: 60px;
     font-size: 2rem;
@@ -75,7 +75,7 @@ a {
 }
 
 /* === TOTAL SALE SECTION === */
-.total-paid-section {
+.pr-total-paid-section {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
@@ -87,7 +87,7 @@ a {
 }
 
 /* === HOME ICON === */
-.total-paid-section i {
+.pr-total-paid-section i {
     width: 60px;
     height: 60px;
     font-size: 2rem;
@@ -101,7 +101,7 @@ a {
 }
 
 /* === TOTAL DUE SECTION === */
-.total-due-section {
+.pr-total-due-section {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
@@ -113,7 +113,7 @@ a {
 }
 
 /* === HOME ICON === */
-.total-due-section i {
+.pr-total-due-section i {
     width: 60px;
     height: 60px;
     font-size: 2rem;
@@ -127,61 +127,53 @@ a {
 }
 
 /* === SALE TEXT === */
-.sale-text {
+.pr-sale-text {
     line-height: 1.50em;
 }
 
-.sale-text p {
+.pr-sale-text p {
     font-size: var(--secondary);
 }
 
-.sale-text h1 {
+.pr-sale-text h1 {
     font-size: var(--primary-head);
 }
 
 /* === MANAGE SECTION === */
-.manage-section {
+.pr-manage-section {
+   
     margin: 20px;
+    margin-top: -5px;
     border-radius: 5px;
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
 }
 
 /* === MANAGE CONTAINER === */
-.manage-container {
+.pr-manage-container {
     margin: 0px 20px;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
+   margin-bottom: -10px;
 }
 
-.manage-container p {
+.pr-manage-container p {
     font-size: var(--secondary);
 }
 
 /* === FILTER AND ADD SECTION === */
-.filter-add-new {
+.pr-filter-add-new {
     gap: 10px;
     display: flex;
+    text-align: center;
     align-items: center;
+   
 }
 
-.filter-container {
-    gap: 10px;
-    color: var(--white);
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: var(--main-green);
-    display: flex;
-    align-items: center;
-}
-
-.filter-container a {
-    color: var(--white);
-}
-
-.add-new-sale-container {
+.pr-filter-container {
     gap: 10px;
     color: var(--white);
     padding: 5px 10px;
@@ -191,12 +183,26 @@ a {
     align-items: center;
 }
 
-.add-new-sale-container a {
+.pr-filter-container a {
+    color: var(--white);
+}
+
+.pr-add-new-sale-container {
+    gap: 10px;
+    color: var(--white);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--main-green);
+    display: flex;
+    align-items: center;
+}
+
+.pr-add-new-sale-container a {
     color: var(--white);
 }
 
 /* === FILTER CONTAINER ITEMS === */
-.filter-container-items {
+.pr-filter-container-items {
     height: 70px;
     padding: 10px 30px;
     gap: 40px;
@@ -204,45 +210,50 @@ a {
     align-items: center;
 }
 
-.invoice-box input {
+.pr-invoice-box input {
     padding: 4px 10px;
     width: 80px;
     font-size: 1rem;
     color: gray;
+    border-radius: 3px;
 }
 
-.invoice-box input:focus {
+.pr-invoice-box input:focus {
     outline: none;
 }
 
-.select-input-container select {
+.pr-select-input-container select {
     color: gray;
     padding: 5px 10px;
     font-size: 1rem;
     width: 200px;
+    border-radius: 3px;
 }
 
-.select-input-container select:focus {
+.pr-select-input-container select:focus {
     outline: none;
 }
 
-.sale-date-input-box input {
+.pr-sale-date-input-box input {
     padding: 5px 10px;
     font-size: 1rem;
+    border-radius: 3px;
+    margin-top: 7px;
+    text-align: left;
 }
 
-.sale-date-input-box input:focus {
+.pr-sale-date-input-box input:focus {
     outline: none;
 }
 
 /* === FIND BUTTON === */
-.sh-button-container {
+.pr-sh-button-container {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.sh-find-button a {
+.pr-sh-find-button a {
     background-color: var(--main-green);
     color: var(--white);
     padding: 7px 10px;
@@ -250,7 +261,7 @@ a {
     font-size: var(--primary-para);
 }
 
-.sh-reset-button a {
+.pr-sh-reset-button a {
     background-color: var(--red);
     color: var(--white);
     padding: 7px 10px;
@@ -259,7 +270,7 @@ a {
 }
 
 /* === SHOW AND SEARCH SECTION === */
-.show-and-search-section {
+.pr-show-and-search-section {
     height: 90px;
     margin: 0px 20px;
     display: flex;
@@ -268,28 +279,34 @@ a {
 }
 
 /* === SHOW CONTAINER === */
-.show-container {
+.pr-show-container {
     display: flex;
     gap: 5px;
 }
+.pr-show-container select{
+    margin-top: -5px;
+    padding: 5px 10px 5px 10px;
 
+}
 /* === SEARCH CONTAINER === */
-.search-container input {
+.pr-search-container input {
     width: 250px;
     border: 1px solid var(--light-black);
     border-radius: 3px;
-    padding: 4px 8px;
+    margin-left: 10px;
+    padding: 2px 8px;
+    align-items: start;
 }
 
-.search-container input:focus {
+.pr-search-container input:focus {
     outline: 1px solid #2B51B0;
     border: none;
 }
 
 /* === MANAGE SALE DETAILS SECTION === */
-.manage-sale-details-section {
+.pr-manage-sale-details-section {
     width: 100%;
-    padding: 0px 25px;
+    padding: 0px 20px;
 }
 
 /* === TABLE === */
@@ -310,32 +327,33 @@ table th {
 }
 
 /* === EMPTY SECTION === */
-.empty-section p {
+.pr-empty-section p {
     text-align: center;
 }
 
 /* === SLIDE PAGES === */
-.sh-slider-pages {
+.pr-sh-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: -15px;
 }
 
-.sh-slide-right-item {
+.pr-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.pr-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
     background-color: var(--light-black-op);
 }
 
-.sh-slide-right-item p {
+.pr-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
