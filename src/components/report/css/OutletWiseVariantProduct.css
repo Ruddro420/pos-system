@@ -53,25 +53,26 @@ a {
 }
 
 /* === TOP MENU ITEMS === */
-.sh-top-menu-items {
+.owvp-sh-top-menu-items {
     border-radius: 5px;
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
-    padding: 10px 0px 10px 10px;
+    padding: 8px 0px 8px 8px;
     margin: 20px;
 }
-
-.sh-top-menu-items ul {
+.owvp-sh-top-menu-items ul {
     width: 100%;
     display: flex;
     align-items: center;
+    margin-top: 3px;
+    margin-top: 9px;
 }
 
-.sh-top-menu-items li {
+.owvp-sh-top-menu-items li {
     height: 50px;
 }
 
-.sh-top-menu-items a {
+.owvp-sh-top-menu-items a {
     height: 100%;
     padding: 0px 20px;
     color: var(--black);
@@ -80,24 +81,24 @@ a {
     align-items: center;
 }
 
-.sh-menu-items a:hover {
+.owvp-sh-menu-items a:hover {
     color: var(--red);
 }
 
 /* === ACTIVE MENU === */
-.sh-active-item a {
+.owvp-sh-active-item a {
     background-color: var(--main-green);
     color: var(--white);
     border-radius: 5px;
 }
 
 /* === PARENT CONTAINER === */
-.sh-parent-container {
+.owvp-sh-parent-container {
     width: 100%;
 }
 
 /* === CHILD CONTAINER === */
-.sh-child-container {
+.owvp-sh-child-container {
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
     margin: 20px;
@@ -105,30 +106,30 @@ a {
 }
 
 /* === STOCK REPORT CARD SECTION ===  */
-.sh-stock-report-section {
+.owvp-sh-stock-report-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 }
 
-.sh-stock-report-section p {
+.owvp-sh-stock-report-section p {
     font-size: var(--secondary);
 }
 
-.sh-stock-report-section a {
+.owvp-sh-stock-report-section a {
     background-color: var(--main-green);
     color: var(--white);
     padding: 5px 10px;
     border-radius: 5px;
 }
 
-.sh-stock-report-section i {
+.owvp-sh-stock-report-section i {
     margin-right: 5px;
 }
 
 /* === FILTER DROPDOWN SECTION === */
-.sh-filter-drop-down-section {
+.owvp-sh-filter-drop-down-section {
     width: auto;
     gap: 20px;
     padding: 20px;
@@ -138,32 +139,35 @@ a {
 }
 
 /* === SH DRAFT CONTAINER === */
-.sh-draft-container {
+.owvp-sh-draft-container {
     line-height: 2em;
+   
 }
 
-.sh-draft-container input {
+.owvp-sh-draft-container input {
     width: 100%;
     padding: 5px 8px;
     border: 1px solid var(--light-black-op);
+    margin-bottom: 1px;
+     border-radius: 4px;
 }
 
-.sh-draft-container input:focus {
+.owvp-sh-draft-container input:focus {
     outline: none;
 }
 
-.sh-draft-container select {
+.owvp-sh-draft-container select {
     width: 100%;
     padding: 5px 8px;
     border: 1px solid var(--light-black-op);
 }
 
-.sh-draft-container select:focus {
+.owvp-sh-draft-container select:focus {
     outline: none;
 }
 
 /* === FILTER SEARCH === */
-.sh-filter-search-box {
+.owvp-sh-filter-search-box {
     background-color: var(--main-green);
     padding: 4px 10px;
     color: var(--white);
@@ -173,10 +177,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+     margin-bottom: 6px;
 }
 
 /* === FILTER RESET === */
-.sh-filter-reset-box {
+.owvp-sh-filter-reset-box {
     background-color: var(--red);
     padding: 4px 10px;
     color: var(--white);
@@ -186,9 +191,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 6px;
 }
 
-.sh-line {
+.owvp-sh-line {
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -205,48 +211,48 @@ td {
     padding: 5px;
 }
 
-.text-end {
+.owvp-text-end {
     text-align: end;
 }
 
-.text-start {
+.owvp-text-start {
     text-align: left;
 }
 
-.text-last {
+.owvp-text-last {
     width: 8%;
 }
 
 /* === SHOW & FILE & SEARCH === */
 
-.show-file-search-container {
+.owvp-show-file-search-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 }
 
-.sh-show-container {
+.owvp-sh-show-container {
     display: flex;
     align-items: center;
     gap: 5px;
     font-size: var(--secondary);
 }
 
-.sh-show-container select {
+.owvp-sh-show-container select {
     width: 50px;
     text-align: center;
     font-size: var(--secondary);
 }
 
 /* === FILE CONTAINER === */
-.sh-file-container {
+.owvp-sh-file-container {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.sh-file-container a {
+.owvp-sh-file-container a {
     background-color: var(--main-green);
     color: var(--white);
     padding: 5px 10px;
@@ -254,44 +260,44 @@ td {
 }
 
 /* === SHOW SEARCH CONTAINER === */
-.sh-show-search-container {
+.owvp-sh-show-search-container {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: var(--secondary);
 }
 
-.sh-show-search-container input {
+.owvp-sh-show-search-container input {
     padding: 5px 8px;
     border: 1px solid var(--light-black-op);
 }
 
-.sh-show-search-container input:focus {
+.owvp-sh-show-search-container input:focus {
     outline: none;
 }
 
 /* === PRODUCTS DETAILS TABLE === */
-.sh-product-details-table {
+.owvp-sh-product-details-table {
     padding: 20px;
 }
 
-.sh-product-details-table table {
+.owvp-sh-product-details-table table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.sl {
+.owvp-sl {
     font-size: 0.827rem;
     font-weight: normal;
 }
 
-.sh-text-right {
+.owvp-sh-text-right {
     text-align: right;
     font-size: 0.827rem;
     font-weight: normal;
 }
 
-.sh-text-center {
+.owvp-sh-text-center {
     text-align: center;
     font-size: 0.827rem;
 }
@@ -300,12 +306,12 @@ tfoot tr td {
     font-size: 0.827rem;
 }
 
-.sh-total {
+.owvp-sh-total {
     font-weight: 500;
     text-align: right;
 }
 
-.sh-amount {
+.owvp-sh-amount {
     font-weight: 500;
     text-align: right;
 }
@@ -319,27 +325,27 @@ span p {
 }
 
 /* === SLIDE PAGES === */
-.sh-slider-pages {
+.owvp-sh-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-slide-right-item {
+.owvp-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.owvp-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
     background-color: var(--light-black-op);
 }
 
-.sh-slide-right-item p {
+.owvp-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
@@ -349,7 +355,7 @@ span p {
     table{
         width: 100%;
     }
-    .sh-product-details-table {
+    .owvp-sh-product-details-table {
         width: 100%;
         overflow: auto;
     }

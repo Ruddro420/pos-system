@@ -406,11 +406,6 @@ const Router = createBrowserRouter([
             element: <COGSAdjustment/>,
          },
          
-        
-
-
-
-
         ]
     },
     {
