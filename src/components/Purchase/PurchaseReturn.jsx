@@ -2,24 +2,24 @@ import '../purchesCSS/PurchaseReturn.css'
 const PurchaseReturn = () =>{
     return(
         <>
-          <div className="sh-parent-section">
+          <div className="SaleReturn-sh-parent-section">
        {/*  <!-- === SALE RETURN TOP ITEMS === --> */}
-        <div className="sh-sale-return-top-items">
-            <div className="sh-active">
-                <a href="purchase-return.html">Purchase Return</a>
+        <div className="SaleReturn-sh-sale-return-top-items">
+            <div className="SaleReturn-sh-active">
+                <a href="/PurchaseReturn-page">Purchase Return</a>
             </div>
-            <div className="sh-list">
-                <a href="purchase-return-list.html">Purchase Return List</a>
+            <div className="SaleReturn-sh-list">
+                <a href="/PurchaseReturnList-page">Purchase Return List</a>
             </div>
         </div>
       {/*   <!-- === CHILD SECTION === --> */}
-        <div className="sh-child-section">
+        <div className="SaleReturn-sh-child-section">
           {/*   <!-- === SALE NUMBER CONTAINER === --> */}
-            <div className="sh-purchase-return">
+            <div className="SaleReturn-sh-purchase-return">
                 <p>Purchase Return</p>
             </div>
             <hr/>
-            <div className="sh-sale-number-container">
+            <div className="SaleReturn-sh-sale-number-container">
                 <p>Purchase No.</p>
                 <input type="number" placeholder="Enter Receive No." value="" name="" id=""/>
                 <a href="#">Search</a>

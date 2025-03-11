@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --gray-white: #F0F1F2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-lt: #37A000;
+    --lt-orange: #FD7E14;
+    --green: #008000;
+    --lt-green: #e9f6ec;
+    --red: #FF0000;
+    --lt-red: #fbeaec;
+    /* === FONTS SIZE FOR HEADING === */
+    --primary-head: 22px;
+    --secondary-head: 1.125rem;
+    --secondary: 1rem;
+    --primary-para: 0.825rem;
+}
+
+/* -- container style -- */
+
+.cba-PurchaseReturnList-container {
+    width: 100%;
+    padding: 30px 20px 30px 28px;
+}
+
+/* -- top menus style */
+
+.cba-PurchaseReturnList-top-menus {
+    background-color: var(--white);
+    padding: 20px 20px 5px 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.cba-PurchaseReturnList-top-menus > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    margin-left: -15px;
+}
+
+.cba-PurchaseReturnList-top-menus > ul > li {
+    margin-top: 5px;
+}
+
+.cba-PurchaseReturnList-top-menus > ul > li > a.cba-PurchaseReturnList-active-menu {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--m-green);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.cba-PurchaseReturnList-top-menus > ul > li > a.cba-PurchaseReturnList-light-up {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.cba-PurchaseReturnList-top-menus > ul > li > a.cba-PurchaseReturnList-light-up:hover {
+    color: var(--orange);
+}
+
+/* details container style */
+
+.cba-PurchaseReturnList-details-container {
+    background-color: var(--white);
+    padding: 20px 20px 5px 20px;
+}
+
+.cba-PurchaseReturnList-dc-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--gray-black);
+}
+
+.cba-PurchaseReturnList-dc-topbar > .cba-PurchaseReturnList-dc-heading > h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--black);
+    margin-bottom: 0;
+}
+
+.cba-PurchaseReturnList-addnbtn > .cba-PurchaseReturnList-add-new-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--white);
+    background-color: var(--m-green);
+    padding: 8px 10px 6px 10px;
+    border-radius: 5px;
+}
+
+.cba-PurchaseReturnList-addnbtn > .cba-PurchaseReturnList-add-new-btn > a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* cba-sarl-entries-print-searchbox */
+
+.cba-PurchaseReturnList-entries-print-searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cba-PurchaseReturnList-entries-block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cba-PurchaseReturnList-entries-block > h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--black);
+    margin-bottom: 0;
+}
+
+.cba-PurchaseReturnList-print-block {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cba-PurchaseReturnList-print-block > h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 0;
+    background-color: var(--m-green);
+    padding: 8px 10px 6px 10px;
+    border-radius: 2.5px;
+}
+
+.cba-PurchaseReturnList-searchbox-block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 0px 20px;
+}
+
+.cba-PurchaseReturnList-searchbox-block > label {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--black);
+    margin-bottom: 0;
+    margin-top: -5px;
+}
+
+.cba-PurchaseReturnList-searchbox-block > input {
+    padding: 8px 10px 6px 10px;
+    border-radius: 5px;
+    border: 1px solid var(--gray-black);
+    width: 250px;
+}
+
+/* table style */
+
+.cba-PurchaseReturnList-table-container > table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cba-PurchaseReturnList-table-container > table > thead > tr > th {
+    border: 1px solid var(--gray-black);
+    padding: 10px 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.cba-PurchaseReturnList-table-container > table > tbody > tr > td {
+    border: 1px solid var(--gray-black);
+    padding: 10px 5px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.cba-PurchaseReturnList-table-container > table > tbody > tr > td:hover {
+    background-color: var(--gray-white)!important;
+}
+
+.cba-PurchaseReturnList-table-container > table > tfoot > tr > td {
+    border: 1px solid var(--gray-black);
+    padding: 10px 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--black);
+    background-color: var(--gray-black);
+}
+
+.cba-PurchaseReturnList-table-container > table > tbody > tr > td > i.cba-sarl-table-edit-icon {
+    color: var(--m-green);
+    font-size: 1.5rem;
+    background-color: var(--lt-green);
+    padding: 5px;
+    border: 1px solid var(--m-green);
+    border-radius: 2.5px;
+    cursor: pointer;
+}
+/* -- bottom part -- */
+
+.cba-PurchaseReturnList-dc-bottombar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.cba-PurchaseReturnList-dc-bottombar-left > p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--black);
+    margin-bottom: 0;
+}
+
+.cba-PurchaseReturnList-dc-bottombar-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cba-PurchaseReturnList-dc-bottombar-right > button {
+    color: var(--black);
+    background-color: var(--gray-black);
+    padding: 8px 10px 6px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.cba-PurchaseReturnList-dc-bottombar-right > p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--m-lt);
+    padding: 8px 15px 6px 15px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}

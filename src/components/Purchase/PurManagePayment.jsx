@@ -8,7 +8,7 @@ const PurManagePayment = () => {
                 {/*  <!-- === TOP MENU ITEMS === --> */}
                 <div className="mana-pur-payment-sh-top-menu-items">
                     <ul>
-                        <li className="mana-pur-payment-sh-menu-items"><Link to="/addRequisition-page">Manage Requisition</Link></li>
+                        <li className="mana-pur-payment-sh-menu-items"><Link to="/manageRequisition-page">Manage Requisition</Link></li>
                         <li className="mana-pur-payment-sh-menu-items"><Link to="/addRequisition-page">Add Requisition</Link></li>
                         <li className="mana-pur-payment-sh-menu-items"><Link to="/managePurchase-page">Manage Purchase</Link></li>
                         <li className="mana-pur-payment-sh-menu-items"><Link to="/addPurchase-page">Add Purchase</Link></li>

@@ -61,6 +61,7 @@ import NewTransfer from "../components/product/NewTransfer";
 import TransferList from "../components/product/TransferList";
 import TransferRequestList from "../components/product/TransferRequestList";
 import PurchaseReturn from "../components/Purchase/PurchaseReturn";
+import PurchaseReturnList from "../components/Purchase/PurchaseReturnList";
 import PurManagePayment from "../components/Purchase/PurManagePayment"; 
 import ChooseNow from "../components/ChooseNow";
 import OutletWiseSalesReport from "../components/report/OutletWiseSalesReport";
@@ -230,6 +231,10 @@ const Router = createBrowserRouter([
          {
             path:'/PurchaseReturn-page',
             element: <PurchaseReturn/>,
+         },
+         {
+            path:'/PurchaseReturnList-page',
+            element: <PurchaseReturnList/>,
          },
          {
             path:'/PurManagePayment-page',

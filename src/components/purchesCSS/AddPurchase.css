@@ -20,15 +20,15 @@ a {
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-light: #37A000;
     --orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
     /* === FONTS SIZE FOR HEADING === */
     --primary-head: 22px;
     --secondary-head: 1.125rem;
@@ -75,11 +75,11 @@ a {
     align-items: center;
 }
 .add-purchase-sh-menu-items a:hover{
-    color: var(--light-orange);
+    color: var(--lt-orange);
 }
 /* === ACTIVE MENU === */
 .add-purchase-sh-active-item a{
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
     border-radius: 5px;
 }
@@ -98,7 +98,7 @@ a {
     border-bottom: 1px solid var(--gray-black);
 }
 .add-purchase-sh-filter a{
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 7.5px 10px;
     border-radius: 3px;
     color: var(--white);
@@ -195,7 +195,7 @@ a {
 
         input {
             width: 100%;
-            color: var(--light-black);
+            color: var(--lt-black);
             padding: 7.5px 10px 7.5px;
             font-size: var(--primary-para);
             border: 1px solid var(--gray-black);
@@ -454,7 +454,7 @@ table > tbody:nth-child(2) > tr:nth-child(3) > td:nth-child(1) > p {
     color: var(--red);
     font-size: var(--primary-head);
     border: 1px solid var(--red);
-    background-color: var(--light-red);
+    background-color: var(--lt-red);
 }
 .add-purchase-sh-delet-icon i:hover{
     padding: 5px 5px;
@@ -465,17 +465,17 @@ table > tbody:nth-child(2) > tr:nth-child(3) > td:nth-child(1) > p {
 }
 .add-purchase-sh-plus-icon-two a i{
     padding: 5px 5px;
-    color: var(--main-green);
+    color: var(--m-green);
     font-size: var(--primary-head);
-    background-color: var(--light-green);
-    border: 1px solid var(--main-green);
+    background-color: var(--lt-green);
+    border: 1px solid var(--m-green);
 }
 .add-purchase-sh-plus-icon-two a i:hover{
     padding: 5px 5px;
     color: var(--white);
     font-size: var(--primary-head);
-    background-color: var(--main-green);
-    border: 1px solid var(--main-green);
+    background-color: var(--m-green);
+    border: 1px solid var(--m-green);
 }
 .add-purchase-sh-additional{
     display: flex;
@@ -485,7 +485,7 @@ table > tbody:nth-child(2) > tr:nth-child(3) > td:nth-child(1) > p {
     display: flex;
     align-items: center;
     gap: 5px;
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 5px 5px;
     color: var(--white);
     border-radius: 3px;
@@ -549,7 +549,7 @@ table > tbody:nth-child(2) > tr:nth-child(3) > td:nth-child(1) > p {
 }
 .add-purchase-sh-footer-buttona a{
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 5px 8px;
     border-radius: 4px;
 }
