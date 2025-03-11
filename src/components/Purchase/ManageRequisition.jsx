@@ -8,7 +8,7 @@ const ManageRequisition = () => {
     <div className="sh-manage-requisition-parent-section">
             <div className="sh-manage-requisition-top-menu-items">
                 <ul>
-                    <li className="sh-manage-requisition-active-item"><Link to="manageRequisition-page">Manage Requisition</Link></li>
+                    <li className="sh-manage-requisition-active-item"><Link to="/manageRequisition-page">Manage Requisition</Link></li>
                     <li className="sh-manage-requisition-menu-items"><Link to="/addRequisition-page">Add Requisition</Link></li>
                     <li className="sh-manage-requisition-menu-items"><Link to="/managePurchase-page">Manage Purchase</Link></li>
                     <li className="sh-manage-requisition-menu-items"><Link to="/addPurchase-page">Add Purchase</Link></li>

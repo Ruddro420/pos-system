@@ -20,15 +20,15 @@ a {
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-lt: #37A000;
     --orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
     /* === FONTS SIZE FOR HEADING === */
     --primary-head: 22px;
     --secondary-head: 1.125rem;
@@ -73,7 +73,7 @@ a {
 }
 /* === ACTIVE MENU === */
 .PurDraftPurchase-sh-active-item a{
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
     border-radius: 5px;
 }
@@ -102,7 +102,7 @@ a {
     padding: 10px 8px;
     border-radius: 5px;
     color: white;
-    background-color: var(--light-orange);
+    background-color: var(--lt-orange);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,7 +125,7 @@ a {
     padding: 10px 8px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,7 +193,7 @@ a {
     color: var(--white);
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     display: flex;
     align-items: center;
 }
@@ -205,7 +205,7 @@ a {
     color: var(--white);
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     display: flex;
     align-items: center;
 }
@@ -248,7 +248,7 @@ a {
     margin-top: -9px;
 }
 .PurDraftPurchase-sh-find-button a{
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
     padding: 7px 10px;
     border-radius: 3px;
@@ -315,7 +315,7 @@ table{
 }
 th, td{
     padding: 10px;
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--lt-black-op);
 }
 table th{
     font-size: var(--secondary);
@@ -339,12 +339,12 @@ table th{
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
-    background-color: var(--light-black-op);
+    background-color: var(--lt-black-op);
 }
 
 .PurDraftPurchase-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
 }
