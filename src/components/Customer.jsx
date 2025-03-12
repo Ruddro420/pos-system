@@ -4,7 +4,7 @@ const Customer = () => {
   return (
     <>
       <div className="cba-customer-container">
-        <div className="cba-cusc-top-menus">
+      <div className="cba-cusc-top-menus">
           <ul>
             <li>
               <Link to="/customer-page" className="cba-cusc-active-menu">
@@ -17,7 +17,7 @@ const Customer = () => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> 
         <div className="cba-cusc-list-container">
           <div className="cba-cusc-heading-add-new-btn">
             <div className="cba-cusc-heading">

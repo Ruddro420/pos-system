@@ -67,14 +67,15 @@
     align-items: center;
     gap: 30px;
     padding-left: 0px!important;
-    /* margin-left: -60px; */
+   /*  margin-left: 60px; */
 }
 
-.cba-cusc-top-menus ul li a {
+.cba-cusc-top-menus ul li {
     text-decoration: none;
     color: var(--black);
     font-size: 15px;
     font-weight: 500;
+    margin-left: 30px;
 }
 
 /* -- active menu style -- */
