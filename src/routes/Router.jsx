@@ -288,7 +288,7 @@ const Router = createBrowserRouter([
             path:'/PurchaseReport-page',
             element: <PurchaseReport/>,
          },
-        {
+         {
             path:'/LedgerReport-page',
             element: <LedgerReport/>,
          },

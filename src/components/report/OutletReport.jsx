@@ -18,6 +18,7 @@ const OutletReport = () => {
             </Link>
           </li>
         </ul>
+      
       </div>
       {/* <!-- === PARENT CONTAINER === --> */}
       <div className="or-sh-parent-container">
@@ -30,6 +31,7 @@ const OutletReport = () => {
               <i className="fa-solid fa-filter"></i>Filter
             </a>
           </div>}
+          <hr />
          {/*  <hr /> */}
           {/* <!-- === FILTER DROPDOWN SECTION === --> */}
           <div className="or-sh-filter-drop-down-section">

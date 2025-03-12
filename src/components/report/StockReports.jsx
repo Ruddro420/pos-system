@@ -5,7 +5,7 @@ const StockReports = () => {
         <>
           <div className="sh-parent-container">
       {/*   <!-- === CHILD CONTAINER === --> */}
-        <div className="sh-child-container">
+        <div className="sar-sh-child-container">
            {/*  <!-- === STOCK REPORT CARD SECTION === --> */}
             <div className="sh-stock-report-section">
                 <p>Stock Report</p>
@@ -13,7 +13,7 @@ const StockReports = () => {
             </div>
             <hr/>
            {/*  <!-- === FILTER DROPDOWN SECTION === --> */}
-            <div className="sh-filter-drop-down-section">
+           <div className="sh-filter-drop-down-section">
                 <div className="sh-draft-container">
                     <input type="text" placeholder="Select Category" value="" name="" id="" autoComplete="off"/>
                 </div>
@@ -30,7 +30,7 @@ const StockReports = () => {
                     <input type="text" placeholder="17/02/2025-17/02/2025" value="" name="" id="" autoComplete="off"/>
                 </div>
                {/*  <!-- === FILTER SEARCH === --> */}
-                <div className="sh-filter-search-box">
+               <div className="sh-filter-search-box">
                     <i className="fa-solid fa-search"></i>Find
                 </div>
                {/*  <!-- === FILTER RESET === --> */}
