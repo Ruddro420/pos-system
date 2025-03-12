@@ -7,9 +7,6 @@
     font-family: "Poppins", serif;
 }
 
-body {
-    background-color: var(--gray-black);
-}
 
 ul {
     list-style-type: none;
@@ -19,9 +16,6 @@ a {
     text-decoration: none;
 }
 
-body {
-    background-color: var(--gray-white);
-}
 
 :root {
     --gray-white: #F0F1F2;
@@ -52,55 +46,59 @@ a {
     text-decoration: none;
 }
 /* === PARENT CONTAINER === */
-.sh-parent-container{
+.sar-sh-parent-container{
     width: 100%;
 }
 /* === CHILD CONTAINER === */
-.sh-child-container{
+.sar-sh-child-container{
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
     margin: 20px;
     border-radius: 5px;
 }
 /* === STOCK REPORT CARD SECTION ===  */
-.sh-stock-report-section{
+.sar-sh-stock-report-section{
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
-.sh-stock-report-section p{
+.sar-sh-stock-report-section p{
     font-size: var(--secondary);
 }
-.sh-stock-report-section a{
+.sar-sh-stock-report-section a{
     background-color: var(--main-green);
     color: var(--white);
     padding: 5px 10px;
     border-radius: 5px;
 }
-.sh-stock-report-section i{
+.sar-sh-stock-report-section i{
     margin-right: 5px;
 }
 /* === FILTER DROPDOWN SECTION === */
-.sh-filter-drop-down-section{
+.sar-sh-filter-drop-down-section{
     gap: 20px;
     padding: 20px;
     display: flex;
     align-items: center;
     align-items: flex-end;
+  
 }
 /* === SH DRAFT CONTAINER === */
-.sh-draft-container{
+.sar-sh-draft-container{
     line-height: 2em;
+    border-radius: 14px;
 }
-.sh-draft-container input{
+.sar-sh-draft-container input{
     padding: 5px 8px;
     border: 1px solid var(--light-black-op);
+    width: 180px;
+    
 }
-.sh-draft-container input:focus{
+.sar-sh-draft-container input:focus{
     outline: none;
 }
 /* === FILTER SEARCH === */
-.sh-filter-search-box{
+.sar-sh-filter-search-box{
     background-color: var(--main-green);
     padding: 4px 10px;
     color: var(--white);
@@ -110,9 +108,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+   margin-bottom: 15px;
 }
 /* === FILTER RESET === */
-.sh-filter-reset-box{
+.sar-sh-filter-reset-box{
     background-color: var(--red);
     padding: 4px 10px;
     color: var(--white);
@@ -122,13 +121,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15px;
 }
-.sh-line{
+.sar-sh-line{
     padding-right: 20px;
     padding-left: 20px;
 }
 /* === STOCK AND QTY CONTAINER === */
-.sh-stock-qty-container{
+.sar-sh-stock-qty-container{
     width: 30%;
     padding: 20px;
 }
@@ -141,71 +141,73 @@ th, td{
     border: 1px solid var(--light-black-op);
     padding: 5px;
 }
-.text-end{
+.sar-text-end{
     text-align: end;
 }
-.text-start{
+.sar-text-start{
     text-align: left;
 }
-.text-last{
+.sar-text-last{
     width: 8%;
 }
 
 /* === SHOW & FILE & SEARCH === */
 
-.show-file-search-container{
+.sar-show-file-search-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 }
-.sh-show-container{
+.sar-sh-show-container{
     display: flex;
     align-items: center;
     gap: 5px;
     font-size: var(--secondary);
 }
-.sh-show-container select{
+.sar-sh-show-container select{
     width: 50px;
     text-align: center;
     font-size: var(--secondary);
 }
 /* === FILE CONTAINER === */
-.sh-file-container{
+.sar-sh-file-container{
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.sh-file-container a{
+.sar-sh-file-container a{
     background-color: var(--main-green);
     color: var(--white);
     padding: 5px 10px;
     border-radius: 5px;
 }
 /* === SHOW SEARCH CONTAINER === */
-.sh-show-search-container{
+.sar-sh-show-search-container{
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: var(--secondary);
 }
-.sh-show-search-container input{
+.sar-sh-show-search-container input{
     padding: 5px 8px;
     border: 1px solid var(--light-black-op);
 }
-.sh-show-search-container input:focus{
+.sar-sh-show-search-container input:focus{
     outline: none;
 }
 /* === PRODUCTS DETAILS TABLE === */
-.sh-product-details-table{
+.sar-sh-product-details-table{
     padding: 20px;
+    width: 100%;
+    /* overflow: hidden; */
 }
-.sh-product-details-table table{
+.sar-sh-product-details-table table{
     width: 100%;
     border-collapse: collapse;
 }
 
-.sl{
+.sar-sl{
     text-align: left;
     font-size: 0.827rem;
     font-weight: normal;
@@ -213,10 +215,10 @@ th, td{
 tfoot tr td{
     font-size: 0.827rem;
 }
-.sh-total{
+.sar-sh-total{
     text-align: center;
 }
-.sh-amount{
+.sar-sh-amosar-unt{
     text-align: right;
 }
 span{
@@ -225,32 +227,29 @@ span{
 span p{
     color: var(--green);
 }
-.empty-text p{
-    font-size: 0.827rem;
-    text-align: center;
-}
+
 /* === SLIDE PAGES === */
-.sh-slider-pages {
+.sar-sh-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-slide-right-item {
+.sar-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.sar-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
     background-color: var(--light-black-op);
 }
 
-.sh-slide-right-item p {
+.sar-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
