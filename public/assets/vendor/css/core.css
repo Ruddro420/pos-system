@@ -15100,15 +15100,21 @@ html:not(.layout-menu-fixed) .menu-inner-shadow {
   flex-direction: column;
   flex: 1 1 auto;
 }
+
+/* sidebar Css */
+
 .menu-vertical .menu-inner > .menu-item {
-  margin: 0.2rem 0;
+  margin: 0.15rem 0;
+}
+.menu-vertical .menu-inner > .menu-item > a:hover {
+  background-color: #e9f6ec;
 }
 .menu-vertical .menu-inner > .menu-item .menu-link {
   margin: 0rem 1rem 0rem 0.8rem;
 }
 .menu-vertical .menu-item .menu-link,
 .menu-vertical .menu-block {
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1rem;
 }
 .menu-vertical .menu-header {
   margin: 1rem 0 0.5rem 0;

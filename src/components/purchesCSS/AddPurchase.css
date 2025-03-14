@@ -75,7 +75,7 @@ a {
     align-items: center;
 }
 .add-purchase-sh-menu-items a:hover{
-    color: var(--lt-orange);
+    color: var(--orange);
 }
 /* === ACTIVE MENU === */
 .add-purchase-sh-active-item a{

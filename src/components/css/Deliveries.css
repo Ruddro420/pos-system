@@ -195,7 +195,7 @@ a {
 
 .cba-delivery-ps-cod {
     color: var(--orange);
-    background-color: var(--lt-orange);
+    background-color: var(--lt-orange)!important;
     font-size: 12px;
     font-weight: 500;
     padding: 2.5px 7.5px;

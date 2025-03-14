@@ -52,7 +52,7 @@ const SaleCounter = () => {
                                 <div className="salecounter-editable-container">
                                    {/*  <!-- === DELETE ICON === --> */}
                                     <div>
-                                        <a href="#"><i className="delete-icon fa-regular fa-trash-can"></i></a>
+                                        <a href="#"><i className="salecounter-delete-icon fa-regular fa-trash-can"></i></a>
                                     </div>
                                 </div>
                             </td>
@@ -66,7 +66,7 @@ const SaleCounter = () => {
                                 <div className="salecounter-editable-container">
                                   {/*   <!-- === DELETE ICON === --> */}
                                     <div>
-                                        <a href="#"><i className="delete-icon fa-regular fa-trash-can"></i></a>
+                                        <a href="#"><i className="salecounter-delete-icon fa-regular fa-trash-can"></i></a>
                                     </div>
                                 </div>
                             </td>
@@ -80,7 +80,7 @@ const SaleCounter = () => {
                                 <div className="salecounter-editable-container">
                                    {/*  <!-- === DELETE ICON === --> */}
                                     <div>
-                                        <a href="#"><i className="delete-icon fa-regular fa-trash-can"></i></a>
+                                        <a href="#"><i className="salecounter-delete-icon fa-regular fa-trash-can"></i></a>
                                     </div>
                                 </div>
                             </td>
@@ -94,7 +94,7 @@ const SaleCounter = () => {
                                 <div className="salecounter-editable-container">
                                    {/*  <!-- === DELETE ICON === --> */}
                                     <div>
-                                        <a href="#"><i className="delete-icon fa-regular fa-trash-can"></i></a>
+                                        <a href="#"><i className="salecounter-delete-icon fa-regular fa-trash-can"></i></a>
                                     </div>
                                 </div>
                             </td>
@@ -108,7 +108,7 @@ const SaleCounter = () => {
                                 <div className="salecounter-editable-container">
                                    {/*  <!-- === DELETE ICON === --> */}
                                     <div>
-                                        <a href="#"><i className="delete-icon fa-regular fa-trash-can"></i></a>
+                                        <a href="#"><i className="salecounter-delete-icon fa-regular fa-trash-can"></i></a>
                                     </div>
                                 </div>
                             </td>

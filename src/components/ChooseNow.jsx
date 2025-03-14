@@ -3,24 +3,24 @@ import '../components/ChooseNow.css'
 const ChooseNow = () => {
     return (
         <>
-            <div className="checkout-main-container">
-        <div className="checkout-inner-container">
-            <div className="heading-price-plan-btn">
-                <div className="heading">
-                    <h2><span>Premium</span> Plan</h2>
+            <div className="cba-plancheckout-checkout-main-container">
+        <div className="cba-plancheckout-checkout-inner-container">
+            <div className="cba-plancheckout-heading-price-plan-btn">
+                <div className="cba-plancheckout-heading">
+                    <h2>Premium Plan</h2>
                 </div>
-                <div className="price-plan-btn">
-                    <i className='add-icon bx bx-list-ul'></i>
+                <div className="cba-plancheckout-price-plan-btn">
+                    <i className='cba-plancheckout-add-icon bx bx-list-ul'></i>
                     <a href="/PricePlan-page">Price plan</a>
                 </div>
             </div> 
-            <div className="checkout-container">
-                <div className="cc-subcon-one">
-                    <div className="package-modules-heading">
-                        <h3>Package Modules<span className="required">*</span></h3>
+            <div className="cba-plancheckout-checkout-container">
+                <div className="cba-plancheckout-cc-subcon-one">
+                    <div className="cba-plancheckout-package-modules-heading">
+                        <h3>Package Modules<span className="cba-plancheckout-required">*</span></h3>
                     </div>
-                    <div className="package-modules-list">
-                        <div className="pm-list-one">
+                    <div className="cba-plancheckout-package-modules-list">
+                        <div className="cba-plancheckout-pm-list-one">
                             <ul>
                                 <li>Sales</li>
                                 <li>Report</li>
@@ -30,7 +30,7 @@ const ChooseNow = () => {
                                 <li>Account</li>
                             </ul>
                         </div>
-                        <div className="pm-list-two">
+                        <div className="cba-plancheckout-pm-list-two">
                             <ul>
                                 <li>Purchase</li>
                                 <li>Active log</li>
@@ -42,13 +42,13 @@ const ChooseNow = () => {
                         </div>
                     </div>
                 </div>
-                <div className="cc-subcon-two">
-                    <div className="payment-method-duration">
-                        <div className="pmd-text">
-                            <h4>Payment Method<span className="required">*</span></h4>
-                            <h4>Duration<span className="required">*</span></h4>
+                <div className="cba-plancheckout-cc-subcon-two">
+                    <div className="cba-plancheckout-payment-method-duration">
+                        <div className="cba-plancheckout-pmd-text">
+                            <h4>Payment Method<span className="cba-plancheckout-required">*</span></h4>
+                            <h4>Duration<span className="cba-plancheckout-required">*</span></h4>
                         </div>
-                        <div className="pmd-selection">
+                        <div className="cba-plancheckout-pmd-selection">
                             <select name="" id="">
                                 <option value="sslcommerz">SSlcommerz</option>
                                 <option value="my-credit">My Credit</option>
@@ -59,7 +59,7 @@ const ChooseNow = () => {
                             </select>
                         </div>
                     </div>
-                    <div className="plan-calculation">
+                    <div className="cba-plancheckout-plan-calculation">
                         <table>
                             <thead>
                                 <tr>
@@ -86,8 +86,8 @@ const ChooseNow = () => {
                             </tbody>
                         </table>
                     </div>
-                    <div className="pay-btn">
-                        <button>৳<span>3399.00</span> Pay Now</button>
+                    <div className="cba-plancheckout-pay-btn">
+                        <button>৳ 3399.00 Pay Now</button>
                     </div>
                 </div>
             </div>

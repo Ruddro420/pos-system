@@ -7,20 +7,12 @@
     font-family: "Poppins", serif;
 }
 
-body {
-    background-color: var(--gray-black);
-}
-
 ul {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
-}
-
-body {
-    background-color: var(--gray-white);
 }
 
 :root {
@@ -32,7 +24,7 @@ body {
     --light-black-op: #21252350;
     --main-green: #157343;
     --main-light: #37A000;
-    --light-orange: #FD7E14;
+    --orange: #FD7E14;
     --green: #008000;
     --light-green: #e9f6ec;
     --red: #FF0000;
@@ -42,14 +34,6 @@ body {
     --secondary-head: 1.125rem;
     --secondary: 1rem;
     --primary-para: 0.825rem;
-}
-
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
 }
 
 /* === PARENT SECTION === */

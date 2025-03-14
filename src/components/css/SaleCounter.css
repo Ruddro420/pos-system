@@ -23,7 +23,7 @@ a {
     --lt-black-op: #21252350;
     --m-green: #157343;
     --m-lt: #37A000;
-    --lt-orange: #FD7E14;
+    --orange: #FD7E14;
     --green: #008000;
     --light-green: #e9f6ec;
     --red: #FF0000;
@@ -145,7 +145,6 @@ table tr:hover{
 /* === DELETE ICON === */
 .salecounter-editable-container > div > a > .salecounter-delete-icon {
     padding: 8px!important;
-    border-radius: 3px;
     color: var(--red);
     border: 1px solid var(--red);
     background-color: var(--lt-red);

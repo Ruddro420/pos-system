@@ -7,10 +7,6 @@
     font-family: "Poppins", serif;
 }
 
-body {
-    background-color: var(--gray-white);
-}
-
 ul {
     list-style-type: none;
 }
@@ -28,7 +24,7 @@ a {
     --light-black-op: #21252350;
     --main-green: #157343;
     --main-light: #37A000;
-    --light-orange: #FD7E14;
+    --orange: #FD7E14;
     --green: #008000;
     --light-green: #e9f6ec;
     --red: #FF0000;
@@ -68,7 +64,7 @@ a {
     padding: 10px 8px;
     border-radius: 5px;
     color: white;
-    background-color: var(--light-orange);
+    background-color: var(--orange);
     display: flex;
     align-items: center;
     justify-content: center;

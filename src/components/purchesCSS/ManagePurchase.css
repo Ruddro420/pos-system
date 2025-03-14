@@ -73,7 +73,7 @@ a {
 
 }
 .manage-purchase-sh-menu-items a:hover{
-    color: var(--lt-orange);
+    color: var(--orange);
 }
 /* === ACTIVE MENU === */
 .manage-purchase-sh-active-item a{
@@ -106,7 +106,7 @@ a {
     padding: 10px 8px;
     border-radius: 5px;
     color: white;
-    background-color: var(--lt-orange);
+    background-color: var(--orange);
     display: flex;
     align-items: center;
     justify-content: center;

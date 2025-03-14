@@ -22,10 +22,7 @@
     --lt-sky: #ACD6DD;
     
 }
-/* body {
-    background-color: var(--gray-white);
-    margin: 20px;
-} */
+
         /* ==navbar== */
         /* header */
         .table-header{
@@ -52,7 +49,7 @@
         }
         /* -- menu hover style -- */
 
-         .cba-cusc-light-up:hover {
+        .cba-cusc-light-up:hover {
             color: var(--orange-t);
             }
 

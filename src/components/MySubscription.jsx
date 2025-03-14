@@ -2,15 +2,15 @@ import "./css/StockManagementCSS/MySubscription.css";
 const MySubscription = () => {
   return (
     <>
-      <div className="subscription-container">
-        <div className="list-container">
-          <div className="heading-add-new-btn">
-            <div className="heading">
+      <div className="cba-mysubdetails-subscription-container">
+        <div className="cba-mysubdetails-list-container">
+          <div className="cba-mysubdetails-heading-add-new-btn">
+            <div className="cba-mysubdetails-heading">
               <h2>My Subscription</h2>
             </div>
           </div>
-          <div className="list-short-dpdwn-search-box">
-            <div className="list-short-dpdwn">
+          <div className="cba-mysubdetails-list-short-dpdwn-search-box">
+            <div className="cba-mysubdetails-list-short-dpdwn">
               <h3>Show</h3>
               <select name="10" id="">
                 <option value="">10</option>
@@ -20,13 +20,13 @@ const MySubscription = () => {
               </select>
               <h3>entries</h3>
             </div>
-            <div className="search-box">
+            <div className="cba-mysubdetails-search-box">
               <legend>
                 Search: <input type="text" />
               </legend>
             </div>
           </div>
-          <div className="table-list">
+          <div className="cba-mysubdetails-table-list">
             <table>
               <thead>
                 <tr>
@@ -49,25 +49,25 @@ const MySubscription = () => {
                   <td>1101</td>
                   <td>Basic</td>
                   <td>
-                    <span>৳</span> 999
+                    <span className="cba-mysubdetails-tk-symbol">৳</span> 999
                   </td>
                   <td>01-02-2025</td>
                   <td>01-03-2025</td>
                   <td>28 Days</td>
                   <td>1 Month</td>
                   <td>
-                    <span className="payment-received">Received</span>
+                    <span className="cba-mysubdetails-payment-received">Received</span>
                   </td>
                   <td>
-                    <span className="active">Active</span>
+                    <span className="cba-mysubdetails-active">Active</span>
                   </td>
                   <td>
-                    <div className="action-btn">
+                    <div className="cba-mysubdetails-action-btn">
                       <a title="Edit" href="#">
-                        <i className="edit-icon bx bx-edit"></i>
+                        <i className="cba-mysubdetails-edit-icon bx bx-edit"></i>
                       </a>
                       <a title="Delete" href="#">
-                        <i className="delete-icon bx bx-trash"></i>
+                        <i className="cba-mysubdetails-delete-icon bx bx-trash"></i>
                       </a>
                     </div>
                   </td>
@@ -77,25 +77,25 @@ const MySubscription = () => {
                   <td>1102</td>
                   <td>Stater</td>
                   <td>
-                    <span>৳</span> 2499
+                    <span className="cba-mysubdetails-tk-symbol">৳</span> 2499
                   </td>
                   <td>01-03-2025</td>
                   <td>01-04-2025</td>
                   <td>30 Days</td>
                   <td>1 Month</td>
                   <td>
-                    <span className="payment-pending">Pending</span>
+                    <span className="cba-mysubdetails-payment-pending">Pending</span>
                   </td>
                   <td>
-                    <span className="inactive">Inactive</span>
+                    <span className="cba-mysubdetails-inactive">Inactive</span>
                   </td>
                   <td>
-                    <div className="action-btn">
+                    <div className="cba-mysubdetails-action-btn">
                       <a title="Edit" href="#">
-                        <i className="edit-icon bx bx-edit"></i>
+                        <i className="cba-mysubdetails-edit-icon bx bx-edit"></i>
                       </a>
                       <a title="Delete" href="#">
-                        <i className="delete-icon bx bx-trash"></i>
+                        <i className="cba-mysubdetails-delete-icon bx bx-trash"></i>
                       </a>
                     </div>
                   </td>
@@ -105,43 +105,43 @@ const MySubscription = () => {
                   <td>1103</td>
                   <td>Premium</td>
                   <td>
-                    <span>৳</span> 3399
+                    <span className="cba-mysubdetails-tk-symbol">৳</span> 3399
                   </td>
                   <td>01-04-2025</td>
                   <td>01-05-2025</td>
                   <td>30 Days</td>
                   <td>1 Month</td>
                   <td>
-                    <span className="payment-due">Due</span>
+                    <span className="cba-mysubdetails-payment-due">Due</span>
                   </td>
                   <td>
-                    <span className="inactive">Inactive</span>
+                    <span className="cba-mysubdetails-inactive">Inactive</span>
                   </td>
                   <td>
-                    <div className="action-btn">
+                    <div className="cba-mysubdetails-action-btn">
                       <a title="Edit" href="#">
-                        <i className="edit-icon bx bx-edit"></i>
+                        <i className="cba-mysubdetails-edit-icon bx bx-edit"></i>
                       </a>
                       <a title="Delete" href="#">
-                        <i className="delete-icon bx bx-trash"></i>
+                        <i className="cba-mysubdetails-delete-icon bx bx-trash"></i>
                       </a>
                     </div>
                   </td>
                 </tr>
-                <tr className="no-data-available">
+                <tr className="cba-mysubdetails-no-data-available">
                   <th colSpan="11">No data available in table</th>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="entries-details-list-page-btn">
-            <div className="entries-details">
-              Showing <span>1</span> to <span>5</span> of <span>5</span> entries
+          <div className="cba-mysubdetails-entries-details-list-page-btn">
+            <div className="cba-mysubdetails-entries-details">
+              Showing 1 to 3 of 3 entries
             </div>
-            <div className="list-page-btn">
+            <div className="cba-mysubdetails-list-page-btn">
               <button>Previous</button>
               <h4>
-                <span>1</span>
+                1
               </h4>
               <button>Next</button>
             </div>

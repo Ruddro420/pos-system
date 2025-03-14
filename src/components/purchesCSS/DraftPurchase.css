@@ -102,7 +102,7 @@ a {
     padding: 10px 8px;
     border-radius: 5px;
     color: white;
-    background-color: var(--lt-orange);
+    background-color: var(--orange);
     display: flex;
     align-items: center;
     justify-content: center;

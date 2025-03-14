@@ -8,15 +8,15 @@
   --white: #FFFFFF;
   --black: #000000;
   --gray-black: #DDDDDD;
-  --light-black: #212523;
-  --light-black-op: #21252350;
-  --main-green: #157343;
-  --main-light: #37A000;
-  --light-orange: #FD7E14;
+  --lt-black: #212523;
+  --lt-black-op: #21252350;
+  --m-green: #157343;
+  --m-light: #37A000;
+  --orange: #FD7E14;
   --green: #008000;
-  /* --light-green: #e9f6ec; */
+  --lt-green: #e9f6ec;
   --red: #FF0000;
-  --light-red: #fbeaec;
+  --lt-red: #fbeaec;
 }
 
 /* -- body style -- */
@@ -31,112 +31,23 @@
 
 /* -- pricing container style -- */
 
-.pricing-container {
+.cba-planpricing-pricing-container {
   background-color : var(--gray-white);
   padding: 50px 0;
 }
 
 /* -- heading part style -- */
 
-.heading-part {
+.cba-planpricing-heading-part h2 {
+  color: var(--black);
+  font-size: 40px;
+  font-weight: 600;
   text-align: center;
 }
-
-.heading-part h2 {
-  font-size: 30px;
-  font-weight: 600;
-  margin-top: -25px;
-}
-
-/* pricing part toggle btn style */
-
-.pricing-toggle-btn {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.pricing-toggle-btn h4 {
-  font-size: 12px;
-  font-weight: 600;
- /*  color: #000000; */
-}
-
-/* -- toggle switch style start -- */
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 40px;
-  height: 20px;
-  margin-top: -13px;
-}
-
-.switch input { 
-  opacity: 0;
-  width: 10;
-  height:  10;
-  padding: 74px;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 17.5px;
-  width: 17.5px;
-  left: 3px;
-  bottom: 3px;
-  top: 3.25px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(20px);
-  -ms-transform: translateX(20px);
-  transform: translateX(20px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-  height: 14px;
-  width: 14px;
-}
-
-/* -- toggle switch style end */
 
 /* -- pricing cart container style */
 
-.pricing-cart-container {
+.cba-planpricing-pricing-cart-container {
   display: flex;
   justify-content: center;
   gap: 25px;
@@ -144,33 +55,33 @@ input:checked + .slider:before {
 }
 
 @media (max-width: 768px) {
-  .pricing-cart-container {
+  .cba-planpricing-pricing-cart-container {
     flex-wrap: wrap;
   }
 }
 
 /* -- pricing cart style -- */
 
-.pricing-cart {
+.cba-planpricing-pricing-cart {
   width: 250px;
   background-color: var(--white);
   padding: 25px 15px;
-  border: 2.5px solid var(--);
+  border: 2.5px solid var(--white);
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
 @media (max-width: 768px) {
-  .pricing-cart {
+  .cba-planpricing-pricing-cart {
     width: 280px;
   }
-  .pricing-cart-premium {
+  .cba-planpricing-pricing-cart-premium {
     width: 280px!important;
   }
 }
 
-.pricing-cart-premium {
+.cba-planpricing-pricing-cart-premium {
   width: 250px;
   background-color: var(--white);
   padding: 25px 15px;
@@ -182,56 +93,59 @@ input:checked + .slider:before {
 
 /* -- cart heading -- */
 
-.pricing-cart-header {
+.cba-planpricing-pricing-cart-header {
   text-align: center;
 }
 
-.pricing-cart-header img {
+.cba-planpricing-pricing-cart-header img {
   height: 50px;
   width: 50px;
   margin-top: 10px;
 }
 
-.pricing-cart-header h3 {
-  color: var(--light-black);
+.cba-planpricing-pricing-cart-header h3 {
+  color: var(--lt-black);
   font-size: 25px;
   font-weight: 600;
   margin: 10px;
 }
 
-.pricing {
+.cba-planpricing-pricing {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
 }
 
-.money-sign {
+.cba-planpricing-money-sign {
+  color: var(--lt-black);
   font-size: 20px;
   margin-right: 5px;
   margin-bottom: 20px;
 }
 
-.pricing h2 {
+.cba-planpricing-pricing h2 {
   font-size: 50px;
   font-weight: 400;
-  color: var(--light-black);
+  color: var(--lt-black);
 }
 
-.package-v {
+.cba-planpricing-package-v {
+  color: var(--lt-black);
   font-size: 15px;
   margin-top: 20px;
   margin-bottom: 5px;
 }
 
-.regular-price {
+.cba-planpricing-regular-price {
+  color: var(--lt-black);
   font-size: 15px;
   margin-bottom: 30px;
 }
 
 /* -- features list style -- */
 
-.features-list-one ul, .features-list-two ul {
+.cba-planpricing-features-list-one ul, .cba-planpricing-features-list-two ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -241,11 +155,12 @@ input:checked + .slider:before {
 
 /* -- features list one style -- */
 
-.features-list-one {
+.cba-planpricing-features-list-one {
   margin-top: -30px;
+  padding: 0px 10px;
 }
 
-.features-list-one ul li {
+.cba-planpricing-features-list-one ul li {
   display: flex;
   align-items: center;
   font-size: 15px;
@@ -255,10 +170,10 @@ input:checked + .slider:before {
 
 /* -- flo icon style -- */
 
-.flo-icon {
+.cba-planpricing-flo-icon {
   font-size: 20px;
   color: var(--black);
-  background-color: var(--light-orange);
+  background-color: var(--orange);
   padding: 3.5px;
   border-radius: 50%;
   margin-right: 7.5px;
@@ -266,7 +181,7 @@ input:checked + .slider:before {
 
 /* -- features list two style -- */
 
-.features-list-two ul li {
+.cba-planpricing-features-list-two ul li {
   display: flex;
   align-items: center;
   font-size: 14px;
@@ -274,24 +189,25 @@ input:checked + .slider:before {
   margin-bottom: 7.5px;
   margin-top: 5px;
 }
-.features-list-two {
+.cba-planpricing-features-list-two {
   margin-top: -20px;
+  padding: 0px 10px;
 }
 /* -- flt icon style -- */
 
-.flt-icon-a {
+.cba-planpricing-flt-icon-a {
   font-size: 15px;
   color: var(--green);
-  background-color: var(--light-green);
+  background-color: var(--lt-green);
   padding: 2.5px;
   border-radius: 50%;
   margin-right: 7px;
 }
 
-.flt-icon-i {
+.cba-planpricing-flt-icon-i {
   font-size: 15px;
   color: var(--red);
-  background-color: var(--light-red);
+  background-color: var(--lt-red);
   padding: 2.5px;
   border-radius: 50%;
   margin-right: 7px;
@@ -299,12 +215,12 @@ input:checked + .slider:before {
 
 /* -- pricing cart btn style -- */
 
-.pricing-cart-btn {
+.cba-planpricing-pricing-cart-btn {
   display: flex;
   justify-content: center;
 }
 
-.pricing-cart-btn button {
+.cba-planpricing-pricing-cart-btn button {
   color: var(--black);
   background-color: var(--white);
   border: 2.5px solid var(--black);
@@ -313,7 +229,7 @@ input:checked + .slider:before {
   transition: all 0.3s ease;
 }
 
-.pricing-cart-btn button:hover {
+.cba-planpricing-pricing-cart-btn button:hover {
   color: var(--white);
   background-color: var(--black);
   border: 2.5px solid var(--black);

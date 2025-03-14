@@ -8,114 +8,109 @@
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
-    --light-orange: #FD7E14;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-light: #37A000;
+    --orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
     --blue: #0000FF;
-    --light-blue: #e6e6ff;
+    --lt-blue: #e6e6ff;
 }
 
-/* ---------- */
-
-/* * {
-    box-sizing: border-box;
-} */
-
-/* -- body style -- */
-
-/* body {
+* {
     margin: 0;
     padding: 0;
     font-family: "Poppins", serif;
-    background-color: var(--gray-white);
-} */
+}
 
 ::selection {
     color: var(--white);
-    background-color: var(--main-light);
+    background-color: var(--m-light);
 }
 
 /* -- category container style -- */
 
-    .subscription-container {
-        width: 100%;
-        margin-top: 25px;
-    }
+.cba-mysubdetails-subscription-container {
+    width: 100%!important;
+    margin-top: 25px;
+    padding: 25px 20px 50px 25px;
+}
 
 /* -- list container style -- */
 
-/* .list-container {
+.cba-mysubdetails-list-container {
     background-color: var(--white);
     padding: 0px 20px;
-} */
+    border-radius: 5px;
+}
 
 /* -- heading-add-new-btn style -- */
 
-/* .heading-add-new-btn {
+.cba-mysubdetails-heading-add-new-btn {
     display: flex;
     justify-content: left;
     align-items: center;
     border-bottom: 1px solid var(--gray-black) ;
-} */
+}
 
-/* .heading h2 {
-    color: var(--light-black);
+.cba-mysubdetails-heading h2 {
+    color: var(--lt-black);
     font-size: 25px;
     font-weight: 500;
-} */
+    margin-bottom: 0;
+    padding: 15px 0px;
+}
 
 /* -- list-short-dpdwn-search-box style -- */
 
-/* .list-short-dpdwn-search-box {
+.cba-mysubdetails-list-short-dpdwn-search-box {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center!important;
     padding: 10px 0px;
-} */
+}
 
 /* -- list-short-dpdwn style -- */
 
-.list-short-dpdwn {
+.cba-mysubdetails-list-short-dpdwn {
     display: flex;
     gap: 7.5px;
     align-items: center;
-   
 }
 
-.list-short-dpdwn h3 {
-    color: var(--light-black);
+.cba-mysubdetails-list-short-dpdwn h3 {
+    color: var(--lt-black);
     font-size: 15px;
     font-weight: 500;
+    margin-bottom: 0;
 }
 
-.list-short-dpdwn select {
-    color: var(--light-black);
+.cba-mysubdetails-list-short-dpdwn select {
+    color: var(--lt-black);
     appearance: none;
     height: 35px;
     width: 38px;
-   
     outline: none;
     border-radius: 2.5px;
 }
 
 /* -- search-box style -- */
 
-.search-box {
+.cba-mysubdetails-search-box {
     display: flex;
     align-items: center;
+    margin-top: 15px;
 }
 
-.search-box legend {
-    color: var(--light-black);
+.cba-mysubdetails-search-box legend {
+    color: var(--lt-black);
 }
 
-.search-box input {
+.cba-mysubdetails-search-box input {
     outline: none;
     height: 25px;
     width: 193px;
@@ -124,7 +119,7 @@
 }
 
 @media (max-width: 768px) {
-    .search-box input {
+    .cba-mysubdetails-search-box input {
         width: 115px;
     }
 }
@@ -150,10 +145,10 @@ table {
 
 /* -- thead style -- */
                 
-/* .table-list, table, thead, tr, th{
+.cba-mysubdetails-table-list, table, thead, tr, th{
    font-size:10px; 
-} */
-/* thead {
+}
+ thead {
     cursor: pointer;
 }
 
@@ -167,11 +162,11 @@ thead tr th {
     font-size: 18px;
     font-weight: 500;
     text-align: left;
-} */
+}
 
-/* tbody tr td {
+tbody tr td {
     font-size: 0.875rem;
-} */
+}
 
 tbody tr:hover {
     background-color: var(--gray-white);
@@ -181,7 +176,7 @@ tbody tr:hover {
 
 /* -- action btn style -- */
 
-.action-btn {
+.cba-mysubdetails-action-btn {
     display: flex;
     gap: 7.5px;
     flex-direction: row;
@@ -190,80 +185,82 @@ tbody tr:hover {
 
 /* status style */
 
-.active {
+.cba-mysubdetails-active {
     color: var(--green);
-    background-color: var(--light-green);
+    background-color: var(--lt-green);
     font-size: 12px;
     font-weight: 500;
     padding: 2.5px 7.5px;
     border-radius: 5px;
 }
 
-.inactive {
+.cba-mysubdetails-inactive {
     color: var(--red);
-    background-color: var(--light-red);
+    background-color: var(--lt-red);
     font-size: 12px;
     font-weight: 500;
     padding: 2.5px 7.5px;
     border-radius: 5px;
 }
 
-.payment-received {
+.cba-mysubdetails-payment-received {
     color: var(--green);
-    background-color: var(--light-green);
+    background-color: var(--lt-green);
     font-size: 12px;
     font-weight: 500;
     padding: 2.5px 7.5px;
     border-radius: 5px;
 }
 
-.payment-pending {
+.cba-mysubdetails-payment-pending {
     color: var(--blue);
-    background-color: var(--light-blue);
+    background-color: var(--lt-blue);
     font-size: 12px;
     font-weight: 500;
     padding: 2.5px 7.5px;
     border-radius: 5px;
 }
 
-/* .payment-due {
+.cba-mysubdetails-payment-due {
     color: var(--red);
-    background-color: var(--light-red);
+    background-color: var(--lt-red);
     font-size: 12px;
     font-weight: 500;
     padding: 2.5px 7.5px;
     border-radius: 5px;
-} */
+}
 
 /* -- action style -- */
 
-.edit-icon {
+.cba-mysubdetails-edit-icon {
     color: var(--green);
-    background-color: var(--light-green);
+    background-color: var(--lt-green);
     padding: 5px 5px;
     border: 1px solid var(--green);
     font-size: 20px;
+    border-radius: 0px;
 }
-/* 
-.edit-icon:hover {
-    background-color: var(--light-black-op);
-} */
 
-.delete-icon {
+.cba-mysubdetails-edit-icon:hover {
+    background-color: var(--lt-black-op);
+}
+
+.cba-mysubdetails-delete-icon {
     color: var(--red);
-    background-color: var(--light-red);
+    background-color: var(--lt-red);
     padding: 5px 5px;
     border: 1px solid var(--red);
     font-size: 20px;
+    border-radius: 0px;
 }
 
-.delete-icon:hover {
-    background-color: var(--light-black-op);
+.cba-mysubdetails-delete-icon:hover {
+    background-color: var(--lt-black-op);
 }
 
 /* -- no data style */
 
-.no-data-available th {
+.cba-mysubdetails-no-data-available th {
     font-size: 14px;
     font-weight:500;
     color: var(--black);
@@ -272,38 +269,46 @@ tbody tr:hover {
 
 /* -- entries-details-list-page-btn style -- */
 
-/* .entries-details-list-page-btn {
+.cba-mysubdetails-entries-details-list-page-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px;
-} */
+    margin-top: -10px;
+}
 
-/* .entries-details {
+.cba-mysubdetails-entries-details {
     color: var(--black);
     font-size: 15px;
-} */
+}
 
-/* .list-page-btn {
+.cba-mysubdetails-list-page-btn {
     display: flex;
     gap: 5px;
     align-items: center;
-} */
+}
 
-/* .list-page-btn button {
-    color: var(--light-black);
+.cba-mysubdetails-list-page-btn button {
+    color: var(--lt-black);
     background-color: var(--gray-white);
-    padding: 8px 14px;
+    padding: 6px 14px 5px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-} */
+}
 
-/* .list-page-btn h4 {
+.cba-mysubdetails-list-page-btn h4 {
     color: var(--white);
-    background-color: var(--main-light);
+    background-color: var(--m-light);
     font-size: 15px;
     font-weight: 400;
-    padding: 3px 12px;
+    padding: 10px 12px 7px;
     border-radius: 5px;
-} */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* tk symbol */
+.cba-mysubdetails-tk-symbol {
+    color: var(--black);
+}

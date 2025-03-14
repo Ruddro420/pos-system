@@ -101,7 +101,7 @@ a {
 }
 .mdsl-sh-draft-container input{
     padding: 5px 8px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--gray-black)!important;
 }
 .mdsl-sh-draft-container input:focus{
     outline: none;

@@ -13,7 +13,7 @@
     --main-green: #157343;
     --main-lt: #37A000;
     --orange: #FFA500;
-    --orange-t: #FD7E14;
+    --orange-d: #FD7E14;
     --lt-orange: #FFECCC;
     --green: #008000;
     --lt-green: #e9f6ec;
@@ -43,8 +43,7 @@
 
 .cba-customer-container {
     width: 100%;
-    padding:20px;
-    /* margin-top: 25px; */
+    padding: 20px 20px 20px 27px;
 }
 
 /* -- top menus style--  */
@@ -75,7 +74,10 @@
     color: var(--black);
     font-size: 15px;
     font-weight: 500;
-    margin-left: 30px;
+}
+
+.cba-cusc-top-menus ul li:nth-child(1) {
+    margin-left: 25px;
 }
 
 /* -- active menu style -- */
@@ -90,7 +92,7 @@
 /* -- menu hover style -- */
 
 .cba-cusc-light-up:hover {
-    color: var(--orange-t);
+    color: var(--orange-d);
 }
 
 /* -- list container style -- */
@@ -147,7 +149,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
+    padding: 20px 0px 0px!important;
 }
 
 /* -- list-short-dpdwn style -- */
@@ -163,19 +165,17 @@
     color: var(--lt-black);
     font-size: 0.875rem!important;
     font-weight: 500!important;
-    /* margin-top:20px; */
-    display: inline-block!important;
+    margin-bottom: 0;
 }
 
 .cba-cusc-list-short-dpdwn select {
     color: var(--lt-black);
     appearance: none;
-    height: 29px;
-    width:  30px;
-    padding: 5px 0px 0px 6px;
+    height: 30px!important;
+    width: 30px!important;
+    padding: 0px 0px 0px 5px!important;
     outline: none;
-    border-radius: 2.5px;
-    margin-top: -15px;
+    border-radius: 2.5px!important;
 }
 
 /* -- search-box style -- */
@@ -187,14 +187,15 @@
 
 .cba-cusc-search-box legend {
     color: var(--lt-black);
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 .cba-cusc-search-box input {
     outline: none;
-    height: 30px;
+    height: 28px!important;
     width: 193px!important;
     border: 1px solid var(--gray-black);
+    margin-left: 5px;
 }
 
 /* -- table-list style --*/
@@ -323,7 +324,7 @@ tbody tr:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
+    padding: 0px 0px 10px!important;
 }
 
 .cba-cusc-entries-details {
@@ -340,7 +341,7 @@ tbody tr:hover {
 .cba-cusc-list-page-btn > button {
     color: var(--lt-black);
     background-color: var(--gray-white);
-    padding: 5px 10px 5px 10px;
+    padding: 8px 10px 5px!important;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -351,9 +352,9 @@ tbody tr:hover {
     background-color: var(--main-lt);
     font-size: 1rem;
     font-weight: 400;
-    padding: 6px 14px;
+    padding: 7px 14px!important;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-bottom: 0;
 }
 
 .cba-customer-container span {
