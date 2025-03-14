@@ -302,21 +302,14 @@ const Sidebar = () => {
                 <NavLink to='/StockReport-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Stock Alert Report</div>
+                  <div data-i18n="Without menu">Stock Report</div>
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
+                <NavLink to='/UpComingExpiredProducts-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Upcoming Expiry Product</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
-                <NavLink to='#' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Expired Product</div>
+                  <div data-i18n="Without menu">Product Expiration</div>
                 </NavLink>
               </li>
             </ul>

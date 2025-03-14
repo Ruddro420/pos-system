@@ -1,0 +1,268 @@
+/* -- fonts -- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=VT323&display=swap');
+
+/* -- root -- */
+
+:root {
+    --gray-white: #F0F1F2; /* For body*/
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --light-black: #212523;
+    --light-black-op: #21252350;
+    --main-green: #157343;
+    --main-light: #37A000;
+    --light-orange: #FD7E14;
+    --green: #008000;
+    --light-green: #e9f6ec;
+    --red: #FF0000;
+    --light-red: #fbeaec;
+}
+
+/* ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+::selection {
+    color: var(--white);
+    background-color: var(--main-light);
+}
+
+/* -- category container style -- */
+
+.cba-ucxp-category-container {
+    width: 100%;
+    margin-top: 25px;
+    padding: 0px 20px 20px 30px;
+}
+
+/* -- top menus style--  */
+
+.cba-ucxp-top-menus {
+    background-color: var(--white);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.cba-ucxp-top-menus ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-left: -20px;
+    margin-top: 18px;
+}
+
+.cba-ucxp-top-menus ul li a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* -- active menu style -- */
+
+.cba-ucxp-active-menu {
+    color: var(--white)!important;
+    background-color: var(--main-green);
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* -- menu hover style -- */
+
+.cba-ucxp-light-up:hover {
+    color: var(--light-orange);
+}
+
+/* -- list container style -- */
+
+.cba-ucxp-list-container {
+    background-color: var(--white);
+    padding: 20px 20px 10px;
+}
+
+/* -- heading-add-new-btn style -- */
+
+.cba-ucxp-heading-add-new-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--gray-black) ;
+}
+
+.cba-ucxp-heading h2 {
+    color: var(--light-black);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* -- list-short-dpdwn-search-box style -- */
+
+.cba-ucxp-list-short-dpdwn-search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 10px;
+}
+
+/* -- list-short-dpdwn style -- */
+
+.cba-ucxp-list-short-dpdwn {
+    display: flex;
+    gap: 7.5px;
+    align-items: center;
+}
+
+.cba-ucxp-list-short-dpdwn h3 {
+    color: var(--light-black);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.cba-ucxp-list-short-dpdwn select {
+    color: var(--light-black);
+    appearance: none;
+    height: 35px;
+    width: 35px;
+    padding-left: 6px;
+    outline: none;
+    border-radius: 2.5px;
+}
+
+/* -- search-box style -- */
+
+.cba-ucxp-search-box {
+    display: flex;
+    align-items: center;
+}
+
+.cba-ucxp-search-box legend {
+    font-size: 1rem;
+    color: var(--light-black);
+    margin-bottom: 0;
+}
+
+.cba-ucxp-search-box input {
+    outline: none;
+    height: 28px;
+    width: 193px;
+    border: 1px solid var(--gray-black);
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+/* -- table-list style --*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        padding: 0rem;
+        display: block;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        scrollbar-width: thin;
+        scrollbar-color: var(--black);
+    }
+}
+
+/* -- thead style -- */
+
+thead {
+    cursor: pointer;
+}
+
+th, td {
+    border: 1px solid var(--gray-black);
+    padding: 10px 15px;
+}
+
+thead tr th {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+tbody tr td {
+    font-size: 0.875rem;
+}
+
+tbody tr:hover {
+    background-color: var(--gray-white);
+}
+
+/* -- tbody style -- */
+
+
+/* -- action style -- */
+
+.cba-ucxp-restock-btn {
+    color: var(--white);
+    font-size: 0.75rem;
+    background-color: var(--main-green);
+    padding: 5px 12px;
+    border: none;
+    border-radius: 2.5px;
+    cursor: pointer;    
+}
+
+/* -- no data style */
+
+.cba-ucxp-no-data-available th {
+    font-size: 14px;
+    font-weight:500;
+    color: var(--black);
+    background-color: var(--gray-white);
+}
+
+/* -- entries-details-list-page-btn style -- */
+
+.cba-ucxp-entries-details-list-page-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.cba-ucxp-entries-details {
+    color: var(--black);
+    font-size: 15px;
+}
+
+.cba-ucxp-list-page-btn {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.cba-ucxp-list-page-btn button {
+    color: var(--light-black);
+    background-color: var(--gray-white);
+    padding: 7px 14px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cba-ucxp-list-page-btn h4 {
+    color: var(--white);
+    background-color: var(--main-light);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}

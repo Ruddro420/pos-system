@@ -142,8 +142,8 @@ const StockReport = () => {
                     </tfoot>
                     <tbody>
                         <tr>
-                            <td colSpan="sar-20">
-                                No data availabe in table
+                            <td colSpan="20">
+                                No data available in table
                             </td>
                         </tr>
                     </tbody>

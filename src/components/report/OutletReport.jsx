@@ -13,9 +13,7 @@ const OutletReport = () => {
             <Link to="/OutletWiseProduct-page">Outlet Wise Product</Link>
           </li>
           <li className="or-sh-menu-items">
-            <Link to="/OutletWiseVariantProduct-page">
-              Outlet Wise Variant Product
-            </Link>
+            <Link to="/OutletWiseVariantProduct-page">Outlet Wise Variant Product</Link>
           </li>
         </ul>
       

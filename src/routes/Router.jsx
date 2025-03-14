@@ -37,7 +37,6 @@ import MySubscription from "../components/MySubscription";
 
 
 import SalesReport from "../components/report/SalesReport"
-import StockReports from "../components/report/StockReports"
 import PurchaseReport from "../components/report/PurchaseReport";
 import LedgerReport from "../components/report/LedgerReport";
 import Vouchers from "../components/accounts/Vouchers"
@@ -76,6 +75,8 @@ import SubLedger from "../components/accounts/SubLedger";
 import ReceiptPayment from "../components/accounts/ReceiptPayment";
 import COGSAdjustment from "../components/accounts/COGSAdjustment";
 import NewWastage from "../components/StockManagement/NewWastage";
+import ExpiredProducts from "../components/report/ExpiredProducts";
+import UpComingExpiredProducts from "../components/report/UpComingExpiredProducts";
 
 const Router = createBrowserRouter([
     {
@@ -281,10 +282,6 @@ const Router = createBrowserRouter([
             element: <SalesReport/>,
          },
         {
-            path:'/StockReport-page',
-            element: <StockReports/>,
-         },
-        {
             path:'/PurchaseReport-page',
             element: <PurchaseReport/>,
          },
@@ -312,8 +309,15 @@ const Router = createBrowserRouter([
         {
             path:'/OutletWiseSalesReport-page',
             element: <OutletWiseSalesReport/>,
-         },
-       
+        },
+        {
+            path:'/ExpiredProducts-page',
+            element: <ExpiredProducts/>,
+        },
+        {
+            path:'/UpComingExpiredProducts-page',
+            element: <UpComingExpiredProducts/>,
+        },
 
 
 
