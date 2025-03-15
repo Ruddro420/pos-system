@@ -36,7 +36,7 @@ a {
     --primary-para: 0.825rem;
 }
 /* === PREDIFINE ACCOUNT SECTIONS === */
-.sh-predefine-account-section{
+.pa-sh-predefine-account-section{
     width: auto;
     margin: 20px;
     background-color: var(--white);
@@ -44,34 +44,34 @@ a {
     border-radius: 5px;
 }
 /* === PREDEFINE TEXT === */
-.sh-predefine-text{
+.pa-sh-predefine-text{
     font-size: var(--secondary-head);
     line-height: initial;
     padding: 20px;
 }
 /* === PREDEFINE FROM SECTION === */
-.sh-predefine-form-section{
+.pa-sh-predefine-form-section{
     padding: 20px;
 }
 /* === PREDEFINE FOMR CONTAINER === */
-.sh-form-container{
+.pa-sh-form-container{
     gap: 50px; 
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-predefine-form{
+.pa-sh-predefine-form{
     width: 100%;
     line-height: 2em;
     margin-top: 10px;
 }
-.sh-predefine-form select{
+.pa-sh-predefine-form select{
     width: 100%;
     padding: 4px 8px;
     font-size: var(--secondaryra);
     border: 1px solid var(--light-black-op);
     border-radius: 3px;
 }
-.sh-predefine-form select:focus{
+.pa-sh-predefine-form select:focus{
     outline: none;
 }

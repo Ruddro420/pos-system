@@ -1,18 +1,18 @@
-/* import './css/PredefineAccounts.css' */
+import './css/PredefineAccounts.css'
 const PredefineAccounts = () => {
     return (
         <>
-          <div className="sh-predefine-account-section">
+          <div className="pa-sh-predefine-account-section">
         {/* <!-- === PREDEFINE TEXT === --> */}
-        <div className="sh-predefine-text">
+        <div className="pa-sh-predefine-text">
             <p>Predefine Accounts</p>
         </div>
         <hr/>
       {/*   <!-- === PREDEFINE FROM SECTION === --> */}
-        <div className="sh-predefine-form-section">
+        <div className="pa-sh-predefine-form-section">
          {/*    <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Cash</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -57,7 +57,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Tax</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -104,8 +104,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
            {/*  <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Bank Code</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -150,7 +150,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Inventory Code</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -197,8 +197,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
            {/*  <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Advance</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -243,7 +243,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Current Year Profit Loss Code</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -290,8 +290,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
         {/*     <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Fixed Asset</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -336,7 +336,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Last Year Profit Loss Code</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -383,8 +383,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
            {/*  <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Purchase Code</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -429,7 +429,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Salary Code</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -476,8 +476,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
            {/*  <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Sales Code</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -522,7 +522,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Prov State VAT</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -569,8 +569,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
            {/*  <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Customer Code</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -615,7 +615,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">State VAT</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -662,8 +662,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
           {/*   <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Supplier Code</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -708,7 +708,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Sales Discount</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -755,8 +755,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
           {/*   <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Cost Of Good Solds</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -801,7 +801,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Shipping Cost1</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -848,8 +848,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
            {/*  <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">VAT</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -894,7 +894,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Shipping Cost2</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -941,8 +941,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
           {/*   <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Purchase Discount</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -987,7 +987,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Input VAT</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -1034,8 +1034,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
           {/*   <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Employee Salary Expense</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -1080,7 +1080,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Capital Fund</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -1127,8 +1127,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
           {/*   <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Freight Charge</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -1173,7 +1173,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Sales Return</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -1220,8 +1220,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
           {/*   <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Purchase Return</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -1266,7 +1266,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Stock Wastage Expense</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -1314,8 +1314,8 @@ const PredefineAccounts = () => {
             </div>
            {/*   <!-- === PREDEFINE FOMR CONTAINER 
            === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Stock Adjusted Expense</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -1360,7 +1360,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Service Discount</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -1407,8 +1407,8 @@ const PredefineAccounts = () => {
                 </div>
             </div>
           {/*   <!-- === PREDEFINE FOMR CONTAINER === --> */}
-            <div className="sh-form-container">
-                <div className="sh-predefine-form">
+            <div className="pa-sh-form-container">
+                <div className="pa-sh-predefine-form">
                     <label htmlFor="text">Service Income</label>
                     <select name="" id="">
                         <option value="cash" name="cash">Cash</option>
@@ -1453,7 +1453,7 @@ const PredefineAccounts = () => {
                         <option value="40" name="country">Chile</option>
                     </select>
                 </div>
-                <div className="sh-predefine-form">
+                <div className="pa-sh-predefine-form">
                 </div>
             </div>
         </div>

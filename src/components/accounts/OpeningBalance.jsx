@@ -1,52 +1,52 @@
-/* import './css/OpeningBalance.css' */
+import './css/OpeningBalance.css'
 const OpeningBalance = () => {
     return (
         <>
             {/*   <!-- === DRAFT SALE SECITON === --> */}
-    <div className="sh-parent">
-        <div className="sh-child-container">
-            <div className="sh-draft-sale-section">
+    <div className="ob-sh-parent">
+        <div className="ob-sh-child-container">
+            <div className="ob-sh-draft-sale-section">
               {/*   <!-- === DRAFT SALE TOP ITEMV === --> */}
-                <div className="sh-draft-sale-top-item">
+           {     <div className="ob-sh-draft-sale-top-item">
                     <p>Opening Balance List</p>
                   {/*   <!-- === DRAFT SALE TOP RIGHT ITMES === --> */}
-                    <div className="sh-draft-sale-top-right-items">
-                        <div onClick="showNew()" className="sh-filter">
+                    <div className="ob-sh-draft-sale-top-right-items">
+                        <div onClick="showNew()" className="ob-sh-filter">
                             <i className="fa-solid fa-circle-plus"></i>
                             <a href="">Add New Opening Balance</a>
                         </div>
-                        <div className="sh-filter">
+                        <div className="ob-sh-filter">
                             <i className="fa-solid fa-filter"></i>
                             <a href="#">Filter</a>
                         </div>
                     </div>
-                </div>
+                </div>}
             </div>
             <hr/>
          {/*    <!-- === FILTER DROPDOWN SECTION === --> */}
-            <div className="sh-filter-drop-down-section">
-                <div className="sh-draft-container">
+            <div className="ob-sh-filter-drop-down-section">
+                <div className="ob-sh-draft-container">
                     <select value="" name="" id="">
                         <option value="" name="">Select Fianacial Year</option>
                     </select>
                 </div>
              {/*    <!-- === FILTER SEARCH === --> */}
-                <div className="sh-filter-search-box">
-                    <i className="fa-solid fa-search"></i>Search
+                <div className="ob-sh-filter-search-box">
+                    <i className="ob-fa-solid fa-search"></i>Search
                 </div>
                {/*  <!-- === FILTER RESET === --> */}
-                <div className="sh-filter-reset-box">
+                <div className="ob-sh-filter-reset-box">
                     <i className="fa-solid fa-arrows-rotate"></i>Reset
                 </div>
             </div>
            {/*  <!-- === LINE === --> */}
-            <div className="sh-line">
+            <div className="ob-sh-line">
                 <hr/>
             </div>
 
           {/*   <!-- === SHOW AND SEARCH CONTAINER === --> */}
-            <div className="sh-show-and-search-container">
-                <div className="sh-show-container">
+            <div className="ob-sh-show-and-search-container">
+                <div className="ob-sh-show-container">
                     <p>Show</p>
                     <select name="" id="">
                         <option value="number" name="show">10</option>
@@ -59,22 +59,22 @@ const OpeningBalance = () => {
                     <p>Entries</p>
                 </div>
                 {/* <!-- === SEARCH === --> */}
-                <div className="sh-search-container">
+                <div className="ob-sh-search-container">
                     <p>Search:</p>
                     <input type="search" placeholder="" name="" id=""/>
                 </div>
             </div>
            {/*  <!-- === MANAGE SALE DETAILS SECTION === --> */}
-            <div className="manage-sale-details-section">
+            <div className="ob-manage-sale-details-section">
                 <table>
                     <thead>
                         <tr>
                             <th>SL</th>
                             <th>Date</th>
                             <th>Account Name</th>
-                            <th className="text-right">Subtype</th>
-                            <th className="text-right">Debit (BDT)</th>
-                            <th className="text-right">Credit(BDT)</th>
+                            <th className="ob-text-right">Subtype</th>
+                            <th className="ob-text-right">Debit (BDT)</th>
+                            <th className="ob-text-right">Credit(BDT)</th>
                         </tr>
                     </thead>
                     <tfoot>
@@ -82,14 +82,14 @@ const OpeningBalance = () => {
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td className="text-right">Total</td>
-                            <td className="text-right">0.000</td>
-                            <td className="text-right">0.000</td>
+                            <td className="ob-text-right">Total</td>
+                            <td className="ob-text-right">0.000</td>
+                            <td className="ob-text-right">0.000</td>
                         </tr>
                     </tfoot>
                     <tbody>
                         <tr>
-                            <td className="text-middle" colSpan="6
+                            <td className="ob-text-middle" colSpan="6
                             ">
                                 <p>No data available in table</p>
                             </td>
@@ -98,9 +98,9 @@ const OpeningBalance = () => {
                 </table>
             </div>
            {/*  <!-- === SLIDE PAGES === --> */}
-            <div className="sh-slider-pages">
+            <div className="ob-sh-slider-pages">
                 <p>Showing 0 to 0 of 0 entries</p>
-                <div className="sh-slide-right-item">
+                <div className="ob-sh-slide-right-item">
                     <a href="#">Previous</a>
                     <p>0</p>
                     <a href="#">Next</a>
@@ -110,17 +110,17 @@ const OpeningBalance = () => {
     </div>
     {/* <!-- === ADD NEW OPENIGN BALANCE === -->
     <!-- ============================= --> */}
-    <div className="sh-add-new-oneping-balance-section">
-        <div className="sh-opening-balance-section">
+    <div className="ob-sh-add-new-oneping-balance-section">
+        <div className="ob-sh-opening-balance-section">
             <p>Opening Balance</p>
-            <div className="sh-balance-list">
+            <div className="ob-sh-balance-list">
                 <i className="fa-solid fa-list"></i>
                 <label htmlFor="text" value="listform" name="balancelist">Balance List</label>
             </div>
         </div>
         <hr/>
       {/*   <!-- === TABLE SECTION === --> */}
-        <div className="sh-opening-balance-table-section">
+        <div className="ob-sh-opening-balance-table-section">
             <table>
                 <thead>
                     <tr>
@@ -141,13 +141,13 @@ const OpeningBalance = () => {
                             </select></td>
                         <td><input type="number"/></td>
                         <td><input type="number"/></td>
-                        <td className="sh-trash-icon"><i className="fa-solid fa-trash"></i></td>
+                        <td className="ob-sh-trash-icon"><i className="fa-solid fa-trash"></i></td>
                     </tr>
                 </tbody>
                 <tfoot>
                     <tr>
                         <td><button>add more</button></td>
-                        <td className="text-right">Total</td>
+                        <td className="ob-text-right">Total</td>
                         <td><input type="text" value="0.00" name="" id=""/></td>
                         <td><input type="text" value="0.00" name="" id=""/></td>
                         <td></td>

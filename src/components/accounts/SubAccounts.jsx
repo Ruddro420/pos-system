@@ -1,31 +1,31 @@
 import { Link } from "react-router-dom";
 
-/* import './css/SubAccounts.css' */
+import './css/SubAccounts.css'
 const SubAccounts = () => {
     return (
         <>
-            <div className="sh-parent">
+            <div className="sa-sh-parent">
         {/* <!-- === TOP MENU ITEMS === --> */}
-        <div className="sh-top-menu-items">
+        <div className="sa-sh-top-menu-items">
             <ul>
-                <li className="sh-active-item"><Link href="/SubAccounts-page">Sub Account</Link></li>
-                <li className="sh-menu-items"><Link to="/SubType-page">Subtype</Link></li>
+                <li className="sa-sh-active-item"><Link href="/SubAccounts-page">Sub Account</Link></li>
+                <li className="sa-sh-menu-items"><Link to="/SubType-page">Subtype</Link></li>
             </ul>
         </div>
-        <div className="sh-child-container">
-            <div className="sh-draft-sale-section">
+        <div className="sa-sh-child-container">
+            <div className="sa-sh-draft-sale-section">
               {/*   <!-- === DRAFT SALE TOP ITEMV === --> */}
-                <div className="sh-draft-sale-top-item">
+                <div className="sa-sh-draft-sale-top-item">
                     <p>Sub Account List</p>
-                    <div className="sh-sub-account">
+                    <div className="sa-sh-sub-account">
                         <i className="fa-solid fa-circle-plus"></i> Add Sub Account
                     </div>
                 </div>
             </div>
             <hr/>
             {/* <!-- === SHOW AND SEARCH CONTAINER === --> */}
-            <div className="sh-show-and-search-container">
-                <div className="sh-show-container">
+            <div className="sa-sh-show-and-search-container">
+                <div className="sa-sh-show-container">
                     <p>Show</p>
                     <select name="" id="">
                         <option value="number" name="show">10</option>
@@ -38,13 +38,13 @@ const SubAccounts = () => {
                     <p>Entries</p>
                 </div>
                {/*  <!-- === SEARCH === --> */}
-                <div className="sh-search-container">
+                <div className="sa-sh-search-container">
                     <p>Search:</p>
                     <input type="search" placeholder="" name="" id=""/>
                 </div>
             </div>
            {/*  <!-- === MANAGE SALE DETAILS SECTION === --> */}
-            <div className="manage-sale-details-section">
+            <div className="sa-manage-sale-details-section">
                 <table>
                     <thead>
                         <tr>
@@ -59,9 +59,9 @@ const SubAccounts = () => {
                 </table>
             </div>
            {/*  <!-- === SLIDE PAGES === --> */}
-            <div className="sh-slider-pages">
+            <div className="sa-sh-slider-pages">
                 <p>Showing 0 to 0 of 0 entries</p>
-                <div className="sh-slide-right-item">
+                <div className="sa-sh-slide-right-item">
                     <a href="#">Previous</a>
                     <p>0</p>
                     <a href="#">Next</a>

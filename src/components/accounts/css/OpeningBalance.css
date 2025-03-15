@@ -37,11 +37,11 @@ a {
 }
 
 
-.sh-parent{
+.ob-sh-parent{
     width: 100%;
     padding: 20px;
 }
-.sh-child-container{
+.ob-sh-child-container{
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -49,29 +49,29 @@ a {
 }
 
 /* === DRAFT SALE SECITON === */
-.sh-draft-sale-section{
+.ob-sh-draft-sale-section{
     width: 100%;
 
 }
 /* === DRAFT SALE TOP ITEMV === */
-.sh-draft-sale-top-item{
+.ob-sh-draft-sale-top-item{
     height: 80px;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-draft-sale-top-item p{
+.ob-sh-draft-sale-top-item p{
     font-size: var(--secondary);
 }
 /* === DRAFT SALE TOP RIGHT ITMES === */
-.sh-draft-sale-top-right-items{
+.ob-sh-draft-sale-top-right-items{
     gap: 20px;
     display: flex;
     align-items: center;
 }
 /* === FILTR === */
-.sh-filter{
+.ob-sh-filter{
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -81,13 +81,13 @@ a {
     color: var(--white);
     background-color: var(--main-green);
 }
-.sh-filter a{
+.ob-sh-filter a{
     color: white;
     font-size: var(--primary-para);
 }
 
 /* === FILTER DROPDOWN SECTION === */
-.sh-filter-drop-down-section{
+.ob-sh-filter-drop-down-section{
     gap: 20px;
     padding: 20px;
     display: flex;
@@ -96,23 +96,23 @@ a {
     align-items: flex-end;
 }
 /* === SH DRAFT CONTAINER === */
-.sh-draft-container{
+.ob-sh-draft-container{
     line-height: 2em;
 }
 .sh-draft-container p{
     font-size: var(--secondary);
 }
-.sh-draft-container select{
+.ob-sh-draft-container select{
     width: 200px;
     border-radius: 5px;
     padding: 5px 8px;
     border: 1px solid var(--light-black);
 }
-.sh-draft-container select:focus{
+.ob-sh-draft-container select:focus{
     outline: none;
 }
 /* === FILTER SEARCH === */
-.sh-filter-search-box{
+.ob-sh-filter-search-box{
     background-color: var(--main-green);
     padding: 4px 10px;
     color: var(--white);
@@ -122,9 +122,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 6px;
 }
 /* === FILTER RESET === */
-.sh-filter-reset-box{
+.ob-sh-filter-reset-box{
     background-color: var(--red);
     padding: 4px 10px;
     color: var(--white);
@@ -134,46 +135,49 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 6px;
 }
-.sh-line{
+.ob-sh-line{
     padding-right: 20px;
     padding-left: 20px;
 }
 /* === SHOW AND SEARCH CONTAINER === */
-.sh-show-and-search-container{
+.ob-sh-show-and-search-container{
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-show-container{
+.ob-sh-show-container{
     gap: 5px;
     font-size: var(--secondary);
     display: flex;
     align-items: center;
 }
-.sh-show-container select{
-    padding: 5px 2px;
+.ob-sh-show-container select{
+    padding: 5px 5px;
+ /*    padding: 5px; */
+    padding-left: 10px;
 }
-.sh-show-container select:focus{
+.ob-sh-show-container select:focus{
     outline: none;
 }
 /* === SEARCH === */
-.sh-search-container{
+.ob-sh-search-container{
     gap: 5px;
     display: flex;
     align-items: center;
 }
-.sh-search-container input{
+.ob-sh-search-container input{
     width: 400px;
     padding: 5px 10px;
     border: 1px solid var(--light-black-op);
 }
-.sh-search-container input:focus{
+.ob-sh-search-container input:focus{
     outline: none;
 }
 /* === MANAGE SALE DETAILS SECTION === */
-.manage-sale-details-section{
+.ob-manage-sale-details-section{
     width: 100%;
     padding: 0px 20px;
 }
@@ -190,34 +194,34 @@ table th{
     font-size: var(--secondary);
     font-weight: 500;
 }
-.text-middle{
+.ob-text-middle{
     text-align: center;
 }
-.text-right{
+.ob-text-right{
     text-align: right;
 }
 /* === SLIDE PAGES === */
-.sh-slider-pages {
+.ob-sh-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-slide-right-item {
+.ob-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.ob-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
     background-color: var(--light-black-op);
 }
 
-.sh-slide-right-item p {
+.ob-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
@@ -225,7 +229,7 @@ table th{
 }
 /* === ADD NEW OPENIGN BALANCE ===  */
 /* ============================= */
-.sh-add-new-oneping-balance-section{
+.ob-sh-add-new-oneping-balance-section{
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
     margin: 20px;
@@ -233,69 +237,69 @@ table th{
     border-radius: 5px;
     display: none;
 }
-.sh-opening-balance-section{
+.ob-sh-opening-balance-section{
     padding: 20px 20px;
     height: initial;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-opening-balance-section p{
+.ob-sh-opening-balance-section p{
     font-size: var(--secondary-head);
 }
-.sh-balance-list{
+.ob-sh-balance-list{
     cursor: pointer;
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
     background-color: var(--main-green);
 }
-.sh-balance-list label{
+.ob-sh-balance-list label{
     cursor: pointer;
 }
-.sh-balance-list i{
+.ob-sh-balance-list i{
     margin-right: 5px;
 }
 /* === TABLE SECTION ===  */
-.sh-opening-balance-table-section{
+.ob-sh-opening-balance-table-section{
     margin: 20px;
     padding-bottom: 20px;
 }
-.sh-opening-balance-table-section tbody select{
+.ob-sh-opening-balance-table-section tbody select{
     width: 100%;
     padding: 8px 5px;
     font-size: var(--primary-para);
     border: 1px solid var(--light-black-op);
 }
-.sh-opening-balance-table-section tbody select:focus{
+.ob-sh-opening-balance-table-section tbody select:focus{
     outline: none;
 }
-.sh-opening-balance-table-section tbody input{
+.ob-sh-opening-balance-table-section tbody input{
     appearance: none;
     width: 100%;
     padding: 8px 5px;
     font-size: var(--primary-para);
     border: 1px solid var(--light-black-op);
 }
-.sh-opening-balance-table-section tbody input:focus{
+.ob-sh-opening-balance-table-section tbody input:focus{
     outline: none;
 }
-.sh-trash-icon{
+.ob-sh-trash-icon{
     text-align: center;
 }
-.sh-trash-icon i{
+.ob-sh-trash-icon i{
     transition: all 0.5s ease;
     padding: 5px;
     color: var(--red);
     border: 1px solid var(--red);
     background-color: var(--light-red);
 }
-.sh-trash-icon i:hover{
+.ob-sh-trash-icon i:hover{
     
     background-color: var(--red);
     color: var(--white);
 }
-.sh-opening-balance-table-section tfoot tr td button{
+.ob-sh-opening-balance-table-section tfoot tr td button{
     padding: 8px 8px;
     border: none;
     background-color: var(--main-green);
@@ -303,7 +307,7 @@ table th{
     border-radius: 5px;
     text-transform: capitalize;
 }
-.sh-opening-balance-table-section tfoot tr td input{
+.ob-sh-opening-balance-table-section tfoot tr td input{
     width: 100%;
     padding: 8px 5px;
     text-align: right;
@@ -311,6 +315,6 @@ table th{
     background-color: var(--light-black-op);
     border: none;
 }
-.sh-opening-balance-table-section tfoot tr td input:focus{
+.ob-sh-opening-balance-table-section tfoot tr td input:focus{
     outline: none;
 }

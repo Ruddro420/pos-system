@@ -3,28 +3,28 @@ import './css/SubType.css'
 const SubType = () => {
     return (
         <>
-            <div className="sh-parent">
+            <div className="st-sh-parent">
       {/*   <!-- === TOP MENU ITEMS === --> */}
-        <div className="sh-top-menu-items">
+        <div className="st-sh-top-menu-items">
             <ul>
-                <li className="sh-menu-items"><Link to="/SubAccounts-page">Sub Account</Link></li>
-                <li className="sh-active-item"><Link to="/SubType-page">Subtype</Link></li>
+                <li className="st-sh-menu-items"><Link to="/SubAccounts-page">Sub Account</Link></li>
+                <li className="st-sh-active-item"><Link to="/SubType-page">Subtype</Link></li>
             </ul>
         </div>
-        <div className="sh-child-container">
-            <div className="sh-draft-sale-section">
+        <div className="st-sh-child-container">
+            <div className="st-sh-draft-sale-section">
               {/*   <!-- === DRAFT SALE TOP ITEMV === --> */}
-                <div className="sh-draft-sale-top-item">
+                <div className="st-sh-draft-sale-top-item">
                     <p>Sub Account List</p>
-                    <div className="sh-sub-account">
+                    <div className="st-sh-sub-account">
                         <i className="fa-solid fa-circle-plus"></i> Add Subtype
                     </div>
                 </div>
             </div>
             <hr/>
           {/*   <!-- === SHOW AND SEARCH CONTAINER === --> */}
-            <div className="sh-show-and-search-container">
-                <div className="sh-show-container">
+            <div className="st-sh-show-and-search-container">
+                <div className="st-sh-show-container">
                     <p>Show</p>
                     <select name="" id="">
                         <option value="number" name="show">10</option>
@@ -37,13 +37,13 @@ const SubType = () => {
                     <p>Entries</p>
                 </div>
                {/*  <!-- === SEARCH === --> */}
-                <div className="sh-search-container">
+                <div className="st-sh-search-container">
                     <p>Search:</p>
                     <input type="search" placeholder="" name="" id=""/>
                 </div>
             </div>
            {/*  <!-- === MANAGE SALE DETAILS SECTION === --> */}
-            <div className="manage-sale-details-section">
+            <div className="st-manage-sale-details-section">
                 <table>
                     <thead>
                         <tr>
@@ -57,15 +57,15 @@ const SubType = () => {
                         <tr>
                             <td>1</td>
                             <td>None</td>
-                            <td className="text-center">
+                            <td className="st-text-center">
                                 <p>Active</p>
                             </td>
-                            <td className="sh-icon-container">
-                                <div className="sh-edit-trash-icon">
-                                    <div className="sh-edit-icon">
+                            <td className="st-sh-icon-container">
+                                <div className="st-sh-edit-trash-icon">
+                                    <div className="st-sh-edit-icon">
                                         <i className="fa-solid fa-edit"></i>
                                     </div>
-                                    <div className="sh-trash-icon">
+                                    <div className="st-sh-trash-icon">
                                         <i className="fa-solid fa-trash"></i>
                                     </div>
                                 </div>
@@ -76,15 +76,15 @@ const SubType = () => {
                         <tr>
                             <td>2</td>
                             <td>Supplier</td>
-                            <td className="text-center">
+                            <td className="st-text-center">
                                 <p>Active</p>
                             </td>
-                            <td className="sh-icon-container">
-                                <div className="sh-edit-trash-icon">
-                                    <div className="sh-edit-icon">
+                            <td className="st-sh-icon-container">
+                                <div className="st-sh-edit-trash-icon">
+                                    <div className="st-sh-edit-icon">
                                         <i className="fa-solid fa-edit"></i>
                                     </div>
-                                    <div className="sh-trash-icon">
+                                    <div className="st-sh-trash-icon">
                                         <i className="fa-solid fa-trash"></i>
                                     </div>
                                 </div>
@@ -95,15 +95,15 @@ const SubType = () => {
                         <tr>
                             <td>3</td>
                             <td>Customer</td>
-                            <td className="text-center">
+                            <td className="st-text-center">
                                 <p>Active</p>
                             </td>
-                            <td className="sh-icon-container">
-                                <div className="sh-edit-trash-icon">
-                                    <div className="sh-edit-icon">
+                            <td className="st-sh-icon-container">
+                                <div className="st-sh-edit-trash-icon">
+                                    <div className="st-sh-edit-icon">
                                         <i className="fa-solid fa-edit"></i>
                                     </div>
-                                    <div className="sh-trash-icon">
+                                    <div className="st-sh-trash-icon">
                                         <i className="fa-solid fa-trash"></i>
                                     </div>
                                 </div>
@@ -114,15 +114,15 @@ const SubType = () => {
                         <tr>
                             <td>4</td>
                             <td>Employee</td>
-                            <td className="text-center">
+                            <td className="st-text-center">
                                 <p>Active</p>
                             </td>
-                            <td className="sh-icon-container">
-                                <div className="sh-edit-trash-icon">
-                                    <div className="sh-edit-icon">
+                            <td className="st-sh-icon-container">
+                                <div className="st-sh-edit-trash-icon">
+                                    <div className="st-sh-edit-icon">
                                         <i className="fa-solid fa-edit"></i>
                                     </div>
-                                    <div className="sh-trash-icon">
+                                    <div className="st-sh-trash-icon">
                                         <i className="fa-solid fa-trash"></i>
                                     </div>
                                 </div>
@@ -132,9 +132,9 @@ const SubType = () => {
                 </table>
             </div>
           {/*   <!-- === SLIDE PAGES === --> */}
-            <div className="sh-slider-pages">
+            <div className="st-sh-slider-pages">
                 <p>Showing 1 to 4 of 4 entries</p>
-                <div className="sh-slide-right-item">
+                <div className="st-sh-slide-right-item">
                     <a href="#">Previous</a>
                     <p>1</p>
                     <a href="#">Next</a>

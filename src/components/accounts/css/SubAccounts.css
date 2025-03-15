@@ -37,35 +37,38 @@ a {
 }
 
 
-.sh-parent{
+.sa-sh-parent{
     width: 100%;
     padding: 20px;
 }
-.sh-child-container{
+.sa-sh-child-container{
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+ /*    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2); */
     border-radius: 5px;
     margin-top: 20px;
 }
 /* === TOP MENU ITEMS === */
-.sh-top-menu-items {
+.sa-sh-top-menu-items {
     border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
-    padding: 10px 0px 10px 10px;
+  /*   box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3); */
+  padding: 8px 0px 8px 8px;
+   
 }
 
-.sh-top-menu-items ul {
+.sa-sh-top-menu-items ul {
     width: 100%;
     display: flex;
     align-items: center;
+    margin-bottom: 8px;
+    margin-top: 10px;
 }
 
-.sh-top-menu-items li {
+.sa-sh-top-menu-items li {
     height: 50px;
 }
 
-.sh-top-menu-items a {
+.sa-sh-top-menu-items a {
     height: 100%;
     padding: 0px 20px;
     color: var(--black);
@@ -74,34 +77,34 @@ a {
     align-items: center;
 }
 
-.sh-menu-items a:hover {
+.sa-sh-menu-items a:hover {
     color: var(--red);
 }
 
 /* === ACTIVE MENU === */
-.sh-active-item a {
+.sa-sh-active-item a {
     background-color: var(--main-green);
     color: var(--white);
     border-radius: 5px;
 }
 
 /* === DRAFT SALE SECITON === */
-.sh-draft-sale-section{
+.sa-sh-draft-sale-section{
     width: 100%;
 
 }
 /* === DRAFT SALE TOP ITEMV === */
-.sh-draft-sale-top-item{
+.sa-sh-draft-sale-top-item{
     height: 80px;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-draft-sale-top-item p{
+.sa-sh-draft-sale-top-item p{
     font-size: var(--secondary);
 }
-.sh-sub-account {
+.sa-sh-sub-account {
     padding: 6px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -109,40 +112,40 @@ a {
     background-color: var(--main-green);
 }
 /* === SHOW AND SEARCH CONTAINER === */
-.sh-show-and-search-container{
+.sa-sh-show-and-search-container{
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-show-container{
+.sa-sh-show-container{
     gap: 5px;
     font-size: var(--secondary);
     display: flex;
     align-items: center;
 }
-.sh-show-container select{
-    padding: 5px 2px;
+.sa-sh-show-container select{
+    padding: 2px 3px 2px 8px;
 }
-.sh-show-container select:focus{
+.sa-sh-show-container select:focus{
     outline: none;
 }
 /* === SEARCH === */
-.sh-search-container{
+.sa-sh-search-container{
     gap: 5px;
     display: flex;
     align-items: center;
 }
-.sh-search-container input{
+.sa-sh-search-container input{
     width: 400px;
     padding: 5px 10px;
     border: 1px solid var(--light-black-op);
 }
-.sh-search-container input:focus{
+.sa-sh-search-container input:focus{
     outline: none;
 }
 /* === MANAGE SALE DETAILS SECTION === */
-.manage-sale-details-section{
+.sa-manage-sale-details-section{
     width: 100%;
     padding: 0px 20px;
 }
@@ -160,27 +163,27 @@ table th{
     font-weight: 500;
 }
 /* === SLIDE PAGES === */
-.sh-slider-pages {
+.sa-sh-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-slide-right-item {
+.sa-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.sa-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
     background-color: var(--light-black-op);
 }
 
-.sh-slide-right-item p {
+.sa-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
