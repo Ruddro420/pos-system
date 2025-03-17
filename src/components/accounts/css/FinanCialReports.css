@@ -37,18 +37,18 @@ a {
 }
 
 
-.sh-parent{
+.cb-sh-parent{
     width: 100%;
     padding: 20px;
 }
-.sh-child-container{
+.cb-sh-child-container{
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
     border-radius: 5px;
     margin-top: 20px;
 }
 /* === TOP MENU ITEMS === */
-.sh-top-menu-items {
+.cb-sh-top-menu-items{
     border-radius: 5px;
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
@@ -56,17 +56,18 @@ a {
     position: sticky;
 }
 
-.sh-top-menu-items ul {
+.cb-sh-top-menu-items ul {
     width: 100%;
     display: flex;
     align-items: center;
+    margin-bottom: -1px;
 }
 
-.sh-top-menu-items li {
+.cb-sh-top-menu-items li {
     height: 50px;
 }
 
-.sh-top-menu-items a {
+.cb-sh-top-menu-items a {
     height: 100%;
     padding: 0px 20px;
     color: var(--black);
@@ -75,19 +76,19 @@ a {
     align-items: center;
 }
 
-.sh-menu-items a:hover {
+.cb-sh-menu-items a:hover {
     color: var(--red);
 }
 
 /* === ACTIVE MENU === */
-.sh-active-item a {
+.cb-sh-active-item a {
     background-color: var(--main-green);
     color: var(--white);
     border-radius: 5px;
 }
 
 /* === FIND SECTION === */
-.sh-find-section{
+.cb-sh-find-section{
     height: 100px;
     padding: 20px;
     gap: 30px;
@@ -98,37 +99,49 @@ a {
     display: flex;
     align-items: flex-end;
 }
-.sh-voucher-input{
+.cb-sh-voucher-input{
     width: 20%;
     line-height: 2em;
     display: flex;
     flex-direction: column;
+    
 }
-.sh-voucher-input select{
+.cb-sh-voucher-input-data{
+    width: 20%;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -12px;
+}
+.cb-sh-voucher-input-data input{
+    border-radius: 3px;
+}
+.cb-sh-voucher-input select{
     width: 100%;
     padding: 6px;
     border: 1px solid var(--light-black-op);
     border-radius: 3px;
 }
-.sh-voucher-input select:focus{
+.cb-sh-voucher-input select:focus{
     outline: none;
 }
-.sh-voucher-input input{
+.cb-sh-voucher-input input{
     width: 100%;
     padding: 6px;
     border: 1px solid var(--light-black-op);
     border-radius: 3px;
 }
-.sh-voucher-input input:focus{
+.cb-sh-voucher-input input:focus{
     outline: none;
 }
 /* === FIND AND RESET === */
-.sh-find-reset-container{
+.cb-sh-find-reset-container{
     gap: 20px;
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 }
-.sh-find-btn button{
+.cb-sh-find-btn button{
     padding: 7px 15px;
     color: var(--white);
     background-color: var(--green);
@@ -136,10 +149,10 @@ a {
     transition: all 0.3s ease-in-out;
     border: none;
 }
-.sh-find-btn button:hover{
+.cb-sh-find-btn button:hover{
     background-color: var(--main-green);
 }
-.sh-reset-btn button{
+.cb-sh-reset-btn button{
     padding: 7px 15px;
     color: var(--white);
     background-color: var(--red);
@@ -147,10 +160,10 @@ a {
     transition: all 0.3s ease-in-out;
     border: none;
 }
-.sh-reset-btn button:hover{
+.cb-sh-reset-btn button:hover{
     background-color: darkred;
 }
-.sh-excel-btn button{
+.cb-sh-excel-btn button{
     padding: 7px 15px;
     color: var(--white);
     background-color: blue;
@@ -158,46 +171,46 @@ a {
     transition: all 0.3s ease-in-out;
     border: none;
 }
-.sh-excel-btn button:hover{
+.cb-sh-excel-btn button:hover{
     background-color: darkblue;
 }
 /* === BOOK REPORST === */
-.sh-book-report-section{
+.cb-sh-book-report-section{
     padding: 20px;
     display: flex;
     justify-content: space-between;
 }
-.sh-book-report-section:first-child{
+.cb-sh-book-report-section:first-child{
     align-items: flex-start;
 }
 /* === BOOK REPORT LEFT === */
-.sh-book-report-left p{
+.cb-sh-book-report-left p{
     font-size: 0.700rem;
 }
-.sh-book-report-left img{
+.cb-sh-book-report-left img{
     max-width: 60px;
     max-height: 60px;
     border: 1px solid var(--light-black-op);
 }
 /* === BOOK REPORT MIDDDLE === */
-.sh-book-report-middle{
+.cb-sh-book-report-middle{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.sh-book-report-middle h1{
+.cb-sh-book-report-middle h1{
     font-size: 1.5rem;
     font-weight: 600;
 }
 /* === BOOK REPORT RIGHT === */
-.sh-book-report-right-items{
+.cb-sh-book-report-right-items{
     text-align: right;
 }
-.sh-book-report-right-items p{
+.cb-sh-book-report-right-items p{
     font-size: 0.900rem;
 }
 /* === MANAGE SALE DETAILS SECTION === */
-.manage-sale-details-section{
+.cb-manage-sale-details-section{
     width: 100%;
     padding: 20px;
 }
@@ -218,15 +231,15 @@ table th{
 table tr:hover{
     background-color: rgba(92, 91, 91, 0.103);
 }
-.empty-section{
+.cb-empty-section{
     width: 100%;
 }
-.text-center{
+.cb-text-center{
     text-align: center;
     font-size: 13px;
 }
 /* === SAVE BUTTON === */
-.sh-print-button button{
+.cb-sh-print-button button{
     padding: 7px 15px;
     margin-top: 30px;
     color: var(--white);
@@ -235,6 +248,6 @@ table tr:hover{
     transition: all 0.3s ease-in-out;
     border: none;
 }
-.sh-print-button button:hover{
+.cb-sh-print-button button:hover{
     background-color: var(--main-green);
 }

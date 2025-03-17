@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 
-/* import './css/BankBook.css' */
+import './css/BankBook.css'
 const BankBook = () => {
     return (
         <>
-           <div className="sh-parent">
+           <div className="bb-sh-parent">
         {/* <!-- === TOP MENU ITEMS === --> */}
-        <div className="sh-top-menu-items">
+        <div className="bb-sh-top-menu-items">
             <ul>
                 <li className="sh-menu-items">< Link to="/FinanCialReports-page">Cash Book</ Link></li>
                 <li className="sh-active-item">< Link to="/BankBook-page">Bank Book</ Link></li>
@@ -17,8 +17,8 @@ const BankBook = () => {
             </ul>
         </div>
       {/*   <!-- === FIND SECTION === --> */}
-        <div className="sh-find-section">
-            <div className="sh-voucher-input">
+        <div className="bb-sh-find-section">
+            <div className="bb-sh-voucher-input">
                 <label htmlFor="text">Ledger Name</label>
                 <select name="" id="">
                     <option value="" name="" title="Select One">Select One</option>
@@ -26,11 +26,11 @@ const BankBook = () => {
                     <option value="" name="" title="Select One">Petty Cash</option>
                 </select>
             </div>
-            <div className="sh-voucher-input">
+            <div className="bb-sh-voucher-input-data">
                 <label htmlFor="text">Date</label>
                 <input type="text" placeholder="27/02/2025-27/02/2025" name="" id=""/>
             </div>
-            <div className="sh-voucher-input">
+            <div className="bb-sh-voucher-input">
                 <label htmlFor="text">Per Page Row</label>
                 <select name="" id="">
                     <option value="" name="" title="Select One">Select One</option>
@@ -42,39 +42,39 @@ const BankBook = () => {
                 </select>
             </div>
           {/*   <!-- === FIND AND RESET === --> */}
-            <div className="sh-find-reset-container">
-                <div className="sh-find-btn">
+            <div className="bb-sh-find-reset-container">
+                <div className="bb-sh-find-btn">
                     <button type="submit" value="" name="" id="">Find</button>
                 </div>
-                <div className="sh-reset-btn">
+                <div className="bb-sh-reset-btn">
                     <button type="reset">Reset</button>
                 </div>
-                <div className="sh-excel-btn">
+                <div className="bb-sh-excel-btn">
                     <button type="submit"><i className="fa-solid fa-file-excel"></i></button>
                 </div>
             </div>
         </div>
-        <div className="sh-child-container">
+        <div className="bb-sh-child-container">
           {/*   <!-- === BOOK REPORST === --> */}
-            <div className="sh-book-report-section">
+            <div className="bb-sh-book-report-section">
                {/*  <!-- === BOOK REPORT LEFT === --> */}
-                <div className="sh-book-report-left">
+                <div className="bb-sh-book-report-left">
                     <p>Print Date:27-02-2025 12:00pm, User: Subas Hembrom</p>
                     <img src="" alt="img"/>
                 </div>
                 {/* <!-- === BOOK REPORT MIDDDLE === --> */}
-                <div className="sh-book-report-middle">
+                <div className="bb-sh-book-report-middle">
                     <h1>Bank Book Report</h1>
                     <p>From: 01/01/2025 To 31/12/2025</p>
                 </div>
                {/*  <!-- === BOOK REPORT RIGHT === --> */}
-                <div className="sh-book-report-right-items">
+                <div className="bb-sh-book-report-right-items">
                     <p>B-25, Mannan Plaza, 4th Floor</p>
                     <p>Khilkht, Dhaka-1293, Bangladesh</p>
                 </div>
             </div>
          {/*    <!-- === MANAGE SALE DETAILS SECTION === --> */}
-            <div className="manage-sale-details-section">
+            <div className="bb-manage-sale-details-section">
                 <table>
                     <thead>
                         <tr>
@@ -90,14 +90,14 @@ const BankBook = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td className="text-center" colSpan="8">No Data Found</td>
+                            <td className="bb-text-center" colSpan="8">No Data Found</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
      {/*    <!-- === SAVE BUTTON === --> */}
-         <div className="sh-print-button">
+         <div className="bb-sh-print-button">
             <button type="submit">Print</button>
          </div>
     </div>

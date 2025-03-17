@@ -1,13 +1,13 @@
-/* import './css/TrialBalance.css' */
+import './css/TrialBalance.css'
 
 import { Link } from "react-router-dom";
 
 const TrialBalance = () => {
     return (
         <>
-             <div className="sh-parent">
+             <div className="tb-sh-parent">
      {/*    <!-- === TOP MENU ITEMS === --> */}
-        <div className="sh-top-menu-items">
+        <div className="tb-sh-top-menu-items">
             <ul>
                 <li className="sh-menu-items"><Link to="/FinanCialReports-page">Cash Book</Link></li>
                 <li className="sh-menu-items"><Link  to="/BankBook-page">Bank Book</Link></li>
@@ -18,12 +18,12 @@ const TrialBalance = () => {
             </ul>
         </div>
   {/*       <!-- === FIND SECTION === --> */}
-        <div className="sh-find-section">
-            <div className="sh-voucher-input">
+        <div className="tb-sh-find-section">
+            <div className="tb-sh-voucher-input">
                 <label htmlFor="text">Date</label>
                 <input type="text" placeholder="27/02/2025-27/02/2025" name="" id=""/>
             </div>
-            <div className="sh-ledger-box">
+            <div className="tb-sh-ledger-box">
                 <label htmlFor="text">Type</label>
                 <ul>
                     <li>
@@ -32,14 +32,14 @@ const TrialBalance = () => {
                 </ul>
             </div>
           {/*   <!-- === FIND AND RESET === --> */}
-            <div className="sh-find-reset-container">
-                <div className="sh-find-btn">
+            <div className="tb-sh-find-reset-container">
+                <div className="tb-sh-find-btn">
                     <button type="submit" value="" name="" id="">Find</button>
                 </div>
-                <div className="sh-reset-btn">
+                <div className="tb-sh-reset-btn">
                     <button type="reset">Reset</button>
                 </div>
-                <div className="sh-excel-btn">
+                <div className="tb-sh-excel-btn">
                     <button type="submit"><i className="fa-solid fa-file-excel"></i></button>
                 </div>
             </div>
