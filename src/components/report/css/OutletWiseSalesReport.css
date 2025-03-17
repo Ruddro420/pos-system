@@ -20,15 +20,15 @@ a {
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-lt: #37A000;
     --orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
     /* === FONTS SIZE FOR HEADING === */
     --primary-head: 22px;
     --secondary-head: 1.125rem;
@@ -38,40 +38,42 @@ a {
 
 /* === TOP MENU ITEMS === */
 .owsr-sh-top-menu-items {
-    margin: 20px;
     border-radius: 5px;
     background-color: var(--white);
-    padding: 10px 0px 10px 10px;
+    padding: 5px 0px 0px 0px;
+    margin: 30px 20px 10px 20px;
 }
 
 .owsr-sh-top-menu-items ul {
     width: 100%;
     display: flex;
-    align-items: center;
+    gap: 10px;
+    align-items: center!important; 
+    padding: 10px 20px 15px;
+    margin-bottom: 0;
 }
 
 .owsr-sh-top-menu-items li {
-    height: 50px;
- 
+    /* height: 50px; */
 }
 
 .owsr-sh-top-menu-items a {
     height: 100%;
-    padding: 0px 20px;
+    padding: 12px 20px 9px!important;
     color: var(--black);
-    font-size: var(--secondary);
+    font-size: 1rem;
+    font-weight: 500;
     display: flex;
     align-items: center;
-    margin-top: 8px;
 }
 
 .owsr-sh-menu-items a:hover {
-    color: var(--red);
+    color: var(--orange);
 }
 
 /* === ACTIVE MENU === */
 .owsr-sh-active-item a {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
     border-radius: 5px;
 }
@@ -80,8 +82,8 @@ a {
 .owsr-counter-section {
     display: flex;
     width: 100%;
-    gap: 30px;
-    padding: 20px;
+    gap: 25px;
+    padding: 10px 20px 0px;
 }
 
 /* === TOTAL SALE SECTION === */
@@ -89,7 +91,6 @@ a {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px solid rgb(0, 0, 0, 0.2)!important;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -115,7 +116,6 @@ a {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px solid rgb(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     padding: 20px;
@@ -130,7 +130,7 @@ a {
     padding: 10px 8px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,7 +157,6 @@ a {
 /* === CHILD CONTAINER === */
 .owsr-sh-child-container {
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
     margin: 20px;
     border-radius: 5px;
 }
@@ -175,7 +174,7 @@ a {
 }
 
 .owsr-sh-stock-report-section a {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
     padding: 5px 10px;
     border-radius: 3px;
@@ -189,23 +188,22 @@ a {
 .owsr-sh-filter-drop-down-section {
     width: auto;
     gap: 20px;
-    padding: 20px;
+    padding: 12px 20px 20px;
     display: flex;
     align-items: center;
 }
 
 /* === SH DRAFT CONTAINER === */
 .owsr-sh-draft-container {
-  /*   line-height: 2em; */
     margin-top: 10px;
-     
 }
 
 .owsr-sh-draft-container input {
     width: 100%;
     padding: 5px 8px;
-    border: 1px solid var(--light-black-op);
-    border-radius: 3px;  
+    border: 1px solid var(--gray-black);
+    border-radius: 0px;  
+    margin-bottom: 0;
 }
 
 .owsr-sh-draft-container input:focus {
@@ -215,8 +213,9 @@ a {
 .owsr-sh-draft-container select {
     width: 100%;
     padding: 5px 8px;
-    margin-top: -10px;
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--gray-black);
+    border-radius: 0px;
+    margin-bottom: 0;
 }
 
 .owsr-sh-draft-container select:focus {
@@ -225,7 +224,7 @@ a {
 
 /* === FILTER SEARCH === */
 .owsr-sh-filter-search-box {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 4px 10px;
     color: var(--white);
     gap: 5px;
@@ -234,6 +233,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 
 /* === FILTER RESET === */
@@ -247,6 +247,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .owsr-sh-line {
@@ -262,7 +263,7 @@ table {
 
 th,
 td {
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--lt-black-op);
     padding: 5px;
 }
 
@@ -284,7 +285,7 @@ td {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 20px 0px;
 }
 
 .owsr-sh-show-container {
@@ -294,9 +295,16 @@ td {
     font-size: var(--secondary);
 }
 
+.owsr-sh-show-container p {
+    font-size: 0.875rem!important;
+}
+
 .owsr-sh-show-container select {
-    width: 50px;
+    height: 36px;
+    width: 44px;
     text-align: center;
+    border: 1px solid var(--gray-black);
+    border-radius: 0px;
     font-size: var(--secondary);
 }
 
@@ -308,10 +316,10 @@ td {
 }
 
 .owsr-sh-file-container a {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 5px 10px 3px;
+    border-radius: 0px;
 }
 
 /* === SHOW SEARCH CONTAINER === */
@@ -324,7 +332,8 @@ td {
 
 .owsr-sh-show-search-container input {
     padding: 5px 8px;
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--gray-black);
+    border-radius: 0px;
 }
 
 .owsr-sh-show-search-container input:focus {
@@ -332,9 +341,9 @@ td {
 }
 
 /* === PRODUCT ALL DETAILS === */
-.owsr-sh-produt-all-details-container {
-    margin-top: 10px;
-    padding: 20px;
+.owsr-sh-product-all-details-container {
+    padding: 10px 20px 10px;
+    margin: 0;
 }
 
 table {
@@ -345,7 +354,7 @@ table {
 
 th,
 td {
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--lt-black-op);
     padding: 10px 5px;
 }
 
@@ -374,7 +383,7 @@ table td {
 .owsr-sh-qty-number-input input {
     width: 70px;
     padding: 5px 5px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--lt-black);
     font-size: var(--primary-para);
 }
 
@@ -385,7 +394,7 @@ table td {
 .owsr-sh-rate-input-container input {
     width: 60px;
     padding: 5px 5px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--lt-black);
     font-size: var(--primary-para);
 }
 
@@ -402,7 +411,7 @@ table td {
 .owsr-sh-discount-left-container input {
     width: 50px;
     padding: 5px 5px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--lt-black);
     font-size: var(--primary-para);
 }
 
@@ -413,8 +422,8 @@ table td {
 .owsr-sh-discount-right-container input {
     width: 50px;
     padding: 5px 5px;
-    border: 1px solid var(--light-black);
-    background-color: var(--light-black-op);
+    border: 1px solid var(--lt-black);
+    background-color: var(--lt-black-op);
     font-size: var(--primary-para);
 }
 
@@ -437,7 +446,7 @@ tbody tr th p {
 /* ==== TABLE END === */
 /* === SLIDE PAGES === */
 .owsr-sh-slider-pages {
-    padding: 20px;
+    padding: 0px 20px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -453,14 +462,14 @@ tbody tr th p {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
-    background-color: var(--light-black-op);
+    background-color: var(--gray-white);
 }
 
 .owsr-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-lt);
 }
 
 @media(max-width:768px) {

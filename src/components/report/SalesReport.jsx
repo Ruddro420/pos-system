@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../report/css/SalesReport.css";
 const SalesReport = () => {
   return (
@@ -8,22 +9,19 @@ const SalesReport = () => {
       <div className="rsr-sh-top-menu-items">
         <ul>
           <li className="rsr-sh-active-item">
-            <a href="/SalesReport-page">Counter Wise Sales Report</a>
+            <Link to="/SalesReport-page">Counter Wise Sales Report</Link>
           </li>
           <li className="rsr-sh-menu-items">
-            <a href="/OutletWiseSalesReport-page">Outlet Wise Sales Report</a>
+            <Link to="/OutletWiseSalesReport-page">Outlet Wise Sales Report</Link>
           </li>
         </ul>
       </div>
-
-
-
       {/* <!-- === COUNTER SECTION === --> */}
       <div className="rsr-counter-section">
         {/* <!-- === TOTAL SALE SECTION === --> */}
         <div className="rsr-total-sale-section">
           {/*   <!-- === HOME ICON === --> */}
-          <i className="rsr-fa-solid fa-house"></i>
+          <i className="rsr-tss fa-solid fa-house"></i>
           {/*    <!-- === SALE TEXT === --> */}
           <div className="rsr-sale-text">
             <p>TOTAL SALE</p>
@@ -33,7 +31,7 @@ const SalesReport = () => {
         {/*  <!-- === TOTAL PAID SECTION === --> */}
         <div className="rsr-total-paid-section">
           {/*   <!-- === HOME ICON === --> */}
-          <i className="rsr-fa-solid fa-check"></i>
+          <i className="rsr-tpc fa-solid fa-check"></i>
           {/*  <!-- === SALE TEXT === --> */}
           <div className="rsr-sale-text">
             <p>COUNTER 01</p>
@@ -51,9 +49,9 @@ const SalesReport = () => {
         <div className="rsr-sh-child-container">
           {/* <!-- === STOCK REPORT CARD SECTION === --> */}
           <div className="rsr-sh-stock-report-section">
-            <p>Outlet Wise Report</p>
+            <p>Counter Wise Sales Report</p>
             <a href="#">
-              <i className="rsr-fa-solid fa-filter"></i>Filter
+              <i className="rsr-fi fa-solid fa-filter"></i>Filter
             </a>
           </div>
 
@@ -130,7 +128,7 @@ const SalesReport = () => {
             </div>
           </div>
           {/*   <!-- === PRODUCT ALL DETAILS === --> */}
-          <div className="rsr-sh-produt-all-details-container">
+          <div className="rsr-sh-product-all-details-container">
             <table>
               <thead>
                 <tr>

@@ -6,7 +6,7 @@ const PurchaseReport = () => {
         {/* <!-- === TOTAL SALE SECTION === --> */}
         <div className="pr-total-sale-section">
           {/*  <!-- === HOME ICON === --> */}
-          <i className="pr-fa-solid fa-house"></i>
+          <i className="pr-tpc fa-solid fa-house"></i>
           {/* <!-- === SALE TEXT === --> */}
           <div className="pr-sale-text">
             <p>TOTAL PRODUCT Purchase</p>
@@ -16,7 +16,7 @@ const PurchaseReport = () => {
         {/* <!-- === TOTAL PAID SECTION === --> */}
         <div className="pr-total-paid-section">
           {/*   <!-- === HOME ICON === --> */}
-          <i className="pr-fa-solid fa-check"></i>
+          <i className="pr-tpc fa-solid fa-check"></i>
           {/*  <!-- === SALE TEXT === --> */}
           <div className="pr-sale-text">
             <p>TOTAL PAID</p>
@@ -26,7 +26,7 @@ const PurchaseReport = () => {
         {/* <!-- === TOTAL DUE SECTION === --> */}
         <div className="pr-total-due-section">
           {/*     <!-- === HOME ICON === --> */}
-          <i className="pr-fa-solid fa-triangle-exclamation"></i>
+          <i className="pr-tpc fa-solid fa-triangle-exclamation"></i>
           {/*   <!-- === SALE TEXT === --> */}
           <div className="pr-sale-text">
             <p>TOTAL DUE</p>
@@ -44,7 +44,7 @@ const PurchaseReport = () => {
           {/* <!-- === FILTER AND ADD SECTION === --> */}
           <div className="pr-filter-add-new">
             <div className="pr-filter-container">
-              <i className="pr-fa-solid fa-filter"></i>
+              <i className="pr-fan fa-solid fa-filter"></i>
               <a href="#">Filter</a>
             </div>
           </div>

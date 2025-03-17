@@ -20,15 +20,15 @@ a {
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-lt: #37A000;
     --orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
     /* === FONTS SIZE FOR HEADING === */
     --primary-head: 22px;
     --secondary-head: 1.125rem;
@@ -40,22 +40,21 @@ a {
 .owp-sh-top-menu-items {
     border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
-    padding:10px 0px 10px 10px; 
-    margin: 20px;
+    padding: 15px 0px 3px 0px; 
+    margin: 30px 20px 10px 20px;
 
 }
 
 .owp-sh-top-menu-items ul {
     width: 100%;
     display: flex;
+    gap: 10px;
     align-items: center;
-    margin-bottom: 12px;
-    margin-top: 10px;
+    margin-left: -15px;
 }
 
 .owp-sh-top-menu-items li {
-    height: 50px;
+    /* height: 50px; */
 }
 
 .owp-sh-top-menu-items a {
@@ -63,17 +62,20 @@ a {
     padding: 0px 20px;
     color: var(--black);
     font-size: var(--secondary);
+    font-size: 1rem;
+    font-weight: 500;
     display: flex;
     align-items: center;
+    padding: 12px 20px 8px;
 }
 
 .owp-sh-menu-items a:hover {
-    color: var(--red);
+    color: var(--orange);
 }
 
 /* === ACTIVE MENU === */
 .owp-sh-active-item a {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
     border-radius: 5px;
 }
@@ -86,7 +88,6 @@ a {
 /* === CHILD CONTAINER === */
 .owp-sh-child-container {
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
     margin: 20px;
     border-radius: 5px;
 }
@@ -104,7 +105,7 @@ a {
 }
 
 .owp-sh-stock-report-section a {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
     padding: 5px 10px;
     border-radius: 5px;
@@ -132,7 +133,8 @@ a {
 .owp-sh-draft-container input {
     width: 100%;
     padding: 5px 8px;
-    border: 1px solid var(--light-black-op);
+    border-radius: 0px!important;
+    border: 1px solid var(--gray-black);
     margin-bottom: -1px;
     border-radius: 4px;
 }
@@ -144,7 +146,8 @@ a {
 .owp-sh-draft-container select {
     width: 100%;
     padding: 5px 8px;
-    border: 1px solid var(--light-black-op);
+    border-radius: 0px;
+    border: 1px solid var(--gray-black);
 }
 
 .owp-sh-draft-container select:focus {
@@ -153,7 +156,7 @@ a {
 
 /* === FILTER SEARCH === */
 .owp-sh-filter-search-box {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 4px 10px;
     color: var(--white);
     gap: 5px;
@@ -193,7 +196,7 @@ table {
 
 th,
 td {
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--lt-black-op);
     padding: 5px;
 }
 
@@ -215,7 +218,7 @@ td {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 25px 20px 0px;
 }
 
 .owp-sh-show-container {
@@ -226,8 +229,10 @@ td {
 }
 
 .owp-sh-show-container select {
-    width: 50px;
+    height: 36px;
+    width: 42px;
     text-align: center;
+    border-radius: 0px;
     font-size: var(--secondary);
 }
 
@@ -239,10 +244,10 @@ td {
 }
 
 .owp-sh-file-container a {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 5px 10px 3px;
+    border-radius: 0px;
 }
 
 /* === SHOW SEARCH CONTAINER === */
@@ -255,7 +260,8 @@ td {
 
 .owp-sh-show-search-container input {
     padding: 5px 8px;
-    border: 1px solid var(--light-black-op);
+    border-radius: 0px;
+    border: 1px solid var(--gray-black);
 }
 
 .owp-sh-show-search-container input:focus {
@@ -264,7 +270,7 @@ td {
 
 /* === PRODUCTS DETAILS TABLE === */
 .owp-sh-product-details-table {
-    padding: 20px;
+    padding: 10px 20px 0px;
 }
 
 .owp-sh-product-details-table table {
@@ -312,7 +318,7 @@ span p {
 
 /* === SLIDE PAGES === */
 .owp-sh-slider-pages {
-    padding: 20px;
+    padding: 10px 20px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -328,14 +334,14 @@ span p {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
-    background-color: var(--light-black-op);
+    background-color: var(--gray-white);
 }
 
 .owp-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-lt);
 }
 @media(max-width:768px){
     table{

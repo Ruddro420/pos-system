@@ -20,15 +20,15 @@ a {
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-lt: #37A000;
     --orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
     /* === FONTS SIZE FOR HEADING === */
     --primary-head: 22px;
     --secondary-head: 1.125rem;
@@ -49,7 +49,6 @@ a {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
-    box-shadow: 1px 1px 15px solid rgb(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     padding: 20px;
@@ -75,7 +74,6 @@ a {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px solid rgb(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     padding: 20px;
@@ -90,7 +88,7 @@ a {
     padding: 10px 8px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +99,6 @@ a {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px solid rgb(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     padding: 20px;
@@ -137,23 +134,19 @@ a {
 
 /* === MANAGE SECTION === */
 .pr-manage-section {
-   
     margin: 20px;
     margin-top: -5px;
     border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
 }
 
 /* === MANAGE CONTAINER === */
 .pr-manage-container {
-    margin: 0px 20px;
+    padding: 10px 20px 10px!important;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
-   margin-bottom: -10px;
 }
 
 .pr-manage-container p {
@@ -174,7 +167,7 @@ a {
     color: var(--white);
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     display: flex;
     align-items: center;
 }
@@ -188,7 +181,7 @@ a {
     color: var(--white);
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     display: flex;
     align-items: center;
 }
@@ -207,11 +200,16 @@ a {
 }
 
 .pr-invoice-box input {
+    color: var(--gray-black);
     padding: 4px 10px;
     width: 80px;
     font-size: 1rem;
-    color: gray;
-    border-radius: 3px;
+    border: 1px solid var(--gray-black);
+    border-radius: 0px;
+}
+
+.pr-invoice-box input::placeholder {
+    color: var(--gray-black);
 }
 
 .pr-invoice-box input:focus {
@@ -219,11 +217,12 @@ a {
 }
 
 .pr-select-input-container select {
-    color: gray;
+    color: var(--gray-black);
     padding: 5px 10px;
     font-size: 1rem;
     width: 200px;
-    border-radius: 3px;
+    border: 1px solid var(--gray-black);
+    border-radius: 0px;
 }
 
 .pr-select-input-container select:focus {
@@ -234,8 +233,13 @@ a {
     padding: 5px 10px;
     font-size: 1rem;
     border-radius: 3px;
-    margin-top: 7px;
     text-align: left;
+    border: 1px solid var(--gray-black);
+    border-radius: 0px;
+}
+
+.pr-sale-date-input-box input::placeholder {
+    color: var(--gray-black);
 }
 
 .pr-sale-date-input-box input:focus {
@@ -250,7 +254,7 @@ a {
 }
 
 .pr-sh-find-button a {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
     padding: 7px 10px;
     border-radius: 3px;
@@ -267,8 +271,7 @@ a {
 
 /* === SHOW AND SEARCH SECTION === */
 .pr-show-and-search-section {
-    height: 90px;
-    margin: 0px 20px;
+    padding: 25px 20px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -282,13 +285,14 @@ a {
 .pr-show-container select{
     margin-top: -5px;
     padding: 5px 10px 5px 10px;
-
+    border: 1px solid var(--gray-black);
+    border-radius: 0px;
 }
 /* === SEARCH CONTAINER === */
 .pr-search-container input {
     width: 250px;
-    border: 1px solid var(--light-black);
-    border-radius: 3px;
+    border: 1px solid var(--gray-black);
+    border-radius: 0px;
     margin-left: 10px;
     padding: 2px 8px;
     align-items: start;
@@ -314,7 +318,7 @@ table {
 th,
 td {
     padding: 10px;
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--lt-black-op);
 }
 
 table th {
@@ -346,12 +350,12 @@ table th {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
-    background-color: var(--light-black-op);
+    background-color: var(--gray-white);
 }
 
 .pr-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-lt);
 }

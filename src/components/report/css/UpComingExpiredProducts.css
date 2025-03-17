@@ -8,15 +8,15 @@
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
-    --light-orange: #FD7E14;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-lt: #37A000;
+    --orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
 }
 
 /* ---------- */
@@ -30,7 +30,7 @@
 
 ::selection {
     color: var(--white);
-    background-color: var(--main-light);
+    background-color: var(--m-lt);
 }
 
 /* -- category container style -- */
@@ -71,7 +71,7 @@
 
 .cba-ucxp-active-menu {
     color: var(--white)!important;
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 8px 12px;
     border-radius: 5px;
 }
@@ -79,7 +79,7 @@
 /* -- menu hover style -- */
 
 .cba-ucxp-light-up:hover {
-    color: var(--light-orange);
+    color: var(--orange);
 }
 
 /* -- list container style -- */
@@ -99,7 +99,7 @@
 }
 
 .cba-ucxp-heading h2 {
-    color: var(--light-black);
+    color: var(--lt-black);
     font-size: 22px;
     font-weight: 500;
 }
@@ -122,14 +122,14 @@
 }
 
 .cba-ucxp-list-short-dpdwn h3 {
-    color: var(--light-black);
+    color: var(--lt-black);
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 0;
 }
 
 .cba-ucxp-list-short-dpdwn select {
-    color: var(--light-black);
+    color: var(--lt-black);
     appearance: none;
     height: 35px;
     width: 35px;
@@ -147,7 +147,7 @@
 
 .cba-ucxp-search-box legend {
     font-size: 1rem;
-    color: var(--light-black);
+    color: var(--lt-black);
     margin-bottom: 0;
 }
 
@@ -212,7 +212,7 @@ tbody tr:hover {
 .cba-ucxp-restock-btn {
     color: var(--white);
     font-size: 0.75rem;
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 5px 12px;
     border: none;
     border-radius: 2.5px;
@@ -249,7 +249,7 @@ tbody tr:hover {
 }
 
 .cba-ucxp-list-page-btn button {
-    color: var(--light-black);
+    color: var(--lt-black);
     background-color: var(--gray-white);
     padding: 7px 14px 5px;
     border: none;
@@ -259,7 +259,7 @@ tbody tr:hover {
 
 .cba-ucxp-list-page-btn h4 {
     color: var(--white);
-    background-color: var(--main-light);
+    background-color: var(--m-lt);
     font-size: 15px;
     font-weight: 400;
     padding: 8px 12px;

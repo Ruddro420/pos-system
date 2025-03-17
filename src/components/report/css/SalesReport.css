@@ -6,11 +6,6 @@
     box-sizing: border-box;
     font-family: "Poppins", serif;
 }
-
-/* body {
-    background-color: var(--gray-black);
-} */
-
 ul {
     list-style-type: none;
 }
@@ -19,24 +14,20 @@ a {
     text-decoration: none;
 }
 
-/* body {
-    background-color: var(--gray-white);
-}
- */
 :root {
     --gray-white: #F0F1F2;
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
-    --light-black: #212523;
-    --light-black-op: #21252350;
-    --main-green: #157343;
-    --main-light: #37A000;
+    --lt-black: #212523;
+    --lt-black-op: #21252350;
+    --m-green: #157343;
+    --m-light: #37A000;
     --orange: #FD7E14;
     --green: #008000;
-    --light-green: #e9f6ec;
+    --lt-green: #e9f6ec;
     --red: #FF0000;
-    --light-red: #fbeaec;
+    --lt-red: #fbeaec;
     /* === FONTS SIZE FOR HEADING === */
     --primary-head: 22px;
     --secondary-head: 1.125rem;
@@ -44,70 +35,53 @@ a {
     --primary-para: 0.825rem;
 }
 
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 /* === TOP MENU ITEMS === */
 .rsr-sh-top-menu-items {
-    margin: 20px;
     border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.149);
-    padding: 10px 0px 10px 10px;
-   
+    padding: 5px 0px 0px 0px;
+    margin: 30px 20px 10px 20px;
 }  
 
 .rsr-sh-top-menu-items ul {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
-    text-align: center;
-    
+    gap: 10px;
+    align-items: center!important; 
+    padding: 10px 20px 15px;
 } 
 
 .rsr-sh-top-menu-items li {
-   /*  height: 50px; */
-  /*   margin-top: 13px; */
-    
+
 }
 
 .rsr-sh-top-menu-items a {
     height: 100%;
-    padding: 7px 15px 7px 15px;
+    padding: 12px 20px 9px!important;
     color: var(--black);
-    font-size: var(--secondary);
+    font-size: 1rem;
+    font-weight: 500;
     display: flex;
     align-items: center;
 }
-.rsr-sh-menu-items{
-    margin-top: 12px;
-}
+
 .rsr-sh-menu-items a:hover {
-    color: var(--red);
+    color: var(--orange);
 }
-
-
-
 
 /* === ACTIVE MENU === */
 .rsr-sh-active-item a {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
     border-radius: 5px;
-    margin-top: 7px;
 }
 
 /* === COUNTER SECTION === */
 .rsr-counter-section {
     display: flex;
     width: 100%;
-    gap: 30px;
-    padding: 20px;
+    gap: 25px;
+    padding: 5px 20px;
 }
 
 /* === TOTAL SALE SECTION === */
@@ -115,7 +89,6 @@ a {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px solid rgb(0, 0, 0, 0.2)!important;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -141,7 +114,6 @@ a {
     width: 100%;
     gap: 10px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px solid rgb(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     padding: 20px;
@@ -156,7 +128,7 @@ a {
     padding: 10px 8px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,8 +155,7 @@ a {
 /* === CHILD CONTAINER === */
 .rsr-sh-child-container {
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
-    margin: 20px;
+    margin: 15px 20px 20px;
     border-radius: 5px;
 }
 
@@ -194,6 +165,7 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    border-bottom: 1px solid var(--gray-black);
 }
 
 .rsr-sh-stock-report-section p {
@@ -201,7 +173,7 @@ a {
 }
 
 .rsr-sh-stock-report-section a {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
     padding: 5px 10px;
     border-radius: 5px;
@@ -215,24 +187,20 @@ a {
 .rsr-sh-filter-drop-down-section {
     width: auto;
     gap: 20px;
-    padding: 20px;
+    padding: 10px 20px;
     display: flex;
     align-items: center;
-  /*   text-align: center; */
-   /*  align-items: flex-end; */
+    border-bottom: 1px solid var(--gray-black);
 }
 
 /* === SH DRAFT CONTAINER === */
-.rsr-sh-draft-container {
-    line-height: 2em;
-}
 
 .rsr-sh-draft-container input {
     width: 100%;
     padding: 5px 8px;
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--gray-black);
     margin-top: 10px;
-    border-radius: 5px;
+    border-radius: 0px;
 }
 
 .rsr-sh-draft-container input:focus {
@@ -242,7 +210,8 @@ a {
 .rsr-sh-draft-container select {
     width: 100%;
     padding: 5px 8px;
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--gray-black);
+    border-radius: 0px;
 }
 
 .rsr-sh-draft-container select:focus {
@@ -251,7 +220,7 @@ a {
 
 /* === FILTER SEARCH === */
 .rsr-sh-filter-search-box {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     padding: 4px 10px;
     color: var(--white);
     gap: 5px;
@@ -288,7 +257,7 @@ table {
 
 th,
 td {
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--lt-black-op);
     padding: 5px;
 }
 
@@ -310,7 +279,7 @@ td {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 20px 0px;
 }
 
 .rsr-sh-show-container {
@@ -320,9 +289,16 @@ td {
     font-size: var(--secondary);
 }
 
+.rsr-sh-show-container p {
+    font-size: 0.875rem!important;
+}
+
 .rsr-sh-show-container select {
-    width: 50px;
+    height: 35px;
+    width: 44px;
     text-align: center;
+    border: 1px solid var(--gray-black);
+    border-radius: 0px;
     font-size: var(--secondary);
 }
 .rsr-sh-product-search-box{
@@ -336,10 +312,10 @@ td {
 }
 
 .rsr-sh-file-container a {
-    background-color: var(--main-green);
+    background-color: var(--m-green);
     color: var(--white);
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 5px 10px 3px;
+    border-radius: 0px;
 }
 
 /* === SHOW SEARCH CONTAINER === */
@@ -352,7 +328,8 @@ td {
 
 .rsr-sh-show-search-container input {
     padding: 5px 8px;
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--gray-black);
+    border-radius: 0px;
 }
 
 .rsr-sh-show-search-container input:focus {
@@ -360,9 +337,8 @@ td {
 }
 
 /* === PRODUCT ALL DETAILS === */
-.rsr-sh-produt-all-details-container {
-    margin-top: 10px;
-    padding: 20px;
+.rsr-sh-product-all-details-container {
+    padding: 10px 20px 10px;
 }
 
 table {
@@ -373,7 +349,7 @@ table {
 
 th,
 td {
-    border: 1px solid var(--light-black-op);
+    border: 1px solid var(--lt-black-op);
     padding: 10px 5px;
 }
 
@@ -402,7 +378,7 @@ table td {
 .rsr-sh-qty-number-input input {
     width: 70px;
     padding: 5px 5px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--lt-black);
     font-size: var(--primary-para);
 }
 
@@ -413,7 +389,7 @@ table td {
 .rsr-sh-rate-input-container input {
     width: 60px;
     padding: 5px 5px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--lt-black);
     font-size: var(--primary-para);
 }
 
@@ -430,7 +406,7 @@ table td {
 .rsr-sh-discount-left-container input {
     width: 50px;
     padding: 5px 5px;
-    border: 1px solid var(--light-black);
+    border: 1px solid var(--lt-black);
     font-size: var(--primary-para);
 }
 
@@ -441,8 +417,8 @@ table td {
 .rsr-sh-discount-right-container input {
     width: 50px;
     padding: 5px 5px;
-    border: 1px solid var(--light-black);
-    background-color: var(--light-black-op);
+    border: 1px solid var(--lt-black);
+    background-color: var(--lt-black-op);
     font-size: var(--primary-para);
 }
 
@@ -465,7 +441,7 @@ tbody tr th p {
 /* ==== TABLE END === */
 /* === SLIDE PAGES === */
 .rsr-sh-slider-pages {
-    padding: 20px;
+    padding: 0px 20px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -477,18 +453,18 @@ tbody tr th p {
     align-items: center;
 }
 
-.sh-slide-right-item a {
+.rsr-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
-    background-color: var(--light-black-op);
+    background-color: var(--gray-white);
 }
 
 .rsr-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
-    background-color: var(--main-green);
+    background-color: var(--m-lt);
 }
 
 @media(max-width:768px) {

@@ -1,12 +1,12 @@
-
+import { Link } from 'react-router-dom';
 import '../report/css/OutletWiseSalesReport.css'
 const OutletWiseSalesReport = () => {
     return (
         <>
     <div className="owsr-sh-top-menu-items">
         <ul>
-            <li className="owsr-sh-menu-items"><a href="/SalesReport-page">Counter Wise Sales Report</a></li>
-            <li className="owsr-sh-active-item"><a href="/OutletWiseSalesReport-page">Outlet Wise Sales Report</a></li>
+            <li className="owsr-sh-menu-items"><Link to="/SalesReport-page">Counter Wise Sales Report</Link></li>
+            <li className="owsr-sh-active-item"><Link to="/OutletWiseSalesReport-page">Outlet Wise Sales Report</Link></li>
         </ul>
     </div>
    {/*  <!-- === COUNTER SECTION === --> */}
@@ -15,7 +15,7 @@ const OutletWiseSalesReport = () => {
      {/*    <!-- === TOTAL SALE SECTION === --> */}
         <div className="owsr-total-sale-section">
           {/*   <!-- === HOME ICON === --> */}
-            <i className="owsr-fa-solid fa-house"></i>
+            <i className="owsr-tss fa-solid fa-house"></i>
          {/*    <!-- === SALE TEXT === --> */}
             <div className="owsr-sale-text">
                 <p>TOTAL SALE</p>
@@ -25,7 +25,7 @@ const OutletWiseSalesReport = () => {
       {/*   <!-- === TOTAL PAID SECTION === --> */}
         <div className="owsr-total-paid-section">
         {/*     <!-- === HOME ICON === --> */}
-            <i className="owsr-fa-solid fa-check"></i>
+            <i className="owsr-tpc fa-solid fa-check"></i>
           {/*   <!-- === SALE TEXT === --> */}
             <div className="owsr-sale-text">
                 <p>COUNTER 01</p>
@@ -40,8 +40,8 @@ const OutletWiseSalesReport = () => {
         <div className="owsr-sh-child-container">
            {/*  <!-- === STOCK REPORT CARD SECTION === --> */}
             <div className="owsr-sh-stock-report-section">
-                <p>Outlet Wise Report</p>
-                <a href="#"><i className="owsr-fa-solid fa-filter"></i>Filter</a>
+                <p>Outlet Wise Sales Report</p>
+                <a href="#"><i className="owsr-ttt fa-solid fa-filter"></i>Filter</a>
             </div>
             <hr/>
           {/*   <!-- === FILTER DROPDOWN SECTION === --> */}
@@ -61,7 +61,7 @@ const OutletWiseSalesReport = () => {
                 </div>
                {/*  <!-- === FILTER SEARCH === --> */}
                 <div className="owsr-sh-filter-search-box">
-                    <i className="owsr-fa-solid fa-search"></i>Find
+                    <i className="owsr-fsb fa-solid fa-search"></i>Find
                 </div>
               {/*   <!-- === FILTER RESET === --> */}
                 <div className="owsr-sh-filter-reset-box">
@@ -95,7 +95,7 @@ const OutletWiseSalesReport = () => {
                 </div>
             </div>
            {/*  <!-- === PRODUCT ALL DETAILS === --> */}
-            <div className="owsr-sh-produt-all-details-container">
+            <div className="owsr-sh-product-all-details-container">
                 <table>
                     <thead>
                         <tr>
