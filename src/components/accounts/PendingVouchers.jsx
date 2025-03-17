@@ -1,15 +1,15 @@
-/* import'./css/PendingVouchers.css' */
+import'./css/PendingVouchers.css'
 const PendingVouchers = () => {
     return (
         <>
-            <div className="sh-parent">
-        <div className="sh-child-container">
-            <div className="sh-draft-sale-section">
+            <div className="pv-sh-parent">
+        <div className="pv-sh-child-container">
+            <div className="pv-sh-draft-sale-section">
                {/*  <!-- === DRAFT SALE TOP ITEMV === --> */}
-                <div className="sh-draft-sale-top-item">
+                <div className="pv-sh-draft-sale-top-item">
                     <p>Pending Voucher List</p>
-                    <div className="sh-sub-account">
-                        <div className="sh-filter">
+                    <div className="pv-sh-sub-account">
+                        <div className="pv-sh-filter">
                             <i className="fa-solid fa-filter"></i>filter
                         </div>
                         <p>Approve All Check</p>
@@ -18,8 +18,8 @@ const PendingVouchers = () => {
             </div>
             <hr/>
           {/*   <!-- === SHOW AND SEARCH CONTAINER === --> */}
-            <div className="sh-show-and-search-container">
-                <div className="sh-show-container">
+            <div className="pv-sh-show-and-search-container">
+                <div className="pv-sh-show-container">
                     <p>Show</p>
                     <select name="" id="">
                         <option value="number" name="show">10</option>
@@ -32,13 +32,13 @@ const PendingVouchers = () => {
                     <p>Entries</p>
                 </div>
                {/*  <!-- === SEARCH === --> */}
-                <div className="sh-search-container">
+                <div className="pv-sh-search-container">
                     <p>Search:</p>
                     <input type="search" placeholder="" name="" id=""/>
                 </div>
             </div>
           {/*   <!-- === MANAGE SALE DETAILS SECTION === --> */}
-            <div className="manage-sale-details-section">
+            <div className="pv-manage-sale-details-section">
                 <table>
                     <thead>
                         <tr>
@@ -57,15 +57,15 @@ const PendingVouchers = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td className="text-center" colSpan="11">No data availabe in tabel</td>
+                            <td className="pv-text-center" colSpan="11">No data availabe in tabel</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
            {/*  <!-- === SLIDE PAGES === --> */}
-            <div className="sh-slider-pages">
+            <div className="pv-sh-slider-pages">
                 <p>Showing 0 to 0 of 0 entries</p>
-                <div className="sh-slide-right-item">
+                <div className="pv-sh-slide-right-item">
                     <a href="#">Previous</a>
                     <p>0</p>
                     <a href="#">Next</a>

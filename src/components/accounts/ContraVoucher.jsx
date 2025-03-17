@@ -1,33 +1,33 @@
 import { Link } from "react-router-dom";
 
-
+import './css/ContraVoucher.css'
 const ContraVoucher = () => {
     return (
         <>
-           <div className="sh-parent">
+           <div className="cav-sh-parent">
      {/*    <!-- === TOP MENU ITEMS === --> */}
-        <div className="sh-top-menu-items">
+        <div className="cav-sh-top-menu-items">
             <ul>
-                <li className="sh-menu-items"><Link to="/Vouchers-page">Debit Voucher</Link></li>
-                <li className="sh-menu-items"><Link to="/CreditVoucher-page">Credit Voucher</Link></li>
-                <li className="sh-active-item"><Link to="/ContraVoucher-page">Contra Voucher</Link></li>
-                <li className="sh-menu-items"><Link to="/JournalVoucher-page">Journal Voucher</Link></li>
+                <li className="cav-sh-menu-items"><Link to="/Vouchers-page">Debit Voucher</Link></li>
+                <li className="cav-sh-menu-items"><Link to="/CreditVoucher-page">Credit Voucher</Link></li>
+                <li className="cav-sh-active-item"><Link to="/ContraVoucher-page">Contra Voucher</Link></li>
+                <li className="cav-sh-menu-items"><Link to="/JournalVoucher-page">Journal Voucher</Link></li>
             </ul>
         </div>
-        <div className="sh-child-container">
-            <div className="sh-draft-sale-section">
+        <div className="cav-sh-child-container">
+            <div className="cav-sh-draft-sale-section">
               {/*   <!-- === DRAFT SALE TOP ITEMV === --> */}
-                <div className="sh-draft-sale-top-item">
+                <div className="cav-sh-draft-sale-top-item">
                     <p>Contra Voucher List</p>
-                    <div className="sh-sub-account">
+                    <div className="cav-sh-sub-account">
                         <i className="fa-solid fa-circle-plus"></i> Create New Contra Voucher
                     </div>
                 </div>
             </div>
             <hr/>
            {/*  <!-- === SHOW AND SEARCH CONTAINER === --> */}
-            <div className="sh-show-and-search-container">
-                <div className="sh-show-container">
+            <div className="cav-sh-show-and-search-container">
+                <div className="cav-sh-show-container">
                     <p>Show</p>
                     <select name="" id="">
                         <option value="number" name="show">10</option>
@@ -40,13 +40,13 @@ const ContraVoucher = () => {
                     <p>Entries</p>
                 </div>
            {/*      <!-- === SEARCH === --> */}
-                <div className="sh-search-container">
+                <div className="cav-sh-search-container">
                     <p>Search:</p>
                     <input type="search" placeholder="" name="" id=""/>
                 </div>
             </div>
            {/*  <!-- === MANAGE SALE DETAILS SECTION === --> */}
-            <div className="manage-sale-details-section">
+            <div className="cav-manage-sale-details-section">
                 <table>
                     <thead>
                         <tr>
@@ -65,15 +65,15 @@ const ContraVoucher = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td className="text-center" colSpan="11">No data availabe in tabel</td>
+                            <td className="cav-text-center" colSpan="11">No data availabe in tabel</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
            {/*  <!-- === SLIDE PAGES === --> */}
-            <div className="sh-slider-pages">
+            <div className="cav-sh-slider-pages">
                 <p>Showing 0 to 0 of 0 entries</p>
-                <div className="sh-slide-right-item">
+                <div className="cav-sh-slide-right-item">
                     <a href="#">Previous</a>
                     <p>0</p>
                     <a href="#">Next</a>

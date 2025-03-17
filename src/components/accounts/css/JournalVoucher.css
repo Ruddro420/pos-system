@@ -37,157 +37,163 @@ a {
 }
 
 
-.pv-sh-parent {
+.jv-sh-parent{
     width: 100%;
     padding: 20px;
 }
-
-.pv-sh-child-container {
+.jv-sh-child-container{
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
     border-radius: 5px;
     margin-top: 20px;
 }
+/* === TOP MENU ITEMS === */
+.jv-sh-top-menu-items {
+    border-radius: 5px;
+    background-color: var(--white);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
+    padding: 10px 0px 10px 10px;
+}
+
+.jv-sh-top-menu-items ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: -0.5px;
+}
+
+.jv-sh-top-menu-items li {
+    height: 50px;
+}
+
+.jv-sh-top-menu-items a {
+    height: 100%;
+    padding: 0px 20px;
+    color: var(--black);
+    font-size: var(--secondary);
+    display: flex;
+    align-items: center;
+}
+
+.jv-sh-menu-items a:hover {
+    color: var(--red);
+}
+
+/* === ACTIVE MENU === */
+.jv-sh-active-item a {
+    background-color: var(--main-green);
+    color: var(--white);
+    border-radius: 5px;
+}
 
 /* === DRAFT SALE SECITON === */
-.pv-sh-draft-sale-section {
+.jv-sh-draft-sale-section{
     width: 100%;
 
 }
-
 /* === DRAFT SALE TOP ITEMV === */
-.pv-sh-draft-sale-top-item {
+.jv-sh-draft-sale-top-item{
     height: 80px;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
 }
-
-.pv-sh-draft-sale-top-item p {
+.jv-sh-draft-sale-top-item p{
     font-size: var(--secondary);
 }
-
-.pv-sh-sub-account {
-    display: flex;
-    gap: 8px;
-}
-.pv-sh-filter{
-    padding: 5px 10px;
+.jv-sh-sub-account {
+    padding: 6px 10px;
     border-radius: 5px;
-    background-color: var(--main-green);
+    cursor: pointer;
     color: var(--white);
-}
-.pv-sh-sub-account p{
-    padding: 5px 10px;
-    border-radius: 5px;
     background-color: var(--main-green);
-    color: var(--white);
 }
-
-hr{
-margin-top: -8px;
-}
-
 /* === SHOW AND SEARCH CONTAINER === */
-.pv-sh-show-and-search-container {
+.jv-sh-show-and-search-container{
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-.pv-sh-show-container {
+.jv-sh-show-container{
     gap: 5px;
     font-size: var(--secondary);
     display: flex;
     align-items: center;
 }
-
-.pv-sh-show-container select {
-    padding: 3px 1px 3px 10px;
+.jv-sh-show-container select{
+  padding: 3px 1px 3px 10px;
+    
 }
-
-.pv-sh-show-container select:focus {
+.jv-dv-sh-show-container select:focus{
     outline: none;
 }
-
 /* === SEARCH === */
-.pv-sh-search-container {
+.jv-sh-search-container{
     gap: 5px;
     display: flex;
     align-items: center;
 }
-
-.pv-sh-search-container input {
+.jv-sh-search-container input{
     width: 400px;
     padding: 5px 10px;
     border: 1px solid var(--light-black-op);
 }
-
-.pv-sh-search-container input:focus {
+.jv-dv-sh-search-container input:focus{
     outline: none;
 }
-
 /* === MANAGE SALE DETAILS SECTION === */
-.pv-manage-sale-details-section {
+.jv-manage-sale-details-section{
     width: 100%;
     padding: 0px 20px;
 }
-
 /* === TABLE === */
-table {
+table{
     width: 100%;
     border-collapse: collapse;
 }
-
-th,
-td {
+th, td{
     padding: 10px;
     border: 1px solid var(--light-black-op);
 }
-
-table th {
+table th{
     font-size: var(--secondary);
     font-weight: 500;
 }
 
-table tr:hover {
+table tr:hover{
     background-color: rgba(92, 91, 91, 0.103);
 }
-
-.pv-empty-section {
+.jv-empty-section{
     width: 100%;
 }
-
-.pv-text-center {
+.jv-text-center{
     text-align: center;
     font-size: 13px;
 }
-
 /* === SLIDE PAGES === */
-.pv-sh-slider-pages {
+.jv-sh-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.pv-sh-slide-right-item {
+.jv-sh-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.pv-sh-slide-right-item a {
+.jv-sh-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
     background-color: var(--light-black-op);
 }
 
-.pv-sh-slide-right-item p {
+.jv-sh-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
