@@ -78,6 +78,10 @@ import NewWastage from "../components/StockManagement/NewWastage";
 import ExpiredProducts from "../components/report/ExpiredProducts";
 import UpComingExpiredProducts from "../components/report/UpComingExpiredProducts";
 
+// Setting Page Routing
+
+import ApplicationSettings from "../components/settings/ApplicationSettings";
+
 const Router = createBrowserRouter([
     {
         path: '/',
@@ -414,6 +418,10 @@ const Router = createBrowserRouter([
             path:'/COGSAdjustment-page',
             element: <COGSAdjustment/>,
          },
+         {
+            path: '/ApplicationSettings-page',
+            element: <ApplicationSettings />,
+         }
          
         ]
     },
