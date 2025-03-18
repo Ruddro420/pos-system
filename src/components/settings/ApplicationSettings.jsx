@@ -11,7 +11,7 @@ const ApplicationSettings = () => {
                             Software Setup<i className='cba-top-menu-arrow bx bx-chevron-down'></i>
                             {/* <!-- menu one dropdown menu --> */}
                             <ul className="cba-stm-one-dd">
-                                <li><a href="" className="cba-stm-one-dd-active">Application</a></li>
+                                <li><a href="/ApplicationSettings-page" className="cba-stm-one-dd-active">Application</a></li>
                                 <li><a href="">Payment Settings</a></li>
                                 <li><a href="">Prefix Settings</a></li>
                                 <li><a href="">VAT Settings</a></li>
@@ -31,7 +31,7 @@ const ApplicationSettings = () => {
                             </ul>
                         </li>
                         {/* <!-- menu three --> */}
-                        <li><a href="">
+                        <li><a href="/SettingActivityLog-page">
                             Activity Log
                         </a></li>
                     </ul>
