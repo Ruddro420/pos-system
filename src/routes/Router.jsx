@@ -82,6 +82,7 @@ import UpComingExpiredProducts from "../components/report/UpComingExpiredProduct
 
 import ApplicationSettings from "../components/settings/ApplicationSettings";
 import SettingActivityLog from "../components/settings/SettingActivityLog";
+import SettingUserList from "../components/settings/SettingUserList"
 
 const Router = createBrowserRouter([
     {
@@ -426,6 +427,10 @@ const Router = createBrowserRouter([
          {
             path: '/SettingActivityLog-page',
             element: <SettingActivityLog />,
+         },
+         {
+            path: '/SettingUserList-page',
+            element: <SettingUserList />,
          }
         ]
     },

@@ -26,8 +26,8 @@ const SettingActivityLog = () => {
                             User Management<i className='cba-top-menu-arrow bx bx-chevron-down'></i>
                             {/* <!-- menu two dropdown menu --> */}
                             <ul className="cba-actilogtm-two-dd">
-                                <li><a href="">User List</a></li>
-                                <li><a href="">Role List</a></li>
+                                <li><a href="/SettingUserList-page">User List</a></li>
+                                <li><a href="">User Add</a></li>
                             </ul>
                         </li>
                         {/* <!-- menu three --> */}
