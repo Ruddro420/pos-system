@@ -83,6 +83,7 @@ import UpComingExpiredProducts from "../components/report/UpComingExpiredProduct
 import ApplicationSettings from "../components/settings/ApplicationSettings";
 import SettingActivityLog from "../components/settings/SettingActivityLog";
 import SettingUserList from "../components/settings/SettingUserList"
+import SettingAddUser from "../components/settings/SettingAddUser"
 
 const Router = createBrowserRouter([
     {
@@ -431,6 +432,10 @@ const Router = createBrowserRouter([
          {
             path: '/SettingUserList-page',
             element: <SettingUserList />,
+         },
+         {
+            path: '/SettingAddUser-page',
+            element: <SettingAddUser />,
          }
         ]
     },

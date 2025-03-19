@@ -76,7 +76,7 @@
 
 /* -- main menu icon style -- */
 
-.cba-settings-uls-top-menubar > ul > li > .cba-top-uls-menu-arrow {
+.cba-settings-uls-top-menubar > ul > li > .cba-top-menu-arrow {
     color: var(--lt-black);
     font-size: 1.5rem;
 }

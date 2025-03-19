@@ -8,7 +8,7 @@ const SettingUserList = () => {
                     <ul>
                         {/* <!-- menu one --> */}
                         <li className="cba-stm-uls-one">
-                            Software Setup<i className='cba-top-uls-menu-arrow bx bx-chevron-down'></i>
+                            Software Setup<i className='cba-top-menu-arrow bx bx-chevron-down'></i>
                             {/* <!-- menu one dropdown menu --> */}
                             <ul className="cba-stm-uls-one-dd">
                                 <li><a href="/ApplicationSettings-page">Application</a></li>
@@ -27,7 +27,7 @@ const SettingUserList = () => {
                             {/* <!-- menu two dropdown menu --> */}
                             <ul className="cba-stm-uls-two-dd">
                                 <li><a href="/SettingUserList-page" className="cba-stm-uls-two-dd-active">User List</a></li>
-                                <li><a href="">User Add</a></li>
+                                <li><a href="/SettingAddUser-page">User Add</a></li>
                             </ul>
                         </li>
                         {/* <!-- menu three --> */}

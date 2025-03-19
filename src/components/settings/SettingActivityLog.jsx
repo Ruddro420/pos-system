@@ -27,7 +27,7 @@ const SettingActivityLog = () => {
                             {/* <!-- menu two dropdown menu --> */}
                             <ul className="cba-actilogtm-two-dd">
                                 <li><a href="/SettingUserList-page">User List</a></li>
-                                <li><a href="">User Add</a></li>
+                                <li><a href="/SettingAddUser-page">User Add</a></li>
                             </ul>
                         </li>
                         {/* <!-- menu three --> */}
