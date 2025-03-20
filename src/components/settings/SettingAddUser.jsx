@@ -36,6 +36,58 @@ const SettingAddUser = () => {
                         </a></li>
                     </ul>
                 </div>
+                {/* add user container */}
+                <div className="cba-settings-adu-adduser-container">
+                    {/* email box */}
+                    <div className="cba-setting-adu-auc-name-box">
+                        <label htmlFor="">Name</label>
+                        <input type="text" placeholder='Enter your name' />
+                    </div>
+                    {/* email box */}
+                    <div className="cba-setting-adu-auc-email-box">
+                        <label htmlFor="">E-mail</label>
+                        <input type="text" placeholder='Enter your email' />
+                    </div>
+                    {/* mobile box */}
+                    <div className="cba-setting-adu-auc-mobile-box">
+                        <label htmlFor="">Mobile Number</label>
+                        <input type="text" placeholder='Enter your mobile number' />
+                    </div>
+                    {/* password box */}
+                    <div className="cba-setting-adu-auc-password-box">
+                        <label htmlFor="">Password</label>
+                        <input type="text" placeholder='Enter your login password' />
+                    </div>
+                    {/* role box */}
+                    <div className="cba-setting-adu-auc-role-box">
+                        <label htmlFor="">Role</label>
+                        <select name="" id="">
+                            <option value="">- Select Role -</option>
+                            <option value="">Super Admin</option>
+                            <option value="">Admin</option>
+                            <option value="1">User</option>
+                        </select>
+                    </div>
+                    {/* image box */}
+                    <div className="cba-setting-adu-auc-image-box">
+                        <label htmlFor="">Image</label>
+                        <input type="file" title='Upload your image'/>
+                    </div>
+                    {/* status box */}
+                    <div className="cba-setting-adu-auc-status-box">
+                        <label htmlFor="">Status</label>
+                        <select name="" id="">
+                            <option value="">- Select Status -</option>
+                            <option value="">Active</option>
+                            <option value="">Inactive</option>
+                        </select>
+                    </div>
+                    {/* submit button con */}
+                    <div className="cba-setting-adu-auc-submit-btn-box">
+                        <button>Submit</button>
+                        <button>Cancel</button>
+                    </div>
+                </div>
             </div>
         </>
     );

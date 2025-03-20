@@ -40,7 +40,7 @@ const SettingUserList = () => {
                 <div className="cba-settings-uls-details-con">
                     <div className="cba-setting-uls-dc-heading">
                         <h3>User List</h3>
-                        <button><i className='cba-setting-user-add-icon bx bx-plus-circle'></i>Add User</button>
+                        <a href="/SettingAddUser-page"><i className='cba-setting-user-add-icon bx bx-plus-circle'></i>Add User</a>
                     </div>
                     <div className="cba-setting-uls-dc-show-n-searchbox-con">
                         <div className="cba-setting-uls-dc-show-con">

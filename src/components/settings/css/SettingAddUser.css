@@ -31,6 +31,10 @@
     padding: 0;
 }
 
+select {
+    appearance: none;
+}
+
 /* -- web app cursor element selection style -- */
 
 ::selection {
@@ -170,3 +174,259 @@
 }
 
 /* ------------------------------------------------------------------------------------------------ */
+
+/* user add container style */
+
+.cba-settings-adu-adduser-container {
+    background-color: var(--white);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 15px 15px 15px;
+    width: 100%;
+}
+
+/* name input con */
+.cba-setting-adu-auc-name-box {
+    display: flex;
+    gap: 2.5px;
+    flex-direction: column;
+    width: 30%;
+}
+
+.cba-setting-adu-auc-name-box > label {
+    color: var(--lt-black-op);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cba-setting-adu-auc-name-box > input {
+    border-radius: 2.5px;
+    border: 1px solid var(--gray-black)!important;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 5px 10px 3px;
+    width: 100%;
+    text-align: left;
+}
+
+.cba-setting-adu-auc-name-box > input::placeholder {
+    color: var(--lt-black-op);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+/* email input con */
+.cba-setting-adu-auc-email-box {
+    display: flex;
+    gap: 2.5px;
+    flex-direction: column;
+    width: 30%;
+}
+
+.cba-setting-adu-auc-email-box > label {
+    color: var(--lt-black-op);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cba-setting-adu-auc-email-box > input {
+    border-radius: 2.5px;
+    border: 1px solid var(--gray-black)!important;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 5px 10px 3px;
+    width: 100%;
+    text-align: left;
+}
+
+.cba-setting-adu-auc-email-box > input::placeholder {
+    color: var(--lt-black-op);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+/* mobile number input con */
+.cba-setting-adu-auc-mobile-box {
+    display: flex;
+    gap: 2.5px;
+    flex-direction: column;
+    width: 30%;
+}
+
+.cba-setting-adu-auc-mobile-box > label {
+    color: var(--lt-black-op);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cba-setting-adu-auc-mobile-box > input {
+    border-radius: 2.5px;
+    border: 1px solid var(--gray-black)!important;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 5px 10px 3px;
+    width: 100%;
+    text-align: left;
+}
+
+.cba-setting-adu-auc-mobile-box > input::placeholder {
+    color: var(--lt-black-op);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+/* password input con */
+.cba-setting-adu-auc-password-box {
+    display: flex;
+    gap: 2.5px;
+    flex-direction: column;
+    width: 30%;
+}
+
+.cba-setting-adu-auc-password-box > label {
+    color: var(--lt-black-op);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cba-setting-adu-auc-password-box > input {
+    border-radius: 2.5px;
+    border: 1px solid var(--gray-black)!important;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 5px 10px 3px;
+    width: 100%;
+    text-align: left;
+}
+
+.cba-setting-adu-auc-password-box > input::placeholder {
+    color: var(--lt-black-op);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+/* role select con */
+.cba-setting-adu-auc-role-box {
+    display: flex;
+    gap: 2.5px;
+    flex-direction: column;
+    width: 30%;
+}
+
+.cba-setting-adu-auc-role-box > label {
+    color: var(--lt-black-op);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cba-setting-adu-auc-role-box > select {
+    border-radius: 2.5px;
+    border: 1px solid var(--gray-black)!important;
+    color: var(--lt-black-op)!important;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 5px 10px 3px;
+    width: 100%;
+    text-align: left;
+}
+
+/* image input con */
+.cba-setting-adu-auc-image-box {
+    display: flex;
+    gap: 2.5px;
+    flex-direction: column;
+    width: 30%;
+}
+
+.cba-setting-adu-auc-image-box > label {
+    color: var(--lt-black-op);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cba-setting-adu-auc-image-box > input {
+    border-radius: 2.5px;
+    border: 1px solid var(--gray-black)!important;
+    color: var(--lt-black-op)!important;
+    font-size: 0.875rem;
+    font-weight: 500;
+    width: 100%;
+    padding: 0px 0px;
+    text-align: left;
+}
+
+.cba-setting-adu-auc-image-box > input[type="file"]::-webkit-file-upload-button {
+    background-color: var(--lt-gray);
+    border: none;
+    border-top-left-radius: 2.5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 2.5px;
+    border-bottom-right-radius: 0px;
+    color: var(--lt-black-op);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 5px 10px 3px 10px;
+    cursor: pointer;
+}
+
+/* status select con */
+.cba-setting-adu-auc-status-box {
+    display: flex;
+    gap: 2.5px;
+    flex-direction: column;
+    width: 30%;
+}
+
+.cba-setting-adu-auc-status-box > label {
+    color: var(--lt-black-op);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cba-setting-adu-auc-status-box > select {
+    border-radius: 2.5px;
+    border: 1px solid var(--gray-black)!important;
+    color: var(--lt-black-op)!important;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 5px 10px 3px;
+    width: 100%;
+    text-align: left;
+}
+
+/* submit button con */
+
+.cba-setting-adu-auc-submit-btn-box {
+    display: flex;
+    gap: 7.5px;
+    flex-direction: row;
+    width: 5%;
+}
+
+/* button style */
+.cba-setting-adu-auc-submit-btn-box > button {
+    border-radius: 2.5px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 5px 10px 3px 10px;
+}
+
+/* submit btn style */
+.cba-setting-adu-auc-submit-btn-box > button:nth-child(1) {
+    background-color: var(--m-green);
+    color: var(--white);
+}
+
+/* cancel btn style */
+.cba-setting-adu-auc-submit-btn-box > button:nth-child(2) {
+    background-color: var(--red);
+    color: var(--white);
+}

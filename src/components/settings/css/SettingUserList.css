@@ -197,7 +197,7 @@
     margin-top: 5px;
 }
 
-.cba-setting-uls-dc-heading > button {
+.cba-setting-uls-dc-heading > a {
     align-items: center;
     background-color: var(--m-green);
     border-radius: 2.5px;
@@ -211,7 +211,7 @@
     padding: 5px 10px 2.5px;
 }
 
-.cba-setting-uls-dc-heading > button > i.cba-setting-user-add-icon {
+.cba-setting-uls-dc-heading > a > i.cba-setting-user-add-icon {
     color: var(--white);
     font-size: 0.95rem;
 }
