@@ -12,7 +12,7 @@ const SettingAddUser = () => {
                             {/* <!-- menu one dropdown menu --> */}
                             <ul className="cba-stm-adu-one-dd">
                                 <li><a href="/ApplicationSettings-page">Application</a></li>
-                                <li><a href="">Payment Settings</a></li>
+                                <li><a href="/SettingPaymentSetting-page">Payment Settings</a></li>
                                 <li><a href="">Prefix Settings</a></li>
                                 <li><a href="">VAT Settings</a></li>
                                 <li><a href="">Product Settings</a></li>
