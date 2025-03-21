@@ -90,6 +90,7 @@ import PrefixSettings from "../components/settings/PrefixSettings"
 import VATSettings from "../components/settings/VATSettings"
 import ProductSettings from "../components/settings/ProductSettings"
 import PurchaseSettings from "../components/settings/PurchaseSettings"
+import SaleSettings from "../components/settings/SaleSettings"
 
 const Router = createBrowserRouter([
     {
@@ -462,6 +463,10 @@ const Router = createBrowserRouter([
          {
             path: '/PurchaseSettings-page',
             element: <PurchaseSettings />,
+         },
+         {
+            path: '/SaleSettings-page',
+            element: <SaleSettings />,
          }
         ]
     },

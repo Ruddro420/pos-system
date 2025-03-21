@@ -17,7 +17,7 @@ const SettingUserList = () => {
                                 <li><a href="/VATSettings-page">VAT Settings</a></li>
                                 <li><a href="/ProductSettings-page">Product Settings</a></li>
                                 <li><a href="/PurchaseSettings-page">Purchase Settings</a></li>
-                                <li><a href="">Sale Settings</a></li>
+                                <li><a href="/SaleSettings-page">Sale Settings</a></li>
                                 <li><a href="">Currency</a></li>
                             </ul>
                         </li>
