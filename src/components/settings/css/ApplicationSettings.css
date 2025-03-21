@@ -14,7 +14,7 @@
     --lt-black: #212523;
     --lt-gray: #EFEFEF;
     --lt-green: #e9f6ec;
-    --lt-orange: #FD7E14;
+    --orange: #FD7E14;
     --lt-red: #fbeaec;
     --m-green: #157343;
     --m-lt: #37A000;
@@ -261,6 +261,7 @@
     color: var(--lt-black);
     font-size: 1.25rem;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 /* -- enable and disable button style -- */

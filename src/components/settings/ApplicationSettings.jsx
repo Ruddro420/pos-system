@@ -12,7 +12,7 @@ const ApplicationSettings = () => {
                             {/* <!-- menu one dropdown menu --> */}
                             <ul className="cba-stm-one-dd">
                                 <li><a href="/ApplicationSettings-page" className="cba-stm-one-dd-active">Application</a></li>
-                                <li><a href="">Payment Settings</a></li>
+                                <li><a href="/SettingPaymentSetting-page">Payment Settings</a></li>
                                 <li><a href="">Prefix Settings</a></li>
                                 <li><a href="">VAT Settings</a></li>
                                 <li><a href="">Product Settings</a></li>
@@ -26,8 +26,8 @@ const ApplicationSettings = () => {
                             User Management<i className='cba-top-menu-arrow bx bx-chevron-down'></i>
                             {/* <!-- menu two dropdown menu --> */}
                             <ul className="cba-stm-two-dd">
-                                <li><a href="">User List</a></li>
-                                <li><a href="">Role List</a></li>
+                                <li><a href="/SettingUserList-page">User List</a></li>
+                                <li><a href="/SettingAddUser-page">User Add</a></li>
                             </ul>
                         </li>
                         {/* <!-- menu three --> */}

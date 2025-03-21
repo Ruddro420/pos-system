@@ -1,0 +1,422 @@
+/* -- font link -- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* -- root css -- */
+
+:root {
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --gray-white: #F0F1F2; /* For body*/
+    --green: #008000;
+    --lp-green: #F8FAF8;
+    --lt-black-op: #21252350;
+    --lt-black: #212523;
+    --lt-gray: #EFEFEF;
+    --lt-green: #e9f6ec;
+    --orange: #FD7E14;
+    --lt-red: #fbeaec;
+    --m-green: #157343;
+    --m-lt: #37A000;
+    --red: #FF0000;
+    --white: #FFFFFF;
+}
+
+/* -- universal style -- */
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* -- web app cursor element selection style -- */
+
+::selection {
+    background-color: var(--m-lt);
+    color: var(--white);
+}
+
+/* -- setting container style -- */
+
+.cba-setting-uls-container {
+    padding: 20px 20px 20px 30px;
+}
+
+/* -- settings top menu bar style -- */
+
+/* -- menu block style -- */
+
+.cba-settings-uls-top-menubar > ul {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px 0px 7.5px 0px;
+}
+
+/* -- main menu and their icon style -- */
+
+.cba-settings-uls-top-menubar > ul > li {
+    align-items: center;
+    border-bottom: 2px solid var(--white);
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    gap: 5px;
+}
+
+/* -- active main menu style -- */
+
+.cba-settings-uls-top-menubar > ul > li.cba-stm-uls-two {
+    color: var(--m-lt);
+}
+
+/* -- main menu icon style -- */
+
+.cba-settings-uls-top-menubar > ul > li > .cba-top-menu-arrow {
+    color: var(--lt-black);
+    font-size: 1.5rem;
+}
+
+/* -- main menu hover style -- */
+
+.cba-settings-uls-top-menubar > ul > li:hover {
+    border-bottom: 2px solid var(--m-lt);
+}
+
+/* -- menu three style -- */
+
+.cba-settings-uls-top-menubar > ul > li > a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+/* -- settings top menu bar dropdown style -- */
+
+.cba-settings-uls-top-menubar > ul > li > ul {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 7.5px;
+    list-style-type: none;
+    padding: 2.5px 12.5px;
+}
+
+.cba-settings-uls-top-menubar > ul > li > ul {
+    display: none;
+}
+
+/* -- main manus dropdown style -- */
+
+.cba-settings-uls-top-menubar > ul > .cba-stm-uls-one:hover > .cba-stm-uls-one-dd {
+    display: block;
+}
+
+.cba-settings-uls-top-menubar > ul > .cba-stm-uls-two:hover > .cba-stm-uls-two-dd {
+    display: block;
+}
+
+/* -- dropdown menus text style -- */
+
+.cba-settings-uls-top-menubar > ul > li > ul > li {
+    padding-bottom: 2.5px;
+}
+
+.cba-settings-uls-top-menubar > ul > li > ul > li > a {
+    color: var(--black);
+    font-size: 0.875rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* -- dropdown active menu style -- */
+
+.cba-settings-uls-top-menubar > ul > li > ul > li > a.cba-stm-uls-two-dd-active {
+    color: var(--m-lt);
+}
+
+/* -- dropdown menus hover style -- */
+
+.cba-settings-uls-top-menubar > ul > li > ul > li > a:hover {
+    text-decoration: underline 1.5px var(--m-lt);
+}
+
+/* -- dropdown menu position style -- */
+
+.cba-settings-uls-top-menubar > ul > .cba-stm-uls-one {
+    position: relative;
+}
+
+.cba-settings-uls-top-menubar > ul > li > .cba-stm-uls-one-dd {
+    position: absolute;
+    top: 27.5px;
+    left: 0px;
+    z-index: 1;
+}
+
+.cba-settings-uls-top-menubar > ul > .cba-stm-uls-two {
+    position: relative;
+}
+
+.cba-settings-uls-top-menubar > ul > li > .cba-stm-uls-two-dd {
+    position: absolute;
+    top: 27.5px;
+    left: 0px;
+    width: 177px;
+    z-index: 1;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* -- table style */
+
+.cba-settings-uls-details-con {
+    background-color: var(--white);
+    border-radius: 5px;
+    padding: 25px;
+}
+
+/* -- table heading style -- */
+
+.cba-setting-uls-dc-heading {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--gray-black);
+}
+
+.cba-setting-uls-dc-heading > h3 {
+    color: var(--lt-black);
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.cba-setting-uls-dc-heading > a {
+    align-items: center;
+    background-color: var(--m-green);
+    border-radius: 2.5px;
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+    display: flex;
+    font-size: 0.875rem;
+    font-weight: 400;
+    gap: 2.5px;
+    padding: 5px 10px 2.5px;
+}
+
+.cba-setting-uls-dc-heading > a > i.cba-setting-user-add-icon {
+    color: var(--white);
+    font-size: 0.95rem;
+}
+
+/* -- show and search container style */
+
+.cba-setting-uls-dc-show-n-searchbox-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.cba-setting-uls-dc-show-con {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cba-setting-uls-dc-show-con > p {
+    color: var(--lt-black);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.cba-setting-uls-dc-show-con > select {
+    background-color: var(--white);
+    border: 1px solid var(--gray-black);
+    border-radius: 2.5px;
+    color: var(--lt-black);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 2.5px 7.5px 2.5px 7.5px;
+}
+
+.cba-setting-uls-dc-searchbox-con {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.cba-setting-uls-dc-searchbox-con > label {
+    color: var(--lt-black);
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: 2.5px;
+}
+
+.cba-setting-uls-dc-searchbox-con > input {
+    background-color: var(--white);
+    border: 1px solid var(--gray-black);
+    border-radius: 2.5px;
+    color: var(--lt-black);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 2.5px 7.5px 2.5px;
+    margin-bottom: 0;
+}
+
+/* -- table style -- */
+
+.cba-setting-uls-dc-table-con {
+    width: 100%;
+}
+
+.cba-setting-uls-dc-table-con > table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* thead */
+
+.cba-setting-uls-dc-table-con > table > thead > tr {
+    background-color: var(--gray-white)!important;
+}
+
+.cba-setting-uls-dc-table-con > table > thead > tr > th {
+    border: 1px solid var(--gray-black);
+    padding: 10px 5px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+/* tbody */
+
+.cba-setting-uls-dc-table-con > table > tbody > tr {
+    background-color: var(--white);
+}
+
+.cba-setting-uls-dc-table-con > table > tbody > tr:hover {
+    background-color: var(--gray-white)!important;
+}    
+
+.cba-setting-uls-dc-table-con > table > tbody > tr > td {
+    border: 1px solid var(--gray-black);
+    padding: 10px 5px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--lt-black);
+}
+
+/* role style */
+
+.cba-setting-uls-dc-table-con > table > tbody > tr > td > span.cba-setting-uls-dc-table-role-style {
+    color: var(--white);
+    background-color: var(--m-green);
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding: 1.5px 7.5px 2.5px;
+    border-radius: 15px;
+}
+
+/* img style */
+
+.cba-setting-uls-dc-table-con > table > tbody > tr > td > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 2.5px;
+    overflow: hidden;
+}
+
+/* -- active status style -- */
+
+/* active */
+
+.cba-setting-uls-dc-table-con > table > tbody > tr > td > span.cba-setting-uls-dc-table-status-as {
+    color: var(--m-green);
+    background-color: var(--lt-green);
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 1.5px 10px 2.5px;
+    border-radius: 10px;
+}
+
+/* inactive */
+
+.cba-setting-uls-dc-table-con > table > tbody > tr > td > span.cba-setting-uls-dc-table-status-ins {
+    color: var(--red);
+    background-color: var(--lt-red);
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 1.5px 10px 2.5px;
+    border-radius: 10px;
+}
+
+/* icon style */
+
+.cba-setting-uls-dc-table-con > table > tbody > tr > td > i.cba-setting-uls-dc-table-edit-icon {
+    color: var(--green);
+    background-color: var(--lt-green);
+    padding: 7.5px;
+    border: 1px solid var(--green);
+    font-size: 1.25rem;
+}
+
+/* no data style */
+
+.cba-setting-uls-dc-table-con > table > tbody > tr > td.cba-no-data-in-table {
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--it-black);
+    padding: 12.5px 5px 10px;
+}
+
+/* -- pagination style -- */
+
+.cba-setting-uls-dc-pagination-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cba-setting-uls-dc-pagination-con > p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.cba-setting-uls-dc-pagination {
+    display: flex;
+    gap: 7.5px;
+    align-items: center;
+}
+
+.cba-setting-uls-dc-pagination > button {
+    background-color: var(--gray-white);
+    border-radius: 2.5px;
+    border: 1px solid var(--gray-white);
+    color: var(--lt-black);
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 4.5px 7.5px 2.5px 7.5px;
+}
+
+.cba-setting-uls-dc-pagination > p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 0;
+    padding: 4.5px 10px 2.5px;
+    background-color: var(--m-lt);
+    border-radius: 2.5px;
+}
