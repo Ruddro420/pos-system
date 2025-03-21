@@ -14,7 +14,7 @@ const SettingUserList = () => {
                                 <li><a href="/ApplicationSettings-page">Application</a></li>
                                 <li><a href="/SettingPaymentSetting-page">Payment Settings</a></li>
                                 <li><a href="/PrefixSettings-page">Prefix Settings</a></li>
-                                <li><a href="">VAT Settings</a></li>
+                                <li><a href="/VATSettings-page">VAT Settings</a></li>
                                 <li><a href="">Product Settings</a></li>
                                 <li><a href="">Purchase Settings</a></li>
                                 <li><a href="">Sale Settings</a></li>
@@ -112,7 +112,7 @@ const SettingUserList = () => {
                                     <td><i className='cba-setting-uls-dc-table-edit-icon bx bx-edit'></i></td>
                                 </tr>
                                 <tr>
-                                    <td className='cba-no-data-in-table' colSpan={10}>No data avauilable in the table</td>
+                                    <td className='cba-no-data-in-table' colSpan={10}>No data available in the table</td>
                                 </tr>
                             </tbody>
                         </table>

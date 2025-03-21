@@ -14,7 +14,7 @@ const SettingAddUser = () => {
                                 <li><a href="/ApplicationSettings-page">Application</a></li>
                                 <li><a href="/SettingPaymentSetting-page">Payment Settings</a></li>
                                 <li><a href="/PrefixSettings-page">Prefix Settings</a></li>
-                                <li><a href="">VAT Settings</a></li>
+                                <li><a href="/VATSettings-page">VAT Settings</a></li>
                                 <li><a href="">Product Settings</a></li>
                                 <li><a href="">Purchase Settings</a></li>
                                 <li><a href="">Sale Settings</a></li>

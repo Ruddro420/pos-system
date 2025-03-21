@@ -87,6 +87,7 @@ import SettingUserList from "../components/settings/SettingUserList"
 import SettingAddUser from "../components/settings/SettingAddUser"
 import SettingPaymentSetting from "../components/settings/SettingPaymentSetting"
 import PrefixSettings from "../components/settings/PrefixSettings"
+import VATSettings from "../components/settings/VATSettings"
 
 const Router = createBrowserRouter([
     {
@@ -447,6 +448,10 @@ const Router = createBrowserRouter([
          {
             path: '/PrefixSettings-page',
             element: <PrefixSettings />,
+         },
+         {
+            path: '/VATSettings-page',
+            element: <VATSettings />,
          }
         ]
     },

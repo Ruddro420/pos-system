@@ -1,0 +1,455 @@
+/* -- font link -- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* -- root css -- */
+
+:root {
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --gray-white: #F0F1F2; /* For body*/
+    --green: #008000;
+    --lp-green: #F8FAF8;
+    --lt-black-op: #21252350;
+    --lt-black: #212523;
+    --lt-gray: #EFEFEF;
+    --lt-green: #e9f6ec;
+    --orange: #FD7E14;
+    --lt-red: #fbeaec;
+    --m-green: #157343;
+    --m-lt: #37A000;
+    --red: #FF0000;
+    --white: #FFFFFF;
+    --blue: #0000ff;
+}
+
+/* -- universal style -- */
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* -- web app cursor element selection style -- */
+
+::selection {
+    background-color: var(--m-lt);
+    color: var(--white);
+}
+
+/* -- setting container style -- */
+
+.cba-vat-setting-container {
+    padding: 20px 20px 20px 30px;
+}
+
+/* -- vst top menu bar style -- */
+
+/* -- menu block style -- */
+
+.cba-vst-top-menubar > ul {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px 0px 7.5px 0px;
+}
+
+/* -- main menu and their icon style -- */
+
+.cba-vst-top-menubar > ul > li {
+    align-items: center;
+    border-bottom: 2px solid var(--white);
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    gap: 5px;
+}
+
+/* -- active main menu style -- */
+
+.cba-vst-top-menubar > ul > li.cba-vsttm-one {
+    color: var(--m-lt);
+}
+
+/* -- main menu icon style -- */
+
+.cba-vst-top-menubar > ul > li > .cba-top-menu-arrow {
+    color: var(--lt-black);
+    font-size: 1.5rem;
+}
+
+/* -- main menu hover style -- */
+
+.cba-vst-top-menubar > ul > li:hover {
+    border-bottom: 2px solid var(--m-lt);
+}
+
+/* -- menu three style -- */
+
+.cba-vst-top-menubar > ul > li > a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+/* -- vst top menu bar dropdown style -- */
+
+.cba-vst-top-menubar > ul > li > ul {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 7.5px;
+    list-style-type: none;
+    padding: 2.5px 12.5px;
+}
+
+.cba-vst-top-menubar > ul > li > ul {
+    display: none;
+}
+
+/* -- main manus dropdown style -- */
+
+.cba-vst-top-menubar > ul > .cba-vsttm-one:hover > .cba-vsttm-one-dd {
+    display: block;
+}
+
+.cba-vst-top-menubar > ul > .cba-vsttm-two:hover > .cba-vsttm-two-dd {
+    display: block;
+}
+
+/* -- dropdown menus text style -- */
+
+.cba-vst-top-menubar > ul > li > ul > li {
+    padding-bottom: 2.5px;
+}
+
+.cba-vst-top-menubar > ul > li > ul > li > a {
+    color: var(--black);
+    font-size: 0.875rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* -- dropdown active menu style -- */
+
+.cba-vst-top-menubar > ul > li > ul > li > a.cba-vsttm-one-dd-active {
+    color: var(--m-lt);
+}
+
+/* -- dropdown menus hover style -- */
+
+.cba-vst-top-menubar > ul > li > ul > li > a:hover {
+    text-decoration: underline 1.5px var(--m-lt);
+}
+
+/* -- dropdown menu position style -- */
+
+.cba-vst-top-menubar > ul > .cba-vsttm-one {
+    position: relative;
+}
+
+.cba-vst-top-menubar > ul > li > .cba-vsttm-one-dd {
+    position: absolute;
+    top: 27.5px;
+    left: 0px;
+    z-index: 1;
+}
+
+.cba-vst-top-menubar > ul > .cba-vsttm-two {
+    position: relative;
+}
+
+.cba-vst-top-menubar > ul > li > .cba-vsttm-two-dd {
+    position: absolute;
+    top: 27.5px;
+    left: 0px;
+    width: 177px;
+    z-index: 1;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* details container */
+.cba-vst-details-container {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+/* top container */
+.cba-vst-dc-top-container {
+    background-color: var(--white);
+    padding: 20px 25px;
+}
+
+/* head part */
+
+.cba-vst-dc-tc-head-part {
+    border-bottom: 1px solid var(--gray-black);
+}
+
+.cba-vst-dc-tc-head-part > h1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--lt-black);
+}
+
+/* middle part */
+
+/* required */
+.cba-vst-required {
+    color: var(--red);
+}
+
+.cba-vst-dc-tc-middle-part {
+    border-bottom: 1px solid var(--gray-black);
+}
+
+/* table */
+
+.cba-vst-dc-tc-middle-part > table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--gray-black);
+    background-color: var(--white);
+}
+
+/* thead */
+.cba-vst-dc-tc-middle-part > table > thead > tr > th {
+    background-color: var(--gray-white);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: default;
+}
+
+/* tbody */
+.cba-vst-dc-tc-middle-part > table > tbody > tr > td {
+    /* background-color: var(--white); */
+    font-size: 0.875rem;
+    font-weight: 450;
+    padding: 12px 10px 1.5px;
+    border: 1px solid var(--gray-black);
+}
+
+.cba-vst-dc-tc-middle-part > table > tbody > tr > td > input {
+    border: 1px solid var(--gray-black);
+    border-radius: 2.5px;
+    &:focus {
+        outline: none;
+        text-align: left;
+    }
+}
+
+.cba-vst-dc-tc-middle-part > table > tbody > tr:hover {
+    background-color: var(--lt-gray)!important;
+}
+
+/* action icon style */
+
+/* remove icon */
+.cba-vst-dc-tc-mp-remove-icon {
+    color: var(--white);
+    background-color: var(--red);
+    font-size: 2rem;
+    border: 1px solid var(--red);
+    padding: 2.5px 2.5px 1.5px;
+    margin-top: -7.5px;
+    cursor: pointer;
+}
+
+/* add icon */
+.cba-vst-dc-tc-mp-add-icon {
+    color: var(--white);
+    background-color: var(--blue);
+    font-size: 2rem;
+    border: 1px solid var(--blue);
+    padding: 2.5px 2.5px 1.5px;
+    margin-top: -2.5px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+/* bottom part */
+
+.cba-vst-dc-tc-bottom-part {
+    padding-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.cba-vst-dc-tc-bottom-part > input {
+    width: 5%;
+    color: var(--white);
+    background-color: var(--m-green);
+    font-size: 1rem;
+    padding: 5px 10px 3px;
+    border-radius: 2.5px;
+    cursor: pointer;
+}
+
+/* --------------------------------------------------------------- */
+
+/* bottom container */
+.cba-vst-dc-bottom-container {
+    background-color: var(--white );
+    padding: 20px 25px;
+}
+
+/* head part */
+.cba-vst-dc-bc-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--gray-black);
+    padding-bottom: 15px;
+}
+
+.cba-vst-dc-bc-heading > h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--lt-black);
+    margin-bottom: 0;
+}
+
+.cba-vst-dc-bc-heading > a {
+    align-items: center;
+    background-color: var(--m-green);
+    border-radius: 2.5px;
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+    display: flex;
+    font-size: 0.875rem;
+    font-weight: 400;
+    gap: 2.5px;
+    padding: 5px 10px 2.5px;
+}
+
+.cba-vst-dc-bc-heading > a > i.cba-vst-dc-bc-user-add-icon {
+    color: var(--white);
+    font-size: 0.95rem;
+}
+
+/* -- show and search container style */
+
+.cba-vst-dc-bc-show-n-searchbox-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.cba-vst-dc-bc-show-con {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cba-vst-dc-bc-show-con > p {
+    color: var(--lt-black);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.cba-vst-dc-bc-show-con > select {
+    background-color: var(--white);
+    border: 1px solid var(--gray-black);
+    border-radius: 2.5px;
+    color: var(--lt-black);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 2.5px 7.5px 2.5px 7.5px;
+}
+
+.cba-vst-dc-bc-searchbox-con {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.cba-vst-dc-bc-searchbox-con > label {
+    color: var(--lt-black);
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: 2.5px;
+}
+
+.cba-vst-dc-bc-searchbox-con > input {
+    background-color: var(--white);
+    border: 1px solid var(--gray-black);
+    border-radius: 2.5px;
+    color: var(--lt-black);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 2.5px 7.5px 2.5px;
+    margin-bottom: 0;
+}
+/* table style */
+
+/* thead */
+
+.cba-vst-dc-bc-table-con > table > thead > tr {
+    background-color: var(--gray-white)!important;
+}
+
+.cba-vst-dc-bc-table-con > table > thead > tr > th {
+    border: 1px solid var(--gray-black);
+    padding: 10px 5px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.cba-vst-dc-bc-table-con > table > tbody > tr > td.cba-vst-dc-bc-no-data-in-table {
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--it-black);
+    padding: 12.5px 5px 10px;
+}
+
+/* -- pagination style -- */
+
+.cba-vst-dc-bc-pagination-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cba-vst-dc-bc-pagination-con > p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.cba-vst-dc-bc-pagination {
+    display: flex;
+    gap: 7.5px;
+    align-items: center;
+}
+
+.cba-vst-dc-bc-pagination > button {
+    background-color: var(--gray-white);
+    border-radius: 2.5px;
+    border: 1px solid var(--gray-white);
+    color: var(--lt-black);
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 4.5px 7.5px 2.5px 7.5px;
+}
+
+.cba-vst-dc-bc-pagination > p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 0;
+    padding: 4.5px 10px 2.5px;
+    background-color: var(--m-lt);
+    border-radius: 2.5px;
+}
