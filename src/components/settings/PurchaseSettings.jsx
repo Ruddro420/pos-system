@@ -66,44 +66,21 @@ const PurchaseSettings = () => {
                         <div className="cba-purset-sc-middle-part-row2">
                             <div className="cba-purset-sc-mpr2-col">
                                 <div className="cba-purset-sc-mpr2-cols-row">
-                                    <p>Brand<i className='cba-psc-mpr2-clos-mande-icon bx bxs-info-circle'></i></p>
+                                    <p>Purchase Requisition<i className='cba-psc-mpr2-clos-mande-icon bx bxs-info-circle'></i></p>
                                     <div className="cba-purset-sc-mpr2-col-row-btn-box">
                                         <button>Enable</button>
                                         <button>Disable</button>
                                     </div>
                                 </div>
                                 <div className="cba-purset-sc-mpr2-cols-row">
-                                    <p>Brand<i className='cba-psc-mpr2-clos-mande-icon bx bxs-info-circle'></i></p>
+                                    <p>Purchase Status<i className='cba-psc-mpr2-clos-mande-icon bx bxs-info-circle'></i></p>
                                     <div className="cba-purset-sc-mpr2-col-row-btn-box">
-                                        <button>Enable</button>
-                                        <button>Disable</button>
+                                        <button>Default Outlet</button>
+                                        <button>Multiple Outlet</button>
                                     </div>
                                 </div>
                                 <div className="cba-purset-sc-mpr2-cols-row">
-                                    <p>Brand<i className='cba-psc-mpr2-clos-mande-icon bx bxs-info-circle'></i></p>
-                                    <div className="cba-purset-sc-mpr2-col-row-btn-box">
-                                        <button>Enable</button>
-                                        <button>Disable</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="cba-purset-sc-mpr2-col">
-                                <div className="cba-purset-sc-mpr2-cols-row">
-                                    <p>Brand<i className='cba-psc-mpr2-clos-mande-icon bx bxs-info-circle'></i></p>
-                                    <div className="cba-purset-sc-mpr2-col-row-btn-box">
-                                        <button>Enable</button>
-                                        <button>Disable</button>
-                                    </div>
-                                </div>
-                                <div className="cba-purset-sc-mpr2-cols-row">
-                                    <p>Brand</p>
-                                    <div className="cba-purset-sc-mpr2-col-row-btn-box">
-                                        <button>Enable</button>
-                                        <button>Disable</button>
-                                    </div>
-                                </div>
-                                <div className="cba-purset-sc-mpr2-cols-row">
-                                    <p>Brand<i className='cba-psc-mpr2-clos-mande-icon bx bxs-info-circle'></i></p>
+                                    <p>VAT JV Include<i className='cba-psc-mpr2-clos-mande-icon bx bxs-info-circle'></i></p>
                                     <div className="cba-purset-sc-mpr2-col-row-btn-box">
                                         <button>Enable</button>
                                         <button>Disable</button>
@@ -112,24 +89,47 @@ const PurchaseSettings = () => {
                             </div>
                             <div className="cba-purset-sc-mpr2-col">
                                 <div className="cba-purset-sc-mpr2-cols-row">
-                                    <p>Brand<i className='cba-psc-mpr2-clos-mande-icon bx bxs-info-circle'></i></p>
+                                    <p>Lot Number<i className='cba-psc-mpr2-clos-mande-icon bx bxs-info-circle'></i></p>
                                     <div className="cba-purset-sc-mpr2-col-row-btn-box">
                                         <button>Enable</button>
                                         <button>Disable</button>
                                     </div>
                                 </div>
                                 <div className="cba-purset-sc-mpr2-cols-row">
-                                    <p>Brand</p>
+                                    <p>Purchase QR Code</p>
+                                    <div className="cba-purset-sc-mpr2-col-row-btn-box">
+                                        <button>Show</button>
+                                        <button>Hide</button>
+                                    </div>
+                                </div>
+                                <div className="cba-purset-sc-mpr2-cols-row">
+                                    <p>Vouchers Auto Approval<i className='cba-psc-mpr2-clos-mande-icon bx bxs-info-circle'></i></p>
+                                    <div className="cba-purset-sc-mpr2-col-row-btn-box">
+                                        <button>Enable</button>
+                                        <button>Disable</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="cba-purset-sc-mpr2-col">
+                                <div className="cba-purset-sc-mpr2-cols-row">
+                                    <p>Editing product price from purchase screen<i className='cba-psc-mpr2-clos-mande-icon bx bxs-info-circle'></i></p>
                                     <div className="cba-purset-sc-mpr2-col-row-btn-box">
                                         <button>Enable</button>
                                         <button>Disable</button>
                                     </div>
                                 </div>
                                 <div className="cba-purset-sc-mpr2-cols-row">
-                                    <p>Brand</p>
+                                    <p>Purchase Dashboard</p>
                                     <div className="cba-purset-sc-mpr2-col-row-btn-box">
                                         <button>Enable</button>
                                         <button>Disable</button>
+                                    </div>
+                                </div>
+                                <div className="cba-purset-sc-mpr2-cols-row">
+                                    <p>Sales Rate Display</p>
+                                    <div className="cba-purset-sc-mpr2-col-row-btn-box">
+                                        <button>Show</button>
+                                        <button>Hide</button>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@ const PurchaseSettings = () => {
                         {/* row 3 textarea */}
                         <div className="cba-purset-sc-middle-part-row3">
                             <label htmlFor="">Purchase Terms & Conditions</label>
-                            <textarea name="" id="" placeholder="Write Condition Here"></textarea>
+                            <textarea name="" id="" placeholder="Write Your Condition Here."></textarea>
                         </div>
                     </div>
                     {/* bottom part */}
