@@ -88,6 +88,7 @@ import SettingAddUser from "../components/settings/SettingAddUser"
 import SettingPaymentSetting from "../components/settings/SettingPaymentSetting"
 import PrefixSettings from "../components/settings/PrefixSettings"
 import VATSettings from "../components/settings/VATSettings"
+import ProductSettings from "../components/settings/ProductSettings"
 
 const Router = createBrowserRouter([
     {
@@ -452,6 +453,10 @@ const Router = createBrowserRouter([
          {
             path: '/VATSettings-page',
             element: <VATSettings />,
+         },
+         {
+            path: '/ProductSettings-page',
+            element: <ProductSettings />,
          }
         ]
     },

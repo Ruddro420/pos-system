@@ -15,7 +15,7 @@ const VATSettings = () => {
                                 <li><a href="/SettingPaymentSetting-page">Payment Settings</a></li>
                                 <li><a href="/PrefixSettings-page">Prefix Settings</a></li>
                                 <li><a href="/VATSettings-page" className="cba-vsttm-one-dd-active">VAT Settings</a></li>
-                                <li><a href="">Product Settings</a></li>
+                                <li><a href="/ProductSettings-page">Product Settings</a></li>
                                 <li><a href="">Purchase Settings</a></li>
                                 <li><a href="">Sale Settings</a></li>
                                 <li><a href="">Currency</a></li>
