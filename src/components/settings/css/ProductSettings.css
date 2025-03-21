@@ -187,3 +187,83 @@
     font-weight: 500;
     color: var(--lt-black);
 }
+
+/* middle part */
+.cba-proset-soc-middle-part {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 1px solid var(--gray-black);
+}
+
+/* col */
+.cba-proset-soc-mp-col {
+    width: 25%;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+/* row */
+
+.cba-proset-soc-mp-col-row {
+    display: flex;
+    gap: 7.5px;
+    flex-direction: column;
+}
+
+.cba-proset-soc-mp-col-row > p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--lt-black);
+}
+
+/* btn style */
+.cba-proset-soc-mp-col-row > div.cba-proset-soc-mp-col-row-btn-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* enable btn style */
+.cba-proset-soc-mp-col-row > div.cba-proset-soc-mp-col-row-btn-box > button:nth-child(1) {
+    color: var(--white);
+    background-color: var(--green);
+    font-size: 0.875rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 7.5px 10px 5px;
+    cursor: pointer;
+}
+
+/* disable btn style */
+.cba-proset-soc-mp-col-row > div.cba-proset-soc-mp-col-row-btn-box > button:nth-child(2) {
+    color: var(--white);
+    background-color: var(--red);
+    font-size: 0.875rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 7.5px 10px 5px;
+    cursor: pointer;
+}
+
+/* bottom part */
+.cba-proset-soc-bottom-part {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.cba-proset-soc-bottom-part > input {
+    width: 5%;
+    color: var(--white);
+    background-color: var(--m-green);
+    font-size: 1rem;
+    padding: 5px 10px 3px;
+    border-radius: 2.5px;
+    cursor: pointer;
+}
