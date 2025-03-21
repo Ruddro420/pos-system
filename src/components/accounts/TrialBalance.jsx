@@ -23,13 +23,9 @@ const TrialBalance = () => {
                 <label htmlFor="text">Date</label>
                 <input type="text" placeholder="27/02/2025-27/02/2025" name="" id=""/>
             </div>
-            <div className="tb-sh-ledger-box">
-                <label htmlFor="text">Type</label>
-                <ul>
-                    <li>
-                        <label htmlFor="cash"><input type="checkbox" value="" name="ledger" id="cash"/>Show Full Report</label>
-                    </li>
-                </ul>
+
+            <div className="tb-sh-ar-ledger-box"> 
+               <input type="checkbox" name="" id="" /><div><p>Show Full Report</p></div>
             </div>
           {/*   <!-- === FIND AND RESET === --> */}
             <div className="tb-sh-find-reset-container">

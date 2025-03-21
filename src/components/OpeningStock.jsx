@@ -1,5 +1,4 @@
 import './css/OpeningStock.css' 
-
 const OpeningStock = () => {
     return (
         <>

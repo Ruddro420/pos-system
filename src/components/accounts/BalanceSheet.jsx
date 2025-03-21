@@ -27,7 +27,7 @@ const BalanceSheet = () => {
                     <option value="" name="" title="Select One">Petty Cash</option>
                 </select>
             </div>
-            <div className="bs-sh-voucher-input">
+            <div className="bs-sh-voucher-input-data">
                 <label htmlFor="text">Date</label>
                 <input type="text" placeholder="27/02/2025-27/02/2025" name="" id=""/>
             </div>

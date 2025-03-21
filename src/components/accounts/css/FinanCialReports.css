@@ -115,12 +115,14 @@ a {
 }
 .cb-sh-voucher-input-data input{
     border-radius: 3px;
+    padding: 3px;
 }
 .cb-sh-voucher-input select{
     width: 100%;
-    padding: 6px;
+    padding: 3px;
     border: 1px solid var(--light-black-op);
     border-radius: 3px;
+    padding-left: 10px;
 }
 .cb-sh-voucher-input select:focus{
     outline: none;

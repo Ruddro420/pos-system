@@ -113,11 +113,24 @@ body{
     display: flex;
     flex-direction: column;
 }
+.bs-sh-voucher-input-data{
+    width: 20%;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -10px;
+   
+}
+.bs-sh-voucher-input-data input{
+   border-radius: 3px;
+   padding: 3px;
+}
 .bs-sh-voucher-input select{
     width: 100%;
-    padding: 6px;
+    padding: 3px;
     border: 1px solid var(--light-black-op);
     border-radius: 3px;
+    padding-left: 10px;
 }
 .bs-sh-voucher-input select:focus{
     outline: none;
