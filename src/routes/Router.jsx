@@ -9,7 +9,8 @@ import Customer from "../components/Customer";
 import Ancus from "../components/Ancus";
 import OpeningStock from "../components/OpeningStock";
 import AddOpeningStock from "../components/AddOpeningStock";
-import OpeningStockList from "../components/OpeningStockList";
+/* import OpeningStockList from "../components/OpeningStockList"; */
+import OpeningStockList from "../components/MySubscription"
 import StockAdjustment from "../components/StockAdjustment";
 import StockReport from "../components/StockReport";
 import Quotationt from "../components/Quotationt";

@@ -84,17 +84,17 @@ a {
     color: var(--white);
     border-radius: 5px;
 }
-.tb-sh-ledger-box{
-    line-height: 2em;
+
+.tb-sh-ar-ledger-box {
     display: flex;
-    flex-direction: column;
+    align-items: center; 
+    gap: 8px; 
 }
-.tb-sh-ledger-box input{
-    margin-right: 5px;
+
+.tb-sh-ar-ledger-box p {
+    margin: 0;
 }
-.tb-sh-ledger-box label{
-    margin-right: 10px;
-}
+
 /* === FIND SECTION === */
 .tb-sh-find-section{
     height: 100px;
@@ -112,10 +112,11 @@ a {
     line-height: 2em;
     display: flex;
     flex-direction: column;
+   
 }
 .tb-sh-voucher-input select{
     width: 100%;
-    padding: 6px;
+    padding: 3px;
     border: 1px solid var(--light-black-op);
     border-radius: 3px;
 }
@@ -124,9 +125,10 @@ a {
 }
 .tb-sh-voucher-input input{
     width: 100%;
-    padding: 6px;
+    padding: 3px;
     border: 1px solid var(--light-black-op);
     border-radius: 3px;
+  margin-bottom: 3px;
 }
 .tb-sh-voucher-input input:focus{
     outline: none;

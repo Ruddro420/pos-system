@@ -112,6 +112,7 @@ a {
     line-height: 2em;
     display: flex;
     flex-direction: column;
+
 }
 .pl-sh-voucher-input-data{
     width: 19%;
@@ -124,12 +125,15 @@ a {
 .pl-sh-voucher-input-data input{
     border-radius: 4px;
     height: -12px;
+    padding: 3px;
 }
 .pl-sh-voucher-input select{
     width: 100%;
-    padding: 6px;
+
     border: 1px solid var(--light-black-op);
     border-radius: 3px;
+    padding: 3px;
+    padding-left: 10px;
 }
 .pl-sh-voucher-input select:focus{
     outline: none;

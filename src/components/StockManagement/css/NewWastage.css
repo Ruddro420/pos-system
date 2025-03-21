@@ -37,35 +37,36 @@ a {
 }
 
 /* === PARENT SECTION === */
-.sh-parent-section {
+.nw-sh-parent-section {
     width: 100%;
     padding: 20px;
 }
 
 /* === CHILD SECTION === */
-.sh-child-section {
+.nw-sh-child-section {
     width: 100%;
 }
 
 /* === TOP MENU ITEMS === */
-.sh-top-menu-items {
+.nw-sh-top-menu-items {
     border-radius: 5px;
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
     padding: 10px 0px 10px 10px;
 }
 
-.sh-top-menu-items ul {
+.nw-sh-top-menu-items ul {
     width: 100%;
     display: flex;
     align-items: center;
+    margin-bottom: 1px;
 }
 
-.sh-top-menu-items li {
+.nw-sh-top-menu-items li {
     height: 50px;
 }
 
-.sh-top-menu-items a {
+.nw-sh-top-menu-items a {
     height: 100%;
     padding: 0px 20px;
     color: var(--black);
@@ -74,24 +75,24 @@ a {
     align-items: center;
 }
 
-.sh-menu-items a:hover {
+.nw-sh-menu-items a:hover {
     color: var(--red);
 }
 
 /* === ACTIVE MENU === */
-.sh-active-item a {
+.nw-sh-active-item a {
     background-color: var(--main-green);
     color: var(--white);
     border-radius: 5px;
 }
 
 /* === REQUISIION LIST SECTION === */
-.sh-requisition-top-item {
+.nw-sh-requisition-top-item {
     padding: 20px;
 }
 
 /* === DRAFT SALE SECITON === */
-.sh-draft-sale-section {
+.nw-sh-draft-sale-section {
     width: 100%;
     background-color: var(--white);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
@@ -100,21 +101,21 @@ a {
 }
 
 /* === OUTLET CONTAINER === */
-.sh-input-form-and-text-box {
+.nw-sh-input-form-and-text-box {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sh-input-form-section {
+.nw-sh-input-form-section {
     width: 50%;
     gap: 10px;
     display: flex;
     flex-direction: column;
 }
 
-.sh-outlet-container {
+.nw-sh-outlet-container {
     width: 100%;
     line-height: 2em;
     display: flex;
@@ -122,7 +123,7 @@ a {
     font-size: var(--secondary);
 }
 
-.sh-outlet-container input {
+.nw-sh-outlet-container input {
     width: 90%;
     padding: 5px 10px;
     border-radius: 3px;
@@ -130,50 +131,51 @@ a {
     border: 1px solid var(--light-black-op);
 }
 
-.sh-outlet-container input:focus {
+.nw-sh-outlet-container input:focus {
     outline: none;
 }
 
-.text-aria-box {
+.nw-text-aria-box {
     display: flex;
     flex-direction: column;
     line-height: 2em;
     width: 50%;
 }
 
-.text-aria-box textarea {
+.nw-text-aria-box textarea {
     height: 100px;
     padding: 10px 20px;
     border: 1px solid var(--light-black-op);
     border-radius: 5px;
 }
-.text-aria-box textarea:focus{
+.nw-text-aria-box textarea:focus{
     outline: none;
 }
 
 /* === EVERTHING SEARCH BOX === */
-.sh-everything-search-container {
+.nw-sh-everything-search-container {
     padding: 20px;
 }
 
-.sh-everything-search-container input {
+.nw-sh-everything-search-container input {
     padding: 10px 10px;
     border-radius: 3px;
     font-size: var(--primary-para);
     border: 1px solid var(--light-black-op);
     width: 100%;
 }
-.sh-everything-search-container input:focus{
+.nw-sh-everything-search-container input:focus{
     outline: none;
 }
 
 /* === PRODUCT ALL DETAILS === */
-.sh-produt-all-details-container {
+.nw-sh-produt-all-details-container {
     padding: 1px 20px;
+  
 }
 
 table {
-    width: 100%;
+    width: auto;
     border-collapse: collapse;
     padding: 0px 30px;
 }
@@ -194,22 +196,22 @@ table td {
     align-items: center;
 }
 
-.sh-product-search-box {
+.nw-sh-product-search-box {
     display: flex;
 }
 
-.sh-product-search-box input {
+.nw-sh-product-search-box input {
     width: 790px;
     padding: 8px 5px;
     border: 1px solid var(--light-black);
     font-size: var(--primary-para);
 }
 
-.sh-product-search-box input:focus {
+.nw-sh-product-search-box input:focus {
     outline: none;
 }
 
-.sh-avqty-box input {
+.nw-sh-avqty-box input {
     width: 100px;
     padding: 5px 5px;
     border: none;
@@ -217,11 +219,11 @@ table td {
     font-size: var(--primary-para);
 }
 
-.sh-avqty-box input:focus {
+.nw-sh-avqty-box input:focus {
     outline: none;
 }
 
-.sh-barcoee-box input {
+.nw-sh-barcoee-box input {
     width: 100px;
     padding: 5px 5px;
     border: none;
@@ -229,33 +231,33 @@ table td {
     font-size: var(--primary-para);
 }
 
-.sh-barcoee-box input:focus {
+.nw-sh-barcoee-box input:focus {
     outline: none;
 }
 
-.sh-qty-number-input input {
+.nw-sh-qty-number-input input {
     width: 90px;
     padding: 5px 5px;
     border: 1px solid var(--light-black);
     font-size: var(--primary-para);
 }
 
-.sh-qty-number-input input:focus {
+.nw-sh-qty-number-input input:focus {
     outline: none;
 }
 
-.sh-rate-input-container input {
+.nw-sh-rate-input-container input {
     width: 100px;
     padding: 5px 5px;
     border: 1px solid var(--light-black);
     font-size: var(--primary-para);
 }
 
-.sh-rate-input-container input:focus {
+.nw-sh-rate-input-container input:focus {
     outline: none;
 }
 
-.sh-total-contaier input {
+.nw-sh-total-contaier input {
     width: 100px;
     padding: 5px 5px;
     background-color: var(--light-black-op);
@@ -263,11 +265,11 @@ table td {
     font-size: var(--primary-para);
 }
 
-.sh-total-contaier input:focus {
+.nw-sh-total-contaier input:focus {
     outline: none
 }
 
-.sh-plus-icon-two a i {
+.nw-sh-plus-icon-two a i {
     padding: 5px 5px;
     color: var(--main-green);
     font-size: var(--primary-head);
@@ -275,7 +277,7 @@ table td {
     border: 1px solid var(--main-green);
 }
 
-.sh-plus-icon-two a i:hover {
+.nw-sh-plus-icon-two a i:hover {
     padding: 5px 5px;
     color: var(--white);
     font-size: var(--primary-head);
@@ -290,7 +292,7 @@ tbody tr th p {
 }
 
 /* === BOTTOM ITEMS === */
-.sh-bottom-items {
+.nw-sh-bottom-items {
     display: flex;
     gap: 30px;
     padding: 20px;
@@ -300,19 +302,19 @@ tbody tr th p {
     justify-content: flex-end;
 }
 
-.sh-submit-button a {
+.nw-sh-submit-button a {
     background-color: var(--main-green);
     color: var(--white);
     padding: 5px 10px;
     border-radius: 3px;
 }
 
-.sh-submit-button {
+.nw-sh-submit-button {
     display: flex;
     justify-content: flex-end;
     padding: 20px;
 }
 
-.sh-total-text-end {
+.nw-sh-total-text-end {
     text-align: right;
 }
