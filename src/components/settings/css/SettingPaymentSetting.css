@@ -9,7 +9,6 @@
     --gray-black: #DDDDDD;
     --gray-white: #F0F1F2; /* For body*/
     --green: #008000;
-    --lp-green: #F8FAF8;
     --lt-black-op: #21252350;
     --lt-black: #212523;
     --lt-gray: #EFEFEF;
@@ -170,3 +169,252 @@
 }
 
 /* ------------------------------------------------------------------------------------------------ */
+
+/* details container style */
+
+.cba-sps-details-container {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* left inner container */
+
+.cba-sps-left-inner-con {
+    width: 60%;
+    background-color: var(--white);
+    padding: 20px 20px;
+}
+
+.cba-sps-lic-heading-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cba-sps-lic-heading-part > h1 {
+    font-size: 1.25rem;
+    color: var(--lt-black);
+    margin-bottom: 0;
+}
+
+.cba-sps-lic-heading-part > button {
+    background-color: var(--m-green);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    padding: 5px 15px 3px;
+    border-radius: 2.5px;
+    display: flex;
+    align-items: center;
+    gap: 2.5px;
+    /* add icon style */
+    .cba-sps-lic-plus-icon {
+        font-size: 0.95rem;
+    }
+}
+
+/* table style */
+.cba-sps-lic-table-container > table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--gray-black);
+    background-color: var(--white);
+}
+
+/* thead */
+
+.cba-sps-lic-table-container > table > thead > tr > th {
+    background-color: var(--gray-white);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: default;
+}
+
+/* tbody */
+.cba-sps-lic-table-container > table > tbody > tr > td {
+    /* background-color: var(--white); */
+    font-size: 0.875rem;
+    font-weight: 450;
+    padding: 7.5px 12.5px;
+    border: 1px solid var(--gray-black);
+}
+
+.cba-sps-lic-table-container > table > tbody > tr:nth-child(even){
+    background-color: var(--lt-gray)!important;
+}
+
+.cba-sps-lic-table-container > table > tbody > tr:hover {
+    background-color: var(--lt-gray)!important;
+}
+
+/* status style */
+
+/* active */
+.cba-sps-lic-table-container > table > tbody > tr > td > span.cba-sps-lic-pms-active {
+    color: var(--green);
+    background-color: var(--lt-green);
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 1.25px 7.5px 1.5px;
+    border-radius: 15px;
+}
+
+/* inactive */
+.cba-sps-lic-table-container > table > tbody > tr > td > span.cba-sps-lic-pms-inactive {
+    color: var(--red);
+    background-color: var(--lt-red);
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 1.25px 7.5px 1.5px;
+    border-radius: 15px;
+}
+
+.cba-sps-lic-table-container > table > tbody > tr > td > div {
+    display: flex;
+    gap: 7.5px;
+    align-items: center;
+}
+
+/* edit icon style */
+.cba-sps-lic-table-container > table > tbody > tr > td > div > i.cba-sps-lic-edit-icon {
+    color: var(--green);
+    background-color: var(--lt-green);
+    padding: 8px 7px 5.5px;
+    border: 1px solid var(--green);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+/* delete icon style */
+.cba-sps-lic-table-container > table > tbody > tr > td > div > i.cba-sps-lic-delete-icon {
+    color: var(--red);
+    background-color: var(--lt-red);
+    padding: 8px 7px 5.5px;
+    border: 1px solid var(--red);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+/* right inner container */
+
+.cba-sps-right-inner-con {
+    width: 40%;
+    background-color: var(--white);
+    padding: 20px 20px;
+}
+
+.cba-sps-risc-heading-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18.5px;
+}
+
+.cba-sps-risc-heading-part > h1 {
+    font-size: 1.25rem;
+    color: var(--lt-black);
+    margin-bottom: 0;
+}
+
+.cba-sps-risc-heading-part > button {
+    background-color: var(--m-green);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-family: "Poppins", serif!important;
+    padding: 7px 15px 8px;
+    border-radius: 2.5px;
+    display: flex!important;
+    align-items: center!important;
+    gap: 2.5px!important;
+    .cba-sps-risc-plus-icon {
+        font-size: 0.95rem;
+    }
+}
+
+/* table style */
+
+.cba-sps-risc-table-container > table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--gray-black);
+    background-color: var(--white);
+}
+
+/* thead */
+
+.cba-sps-risc-table-container > table > thead > tr > th {
+    background-color: var(--gray-white);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: default;
+}
+
+/* tbody */
+.cba-sps-risc-table-container > table > tbody > tr > td {
+    /* background-color: var(--white); */
+    font-size: 0.875rem;
+    font-weight: 450;
+    padding: 7.5px 12.5px;
+    border: 1px solid var(--gray-black);
+}
+
+.cba-sps-risc-table-container > table > tbody > tr:nth-child(even){
+    background-color: var(--lt-gray)!important;
+}
+
+.cba-sps-risc-table-container > table > tbody > tr:hover {
+    background-color: var(--lt-gray)!important;
+}
+
+/* status style */
+
+/* active */
+.cba-sps-risc-table-container > table > tbody > tr > td > span.cba-sps-risc-pts-active {
+    color: var(--green);
+    background-color: var(--lt-green);
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 1.25px 7.5px 1.5px;
+    border-radius: 15px;
+}
+
+/* inactive */
+.cba-sps-risc-table-container > table > tbody > tr > td > span.cba-sps-risc-pts-inactive {
+    color: var(--red);
+    background-color: var(--lt-red);
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 1.25px 7.5px 1.5px;
+    border-radius: 15px;
+}
+
+.cba-sps-risc-table-container > table > tbody > tr > td > div {
+    display: flex;
+    gap: 7.5px;
+    align-items: center;
+}
+
+/* edit icon style */
+.cba-sps-risc-table-container > table > tbody > tr > td > div > i.cba-sps-risc-edit-icon {
+    color: var(--green);
+    background-color: var(--lt-green);
+    padding: 8px 7px 5.5px;
+    border: 1px solid var(--green);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+/* delete icon style */
+.cba-sps-risc-table-container > table > tbody > tr > td > div > i.cba-sps-risc-delete-icon {
+    color: var(--red);
+    background-color: var(--lt-red);
+    padding: 8px 7px 5.5px;
+    border: 1px solid var(--red);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
