@@ -1,0 +1,267 @@
+/* -- font link -- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* -- root css -- */
+
+:root {
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --gray-white: #F0F1F2; /* For body*/
+    --green: #008000;
+    --lp-green: #F8FAF8;
+    --lt-black-op: #21252350;
+    --lt-black: #212523;
+    --lt-gray: #EFEFEF;
+    --lt-green: #e9f6ec;
+    --orange: #FD7E14;
+    --lt-red: #fbeaec;
+    --m-green: #157343;
+    --m-lt: #37A000;
+    --red: #FF0000;
+    --white: #FFFFFF;
+}
+
+/* -- universal style -- */
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* -- web app cursor element selection style -- */
+
+::selection {
+    background-color: var(--m-lt);
+    color: var(--white);
+}
+
+/* -- setting container style -- */
+
+.cba-purset-container {
+    padding: 20px 20px 20px 30px;
+}
+
+/* -- purset top menu bar style -- */
+
+/* -- menu block style -- */
+
+.cba-purset-top-menubar > ul {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px 0px 7.5px 0px;
+}
+
+/* -- main menu and their icon style -- */
+
+.cba-purset-top-menubar > ul > li {
+    align-items: center;
+    border-bottom: 2px solid var(--white);
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    gap: 5px;
+}
+
+/* -- active main menu style -- */
+
+.cba-purset-top-menubar > ul > li.cba-purstm-one {
+    color: var(--m-lt);
+}
+
+/* -- main menu icon style -- */
+
+.cba-purset-top-menubar > ul > li > .cba-top-menu-arrow {
+    color: var(--lt-black);
+    font-size: 1.5rem;
+}
+
+/* -- main menu hover style -- */
+
+.cba-purset-top-menubar > ul > li:hover {
+    border-bottom: 2px solid var(--m-lt);
+}
+
+/* -- menu three style -- */
+
+.cba-purset-top-menubar > ul > li > a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+/* -- purset top menu bar dropdown style -- */
+
+.cba-purset-top-menubar > ul > li > ul {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 7.5px;
+    list-style-type: none;
+    padding: 2.5px 12.5px;
+}
+
+.cba-purset-top-menubar > ul > li > ul {
+    display: none;
+}
+
+/* -- main manus dropdown style -- */
+
+.cba-purset-top-menubar > ul > .cba-purstm-one:hover > .cba-purstm-one-dd {
+    display: block;
+}
+
+.cba-purset-top-menubar > ul > .cba-purstm-two:hover > .cba-purstm-two-dd {
+    display: block;
+}
+
+/* -- dropdown menus text style -- */
+
+.cba-purset-top-menubar > ul > li > ul > li {
+    padding-bottom: 2.5px;
+}
+
+.cba-purset-top-menubar > ul > li > ul > li > a {
+    color: var(--black);
+    font-size: 0.875rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* -- dropdown active menu style -- */
+
+.cba-purset-top-menubar > ul > li > ul > li > a.cba-purstm-one-dd-active {
+    color: var(--m-lt);
+}
+
+/* -- dropdown menus hover style -- */
+
+.cba-purset-top-menubar > ul > li > ul > li > a:hover {
+    text-decoration: underline 1.5px var(--m-lt);
+}
+
+/* -- dropdown menu position style -- */
+
+.cba-purset-top-menubar > ul > .cba-purstm-one {
+    position: relative;
+}
+
+.cba-purset-top-menubar > ul > li > .cba-purstm-one-dd {
+    position: absolute;
+    top: 27.5px;
+    left: 0px;
+    z-index: 1;
+}
+
+.cba-purset-top-menubar > ul > .cba-purstm-two {
+    position: relative;
+}
+
+.cba-purset-top-menubar > ul > li > .cba-purstm-two-dd {
+    position: absolute;
+    top: 27.5px;
+    left: 0px;
+    width: 177px;
+    z-index: 1;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* setting container */
+.cba-purset-setting-container {
+    background-color: var(--white);
+    padding: 20px 25px;
+}
+
+/* head part */
+.cba-purset-sc-head-part {
+    border-bottom: 1px solid var(--gray-black);
+}
+
+.cba-purset-sc-head-part > h1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--lt-black);
+}
+
+/* middle part */
+.cba-purset-sc-middle-part {
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 1px solid var(--gray-black);
+}
+
+/* row 1 select */
+.cba-purset-sc-middle-part-row1 {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.cba-purset-sc-middle-part-row1-select-box {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 50%;
+}
+
+.cba-purset-sc-middle-part-row1-select-box > label {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--lt-black);
+}
+
+.cba-purset-sc-middle-part-row1-select-box > select {
+    border: 1px solid var(--gray-black);
+    border-radius: 2.5px;
+    color: var(--lt-black);
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 7.5px 10px 5px;
+}
+
+/* row 2 button */
+.cba-purset-sc-middle-part-row2 {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.cba-purset-sc-middle-part-row2 > .cba-purset-sc-mpr2-col {
+    width: 33%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.cba-purset-sc-mpr2-col > .cba-purset-sc-mpr2-cols-row {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+/* --------------------------------------------------- */
+
+/* bottom part */
+.cba-purset-sc-bottom-part {
+    padding-top: 20px;
+    display: flex;
+    justify-self: start;
+}
+
+/* .cba-purset-sc-bottom-part > input {
+    width: 5%;
+    color: var(--white);
+    background-color: var(--m-green);
+    font-size: 1rem;
+    padding: 5px 10px 3px;
+    border-radius: 2.5px;
+    cursor: pointer;
+} */

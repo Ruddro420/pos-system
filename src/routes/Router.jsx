@@ -89,6 +89,7 @@ import SettingPaymentSetting from "../components/settings/SettingPaymentSetting"
 import PrefixSettings from "../components/settings/PrefixSettings"
 import VATSettings from "../components/settings/VATSettings"
 import ProductSettings from "../components/settings/ProductSettings"
+import PurchaseSettings from "../components/settings/PurchaseSettings"
 
 const Router = createBrowserRouter([
     {
@@ -457,6 +458,10 @@ const Router = createBrowserRouter([
          {
             path: '/ProductSettings-page',
             element: <ProductSettings />,
+         },
+         {
+            path: '/PurchaseSettings-page',
+            element: <PurchaseSettings />,
          }
         ]
     },

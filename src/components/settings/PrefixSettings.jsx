@@ -16,7 +16,7 @@ const PrefixSettings = () => {
                                 <li><a href="/PrefixSettings-page" className="cba-pretm-one-dd-active">Prefix Settings</a></li>
                                 <li><a href="/VATSettings-page">VAT Settings</a></li>
                                 <li><a href="/ProductSettings-page">Product Settings</a></li>
-                                <li><a href="">Purchase Settings</a></li>
+                                <li><a href="/PurchaseSettings-page">Purchase Settings</a></li>
                                 <li><a href="">Sale Settings</a></li>
                                 <li><a href="">Currency</a></li>
                             </ul>
