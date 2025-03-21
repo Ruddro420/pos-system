@@ -13,7 +13,7 @@ const SettingUserList = () => {
                             <ul className="cba-stm-uls-one-dd">
                                 <li><a href="/ApplicationSettings-page">Application</a></li>
                                 <li><a href="/SettingPaymentSetting-page">Payment Settings</a></li>
-                                <li><a href="">Prefix Settings</a></li>
+                                <li><a href="/PrefixSettings-page">Prefix Settings</a></li>
                                 <li><a href="">VAT Settings</a></li>
                                 <li><a href="">Product Settings</a></li>
                                 <li><a href="">Purchase Settings</a></li>
@@ -63,6 +63,7 @@ const SettingUserList = () => {
                             <thead>
                                 <tr>
                                     <th>Sl</th>
+                                    <th>ID</th>
                                     <th>Name</th>
                                     <th>Email</th>
                                     <th>Mobile No.</th>
@@ -76,6 +77,7 @@ const SettingUserList = () => {
                             <tbody>
                                 <tr>
                                     <td>1</td>
+                                    <td>262954</td>
                                     <td>MD Adnan Addro</td>
                                     <td>mdadnanaddro@gamil.com</td>
                                     <td>0123456789</td>
@@ -87,6 +89,7 @@ const SettingUserList = () => {
                                 </tr>
                                 <tr>
                                     <td>2</td>
+                                    <td>267228</td>
                                     <td>MD Adnan Addro</td>
                                     <td>mdadnanaddro@gamil.com</td>
                                     <td>0123456789</td>
@@ -98,6 +101,7 @@ const SettingUserList = () => {
                                 </tr>
                                 <tr>
                                     <td>3</td>
+                                    <td>342876</td>
                                     <td>MD Adnan Addro</td>
                                     <td>mdadnanaddro@gamil.com</td>
                                     <td>0123456789</td>
@@ -108,7 +112,7 @@ const SettingUserList = () => {
                                     <td><i className='cba-setting-uls-dc-table-edit-icon bx bx-edit'></i></td>
                                 </tr>
                                 <tr>
-                                    <td className='cba-no-data-in-table' colSpan={9}>No data avauilable in the table</td>
+                                    <td className='cba-no-data-in-table' colSpan={10}>No data avauilable in the table</td>
                                 </tr>
                             </tbody>
                         </table>

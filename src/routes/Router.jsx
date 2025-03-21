@@ -86,6 +86,7 @@ import SettingActivityLog from "../components/settings/SettingActivityLog";
 import SettingUserList from "../components/settings/SettingUserList"
 import SettingAddUser from "../components/settings/SettingAddUser"
 import SettingPaymentSetting from "../components/settings/SettingPaymentSetting"
+import PrefixSettings from "../components/settings/PrefixSettings"
 
 const Router = createBrowserRouter([
     {
@@ -442,6 +443,10 @@ const Router = createBrowserRouter([
          {
             path: '/SettingPaymentSetting-page',
             element: <SettingPaymentSetting />,
+         },
+         {
+            path: '/PrefixSettings-page',
+            element: <PrefixSettings />,
          }
         ]
     },

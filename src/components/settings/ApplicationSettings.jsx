@@ -13,7 +13,7 @@ const ApplicationSettings = () => {
                             <ul className="cba-stm-one-dd">
                                 <li><a href="/ApplicationSettings-page" className="cba-stm-one-dd-active">Application</a></li>
                                 <li><a href="/SettingPaymentSetting-page">Payment Settings</a></li>
-                                <li><a href="">Prefix Settings</a></li>
+                                <li><a href="/PrefixSettings-page">Prefix Settings</a></li>
                                 <li><a href="">VAT Settings</a></li>
                                 <li><a href="">Product Settings</a></li>
                                 <li><a href="">Purchase Settings</a></li>

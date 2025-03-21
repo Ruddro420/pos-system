@@ -196,7 +196,7 @@ select {
 }
 
 .cba-setting-adu-auc-name-box > label {
-    color: var(--lt-black-op);
+    color: var(--lt-black);
     font-size: 1rem;
     font-weight: 500;
 }
@@ -227,7 +227,7 @@ select {
 }
 
 .cba-setting-adu-auc-email-box > label {
-    color: var(--lt-black-op);
+    color: var(--lt-black);
     font-size: 1rem;
     font-weight: 500;
 }
@@ -258,7 +258,7 @@ select {
 }
 
 .cba-setting-adu-auc-mobile-box > label {
-    color: var(--lt-black-op);
+    color: var(--lt-black);
     font-size: 1rem;
     font-weight: 500;
 }
@@ -289,7 +289,7 @@ select {
 }
 
 .cba-setting-adu-auc-password-box > label {
-    color: var(--lt-black-op);
+    color: var(--lt-black);
     font-size: 1rem;
     font-weight: 500;
 }
@@ -320,7 +320,7 @@ select {
 }
 
 .cba-setting-adu-auc-role-box > label {
-    color: var(--lt-black-op);
+    color: var(--lt-black);
     font-size: 1rem;
     font-weight: 500;
 }
@@ -345,7 +345,7 @@ select {
 }
 
 .cba-setting-adu-auc-image-box > label {
-    color: var(--lt-black-op);
+    color: var(--lt-black);
     font-size: 1rem;
     font-weight: 500;
 }
@@ -384,7 +384,7 @@ select {
 }
 
 .cba-setting-adu-auc-status-box > label {
-    color: var(--lt-black-op);
+    color: var(--lt-black);
     font-size: 1rem;
     font-weight: 500;
 }
