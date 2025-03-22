@@ -93,6 +93,7 @@ a {
 
 .tb-sh-ar-ledger-box p {
     margin: 0;
+    white-space: nowrap;
 }
 
 /* === FIND SECTION === */

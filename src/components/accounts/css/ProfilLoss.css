@@ -288,7 +288,7 @@ tbody tr:nth-child(2n+1){
 /* === SAVE BUTTON === */
 .pl-sh-print-button button{
     padding: 7px 15px;
-    margin-top: 30px;
+    margin-top: 10px;
     color: var(--white);
     background-color: var(--green);
     border-radius: 5px;

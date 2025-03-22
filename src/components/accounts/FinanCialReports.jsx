@@ -10,7 +10,7 @@ const FinanCialReports = () => {
             <ul>
                 <li className="sh-active-item"><Link to="/FinanCialReports-page">Cash Book</Link></li>
                 <li className="sh-menu-items"><Link to="/BankBook-page">Bank Book</Link></li>
-                <li className="sh-menu-items"><Link to="/GeneralLedger-pagel">General Ledger</Link></li>
+                <li className="sh-menu-items"><Link to="/GeneralLedger-page">General Ledger</Link></li>
                 <li className="sh-menu-items"><Link to="/TrialBalance-page">Trial Balance</Link></li>
                 <li className="sh-menu-items"><Link to="/ProfilLoss-page">Profit & Loss</Link></li>
                 <li className="sh-menu-items"><Link to="/balanceSheet-page">Balance Sheet</Link></li>

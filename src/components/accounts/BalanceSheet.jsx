@@ -10,7 +10,7 @@ const BalanceSheet = () => {
             <ul>
                 <li className="sh-menu-items"><Link to="/FinanCialReports-page">Cash Book</Link></li>
                 <li className="sh-menu-item"><Link to="/BankBook-page">Bank Book</Link></li>
-                <li className="sh-menu-items"><Link to="/GeneralLedger-pagel">General Ledger</Link></li>
+                <li className="sh-menu-items"><Link to="/GeneralLedger-page">General Ledger</Link></li>
                 <li className="sh-menu-items"><Link to="/TrialBalance-page">Trial Balance</Link></li>
                 <li className="sh-menu-items"><Link to="/ProfilLoss-page">Profit & Loss</Link></li>
                 <li className="sh-active-item"><Link to="/balanceSheet-page">Balance Sheet</Link></li>
@@ -392,7 +392,7 @@ const BalanceSheet = () => {
             </div>
         </div>
       
-        <div className="bs-h-print-button">
+        <div className="bs-sh-print-button">
             <button type="submit">Print</button>
         </div>
     </div>  
