@@ -91,6 +91,7 @@ import VATSettings from "../components/settings/VATSettings"
 import ProductSettings from "../components/settings/ProductSettings"
 import PurchaseSettings from "../components/settings/PurchaseSettings"
 import SaleSettings from "../components/settings/SaleSettings"
+import CurrencyList from "../components/settings/CurrencyList"
 
 const Router = createBrowserRouter([
     {
@@ -467,6 +468,10 @@ const Router = createBrowserRouter([
          {
             path: '/SaleSettings-page',
             element: <SaleSettings />,
+         },
+         {
+            path: '/CurrencyList-page',
+            element: <CurrencyList />,
          }
         ]
     },

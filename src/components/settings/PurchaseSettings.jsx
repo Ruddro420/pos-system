@@ -18,7 +18,7 @@ const PurchaseSettings = () => {
                                 <li><a href="/ProductSettings-page">Product Settings</a></li>
                                 <li><a href="/PurchaseSettings-page" className="cba-purstm-one-dd-active">Purchase Settings</a></li>
                                 <li><a href="/SaleSettings-page">Sale Settings</a></li>
-                                <li><a href="">Currency</a></li>
+                                <li><a href="/CurrencyList-page">Currency</a></li>
                             </ul>
                         </li>
                         {/* <!-- menu two --> */}
