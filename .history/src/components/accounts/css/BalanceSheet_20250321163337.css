@@ -7,6 +7,10 @@
     font-family: "Poppins", serif;
 }
 
+body {
+    background-color: var(--gray-white);
+}
+
 ul {
     list-style-type: none;
 }
@@ -14,7 +18,9 @@ ul {
 a {
     text-decoration: none;
 }
-
+body{
+    background-color: var(--gray-white);
+}
 :root {
     --gray-white: #F0F1F2;
     --white: #FFFFFF;
@@ -24,7 +30,7 @@ a {
     --light-black-op: #21252350;
     --main-green: #157343;
     --main-light: #37A000;
-    --orange: #FD7E14;
+    --light-orange: #FD7E14;
     --green: #008000;
     --light-green: #e9f6ec;
     --red: #FF0000;
@@ -79,7 +85,7 @@ a {
 }
 
 .bs-sh-menu-items a:hover {
-    color: var(--orange);
+    color: var(--red);
 }
 
 /* === ACTIVE MENU === */

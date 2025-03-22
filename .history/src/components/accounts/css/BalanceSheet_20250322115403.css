@@ -24,7 +24,7 @@ a {
     --light-black-op: #21252350;
     --main-green: #157343;
     --main-light: #37A000;
-    --orange: #FD7E14;
+    --li-orange: #FD7E14;
     --green: #008000;
     --light-green: #e9f6ec;
     --red: #FF0000;
@@ -79,7 +79,7 @@ a {
 }
 
 .bs-sh-menu-items a:hover {
-    color: var(--orange);
+    color: var(--red);
 }
 
 /* === ACTIVE MENU === */

@@ -79,7 +79,7 @@ a {
 }
 
 .bs-sh-menu-items a:hover {
-    color: var(--orange);
+    color: var(--red);
 }
 
 /* === ACTIVE MENU === */
