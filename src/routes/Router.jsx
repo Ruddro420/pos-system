@@ -92,6 +92,7 @@ import ProductSettings from "../components/settings/ProductSettings"
 import PurchaseSettings from "../components/settings/PurchaseSettings"
 import SaleSettings from "../components/settings/SaleSettings"
 import CurrencyList from "../components/settings/CurrencyList"
+import AddCurrency from "../components/settings/AddCurrency"
 
 const Router = createBrowserRouter([
     {
@@ -472,6 +473,10 @@ const Router = createBrowserRouter([
          {
             path: '/CurrencyList-page',
             element: <CurrencyList />,
+         },
+         {
+            path: '/AddCurrency-page',
+            element: <AddCurrency />,
          }
         ]
     },

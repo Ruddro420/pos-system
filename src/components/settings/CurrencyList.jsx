@@ -41,7 +41,7 @@ const CurrencyList = () => {
                 <div className="cba-cult-inner-container">
                     <div className="cba-cult-ic-head-part">
                         <h1>Currency List</h1>
-                        <a href=""><i className='cba-currency-add-btn bx bx-plus-circle'></i> Add Currency</a>
+                        <a href="/AddCurrency-page"><i className='cba-currency-add-btn bx bx-plus-circle'></i> Add Currency</a>
                     </div>
                     <div className="cba-cult-ic-show-entires-n-searchbox">
                         <div className="cba-cult-ic-show-entries">
