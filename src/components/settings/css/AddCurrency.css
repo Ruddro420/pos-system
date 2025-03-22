@@ -170,3 +170,183 @@
 }
 
 /* ------------------------------------------------------------------------------------------------ */
+
+/* currency add container */
+.cba-addcur-inner-container {
+    width: 100%;
+    background-color: var(--white);
+    padding: 20px 25px;
+}
+
+/* head part */
+.cba-addcur-ic-head-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--gray-black);
+    padding-bottom: 15px;
+}
+
+.cba-addcur-ic-head-part > h1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--lt-black);
+    margin-bottom: 0;
+}
+
+.cba-addcur-ic-head-part > a {
+    color: var(--white);
+    background-color: var(--m-green);
+    padding: 5px 10px 3px;
+    border-radius: 2.5px;
+    cursor: pointer;
+}
+
+.cba-addcur-ic-head-part > a > i.cba-addcur-list-page-icon {
+    font-size: 1.25rem;
+    margin-top: -2px;
+}
+
+/* middle part */
+.cba-addcur-ic-middle-part {
+    width: 100%;
+    border-bottom: 1px solid var(--gray-black);
+    padding: 20px 0px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.cba-addcur-required {
+    color: var(--red);
+}
+
+/* input box 1 */
+.cba-addcur-ic-mp-input-box1 {
+    width: 35%;
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+
+.cba-addcur-ic-mp-input-box1 > label {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: var(--lt-black);
+}
+
+.cba-addcur-ic-mp-input-box1 > input {
+    width: 100%;
+    border: 1px solid var(--gray-black);
+    border-radius: 2.5px;
+    text-align: left;
+    padding: 7.5px 10px 5px;
+    margin-bottom: 0;
+}
+
+/* input box 2 */
+.cba-addcur-ic-mp-input-box2 {
+    width: 35%;
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+
+.cba-addcur-ic-mp-input-box2 > label {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: var(--lt-black);
+}
+
+.cba-addcur-ic-mp-input-box2 > input {
+    width: 100%;
+    border: 1px solid var(--gray-black);
+    border-radius: 2.5px;
+    text-align: left;
+    padding: 7.5px 10px 5px;
+    margin-bottom: 0;
+}
+
+/* select box */
+.cba-addcur-ic-mp-select-box {
+    width: 35%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.cba-addcur-ic-mp-select-box {
+    width: 35%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.cba-addcur-ic-mp-select-box > label {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: var(--lt-black);
+}
+
+.cba-addcur-ic-mp-select-box > select {
+    width: 100%;
+    border: 1px solid var(--gray-black);
+    border-radius: 2.5px;
+    text-align: left;
+    padding: 7.5px 10px 5px;
+    &:focus {
+        outline: none;
+    }
+}
+
+/* status box */
+.cba-addcur-ic-mp-status-box {
+    width: 35%;
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+
+.cba-addcur-ic-mp-status-box > label {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: var(--lt-black);
+    margin-bottom: 2.5px;
+}
+
+.cba-addcur-ic-mp-status-box > div {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.cba-addcur-ic-mp-status-box > div > div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+/* bottom part */
+.cba-addcur-ic-bottom-part {
+    padding-top: 20px;
+    display: flex;
+    justify-self: end;
+}
+
+.cba-addcur-ic-bottom-part > input {
+    width: 100%;
+    color: var(--white);
+    background-color: var(--m-green);
+    font-size: 1rem;
+    padding: 5px 10px 3px;
+    border-radius: 2.5px;
+    cursor: pointer;
+}
