@@ -251,7 +251,7 @@
 .cba-purset-sc-mpr2-cols-row > p {
     color: var(--lt-black);
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
     gap: 5px;
     align-items: center;
