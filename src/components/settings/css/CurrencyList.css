@@ -170,3 +170,195 @@
 }
 
 /* ------------------------------------------------------------------------------------------------ */
+
+/* currency list container style */
+.cba-cult-inner-container {
+    background-color: var(--white);
+    padding: 20px 25px;
+}
+
+/* head part */
+.cba-cult-ic-head-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--gray-black);
+    padding-bottom: 15px;
+}
+
+.cba-cult-ic-head-part > h1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--lt-black);
+    margin-bottom: 0;
+}
+
+.cba-cult-ic-head-part > a {
+    color: var(--white);
+    background-color: var(--m-green);
+    padding: 5px 10px 3px;
+    border-radius: 2.5px;
+    cursor: pointer;
+}
+
+.cba-cult-ic-head-part > a > i.cba-currency-add-btn {
+    font-size: 0.95rem;
+}
+
+/* show entries and searchbox */
+.cba-cult-ic-show-entires-n-searchbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 0px;
+}
+
+/* show entries */
+.cba-cult-ic-show-entries {
+    display: flex;
+    gap: 7.5px;
+    align-items: center;
+}
+
+.cba-cult-ic-show-entries > p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--lt-black);
+}
+
+.cba-cult-ic-show-entries > select {
+    padding: 5px 7.5px 3px;
+    border: 1px solid var(--gray-black);
+    border-radius: 2.5px;
+}
+
+/* searchbox */
+.cba-cult-ic-searchbox {
+    display: flex;
+    gap: 7.5px;
+    align-items: center;
+}
+
+.cba-cult-ic-searchbox > label {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--lt-black);
+    margin-top: 5px;
+}
+
+.cba-cult-ic-searchbox > input {
+    width: 200px;
+    border: 1px solid var(--gray-black);
+    border-radius: 2.5px;
+    padding: 5px 10px 3px;
+    margin-bottom: 0;
+}
+
+/* table style */
+.cba-cult-table-container > table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* thead */
+.cba-cult-table-container > table > thead > tr > th {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--lt-black);
+    background-color: var(--gray-white);
+}
+
+/* tbody */
+.cba-cult-table-container > table > tbody > tr > td {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.cba-cult-table-container > table > tbody > tr:hover {
+    background-color: var(--gray-white)!important;
+}
+
+/* status style */
+/* active */
+.cba-cult-table-container > table > tbody > tr > td > span.cba-cult-tc-sta-ac {
+    color: var(--green);
+    background-color: var(--lt-green);
+    font-size: 0.775rem;
+    padding: 3px 10px 3px;
+    border-radius: 15px;
+}
+
+/* inactive */
+.cba-cult-table-container > table > tbody > tr > td > span.cba-cult-tc-sta-iac {
+    color: var(--red);
+    background-color: var(--lt-red);
+    font-size: 0.775rem;
+    padding: 3px 10px 3px;
+    border-radius: 15px;
+}
+
+/* action style */
+.cba-cult-table-container > table > tbody > tr > td > div {
+    display: flex;
+    gap: 7.5px;
+    align-items: center;
+}
+
+/* edit icon */
+.cba-cult-table-container > table > tbody > tr > td > div > i.cba-cult-tc-add-icon {
+    color: var(--green);
+    background-color: var(--lt-green);
+    border: 1px solid var(--green);
+    padding: 7.5px 6px 6px;
+    cursor: pointer;
+}
+
+/* delete icon */
+.cba-cult-table-container > table > tbody > tr > td > div > i.cba-cult-tc-remove-icon {
+    color: var(--red);
+    background-color: var(--lt-red);
+    border: 1px solid var(--red);
+    padding: 7.5px 6px 6px;
+    cursor: pointer;
+}
+
+/* pagination style */
+.cba-cult-tc-pagination-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cba-cult-tc-pagination-con > p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.cba-cult-tc-pagination {
+    display: flex;
+    gap: 7.5px;
+    align-items: center;
+}
+
+.cba-cult-tc-pagination > button {
+    background-color: var(--gray-white);
+    border-radius: 2.5px;
+    border: 1px solid var(--gray-white);
+    color: var(--lt-black);
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 4.5px 7.5px 2.5px 7.5px;
+}
+
+.cba-cult-tc-pagination > p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 0;
+    padding: 4.5px 10px 2.5px;
+    background-color: var(--m-lt);
+    border-radius: 2.5px;
+}

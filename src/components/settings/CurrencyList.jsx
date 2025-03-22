@@ -38,7 +38,78 @@ const CurrencyList = () => {
                     </ul>
                 </div>
                 {/* currency list container */}
-                
+                <div className="cba-cult-inner-container">
+                    <div className="cba-cult-ic-head-part">
+                        <h1>Currency List</h1>
+                        <a href=""><i className='cba-currency-add-btn bx bx-plus-circle'></i> Add Currency</a>
+                    </div>
+                    <div className="cba-cult-ic-show-entires-n-searchbox">
+                        <div className="cba-cult-ic-show-entries">
+                            <p>Show</p>
+                            <select name="" id="">
+                                <option value="">10</option>
+                                <option value="">20</option>
+                                <option value="">30</option>
+                                <option value="">All</option>
+                            </select>
+                            <p>entires</p>
+                        </div>
+                        <div className="cba-cult-ic-searchbox">
+                            <label htmlFor="">Search:</label>
+                            <input type="text" />
+                        </div>
+                    </div>
+                    <div className="cba-cult-table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Sl</th>
+                                    <th>Title</th>
+                                    <th>Symbol</th>
+                                    <th>Country</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>BDT</td>
+                                    <td>BDT</td>
+                                    <td>Bangladesh</td>
+                                    <td><span className="cba-cult-tc-sta-ac">Active</span></td>
+                                    <td>
+                                        <div>
+                                            <i className='cba-cult-tc-add-icon bx bx-edit'></i>
+                                            <i className='cba-cult-tc-remove-icon bx bxs-trash' ></i>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>USD</td>
+                                    <td>USD</td>
+                                    <td>United State</td>
+                                    <td><span className="cba-cult-tc-sta-iac">Inactive</span></td>
+                                    <td>
+                                        <div>
+                                            <i className='cba-cult-tc-add-icon bx bx-edit'></i>
+                                            <i className='cba-cult-tc-remove-icon bx bxs-trash' ></i>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div className="cba-cult-tc-pagination-con">
+                        <p>Showing 1 to 10 of 50 entries</p>
+                        <div className="cba-cult-tc-pagination">
+                            <button>Previous</button>
+                            <p>1</p>
+                            <button>Next</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     );
