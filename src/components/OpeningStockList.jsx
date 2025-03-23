@@ -1,5 +1,4 @@
 import '../components/css/OpeningStockList.css'
-
 const OpeningStockList = () => {
     return (
         <>

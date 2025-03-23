@@ -37,30 +37,30 @@ a {
 }
 
 /* === PARENT SECTION === */
-.sh-parent-section{
+.sh-opcsv-parent-section{
     width: 100%;
     padding: 20px;
 }
 /* === CHILD SECTION === */
-.sh-child-section{
+.sh-opcsv-child-section{
     width: 100%;
 }
 /* === TOP MENU ITEMS === */
-.sh-top-menu-items{
+.sh-opcsv-top-menu-items{
     border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
     padding: 10px 0px 10px 10px;
 }
-.sh-top-menu-items ul{
+.sh-opcsv-top-menu-items ul{
     width: 100%;
     display: flex;
     align-items: center;
+    margin-bottom: 0;
 }
-.sh-top-menu-items li{
+.sh-opcsv-top-menu-items li{
     height: 50px;
 }
-.sh-top-menu-items a{
+.sh-opcsv-top-menu-items a{
     height: 100%;
     padding: 0px 20px;
     color: var(--black);
@@ -69,42 +69,42 @@ a {
     align-items: center;
 }
 /* === ACTIVE MENU === */
-.sh-active-item a{
+.sh-opcsv-active-item a{
     background-color: var(--main-green);
     color: var(--white);
     border-radius: 5px;
 }
-.sh-menu-items a:hover{
-    color: var(--red);
+.sh-opcsv-menu-items a:hover{
+    color: var(--orange)!important;
 }
 /* === REQUISIION LIST SECTION === */
 /* === DRAFT SALE SECITON === */
-.sh-draft-sale-section{
+.sh-opcsv-draft-sale-section{
     width: 100%;
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
+    box-sh-opcsvadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
     background-color: var(--white);
     margin-top: 20px;
     border-radius: 5px;
 }
 /* === DRAFT SALE TOP ITEMV === */
-.sh-requisition-top-item{
+.sh-opcsv-requisition-top-item{
     height: 80px;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sh-requisition-top-item p{
+.sh-opcsv-requisition-top-item p{
     font-size: var(--secondary);
 }
 /* === DRAFT SALE TOP RIGHT ITMES === */
-.sh-draft-sale-top-right-items{
+.sh-opcsv-draft-sale-top-right-items{
     gap: 20px;
     display: flex;
     align-items: center;
 }
 /* === FILTR === */
-.sh-filter{
+.sh-opcsv-filter{
     display: flex;
     align-items: center;
     gap: 5px;
@@ -113,7 +113,7 @@ a {
     color: var(--white);
     background-color: var(--main-green);
 }
-.sh-filter a{
+.sh-opcsv-filter a{
     color: white;
     font-size: var(--primary-para);
 }
@@ -125,63 +125,63 @@ a {
     color: #FFB61E;
     margin-top: 20px;
 }
-.sh-the-correct{
+.sh-opcsv-the-correct{
     font-size: var(--secondary);
     padding-right: 20px;
     padding-left: 20px;
 }
-.sh-the-correct span{
+.sh-opcsv-the-correct span{
     color: #62D0F1;
 }
 /* === DOWNLOAD BUTTON === */
-.sh-download-button{
+.sh-opcsv-download-button{
     padding: 30px 20px 40px 20px;
 }
-.sh-download-button a{
+.sh-opcsv-download-button a{
     padding: 10px;
     background-color: var(--main-green);
     color: var(--white);
     border-radius: 5px;
 }
-.sh-download-button i{
+.sh-opcsv-download-button i{
     margin-right: 5px;
 }
 /* === FOOTER SECITON === */
-.sh-footer-section{
+.sh-opcsv-footer-section{
     margin-top: 20px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
+    box-sh-opcsvadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
     border-radius: 5px;
 }
-.sh-opening{
+.sh-opcsv-opening{
     padding: 20px;
 }
-.sh-upload{
+.sh-opcsv-upload{
     padding: 20px;
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.sh-file-upload{
+.sh-opcsv-file-upload{
     display: flex;
     align-items: center;
 }
-.sh-file-upload input{
+.sh-opcsv-file-upload input{
     padding: 10px;
     border-radius: 5px 0 0 5px;
     border: 1px solid var(--light-black-op);
 }
-.sh-file-upload label{
+.sh-opcsv-file-upload label{
     padding: 9px;
     border-radius: 0px 5px 5px 0;
     border-top: 1px solid var(--light-black-op);
     border-bottom: 1px solid var(--light-black-op);
     border-right: 1px solid var(--light-black-op);
 }
-.sh-submit-button{
+.sh-opcsv-submit-button{
     padding: 20px;
 }
-.sh-submit-button a{
+.sh-opcsv-submit-button a{
     background-color: var(--main-green);
     color: var(--white);
     padding: 8px;

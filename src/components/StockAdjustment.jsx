@@ -10,10 +10,10 @@ const StockAdjustment = () => {
           <div className="sa-sh-top-menu-items">
             <ul>
               <li className="sa-sh-active-item">
-                <a href="addjustment-list.html">Addjustment List</a>
+                <a href="/stockAdjustment-page">Addjustment List</a>
               </li>
               <li className="sa-sh-menu-items">
-                <a href="new-addjustment.html">New Addjustment</a>
+                <a href="StockNewAdjustment-page">New Addjustment</a>
               </li>
             </ul>
           </div>
@@ -129,19 +129,14 @@ const StockAdjustment = () => {
                     <th>Action</th>
                   </tr>
                 </thead>
-              </table>
-              {/*  === EMPTY SECTION ==    */}
-              <div className="sa-empty-section">
-                <table>
-                  <tbody>
+                <tbody>
                     <tr>
-                      <td>
+                      <td colSpan={8}>
                         <p>No data available in table</p>
                       </td>
                     </tr>
                   </tbody>
-                </table>
-              </div>
+              </table>
             </div>
             <div className="sa-sh-slider-pages">
               <p>Showing 0 to 0 of 0 entries</p>

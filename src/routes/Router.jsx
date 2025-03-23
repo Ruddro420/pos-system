@@ -79,6 +79,8 @@ import UpComingExpiredProducts from "../components/report/UpComingExpiredProduct
 import StockTransferList from "../components/StockManagement/StockTransferList";
 import StockTransferRequestList from "../components/StockManagement/StockTransferRequestList";
 import StockNewTransfer from "../components/StockManagement/StockNewTransfer";
+import StockNewAdjustment from "../components/StockManagement/StockNewAdjustment";
+import StockOpeningStock from "../components/StockManagement/StockOpeningStock";
 
 // Setting Page Routing
 
@@ -429,6 +431,14 @@ const Router = createBrowserRouter([
       {
         path: "/StockTransferRequestList-page",
         element: <StockTransferRequestList />,
+      },
+      {
+        path: "/StockNewAdjustment-page",
+        element: <StockNewAdjustment />,
+      },
+      {
+        path: "/StockOpeningStock-page",
+        element: <StockOpeningStock />,
       },
 
       {

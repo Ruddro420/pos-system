@@ -37,35 +37,35 @@ a {
 }
 
 /* === PARENT SECTION === */
-.sh-parent-section {
+.sh-adostock-parent-section {
     width: 100%;
     padding: 20px;
 }
 
 /* === CHILD SECTION === */
-.sh-child-section {
+.sh-adostock-child-section {
     width: 100%;
 }
 
 /* === TOP MENU ITEMS === */
-.sh-top-menu-items {
+.sh-adostock-top-menu-items {
     border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
     padding: 10px 0px 10px 10px;
 }
 
-.sh-top-menu-items ul {
+.sh-adostock-top-menu-items ul {
     width: 100%;
     display: flex;
     align-items: center;
+    margin-bottom: 0;
 }
 
-.sh-top-menu-items li {
+.sh-adostock-top-menu-items li {
     height: 50px;
 }
 
-.sh-top-menu-items a {
+.sh-adostock-top-menu-items a {
     height: 100%;
     padding: 0px 20px;
     color: var(--black);
@@ -74,32 +74,32 @@ a {
     align-items: center;
 }
 
-.sh-menu-items a:hover {
-    color: var(--red);
+.sh-adostock-menu-items a:hover {
+    color: var(--orange)!important;
 }
 
 /* === ACTIVE MENU === */
-.sh-active-item a {
+.sh-adostock-active-item a {
     background-color: var(--main-green);
     color: var(--white);
     border-radius: 5px;
 }
 
 /* === REQUISIION LIST SECTION === */
-.sh-requisition-top-item{
+.sh-adostock-requisition-top-item{
     padding: 20px;
 }
 
 /* === DRAFT SALE SECITON === */
-.sh-draft-sale-section {
+.sh-adostock-draft-sale-section {
     width: 100%;
     background-color: var(--white);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+    box-sh-adostockadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
     border-radius: 5px;
     margin-top: 20px;
 }
 /* === OUTLET CONTAINER === */
-.sh-outlet-container {
+.sh-adostock-outlet-container {
     display: flex;
     align-items: center;
     gap: 40px;
@@ -107,7 +107,7 @@ a {
     font-size: var(--secondary);
 }
 
-.sh-outlet-container input {
+.sh-adostock-outlet-container input {
     width: 500px;
     padding: 5px 10px;
     border-radius: 3px;
@@ -115,16 +115,16 @@ a {
     border: 1px solid var(--light-black-op);
 }
 
-.sh-outlet-container input:focus {
+.sh-adostock-outlet-container input:focus {
     outline: none;
 }
 
 /* === EVERTHING SEARCH BOX === */
-.sh-everything-search-container {
+.sh-adostock-everything-search-container {
     padding: 20px;
 }
 
-.sh-everything-search-container input {
+.sh-adostock-everything-search-container input {
     padding: 5px 10px;
     border-radius: 3px;
     font-size: var(--primary-para);
@@ -132,7 +132,7 @@ a {
     width: 100%;
 }
 /* === PRODUCT ALL DETAILS === */
-.sh-produt-all-details-container{
+.sh-adostock-produt-all-details-container{
     padding: 1px 20px;
 }
 table {
@@ -155,91 +155,91 @@ table td{
     text-align: center;
     align-items: center;
 }
-.sh-product-search-box{
+.sh-adostock-product-search-box{
     display: flex;  
 }
-.sh-product-search-box input {
+.sh-adostock-product-search-box input {
     width: 790px;
     padding: 8px 5px;
     border: 1px solid var(--light-black);
     font-size: var(--primary-para);
 }
 
-.sh-product-search-box input:focus {
+.sh-adostock-product-search-box input:focus {
     outline: none;
 }
 
-.sh-avqty-box input{
+.sh-adostock-avqty-box input{
     width: 100px;
     padding: 5px 5px;
     border: none;
     background-color: var(--light-black-op);
     font-size: var(--primary-para);
 }
-.sh-avqty-box input:focus{
+.sh-adostock-avqty-box input:focus{
     outline: none;
 }   
-.sh-barcoee-box input{
+.sh-adostock-barcoee-box input{
     width: 100px;
     padding: 5px 5px;
     border: none;
     border: 1px solid var(--light-black-op);
     font-size: var(--primary-para);
 }
-.sh-barcoee-box input:focus{
+.sh-adostock-barcoee-box input:focus{
     outline: none;
 }   
-.sh-qty-number-input input{
+.sh-adostock-qty-number-input input{
     width: 90px;
     padding: 5px 5px;
     border: 1px solid var(--light-black);
     font-size: var(--primary-para);
 }
-.sh-qty-number-input input:focus{
+.sh-adostock-qty-number-input input:focus{
     outline: none;
 }
-.sh-rate-input-container input{
+.sh-adostock-rate-input-container input{
     width: 100px;
     padding: 5px 5px;
     border: 1px solid var(--light-black);
     font-size: var(--primary-para);
 }
-.sh-rate-input-container input:focus{
+.sh-adostock-rate-input-container input:focus{
     outline: none;
 }
-.sh-total-contaier input{
+.sh-adostock-total-contaier input{
     width: 100px;
     padding: 5px 5px;
     background-color: var(--light-black-op);
     border: 1px solid var(--light-black);
     font-size: var(--primary-para);
 }
-.sh-total-contaier input:focus{
+.sh-adostock-total-contaier input:focus{
     outline:none
 }
 /* === DELETE ICON === */
-.sh-delet-icon i{
+.sh-adostock-delet-icon i{
     padding: 5px 5px;
     color: var(--red);
     font-size: var(--primary-head);
     border: 1px solid var(--red);
     background-color: var(--light-red);
 }
-.sh-delet-icon i:hover{
+.sh-adostock-delet-icon i:hover{
     padding: 5px 5px;
     color: var(--white);
     font-size: var(--primary-head);
     border: 1px solid var(--red);
     background-color: var(--red);
 }
-.sh-plus-icon-two a i{
+.sh-adostock-plus-icon-two a i{
     padding: 5px 5px;
     color: var(--main-green);
     font-size: var(--primary-head);
     background-color: var(--light-green);
     border: 1px solid var(--main-green);
 }
-.sh-plus-icon-two a i:hover{
+.sh-adostock-plus-icon-two a i:hover{
     padding: 5px 5px;
     color: var(--white);
     font-size: var(--primary-head);
@@ -252,7 +252,7 @@ tbody tr th p{
     align-items: end;
 }
 /* === BOTTOM ITEMS === */
-.sh-bottom-items{
+.sh-adostock-bottom-items{
     display: flex;
     gap: 30px;
     padding: 20px;
@@ -261,17 +261,17 @@ tbody tr th p{
     align-items: center;
     justify-content: flex-end;
 }
-.sh-submit-button a{
+.sh-adostock-submit-button a{
     background-color: var(--main-green);
     color: var(--white);
     padding: 5px 10px;
     border-radius: 3px;
 }
-.sh-submit-button{
+.sh-adostock-submit-button{
     display: flex;
     justify-content: flex-end; 
     padding: 20px;
 }
-.sh-total-text-end{
+.sh-adostock-total-text-end{
     text-align: right;
 }
