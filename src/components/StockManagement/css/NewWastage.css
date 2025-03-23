@@ -76,13 +76,13 @@ a {
 }
 
 .nw-sh-menu-items a:hover {
-    color: var(--red);
+    color: var(--orange);
 }
 
 /* === ACTIVE MENU === */
 .nw-sh-active-item a {
     background-color: var(--main-green);
-    color: var(--white);
+    color: var(--white)!important;
     border-radius: 5px;
 }
 

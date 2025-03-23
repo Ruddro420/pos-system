@@ -1,0 +1,87 @@
+/* -- font link -- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* -- root css -- */
+
+:root {
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --gray-white: #F0F1F2; /* For body*/
+    --green: #008000;
+    --lp-green: #F8FAF8;
+    --lt-black-op: #21252350;
+    --lt-black: #212523;
+    --lt-gray: #EFEFEF;
+    --lt-green: #e9f6ec;
+    --orange: #FD7E14;
+    --lt-red: #fbeaec;
+    --m-green: #157343;
+    --m-lt: #37A000;
+    --red: #FF0000;
+    --white: #FFFFFF;
+}
+
+/* -- universal style -- */
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* -- web app cursor element selection style -- */
+
+::selection {
+    background-color: var(--m-lt);
+    color: var(--white);
+}
+
+/* main container style */
+.cba-snt-main-container {
+    padding: 20px 20px 30px 30px;
+}
+
+/* top menu style */
+.cba-snt-top-menu > ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    background-color: var(--white);
+    padding: 17.5px 20px 15px;
+}
+
+.cba-snt-top-menu > ul > li > a.cba-snt-top-menu-active {
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--m-green);
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cba-snt-top-menu > ul > li > a.cba-snt-top-menu-active:hover {
+    color: var(--white);
+}
+
+.cba-snt-top-menu > ul > li > a {
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cba-snt-top-menu > ul > li > a:hover {
+    color: var(--orange);
+}
+
+/* ------------------------------------- */
+
+/* inner container style */
