@@ -1,5 +1,5 @@
 /* -- fonts -- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=VT323&display=swap');
+@import url('https://fonts.bp-googleapis.bp-com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100.bp-.bp-900;1,100.bp-.bp-900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=VT323&display=swap');
 
 /* -- root -- */
 
@@ -35,7 +35,7 @@
 
 /* -- main container style -- */
 
-.main-container {
+.bp-main-container {
 /*    padding-top: 0;
     padding-right: 20px;
     padding-bottom: 0;
@@ -45,14 +45,14 @@
 
 /* -- category container style -- */
 
-.brand-container {
+.bp-brand-container {
     width: 100%;
    /*  margin-top: 25px; */
 }
 
 /* -- top menus style--  */
 
-.top-menus {
+.bp-top-menus {
     background-color: var(--white);
     display: flex;
     justify-content: left;
@@ -62,14 +62,14 @@
     padding-top: 18px;
 }
 
-.top-menus ul {
+.bp-top-menus ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
     margin-left: -20px;
 }
 
-.top-menus ul li a {
+.bp-top-menus ul li a {
     text-decoration: none;
     color: var(--black);
     font-size: 15px;
@@ -78,7 +78,7 @@
 
 /* -- active menu style -- */
 
-.active-menu {
+.bp-active-menu {
     color: var(--white)!important;
     background-color: var(--m-green);
     padding: 8px 12px;
@@ -87,20 +87,20 @@
 
 /* -- menu hover style -- */
 
-.light-up:hover {
+.bp-light-up:hover {
     color: var(--orange);
 }
 
 /* -- list container style -- */
 
-.list-container {
+.bp-list-container {
     background-color: var(--white);
     padding: 0px 20px;
 }
 
 /* -- heading-add-new-btn style -- */
 
-.heading-add-new-btn {
+.bp-heading-add-new-btn {
     display: flex;
     justify-content: space-between;
     align-items: center!important;
@@ -108,7 +108,7 @@
     padding: 0px 0px;
 }
 
-.heading h2 {
+.bp-heading h2 {
     color: var(--lt-black);
     font-size: 25px;
     font-weight: 500;
@@ -117,32 +117,32 @@
 
 /* -- add-new-btn style -- */
 
-.add-new-btn {
+.bp-add-new-btn {
     display: flex;
     gap: 5px;
     justify-content: baseline;
     align-items: center;
 }
 
-.add-new-btn {
+.bp-add-new-btn {
     background-color: var(--m-green);
     padding: 5px 10px;
     border-radius: 5px;
 }
 
-.add-new-btn a {
+.bp-add-new-btn a {
     color: var(--white);
     text-decoration: none;
 }
 
-.add-icon {
+.bp-add-icon {
     color: var(--white);
     font-size: 20px;
 }
 
 /* -- list-short-dpdwn-search-box style -- */
 
-.list-short-dpdwn-search-box {
+.bp-list-short-dpdwn-search-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,44 +151,44 @@
 
 /* -- list-short-dpdwn style -- */
 
-.list-short-dpdwn {
+.bp-list-short-dpdwn {
     display: flex;
-    gap: 7.5px;
+    gap: 7.bp-5px;
     align-items: center!important;
 
 }
 
-.list-short-dpdwn h3 {
+.bp-list-short-dpdwn h3 {
     color: var(--lt-black);
     font-size: 15px;
     font-weight: 500;
     margin-top: 16px;
 }
 
-.list-short-dpdwn select {
+.bp-list-short-dpdwn select {
     color: var(--lt-black);
     appearance: none;
     height: 35px;
     width: 36px;
     padding-left:8px;
     outline: none;
-    border-radius: 2.5px;
+    border-radius: 2.bp-5px;
     
 }
 
 /* -- search-box style -- */
 
-.search-box {
+.bp-search-box {
     display: flex;
     align-items: center;
 }
 
-.search-box legend {
+.bp-search-box legend {
     color: var(--lt-black);
     font-size: 16px;
 }
 
-.search-box input {
+.bp-search-box input {
     outline: none;
     height: 30px;
     width: 193px;
@@ -216,7 +216,7 @@ th, td {
 }
 
 thead tr th {
-    font-size: 17.5px;
+    font-size: 17.bp-5px;
     font-weight: 600;
     text-align: left;
     color: var(--black);
@@ -235,75 +235,75 @@ tbody tr:hover {
 
 /* status style */
 
-.s-active {
+.bp-s-active {
     color: var(--green);
     background-color: var(--lt-green);
     font-size: 12px;
     font-weight: 500;
-    padding: 2.5px 7.5px;
+    padding: 2.bp-5px 7.bp-5px;
     border-radius: 5px;
 }
 
-.s-inactive {
+.bp-s-inactive {
     color: var(--red);
     background-color: var(--lt-red);
     font-size: 12px;
     font-weight: 500;
-    padding: 2.5px 7.5px;
+    padding: 2.bp-5px 7.bp-5px;
     border-radius: 5px;
 }
 
 /* -- action style -- */
 
-.edit-icon {
+.bp-edit-icon {
     color: var(--green);
     background-color: var(--lt-green);
     padding: 7px 7px;
-    margin-right: 2.5px;
+    margin-right: 2.bp-5px;
     border: 1px solid var(--green);
     border-radius: 5px;
     font-size: 20px;
 }
 
-.edit-icon:hover {
+.bp-edit-icon:hover {
     background-color: var(--lt-black-op);
 }
 
-.delete-icon {
+.bp-delete-icon {
     color: var(--red);
     background-color: var(--lt-red);
     padding: 7px 7px;
-    margin-left: 2.5px;
+    margin-left: 2.bp-5px;
     border: 1px solid var(--red);
     border-radius: 5px;
     font-size: 20px;
 }
 
-.delete-icon:hover {
+.bp-delete-icon:hover {
     background-color: var(--lt-black-op);
 }
 
 /* -- entries-details-list-page-btn style -- */
 
-.entries-details-list-page-btn {
+.bp-entries-details-list-page-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px;
 }
 
-.entries-details {
+.bp-entries-details {
     color: var(--black);
     font-size: 15px;
 }
 
-.list-page-btn {
+.bp-list-page-btn {
     display: flex;
     gap: 5px;
     align-items: center;
 }
 
-.list-page-btn button {
+.bp-list-page-btn button {
     color: var(--lt-black);
     background-color: var(--gray-white);
     padding: 8px 14px;
@@ -312,11 +312,11 @@ tbody tr:hover {
     cursor: pointer;
 }
 
-.list-page-btn h4 {
+.bp-list-page-btn h4 {
     margin-top: 10px;
 }
 
-.list-page-btn h4 span {
+.bp-list-page-btn h4 span {
     color: var(--white);
     background-color: var(--m-light);
     font-size: 15px;

@@ -93,6 +93,7 @@ import PurchaseSettings from "../components/settings/PurchaseSettings"
 import SaleSettings from "../components/settings/SaleSettings"
 import CurrencyList from "../components/settings/CurrencyList"
 import AddCurrency from "../components/settings/AddCurrency"
+import AddNewBrand from "../components/product/AddNewBrand";
 
 const Router = createBrowserRouter([
     {
@@ -290,6 +291,10 @@ const Router = createBrowserRouter([
         {
             path:'/TransferRequestList-page',
             element: <TransferRequestList/>,
+         },
+        {
+            path:'/AddNewBrand-page',
+            element: <AddNewBrand/>,
          },
 
         // report page route

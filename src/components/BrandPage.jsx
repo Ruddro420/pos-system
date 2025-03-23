@@ -1,35 +1,36 @@
+import { Link } from "react-router-dom";
 import "./css/BrandPage.css";
 const BrandPage = () => {
   return (
     <>
-      <div className="main-container">
-        <div className="brand-container">
-          <div className="top-menus">
+      <div className="bp-main-container">
+        <div className="bp-brand-container">
+          <div className="bp-top-menus">
             <ul>
               <li>
-                <a href="/index.html" className="active-menu">
+                <Link to="/brand-page" className="bp-active-menu">
                   Brands
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/inner-page/html/anb.html" className="light-up">
+                <Link to="/AddNewBrand-page" className="bp-light-up">
                   Add New Brand
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
-          <div className="list-container">
-            <div className="heading-add-new-btn">
-              <div className="heading">
+          <div className="bp-list-container">
+            <div className="bp-heading-add-new-btn">
+              <div className="bp-heading">
                 <h2>Brand List</h2>
               </div>
-              <div className="add-new-btn">
-                <i className="add-icon bx bx-plus-circle"></i>
-                <a href="/inner-page/html/anb.html">Add New Brand</a>
+              <div className="bp-add-new-btn">
+                <i className="bp-add-icon bx bx-plus-circle"></i>
+                <Link to="/AddNewBrand-page">Add New Brand</Link>
               </div>
             </div>
-            <div className="list-short-dpdwn-search-box">
-              <div className="list-short-dpdwn">
+            <div className="bp-list-short-dpdwn-search-box">
+              <div className="bp-list-short-dpdwn">
                 <h3>Show</h3>
                 <select name="10" id="">
                   <option value="">10</option>
@@ -39,13 +40,13 @@ const BrandPage = () => {
                 </select>
                 <h3>entries</h3>
               </div>
-              <div className="search-box">
+              <div className="bp-search-box">
                 <legend>
                   Search: <input type="text" />
                 </legend>
               </div>
             </div>
-            <div className="table-list">
+            <div className="bp-table-list">
               <table>
                 <thead>
                   <tr>
@@ -62,11 +63,11 @@ const BrandPage = () => {
                     <td>101</td>
                     <td>Apex</td>
                     <td>
-                      <span className="s-active">Active</span>
+                      <span className="bp-s-active">Active</span>
                     </td>
                     <td>
                       <a title="Edit" href="#">
-                        <i className="edit-icon bx bx-edit"></i>
+                        <i className="bp-edit-icon bx bx-edit"></i>
                       </a>
                       <a title="Delete" href="#">
                         <i className="delete-icon bx bx-trash"></i>
@@ -78,7 +79,7 @@ const BrandPage = () => {
                     <td>102</td>
                     <td>Bata</td>
                     <td>
-                      <span className="s-inactive">Inactive</span>
+                      <span className="bp-s-inactive">Inactive</span>
                     </td>
                     <td>
                       <a title="Edit" href="#">
@@ -94,7 +95,7 @@ const BrandPage = () => {
                     <td>103</td>
                     <td>Sara</td>
                     <td>
-                      <span className="active">Active</span>
+                      <span className="bp-active">Active</span>
                     </td>
                     <td>
                       <a title="Edit" href="#">
@@ -110,7 +111,7 @@ const BrandPage = () => {
                     <td>104</td>
                     <td>Richman</td>
                     <td>
-                      <span className="inactive">Inactive</span>
+                      <span className="bp-inactive">Inactive</span>
                     </td>
                     <td>
                       <a title="Edit" href="#">
@@ -126,7 +127,7 @@ const BrandPage = () => {
                     <td>105</td>
                     <td>Sailor</td>
                     <td>
-                      <span className="active">Active</span>
+                      <span className="bp-active">Active</span>
                     </td>
                     <td>
                       <a title="Edit" href="#">
@@ -140,12 +141,12 @@ const BrandPage = () => {
                 </tbody>
               </table>
             </div>
-            <div className="entries-details-list-page-btn">
-              <div className="entries-details">
+            <div className="bp-entries-details-list-page-btn">
+              <div className="bp-entries-details">
                 Showing <span>1</span> to <span>5</span> of <span>5</span>{" "}
                 entries
               </div>
-              <div className="list-page-btn">
+              <div className="bp-list-page-btn">
                 <button>Previous</button>
                 <h4>
                   <span>1</span>
