@@ -3,31 +3,31 @@ import './css/AddSubCategory.css'
 const AddSubCategory = () => {
     return (
         <>
-            <div className="add-sub-container">
-        <div className="top-menus">
+            <div className="asc-add-sub-container">
+        <div className="asc-top-menus">
             <ul>
-            <li><Link  to ="/category-page" className="light-up">Category</Link></li>
-                <li><Link  to ="/AddNewCategory-page" className="light-up">Add New Category</Link></li>
-                <li><Link   to="/AddSubCategory-page" className="light-up">Add Sub Category</Link></li>
-                <li><Link  to ="/SubCategoryList-page" className="active-menu">Sub Category List</Link></li>
+            <li><Link  to ="/category-page" className="asc-light-up">Category</Link></li>
+                <li><Link  to ="/AddNewCategory-page" className="asc-light-up">Add New Category</Link></li>
+                <li><Link   to="/AddSubCategory-page" className="asc-active-menu">Add Sub Category</Link></li>
+                <li><Link  to ="/SubCategoryList-page" className="asc-light-up">Sub Category List</Link></li>
             </ul>
         </div>
-        <div className="add-container">
-            <div className="heading-add-new-btn">
-                <div className="heading">
+        <div className="asc-add-container">
+            <div className="asc-heading-add-new-btn">
+                <div className="asc-heading">
                     <h2>Add Sub Category</h2>
                 </div>
-                <div className="subc-list-btn">
-                    <i className='add-icon bx bx-list-ul'></i>
+                <div className="asc-subc-list-btn">
+                    <i className='asc-add-icon bx bx-list-ul'></i>
                     <a href="/index.html">Sub Category List</a>
                 </div>
             </div>
-            <div className="category-add-field">
-                <div className="form-con">
-                    <div className="label">
-                        <label htmlFor="category-name">Sub Category Name<span className="required">*</span></label>
-                        <label htmlFor="category-name">Category<span className="required">*</span></label>
-                        <label htmlFor="category-name">Status<span className="required">*</span></label>
+            <div className="asc-category-add-field">
+                <div className="asc-form-con">
+                    <div className="asc-label">
+                        <label htmlFor="category-name">Sub Category Name<span className="asc-required">*</span></label>
+                        <label htmlFor="category-name">Category<span className="asc-required">*</span></label>
+                        <label htmlFor="category-name">Status<span className="asc-required">*</span></label>
                     </div>
                     <div className="input">
                         <input type="text" name="category-name" id="category-name" placeholder="Category Name"/>
@@ -44,7 +44,7 @@ const AddSubCategory = () => {
                             <option title="Active" value="active">Active</option>
                             <option title="Inactive" value="inactive">Inactive</option>
                         </select>
-                        <div className="submit-btn">
+                        <div className="asc-asc-submit-btn">
                             <input type="submit"/>
                         </div>
                     </div>

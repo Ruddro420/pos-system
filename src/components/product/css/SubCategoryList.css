@@ -1,10 +1,10 @@
 /* -- fonts -- */
-@import url('https://fonts.cp-googleapis.cp-com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100.cp-.cp-900;1,100.cp-.cp-900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=VT323&display=swap');
+@import url('https://fonts.sc-googleapis.sc-com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100.sc-.sc-900;1,100.sc-.sc-900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=VT323&display=swap');
 
 /* -- root -- */
 
 :root {
-    --gray-white: #F0F1F2; /* For body*/
+    --gray-white: #F0F1F2;
     --white: #FFFFFF;
     --black: #000000;
     --gray-black: #DDDDDD;
@@ -23,14 +23,13 @@
 
 * {
     box-sizing: border-box;
-}
-
-body {
     margin: 0;
     padding: 0;
     font-family: "Poppins", serif;
-    background-color: var(--gray-white);
+  
 }
+
+
 
 ::selection {
     color: var(--white);
@@ -39,25 +38,24 @@ body {
 
 /* -- category container style -- */
 
-.cp-category-container {
+.sc-category-container {
     width: 100%;
     margin-top: 10px;
+    padding: 20px 20px 20px 30px;
 }
 
 /* -- top menus style--  */
 
-.cp-top-menus {
+.sc-top-menus {
     background-color: var(--white);
     display: flex;
     justify-content: left;
     align-items: center;
     height: 60px;
     margin-bottom: 15px;
-    margin: 20px;
-   
 }
 
-.cp-top-menus ul {
+.sc-top-menus ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
@@ -65,7 +63,7 @@ body {
     margin-bottom: -1px;
 }
 
-.cp-top-menus ul li a {
+.sc-top-menus ul li a {
     text-decoration: none;
     color: var(--black);
     font-size: 15px;
@@ -74,7 +72,7 @@ body {
 
 /* -- active menu style -- */
 
-.cp-active-menu {
+.sc-active-menu {
     color: var(--white)!important;
     background-color: var(--main-green);
     padding: 8px 12px;
@@ -83,122 +81,112 @@ body {
 
 /* -- menu hover style -- */
 
-.cp-light-up:hover {
+.sc-light-up:hover {
     color: var(--light-orange);
 }
 
 /* -- list container style -- */
 
-.cp-list-container {
+.sc-list-container {
     background-color: var(--white);
-    padding: 20px 20px;
-    margin: 20px;
+    padding: 0px 20px;
 }
 
 /* -- heading-add-new-btn style -- */
 
-.cp-heading-add-new-btn {
+.sc-heading-add-new-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--gray-black) ;
+    padding: 20px 0px ;
 }
 
-.cp-heading h2 {
+.sc-heading h2 {
     color: var(--light-black);
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
+    margin-bottom: 0;
 }
 
 /* -- add-new-btn style -- */
 
-.cp-add-new-btn {
+.sc-add-new-btn {
     display: flex;
     gap: 5px;
     justify-content: baseline;
     align-items: center;
 }
 
-.cp-add-new-btn {
+.sc-add-new-btn {
     background-color: var(--main-green);
     padding: 5px 10px;
     border-radius: 5px;
-    margin-top: -15px;
 }
 
-.cp-add-new-btn a {
+.sc-add-new-btn a {
     color: var(--white);
     text-decoration: none;
 }
 
-.cp-add-icon {
+.sc-add-icon {
     color: var(--white);
     font-size: 20px;
 }
 
 /* -- list-short-dpdwn-search-box style -- */
 
-.cp-list-short-dpdwn-search-box {
+.sc-list-short-dpdwn-search-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
+    padding: 20px 0px 0px!important;
 }
 
 /* -- list-short-dpdwn style -- */
 
-.cp-list-short-dpdwn {
+.sc-list-short-dpdwn {
     display: flex;
-    gap: 5px;
+    gap: 7.5px;
     align-items: center;
 }
 
-.cp-list-short-dpdwn h3 {
+.sc-list-short-dpdwn h3 {
     color: var(--light-black);
     font-size: 15px;
     font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: 0;
 }
 
-.cp-list-short-dpdwn select {
+.sc-list-short-dpdwn select {
     color: var(--light-black);
     appearance: none;
-    height: 30px;
-    width: 35px;
-   /*  padding-left: 6px; */
-   padding: 0px 0px 0px 10px;
+    height: 36px;
+    width: 40px;
+    padding-left: 10px;
     outline: none;
-    border-radius: 5px;
-    margin-top: -10px;
+    border-radius: 2.sc-5px;
 }
 
 /* -- search-box style -- */
 
-.cp-search-box {
+.sc-search-box {
     display: flex;
     align-items: center;
-    margin-top: 10px;
 }
 
-.cp-search-box legend {
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-    gap: 15px;
+.sc-search-box label {
     color: var(--light-black);
-  
-}
-.cp-search-box span{
-    margin-top: -8px;
-    color: var(--light-black);
-  
+    font-weight: 400;
+    font-size: 1rem;
 }
 
-.cp-search-box input {
+.sc-search-box input {
     outline: none;
     height: 30px;
-    width: 193px;
+    width: 250px;
     border: 1px solid var(--gray-black);
-  
 }
 
 /* -- table-list style --*/
@@ -232,25 +220,14 @@ th, td {
 }
 
 thead tr th {
-    font-size: 1rem;
+    font-size: 17.sc-5px;
     font-weight: 600;
     text-align: left;
 }
 
 tbody tr td {
-    font-size: 0.875rem;
-    
+    font-size: 14px;
 }
-
-
-table > tbody > tr > td:nth-child(5) > a:nth-child(1) {
-  margin-right: 7.5px;
-}
-
-table > tbody > tr > td:nth-child(5) > a:nth-child(1) {
-  margin-left: 7.5px;
-}
-
 
 tbody tr:hover {
     background-color: var(--gray-white);
@@ -260,95 +237,98 @@ tbody tr:hover {
 
 /* status style */
 
-.cp-active {
+.sc-active {
     color: var(--green);
     background-color: var(--light-green);
     font-size: 12px;
     font-weight: 500;
-    padding: 2.cp-5px 7.cp-5px;
+    padding: 2.5px 7.5px;
     border-radius: 5px;
 }
 
-.cp-inactive {
+.sc-inactive {
     color: var(--red);
     background-color: var(--light-red);
     font-size: 12px;
     font-weight: 500;
-    padding: 2.cp-5px 7.cp-5px;
+    padding: 2.5px 7.5px;
     border-radius: 5px;
 }
 
 /* -- action style -- */
 
-.cp-edit-icon {
+.sc-edit-icon {
     color: var(--green);
     background-color: var(--light-green);
     padding: 7px 7px;
-    margin-right: 2.cp-5px;
+    margin-right: 2.5px;
     border: 1px solid var(--green);
     font-size: 20px;
 }
 
-.cp-edit-icon:hover {
+.sc-edit-icon:hover {
     background-color: var(--light-black-op);
 }
 
-.cp-delete-icon {
+.sc-delete-icon {
     color: var(--red);
     background-color: var(--light-red);
     padding: 7px 7px;
-    margin-left: 2.cp-5px;
+    margin-left: 2.5px;
     border: 1px solid var(--red);
     font-size: 20px;
 }
 
-.cp-delete-icon:hover {
+.sc-delete-icon:hover {
     background-color: var(--light-black-op);
 }
 
 /* -- no data style */
 
-.cp-no-data-available th {
+.sc-no-data-available th {
     font-size: 14px;
     font-weight:500;
     color: var(--black);
     background-color: var(--gray-white);
 }
 
+
 /* -- entries-details-list-page-btn style -- */
 
-.cp-entries-details-list-page-btn {
+.sc-entries-details-list-page-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
+    padding: 5px 0px 15px;
 }
 
-.cp-entries-details {
+.sc-entries-details {
     color: var(--black);
     font-size: 15px;
 }
 
-.cp-list-page-btn {
+.sc-list-page-btn {
     display: flex;
     gap: 5px;
     align-items: center;
 }
 
-.cp-list-page-btn button {
+.sc-list-page-btn button {
     color: var(--light-black);
     background-color: var(--gray-white);
-    padding: 8px 14px;
+    padding: 8px 14px 5px;
+    margin-bottom: 0;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.cp-list-page-btn h4 {
+.sc-list-page-btn h4 {
     color: var(--white);
     background-color: var(--main-light);
     font-size: 15px;
     font-weight: 400;
-    padding: 3px 12px;
+    padding: 10px 14px 10px;
+    margin-bottom: 0;
     border-radius: 5px;
 }

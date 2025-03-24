@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './css/ManageOutlet.css'
 const ManageOutlet = () => {
     return (
@@ -5,11 +6,11 @@ const ManageOutlet = () => {
           
         <header>    
             <div className="table-header">
-                <ul><li><a href="/manej.html"  className="/ManageOutlet-page">Outlet List</a></li></ul> 
-                <ul><li><a href="/outlet.html" className="/LedgerReport-page "> Add New Outlet</a></li></ul>
-                <ul><li><a href="/transfer.html" className="/NewTransfer-page">New Transfer</a></li></ul>
-                <ul><li><a href="/trans-list.html" className="/TransferList-page">Transfer List</a></li></ul>
-                <ul><li><a href="/trns-re.html" className="/TransferRequestList-page">Transfer Request List</a></li></ul>
+                <ul><li><Link to="/manej.html"  className="/ManageOutlet-page">Outlet List</Link></li></ul> 
+                <ul><li><Link to="/outlet.html" className="/LedgerReport-page "> Add New Outlet</Link></li></ul>
+                <ul><li><Link to="/transfer.html" className="/NewTransfer-page">New Transfer</Link></li></ul>
+                <ul><li><Link to="/trans-list.html" className="/TransferList-page">Transfer List</Link></li></ul>
+                <ul><li><Link to="/trns-re.html" className="/TransferRequestList-page">Transfer Request List</Link></li></ul>
             </div>
         </header>
       <div className="outlet-fun-all">               

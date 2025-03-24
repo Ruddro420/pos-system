@@ -7,22 +7,22 @@ const CategoryPage = () => {
         <div className="cp-top-menus">
           <ul>
             <li>
-              <Link to="/category-page" className="light-up">
+              <Link to="/category-page" className="asc-active-menu">
                 Category
               </Link>
             </li>
             <li>
-              <Link to="/AddNewCategory-page" className="light-up">
+              <Link to="/AddNewCategory-page" className="anc-light-up">
                 Add New Category
               </Link>
             </li>
             <li>
-              <Link to="/AddSubCategory-page" className="light-up">
+              <Link to="/AddSubCategory-page" className="anc-light-up">
                 Add Sub Category
               </Link>
             </li>
             <li>
-              <Link to="/SubCategoryList-page" className="active-menu">
+              <Link to="/SubCategoryList-page" className="anc-light-up">
                 Sub Category List
               </Link>
             </li>
