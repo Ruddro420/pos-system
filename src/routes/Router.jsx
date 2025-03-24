@@ -94,6 +94,9 @@ import SaleSettings from "../components/settings/SaleSettings"
 import CurrencyList from "../components/settings/CurrencyList"
 import AddCurrency from "../components/settings/AddCurrency"
 import AddNewBrand from "../components/product/AddNewBrand";
+import AddNewCategory from "../components/product/AddNewCategory";
+import AddSubCategory from "../components/product/AddSubCategory";
+import SubCategoryList from "../components/product/SubCategoryList";
 
 const Router = createBrowserRouter([
     {
@@ -296,6 +299,21 @@ const Router = createBrowserRouter([
             path:'/AddNewBrand-page',
             element: <AddNewBrand/>,
          },
+        {
+            path:'/AddNewCategory-page',
+            element: <AddNewCategory/>,
+         },
+        {
+            path:'/AddSubCategory-page',
+            element: <AddSubCategory/>,
+         },
+        {
+            path:'/SubCategoryList-page',
+            element: < SubCategoryList/>,
+         },
+
+
+
 
         // report page route
         {
