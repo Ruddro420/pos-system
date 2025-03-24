@@ -9,8 +9,8 @@ const NewWastage = () =>{
           {/*   <!-- === TOP MENU ITEMS === --> */}
             <div className="nw-sh-top-menu-items">
                 <ul>
-                    <li className="sh-active-item"><Link to="/newWastage -page">New Wastage</Link></li>
-                    <li className="sh-menu-items"><Link to="/wastage-page">Wastage List</Link></li>
+                    <li className="nw-sh-menu-items"><Link to="/wastage-page">Wastage List</Link></li>
+                    <li className="nw-sh-active-item"><Link to="/newWastage-page">New Wastage</Link></li>
                 </ul>
             </div>
           {/*   <!-- === REQUISIION LIST SECTION === --> */}

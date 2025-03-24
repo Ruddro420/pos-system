@@ -4,44 +4,44 @@ const AddOpeningStock = () => {
   return (
     <>
       {/* === PARENT SECTION === */}
-      <div className="sh-parent-section">
+      <div className="sh-adostock-parent-section">
         {/* === CHILD SECTION === */}
-        <div className="sh-child-section">
+        <div className="sh-adostock-child-section">
           {/* === TOP MENU ITEMS === */}
-          <div className="sh-top-menu-items">
+          <div className="sh-adostock-top-menu-items">
             <ul>
-              <li className="sh-menu-items">
-                <Link to="#">Opening Stock List</Link>
+              <li className="sh-adostock-menu-items">
+                <Link to="/StockOpeningStock-page">Opening Stock List</Link>
               </li>
-              <li className="sh-active-item">
-                <Link to="#">Add Opening Stock</Link>
+              <li className="sh-adostock-active-item">
+                <Link to="/addOpeningStock-page">Add Opening Stock</Link>
               </li>
-              <li className="sh-menu-items">
-                <Link to="#">Opening Stock CSV</Link>
+              <li className="sh-adostock-menu-items">
+                <Link to="/openingStock-page">Opening Stock CSV</Link>
               </li>
             </ul>
           </div>
           {/* === REQUISIION LIST SECTION === */}
-          <div className="sh-draft-sale-section">
+          <div className="sh-adostock-draft-sale-section">
             {/* === DRAFT SALE TOP ITEM === */}
-            <div className="sh-requisition-top-item">
+            <div className="sh-adostock-requisition-top-item">
               <p>Add Opening Stock</p>
             </div>
 
             {/* === OUTLET CONTAINER === */}
-            <div className="sh-outlet-container">
+            <div className="sh-adostock-outlet-container">
               <p>Outlet</p>
               <input type="number" placeholder="Default Outlet" name="" id="" />
             </div>
             {/* === EVERTHING SEARCH BOX === */}
-            <div className="sh-everything-search-container">
+            <div className="sh-adostock-everything-search-container">
               <input
                 type="search"
                 placeholder="Enter Product Name, Product Model or Bar Code for Scan"
               />
             </div>
             {/* === PRODUCT ALL DETAILS === */}
-            <div className="sh-produt-all-details-container">
+            <div className="sh-adostock-produt-all-details-container">
               <table>
                 <thead>
                   <tr>
@@ -57,7 +57,7 @@ const AddOpeningStock = () => {
                 <tbody>
                   <tr>
                     <td>
-                      <div className="sh-product-search-box">
+                      <div className="sh-adostock-product-search-box">
                         <input
                           type="text"
                           placeholder="Product Name"
@@ -66,14 +66,13 @@ const AddOpeningStock = () => {
                         />
                       </div>
                     </td>
-                    /
-                    <td className="sh-avqty-box">
+                    <td className="sh-adostock-avqty-box">
                       <input type="number" value="0" name="avqty" id="" />
                     </td>
-                    <td className="sh-barcoee-box">
+                    <td className="sh-adostock-barcoee-box">
                       <input type="number" value="" name="barcode" id="" />
                     </td>
-                    <td className="sh-qty-number-input">
+                    <td className="sh-adostock-qty-number-input">
                       <input
                         type="number"
                         placeholder=""
@@ -82,7 +81,7 @@ const AddOpeningStock = () => {
                         id=""
                       />
                     </td>
-                    <td className="sh-rate-input-container">
+                    <td className="sh-adostock-rate-input-container">
                       <input
                         type="number"
                         placeholder=""
@@ -91,7 +90,7 @@ const AddOpeningStock = () => {
                         id=""
                       />
                     </td>
-                    <td className="sh-total-contaier">
+                    <td className="sh-adostock-total-contaier">
                       <input
                         type="number"
                         placeholder=""
@@ -100,7 +99,7 @@ const AddOpeningStock = () => {
                         id=""
                       />
                     </td>
-                    <td className="sh-delet-icon">
+                    <td className="sh-adostock-delet-icon">
                       <a href="#">
                         <a href="#">
                           <i className="fa-solid fa-circle-xmark"></i>
@@ -111,10 +110,10 @@ const AddOpeningStock = () => {
                 </tbody>
                 <tbody>
                   <tr>
-                    <td className="sh-total-text-end" rowSpan="1" colSpan="5">
+                    <td className="sh-adostock-total-text-end" rowSpan="1" colSpan="5">
                       Total Amount:
                     </td>
-                    <td className="sh-total-contaier">
+                    <td className="sh-adostock-total-contaier">
                       <input
                         type="number"
                         placeholder=""
@@ -124,7 +123,7 @@ const AddOpeningStock = () => {
                       />
                     </td>
                     <td>
-                      <div className="sh-plus-icon-two">
+                      <div className="sh-adostock-plus-icon-two">
                         <a href="#">
                           <i className="fa-solid fa-plus"></i>
                         </a>
@@ -134,7 +133,7 @@ const AddOpeningStock = () => {
                 </tbody>
               </table>
             </div>
-            <div className="sh-submit-button">
+            <div className="sh-adostock-submit-button">
               <a href="#">Save</a>
             </div>
           </div>

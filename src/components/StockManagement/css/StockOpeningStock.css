@@ -24,7 +24,7 @@ a {
     --light-black-op: #21252350;
     --main-green: #157343;
     --main-light: #37A000;
-    --orange: #FD7E14;
+    --light-orange: #FD7E14;
     --green: #008000;
     --light-green: #e9f6ec;
     --red: #FF0000;
@@ -37,29 +37,30 @@ a {
 }
 
 /* === PARENT SECTION === */
-.sa-sh-parent-section{
+.sh-sopens-parent-section{
     width: 100%;
     padding: 20px;
 }
 /* === CHILD SECTION === */
-.sa-sh-child-section{
+.sh-sopens-child-section{
     width: 100%;
 }
 /* === TOP MENU ITEMS === */
-.sa-sh-top-menu-items{
+.sh-sopens-top-menu-items{
     border-radius: 5px;
     background-color: var(--white);
     padding: 10px 0px 10px 10px;
 }
-.sa-sh-top-menu-items ul{
+.sh-sopens-top-menu-items ul{
     width: 100%;
     display: flex;
     align-items: center;
+    margin-bottom: 0;
 }
-.sa-sh-top-menu-items li{
+.sh-sopens-top-menu-items li{
     height: 50px;
 }
-.sa-sh-top-menu-items a{
+.sh-sopens-top-menu-items a{
     height: 100%;
     padding: 0px 20px;
     color: var(--black);
@@ -67,68 +68,70 @@ a {
     display: flex;
     align-items: center;
 }
-.sa-sh-menu-items a:hover{
-    color: var(--orange)!important;
+.sh-sopens-menu-items a:hover{
+    color: var(--red);
 }
 /* === ACTIVE MENU === */
-.sa-sh-active-item a{
+.sh-sopens-active-item a{
     background-color: var(--main-green);
     color: var(--white);
     border-radius: 5px;
 }
 /* === REQUISIION LIST SECTION === */
 /* === DRAFT SALE SECITON === */
-.sa-sh-draft-sale-section{
+.sh-sopens-draft-sale-section{
     width: 100%;
+    box-sh-sopensadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
     background-color: var(--white);
     margin-top: 20px;
+    border-radius: 5px;
 }
 /* === DRAFT SALE TOP ITEMV === */
-.sa-sh-draft-sale-top-item{
+.sh-sopens-draft-sale-top-item{
     height: 80px;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sa-sh-draft-sale-top-item p{
+.sh-sopens-draft-sale-top-item p{
     font-size: var(--secondary);
 }
-/* === SHOW AND SEARCH CONTAINER === */
-.sa-sh-show-and-search-container{
+/* === sh-sopensOW AND SEARCH CONTAINER === */
+.sh-sopens-sh-sopensow-and-search-container{
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sa-sh-show-container{
+.sh-sopens-sh-sopensow-container{
     gap: 5px;
     font-size: var(--secondary);
     display: flex;
     align-items: center;
 }
-.sa-sh-show-container select{
+.sh-sopens-sh-sopensow-container select{
     padding: 5px 2px;
 }
-.sa-sh-show-container select:focus{
+.sh-sopens-sh-sopensow-container select:focus{
     outline: none;
 }
 /* === SEARCH === */
-.sa-sh-search-container{
+.sh-sopens-search-container{
     gap: 5px;
     display: flex;
     align-items: center;
 }
-.sa-sh-search-container input{
+.sh-sopens-search-container input{
     width: 400px;
     padding: 5px 10px;
     border: 1px solid var(--light-black-op);
 }
-.sa-sh-search-container input:focus{
+.sh-sopens-search-container input:focus{
     outline: none;
 }
 /* === MANAGE SALE DETAILS SECTION === */
-.sa-manage-sale-details-section{
+.manage-sale-details-section{
     width: 100%;
     padding: 0px 25px;
 }
@@ -146,55 +149,66 @@ table th{
     font-weight: 500;
 }
 /* === EMPTY SECTION === */
-.sa-empty-section p{
+.empty{
+    text-align: center;
+}
+.text-total{
+    font-weight: 400;
+    text-align: right;
+}
+.text-center{
+    font-weight: 400;
     text-align: center;
 }
 /* === SLIDE PAGES === */
-.sa-sh-slider-pages {
+.sh-sopens-slider-pages {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.sa-sh-slide-right-item {
+.sh-sopens-slide-right-item {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.sa-sh-slide-right-item a {
+.sh-sopens-slide-right-item a {
     padding: 6px 10px;
     border-radius: 5px;
     color: var(--black);
     background-color: var(--light-black-op);
 }
 
-.sa-sh-slide-right-item p {
+.sh-sopens-slide-right-item p {
     padding: 6px 15px;
     border-radius: 5px;
     color: var(--white);
     background-color: var(--main-green);
 }
 /* === DRAFT SALE TOP ITEMV === */
-.sa-sh-requisition-top-item{
+.sh-sopens-requisition-top-item{
     height: 80px;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sa-sh-requisition-top-item p{
+.sh-sopens-requisition-top-item p{
     font-size: var(--secondary);
 }
 /* === DRAFT SALE TOP RIGHT ITMES === */
-.sa-sh-draft-sale-top-right-items{
+.sh-sopens-draft-sale-top-right-items{
     gap: 20px;
     display: flex;
     align-items: center;
 }
 /* === FILTR === */
-.sa-sh-filter{
+.sh-sopens-sh-sopensow-click{
+    cursor: pointer;
+}
+.sh-sopens-filter{
     display: flex;
     align-items: center;
     gap: 5px;
@@ -203,33 +217,36 @@ table th{
     color: var(--white);
     background-color: var(--main-green);
 }
-.sa-sh-filter a{
+.sh-sopens-filter p{
+    color: white;
+    font-size: var(--primary-para);
+}
+.sh-sopens-filter a{
     color: white;
     font-size: var(--primary-para);
 }
 
 /* === FILTER DROPDOWN SECTION === */
-.sa-sh-filter-drop-down-section{
+.sh-sopens-filter-drop-down-section{
     gap: 20px;
     padding: 20px;
     display: flex;
     align-items: center;
- /*    align-items: flex-end; */
+    align-items: flex-end;
 }
-/* === SH DRAFT CONTAINER === */
-.sa-sh-draft-container{
+/* === sh-sopens DRAFT CONTAINER === */
+.sh-sopens-draft-container{
     line-height: 2em;
 }
-.sa-sh-draft-container input{
+.sh-sopens-draft-container input{
     padding: 5px 8px;
     border: 1px solid var(--light-black);
-    
 }
-.sa-sh-draft-container input:focus{
+.sh-sopens-draft-container input:focus{
     outline: none;
 }
 /* === FILTER SEARCH === */
-.sa-sh-filter-search-box{
+.sh-sopens-filter-search-box{
     background-color: var(--main-green);
     padding: 4px 10px;
     color: var(--white);
@@ -239,10 +256,9 @@ table th{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
 }
 /* === FILTER RESET === */
-.sa-sh-filter-reset-box{
+.sh-sopens-filter-reset-box{
     background-color: var(--red);
     padding: 4px 10px;
     color: var(--white);
@@ -252,42 +268,41 @@ table th{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
 }
-.sa-sh-line{
+.sh-sopens-line{
     padding-right: 20px;
     padding-left: 20px;
 }
-/* === SHOW AND SEARCH CONTAINER === */
-.sa-sh-show-and-search-container{
+/* === sh-sopensOW AND SEARCH CONTAINER === */
+.sh-sopens-sh-sopensow-and-search-container{
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sa-sh-show-container{
+.sh-sopens-sh-sopensow-container{
     gap: 5px;
     font-size: var(--secondary);
     display: flex;
     align-items: center;
 }
-.sa-sh-show-container select{
+.sh-sopens-sh-sopensow-container select{
     padding: 5px 2px;
 }
-.sa-sh-show-container select:focus{
+.sh-sopens-sh-sopensow-container select:focus{
     outline: none;
 }
 /* === SEARCH === */
-.sa-sh-search-container{
+.sh-sopens-search-container{
     gap: 5px;
     display: flex;
     align-items: center;
 }
-.sa-sh-search-container input{
+.sh-sopens-search-container input{
     width: 400px;
     padding: 5px 10px;
     border: 1px solid var(--light-black-op);
 }
-.sa-sh-search-container input:focus{
+.sh-sopens-search-container input:focus{
     outline: none;
 }

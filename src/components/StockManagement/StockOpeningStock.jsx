@@ -1,31 +1,31 @@
-import '../components/css/OpeningStockList.css'
-const OpeningStockList = () => {
+import "../StockManagement/css/StockOpeningStock.css"
+const StockOpeningStock = () => {
     return (
         <>
-    <div className="sh-parent-section">
-       {/*  <!-- === CHILD SECTION === --> */}
-        <div className="sh-child-section">
+        <div className="sh-sopens-parent-section">
+        {/* <!-- === CHILD SECTION === --> */}
+        <div className="sh-sopens-child-section">
             {/* <!-- === TOP MENU ITEMS === --> */}
-            <div className="sh-top-menu-items">
+            <div className="sh-sopens-top-menu-items">
                 <ul>
-                    <li className="sh-active-item"><a href="opening-stock.html">Opening Stock List</a></li>
-                    <li className="sh-menu-items"><a href="add-opening-stock.html">Add Opening Stock</a></li>
-                    <li className="sh-menu-items"><a href="stock-opening.html">Opening Stock CSV</a></li>
+                    <li className="sh-sopens-active-item"><a href="/StockOpeningStock-page">Opening Stock List</a></li>
+                    <li className="sh-sopens-menu-items"><a href="/addOpeningStock-page">Add Opening Stock</a></li>
+                    <li className="sh-sopens-menu-items"><a href="/openingStock-page">Opening Stock CSV</a></li>
                 </ul>
             </div>
-           {/*  <!-- === REQUISIION LIST SECTION === --> */}
-            <div className="sh-draft-sale-section">
-                <div className="sh-draft-sale-container">
+            {/* <!-- === REQUISIION LIST SECTION === --> */}
+            <div className="sh-sopens-draft-sale-section">
+                <div className="sh-sopens-draft-sale-container">
                     {/* <!-- === DRAFT SALE TOP ITEMV === --> */}
-                    <div className="sh-requisition-top-item">
+                    <div className="sh-sopens-requisition-top-item">
                         <p>Manage Opening Stock</p>
                         {/* <!-- === DRAFT SALE TOP RIGHT ITMES === --> */}
-                        <div className="sh-draft-sale-top-right-items">
-                            <div className="sh-filter">
+                        <div className="sh-sopens-draft-sale-top-right-items">
+                            <div className="sh-sopens-filter">
                                 <i className="fa-solid fa-filter"></i>
                                 <p>Filter</p>
                             </div>
-                            <div className="sh-filter">
+                            <div className="sh-sopens-filter">
                                 <i className="fa-solid fa-circle-plus"></i>
                                 <a href="add-opening-stock.html">Add Opening Stock</a>
                             </div>
@@ -33,51 +33,51 @@ const OpeningStockList = () => {
                     </div>
                 </div>
                 <hr/>
-              {/*   <!-- === FILTER DROPDOWN SECTION === --> */}
-                <div className="sh-filter-drop-down-section">
-                    <div className="sh-draft-container">
+                {/* <!-- === FILTER DROPDOWN SECTION === --> */}
+                <div className="sh-sopens-filter-drop-down-section">
+                    <div className="sh-sopens-draft-container">
                         <input type="text" placeholder="All Outlet" value="" name="" id="" autoComplete="off"/>
                     </div>
-                    <div className="sh-draft-container">
+                    <div className="sh-sopens-draft-container">
                         <input type="text" placeholder="All Added By" value="" name="" id="" autoComplete="off"/>
                     </div>
-                    <div className="sh-draft-container">
+                    <div className="sh-sopens-draft-container">
                         <input type="text" placeholder="Date" value="" name="" id="" autoComplete="off"/>
                     </div>
-                   {/*  <!-- === FILTER SEARCH === --> */}
-                    <div className="sh-filter-search-box">
+                    {/* <!-- === FILTER SEARCH === --> */}
+                    <div className="sh-sopens-filter-search-box">
                         <i className="fa-solid fa-search"></i>Find
                     </div>
-                 {/*    <!-- === FILTER RESET === --> */}
-                    <div className="sh-filter-reset-box">
+                    {/* <!-- === FILTER RESET === --> */}
+                    <div className="sh-sopens-filter-reset-box">
                         <i className="fa-solid fa-arrows-rotate"></i>Reset
                     </div>
                 </div>
-               {/*  <!-- === LINE === --> */}
-                <div className="sh-line">
+                {/* <!-- === LINE === --> */}
+                <div className="sh-sopens-line">
                     <hr/>
                 </div>
-               {/*  <!-- === SHOW AND SEARCH CONTAINER === --> */}
-                <div className="sh-show-and-search-container">
-                    <div className="sh-show-container">
-                        <p>Show</p>
+                {/* <!-- === sh-sopensOW AND SEARCH CONTAINER === --> */}
+                <div className="sh-sopens-sh-sopensow-and-search-container">
+                    <div className="sh-sopens-sh-sopensow-container">
+                        <p>sh-sopensow</p>
                         <select name="" id="">
-                            <option value="number" name="show">10</option>
-                            <option value="number" name="show">20</option>
-                            <option value="number" name="show">30</option>
-                            <option value="number" name="show">40</option>
-                            <option value="number" name="show">50</option>
-                            <option value="number" name="show">100</option>
+                            <option value="number" name="sh-sopensow">10</option>
+                            <option value="number" name="sh-sopensow">20</option>
+                            <option value="number" name="sh-sopensow">30</option>
+                            <option value="number" name="sh-sopensow">40</option>
+                            <option value="number" name="sh-sopensow">50</option>
+                            <option value="number" name="sh-sopensow">100</option>
                         </select>
                         <p>Entries</p>
                     </div>
-                  {/*   <!-- === SEARCH === --> */}
-                    <div className="sh-search-container">
+                    {/* <!-- === SEARCH === --> */}
+                    <div className="sh-sopens-search-container">
                         <p>Search:</p>
                         <input type="search" placeholder="" name="" id=""/>
                     </div>
                 </div>
-              {/*   <!-- === MANAGE SALE DETAILS SECTION === --> */}
+                {/* <!-- === MANAGE SALE DETAILS SECTION === --> */}
                 <div className="manage-sale-details-section">
                     <table>
                         <thead>
@@ -115,10 +115,10 @@ const OpeningStockList = () => {
                         </tbody>
                     </table>
                 </div>
-             {/*    <!-- === SLIDE PAGES === --> */}
-                <div className="sh-slider-pages">
-                    <p>Showing 0 to 0 of 0 entries</p>
-                    <div className="sh-slide-right-item">
+                {/* <!-- === SLIDE PAGES === --> */}
+                <div className="sh-sopens-slider-pages">
+                    <p>sh-sopensowing 0 to 0 of 0 entries</p>
+                    <div className="sh-sopens-slide-right-item">
                         <a href="#">Previous</a>
                         <p>1</p>
                         <a href="#">Next</a>
@@ -127,10 +127,8 @@ const OpeningStockList = () => {
             </div>
         </div>
     </div>
-
-     {/* === FONT AWSOME LINK ===  */} 
         </>
     );
 };
 
-export default OpeningStockList;
+export default StockOpeningStock;

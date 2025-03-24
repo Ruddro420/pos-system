@@ -337,13 +337,6 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/ChartofAccounts-page' className={({ isActive }) => {
-                  return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
-                }}>
-                  <div data-i18n="Without menu">Chart of Accounts</div>
-                </NavLink>
-              </li>
-              <li className="menu-item">
                 <NavLink to='/PredefineAccounts-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
@@ -413,7 +406,7 @@ const Sidebar = () => {
 
             <ul className="menu-sub">
               <li className="menu-item">
-                <NavLink to='/openingStockList-page' className={({ isActive }) => {
+                <NavLink to='/StockOpeningStock-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
                   <div data-i18n="Without menu">Opening Stock</div>
@@ -427,10 +420,10 @@ const Sidebar = () => {
                 </NavLink>
               </li>
               <li className="menu-item">
-                <NavLink to='/room-category' className={({ isActive }) => {
+                <NavLink to='/StockTransferList-page' className={({ isActive }) => {
                   return isActive ? "menu-link active-link text-primary bg-body " : "menu-link";
                 }}>
-                  <div data-i18n="Without menu">Stock Trasfer</div>
+                  <div data-i18n="Without menu">Stock Transfer</div>
                 </NavLink>
               </li>
               <li className="menu-item">
